@@ -9,7 +9,6 @@ Fuzzing Python. Inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all).
 You must have [LLVM 18](https://github.com/python/cpython/blob/main/Tools/jit/README.md) installed on your system in order to build Python 3.13 with the `--enable-experimental-jit` flag. Download and build [CPython](https://github.com/python/cpython) by running `./setup.sh`.
 
 ```bash
-sudo -s # Run as root (for secure execution with PyJail)
 python -m venv env && source env/bin/activate # Create a virtual environment
 python -m pip install -r requirements.txt # Install dependencies
 ```
@@ -43,3 +42,11 @@ fuzzer.fuzz()
 ```
 
 The `system_prompt` is provided before every prompt for generating inputs and is ideally the distilled prompt from the previous step. The `inputs_directory` is an optional argument that specifies the directory to save the generated inputs and is by default set to `fuzz4py/inputs/`. The `budget` is the number of inputs to generate and is by default set to 10.
+
+#### Evaluation
+
+```bash
+python fuzz4py/eval.py path/to/python [--inputs] [--output] [--timeout]
+```
+
+The `path/to/python` is the path to the Python executable (in our case, CPython 3.13) to be fuzzed. The `--inputs` flag is an optional argument that specifies the directory containing the inputs to be used for evaluation and is by default set to `fuzz4py/inputs/`. The `--output` flag is an optional argument that specifies the directory to save the outputs of the evaluation and is by default set to `fuzz4py/resources`. The `--timeout` flag is an optional argument that specifies the timeout for each input in seconds and is by default set to 60.
