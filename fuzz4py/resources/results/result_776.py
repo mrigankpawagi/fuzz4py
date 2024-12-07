@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b'27\n27\nposix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563283.34)\n'
+Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/776.py", line 101, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/776.py", line 79, in main\n    if protocol in context.get_protocols(): # Prevent crash if protocol is not available\n                   ^^^^^^^^^^^^^^^^^^^^^\nAttributeError: \'SSLContext\' object has no attribute \'get_protocols\'. Did you mean: \'set_npn_protocols\'?\n'

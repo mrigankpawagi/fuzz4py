@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Thread 135467225843264 processed: [1, 2, 3]\nThread 135467215357504 processed: [1, 2, 3]\nThread 135467305535040 processed: [1, 2, 3]\nThread 135467204871744 processed: [1, 2, 3]\nThread 135467316020800 processed: [1, 2, 3]\n12\n<__main__.Point object at 0x7b34f1d37610>\nError inserting data: Error binding parameter 1: type 'list' is not supported\nError inserting data: Error binding parameter 1: type 'dict' is not supported\nError inserting data: Error binding parameter 1: type 'tuple' is not supported\nTime taken by os.times(): 4.80597373098135e-06\nSSL context created successfully.\n"
+Stderr: b''

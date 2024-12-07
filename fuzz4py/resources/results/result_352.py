@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Free threading test result: 5\nJIT test result (with 1000): 332833500\nFunction result with arguments 5, 10: 15\nAnnotated function result for data [1, 2, 3, '4', 5]: [1, 2, 3, 4, 5]\nAnnotated function result for data [1, 2, 'a', 'b', 'c']: [1, 2]\nAnnotated function result for data [1, '1', 2, '2', 3, '3', 4, '4']: [1, 1, 2, 2, 3, 3, 4, 4]\nAnnotated function result for data [1, 2, 3, '4.5']: [1, 2, 3]\nAnnotated function result for data [1, 2, 3, '1a']: [1, 2, 3]\nAnnotated function result for data []: []\nAnnotated function result for data ['']: []\nAnnotated function result for data [None]: []\n"
+Stderr: b''

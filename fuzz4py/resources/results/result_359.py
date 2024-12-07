@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b'Error in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nResults: [118, 88, 98, 20, -102, 110, 86, -98, 130, 6, -70, -138, -124, -66, -92, 178, -24, -162, 102, -4, 104, -88, -70, -188, 90, -68, -156, 128, 80, -28, 78, -52, -4, 98, -76, 104, 82, 138, -6, 98, 178, -144, 2, 172, -118, -58]\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nResults from complex data: [2, 4, 4, 20, 2, 6, 14, 20, 14, 10, 14, 2, 8, 12, 20, 12, 6, 16]\n/home/mrigankp/fuzz4py/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz\n'
+Stderr: b''

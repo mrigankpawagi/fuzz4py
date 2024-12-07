@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Final shared data: -150\nJIT test completed successfully\nRetrieved data from DB: b'478'\nShared list: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]\nConnection Error: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'invalid.hostname'. (_ssl.c:1018)\nFile contents verified: some data\nFile contents verified: some data\nFile contents verified: some data\nFile contents verified: some data\nFile contents verified: some data\nModified point: 10, 2\nOS Times: posix.times_result(user=0.17, system=0.01, children_user=0.0, children_system=0.0, elapsed=4561741.95)\nTime taken: 1.1682510375976562e-05\n"
+Stderr: b''

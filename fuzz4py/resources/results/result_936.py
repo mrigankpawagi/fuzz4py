@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Race condition result: [2, 4, 6, -1, 8, 10, 12, 14, 16, 18, 20]\nComplex annotation result: [2, 0, 6, 0, 20, 0, 0, 110, -1, 2, 0, -1, -1, 0, 0, 0]\nDBM result: b'0.237594259083302'\nOS Timer result: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563478.0)\nSSL result: Error: test.crt not found.\nUnexpected type in complex_annotation_func\nUnexpected type in complex_annotation_func\nUnexpected type in complex_annotation_func\n{'1': 2, 'hello': 5, '3': 6, 'world': 5, '10': 20, 'python': 6, '123abc': 6, '55': 110, 'True': 2, 'False': 0, 'invalid': 7, '12a': 3, ' ': 1}\n"
+Stderr: b''

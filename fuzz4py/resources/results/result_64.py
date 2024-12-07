@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Error in copy.replace: replace() takes 1 positional argument but 2 were given\nError with invalid context : [Errno 2] No such file or directory\nError in threaded function: unsupported operand type(s) for +: 'NoneType' and 'int' for data None\nError in os.times: sleep length must be non-negative\nData 0 was not processed correctly in database mydatabase_0.\nData 1 was not processed correctly in database mydatabase_1.\nData 2 was not processed correctly in database mydatabase_2.\nData 3 was not processed correctly in database mydatabase_3.\nData 4 was not processed correctly in database mydatabase_4.\nData None was not processed correctly in database mydatabase_None.\n"
+Stderr: b''

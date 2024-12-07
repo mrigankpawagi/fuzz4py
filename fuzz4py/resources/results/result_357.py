@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b'Error in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nResults: [48, -62, -84, -140, 62, 44, 50, -128, 38, -112, 94, 22, -122, -42, 88, 96, 176, -84, 180, 90, 150, 198, 92, 74, 58, 30, 198, 196, 60, -162, -154, 44, -60, 8, -18, -44, 2, 182, -48, -140, -116, -114, -100, 56]\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\n/home/mrigankp/fuzz4py\nposix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4562012.05)\n/home/mrigankp/fuzz4py/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz\n'
+Stderr: b''

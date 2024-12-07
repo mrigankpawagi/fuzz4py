@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b'Time elapsed: 4.291534423828125e-06, Results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563034.74)\n'
+Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/570.py", line 80, in <module>\n    test_ssl_connection("path/to/custom.pem")  # Replace with a valid path\n    ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/570.py", line 66, in test_ssl_connection\n    with open(cert_path, \'rb\') as f:\n         ~~~~^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: \'path/to/custom.pem\'\n'

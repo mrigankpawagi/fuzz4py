@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b'<Thread(Thread-1 (multithreaded_function), stopped 128176875374144)>\n<Thread(Thread-2 (multithreaded_function), stopped 128176787293760)>\n<Thread(Thread-3 (multithreaded_function), stopped 128176776808000)>\n<Thread(Thread-4 (multithreaded_function), stopped 128176766322240)>\n<Thread(Thread-5 (multithreaded_function), stopped 128176755836480)>\nMyClass(a=84, b=-375)\nOS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561304.26)\nGenerated temporary bad cert file: /tmp/tmpbyx_vwfe.pem\nError generating or loading temporary certificate: [X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4329)\n'
+Stderr: b''

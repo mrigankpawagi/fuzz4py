@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Original object: 20, Replaced object: 20\n{'1': 2, 'hello': 5, '3': 6, 'world': 5, '10': 20, 'python': 6, '123abc': 6, '55': 110}\nTime taken by os.times(): 9.823008440434933e-06\n\nThis is a docstring\nwith some whitespace.\n\n\n\nRace Condition Example: [2, 4, 6, 8, 10, -1]\nComplex Annotation Example: [2, 6, 6, 0, 10, 0, -1, -1, -1, 2]\nFuzzing replace Protocol: [1, 2, 3]\nFuzzing dbm: b'236'\nFuzzing OS timer: posix.times_result(user=0.02, system=0.01, children_user=0.0, children_system=0.0, elapsed=4563477.1)\nFuzzing SSL: Error: 'bool' object is not callable\n"
+Stderr: b''

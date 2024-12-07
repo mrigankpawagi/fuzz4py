@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"[0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20, 22, 12, 26, 28, 30, 32, 34, 18, 38, 20, 42, 44, 23, 48, 50, 52, 54, 56, 58, 60, 31, 64, 66, 68, 35, 72, 74, 76, 78, 80, 82, 84, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99]\ncopy.replace error: replace() takes 1 positional argument but 2 were given\nRetrieved value from database: ('957',)\nCPU times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561311.87)\n"
+Stderr: b''

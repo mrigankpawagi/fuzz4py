@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b'JIT result: -6812\nThread result: 95\nCopy replace result: Error in replace: replace() does not support type objects\n'
+Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/621.py", line 111, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/621.py", line 95, in main\n    dbm_result = test_dbm_sqlite(dbm_data, dbm_key)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/621.py", line 66, in test_dbm_sqlite\n    if \'db\' in locals() and isinstance(db, dbm.open):\n                            ~~~~~~~~~~^^^^^^^^^^^^^^\nTypeError: isinstance() arg 2 must be a type, a tuple of types, or a union\n'

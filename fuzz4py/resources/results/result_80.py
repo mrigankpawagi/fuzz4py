@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b'<Thread(Thread-1 (multithreaded_function), stopped 137204477199936)>\n<Thread(Thread-2 (multithreaded_function), stopped 137204466714176)>\n<Thread(Thread-3 (multithreaded_function), stopped 137204456228416)>\n<Thread(Thread-4 (multithreaded_function), stopped 137204445742656)>\n<Thread(Thread-5 (multithreaded_function), stopped 137204435256896)>\nMyClass(a=101, b=0.33010494851460404)\nOS times: posix.times_result(user=1.1, system=0.02, children_user=0.0, children_system=0.0, elapsed=4561304.19)\nError: badcert.pem not found.  Please create a dummy certificate file.\n'
+Stderr: b''

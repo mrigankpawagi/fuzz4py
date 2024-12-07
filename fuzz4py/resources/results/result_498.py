@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"All threads finished.\n<class 'bytes'>\nKey: b'0', Value: b'0'\n<class 'bytes'>\nKey: b'4', Value: b'-60'\n<class 'bytes'>\nKey: b'8', Value: b'-680'\nTest\nOS times: posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4562896.87)\nError with SSL: [Errno 2] No such file or directory: 'my_certificate.pem'\n"
+Stderr: b"Error in worker (Thread-1 (worker)): Flag must be one of 'r', 'w', 'c', or 'n', not b'xyz'\nError in worker (Thread-6 (worker)): unable to open database file\nError writing to database: no such table: Dict\nError writing to database: no such table: Dict\nError writing to database: Error binding parameter 2: type 'dict' is not supported\nError writing to database: no such table: Dict\n"

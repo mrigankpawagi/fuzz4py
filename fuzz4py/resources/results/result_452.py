@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b"Worker 5 raised exception: Intentional Error\nWorker 0 raised exception: Intentional Error\nWorker 7 raised exception: Intentional TypeError\nFinal Counter: 45\n89368500\nOriginal: 5, Copied: 10, Copied y: changed\nError in dbm.sqlite3 test: table mytable has no column named another_data\nElapsed time: 1.0014 seconds\n['a', 'b']\n"
+Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/452.py", line 151, in <module>\n    processed_data = my_complex_function(data)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/452.py", line 130, in my_complex_function\n    return [x * 2 for x in data]\n            ~~^~~\nTypeError: unsupported operand type(s) for *: \'NoneType\' and \'int\'\n'

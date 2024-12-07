@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"All threads finished.\nKey: b'0', Value: b'0'\nKey: b'2', Value: b'-34'\nKey: b'4', Value: b'-56'\nKey: b'6', Value: b'some bytes'\nKey: b'8', Value: b'400'\n"
+Stderr: b"Error in worker (Thread-5 (worker)): unable to open database file\nError in worker (Thread-1 (worker)): unable to open database file\nError in worker (Thread-3 (worker)): Flag must be one of 'r', 'w', 'c', or 'n', not 'a'\nError in worker (Thread-4 (worker)): Flag must be one of 'r', 'w', 'c', or 'n', not 'a'\nError writing to database: NOT NULL constraint failed: Dict.value\nError writing to database: NOT NULL constraint failed: Dict.value\n"

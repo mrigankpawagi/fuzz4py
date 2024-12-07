@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Error in thread: unsupported operand type(s) for +: 'int' and 'str'\nError in thread: unsupported operand type(s) for +: 'int' and 'str'\nError in thread: unsupported operand type(s) for +: 'int' and 'str'\nError in thread: unsupported operand type(s) for +: 'int' and 'str'\nError in thread: unsupported operand type(s) for +: 'int' and 'str'\nKey: b'key1', Value: b'value1'\nOS Times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4562897.72)\nb'value1'\n2\nError: Certificate file not found: [Errno 2] No such file or directory: 'valid_cert.pem'\n"
+Stderr: b''

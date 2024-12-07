@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b"Exception in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nException in thread: 'Thread' object has no attribute 'result'\nTotal execution time: 0.10017013549804688\n[]\nAn error occurred: replace() takes 1 positional argument but 2 were given\nSSL Context created\nposix.times_result(user=0.04, system=0.01, children_user=0.0, children_system=0.0, elapsed=4562419.42)\n"
+Stderr: b''

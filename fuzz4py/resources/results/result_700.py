@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b'Monotonic Timer Difference: 2.1489285220159218\nStandard Timer Difference: 2.7074944972991943\n1\nnew string\nstring\nRandom certificate: 8d54304d32e4cf3cf6bbad30c550ea5a41c562948aa57d0cb44f0ee1b1bcc2daf3698ea9007cc3a29b921ad6e07addcea2e27afd4938497e097d69412337ccd35a985719dbb125a52eeb4fe86c9bdd8ac0ea828e578483e72aae8f8eb9a2b32061b922ac746de2c292f30777d1fc073cf20c6dcbfabce072c30a18c3661da335\n'
+Stderr: b''

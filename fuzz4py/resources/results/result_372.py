@@ -1,0 +1,3 @@
+Return Code: 0
+Stdout: b'Error in worker thread: Simulated error\nError in worker thread: Simulated type error\nError in worker thread: Simulated type error\nError in worker thread: Simulated type error\nFinal data: [33.72777093085797, 60.92593704704947, 58.736971219330954, 58.797711236246386]\np1: 10, 20\np2: -19, -28\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\n'
+Stderr: b''

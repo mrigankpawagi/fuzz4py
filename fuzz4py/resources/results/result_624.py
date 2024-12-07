@@ -1,0 +1,3 @@
+Return Code: 1
+Stdout: b'Threading result: -1305\nCopy Replace result: <__main__.main.<locals>.MyClass object at 0x79cc5a117610>\n'
+Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/624.py", line 142, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/624.py", line 105, in main\n    dbm_result = test_dbm_sqlite(dbm_data, dbm_key)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/624.py", line 67, in test_dbm_sqlite\n    if \'db\' in locals() and isinstance(db, dbm.open):\n                            ~~~~~~~~~~^^^^^^^^^^^^^^\nTypeError: isinstance() arg 2 must be a type, a tuple of types, or a union\n'
