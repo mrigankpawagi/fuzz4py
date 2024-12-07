@@ -1,3 +1,1 @@
-reference/simple_stmts.txt
-reference/compound_stmts.txt
-library/index.txt
+whatsnew/3.13.txt

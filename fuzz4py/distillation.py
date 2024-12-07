@@ -20,7 +20,7 @@ generation_config = {
 model = genai.GenerativeModel(
   model_name="gemini-1.5-pro",
   generation_config=generation_config,
-  system_instruction="You are an expert python programmer with extensive experience in writing excellent, concise and terse documentation. Please summarize provided documentation to describe the usage and functionality of Python.",
+  system_instruction="You are an expert python programmer with extensive experience in writing documentation. Please summarize provided documentation to highlight important technical points concisely.",
 )
 
 chat_session = model.start_chat(history=[])
