@@ -44,12 +44,14 @@ class Fuzzer:
         # update the count by taking the maximum of the file names
         # and also update the last input
         if os.path.exists(self.inputs_directory):
-            if os.listdir(self.inputs_directory):
-                max_file = max(map(lambda x: int(x.split(".")[0]), os.listdir(self.inputs_directory)))
+            inputs_dir_files = os.listdir(self.inputs_directory)
+            if "log.txt" in inputs_dir_files: inputs_dir_files.remove("log.txt") # remove the log file from the list
+            if inputs_dir_files:
+                max_file = max(map(lambda x: int(x.split(".")[0]), inputs_dir_files))
                 self.count = max_file + 1
 
                 # populate the previous inputs list
-                for file in os.listdir(self.inputs_directory):
+                for file in inputs_dir_files:
                     with open(os.path.join(self.inputs_directory, file)) as f:
                         self.previous_inputs.append((int(file.split(".")[0]), f.read()))
 
