@@ -1,43 +1,22 @@
-## Python 3.13 Key Technical Changes:
+Fuzzing Focus for Python 3.13:
 
 **Interpreter:**
 
-* **New Interactive Interpreter:** Enhanced multiline editing, integrated commands, colorized output, and improved help browsing.  Disable with `PYTHON_BASIC_REPL` environment variable.
-* **Experimental Free-Threading (GIL Removal):**  Requires separate "python3.13t" executable. Enables parallel thread execution.  Experimental, expect performance hits and bugs. Control with `PYTHON_GIL` environment variable or `-X gil` command-line option. C extensions require recompilation.
-* **Experimental JIT Compiler:** Enabled with `--enable-experimental-jit` build option.  Currently disabled by default. Control at runtime with `PYTHON_JIT` environment variable. Modest performance gains expected to improve in future releases.
-* **Colorized Tracebacks:** Enabled by default, controllable via `PYTHON_COLORS`, `NO_COLOR`, and `FORCE_COLOR` environment variables.
-* **Defined `locals()` Mutation Semantics:** Standardized behavior, changing how `locals()` works in optimized scopes (functions, generators, etc.).  Affects debuggers and tools that modify local variables.
+* **Free-threading (PEP 703):**  This is a major change to CPython's core concurrency model. Focus on multi-threaded applications, especially those using C extensions, to identify race conditions and memory corruption issues.  Test with and without the GIL.
+* **JIT Compiler (PEP 744):** While experimental and off by default, the JIT compiler presents a new attack surface.  Target code paths that are likely to be JIT-compiled (hot loops, tight functions) with varying inputs to uncover edge cases.
+* **`locals()` semantics (PEP 667):** The changed behavior of `locals()` can impact debuggers and introspection tools.  Fuzz these tools specifically, focusing on optimized scopes.
 
 **Language:**
 
-* **Docstring Whitespace Stripping:** Leading whitespace removed from docstrings to reduce bytecode cache size.
-* **Mobile Platform Support:** Official Tier 3 support for iOS (arm64) and Android (aarch64, x86_64).
-* **Type Parameter Defaults:** PEP 696 adds default values for type parameters.
-* **Deprecation Warnings in Type System:** PEP 702 introduces `warnings.deprecated()` for type and runtime deprecations.
-* **Read-Only TypedDict Items:** PEP 705 allows marking `TypedDict` items as read-only.
-* **Improved Type Narrowing:** PEP 742 introduces `typing.TypeIs` as a more intuitive alternative to `typing.TypeGuard`.
+* **Docstring whitespace stripping:** This seemingly minor change can affect tools that parse docstrings (e.g., doctests). Fuzz doctests with varying indentation.
+* **Annotation scopes:**  The allowance of lambdas and comprehensions within annotation scopes expands the possible syntax.  Fuzz complex type annotations.
+* **`__static_attributes__` and `__firstlineno__`:** These new class attributes could interact unexpectedly with metaprogramming. Fuzz metaclasses and class decorators.
 
 **Standard Library:**
 
-* **`copy.replace()`:**  Simplifies creating modified copies, especially for immutable objects. Several built-in types and custom classes (via `__replace__()`) now support it.
-* **`dbm.sqlite3`:** New default `dbm` backend.
-* **`argparse` Deprecation Support:**  Allows marking options, arguments, and subcommands as deprecated.
-* **`base64.z85encode()`/`decode()`:** Added for Z85 encoding/decoding.
-* **Removal of "Dead Batteries":** 19 legacy modules removed (see PEP 594).  2to3 tool also removed.
-
-**C API:**
-
-* **PyMonitoring API:** New functions for generating PEP 669 monitoring events.
-* **PyTime API:** New functions for accessing system clocks.
-* **PyMutex:** New lightweight mutex type.
-* **Strong Reference Functions:** Several functions now return strong references instead of borrowed references (e.g., `PyDict_GetItemRef()`, `PyWeakref_GetRef()`).
-* **Removal of Private APIs:** Numerous `_Py` prefixed APIs removed.
-
-**Porting Considerations:**
-
-* `locals()` semantic changes require code updates, especially for debuggers and tools modifying local variables.
-* C extensions interacting with the GIL or using removed private APIs need updates.
-* Check deprecation warnings for necessary code modifications.
-
-
-This summary highlights the major technical changes. Consult the full documentation for detailed information and specific examples.  Pay close attention to the porting guide if upgrading from an earlier Python version.
+* **`copy.replace()` and replace protocol:**  This new feature introduces a new way to manipulate objects. Fuzz custom classes implementing `__replace__()` and built-in types that support it.
+* **`dbm.sqlite3`:**  As the new default `dbm` backend, this module requires thorough testing. Fuzz database operations with various inputs, including malformed data.
+* **`os` module timer functions:** The new timer functions on Linux provide a new area to explore for potential issues. Fuzz these functions with different time values and flags.
+* **`ssl.create_default_context()` changes:** The stricter default flags in `ssl` can lead to connection failures with certain certificates. Fuzz SSL connections with a wide range of certificates.
+* **`typing` module additions (PEPs 696, 702, 705, 742):**  The new typing features introduce new syntax and semantics for type checkers. Fuzz complex type annotations and type checker interactions.
+* **Removed modules
