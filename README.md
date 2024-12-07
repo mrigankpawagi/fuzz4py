@@ -3,7 +3,10 @@ Fuzzing Python. Inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all).
 
 ### Usage
 
-Download and build [CPython](https://github.com/python/cpython) by running `./setup.sh`.
+> [!WARNING]
+> This project currently supports only Linux.
+
+You must have [LLVM 18](https://github.com/python/cpython/blob/main/Tools/jit/README.md) installed on your system in order to build Python 3.13 with the `--enable-experimental-jit` flag. Download and build [CPython](https://github.com/python/cpython) by running `./setup.sh`.
 
 ```bash
 sudo -s # Run as root (for secure execution with PyJail)
