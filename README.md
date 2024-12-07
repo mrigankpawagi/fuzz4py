@@ -26,3 +26,20 @@ python fuzz4py/distillation.py # distill parts of the Python documentation
 > The parts of Python documentation used for distillation were obtained from the plain text version of the [Python 3.13 documentation](https://docs.python.org/3/archives/python-3.13-docs-text.zip) (as of Dec 6, 2024). The file `fuzz4py/documentation/index.txt` contains the list of documents to be used in a logical order.
 
 The distilled prompt is saved in `fuzz4py/resources/prompt.txt`.
+
+#### Input Generation
+
+```bash
+python fuzz4py/fuzzer.py
+```
+
+The generated inputs are saved in `fuzz4py/inputs/`. The `fuzz4py/inputs/log.txt` file contains the provenance of the generated inputs. As such, the `Fuzzer` class in `fuzz4py/fuzzer.py` can be used to generate inputs as follows.
+
+```python
+from fuzz4py.fuzzer import Fuzzer
+
+fuzzer = Fuzzer(system_prompt, inputs_directory="inputs", budget=10)
+fuzzer.fuzz()
+```
+
+The `system_prompt` is provided before every prompt for generating inputs and is ideally the distilled prompt from the previous step. The `inputs_directory` is an optional argument that specifies the directory to save the generated inputs and is by default set to `fuzz4py/inputs/`. The `budget` is the number of inputs to generate and is by default set to 10.
