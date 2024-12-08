@@ -1,3 +1,13 @@
 Return Code: 0
-Stdout: b'Worker 7 raised exception: Intentional TypeError\nWorker 0 raised exception: Intentional Error\nWorker 5 raised exception: Intentional Error\nFinal Counter: 45\n4999950000\nOriginal: 5, Copied: 10, Copied y: changed\nError in dbm.sqlite3 test: table mytable has no column named another_data\nElapsed time: 0.7030 seconds\n'
-Stderr: b''
+Stdout: Worker 0 raised exception: Intentional Error
+Worker 5 raised exception: Simulated exception
+Worker 9 raised exception: Simulated exception
+Worker 7 raised exception: Intentional TypeError
+Worker 8 raised exception: Simulated exception
+Final Counter: 45
+1814696643
+Original: 5, Copied: 10, Copied y: changed
+Error in dbm.sqlite3 test: table mytable has no column named another_data
+Elapsed time: 0.8202 seconds
+
+Stderr: 

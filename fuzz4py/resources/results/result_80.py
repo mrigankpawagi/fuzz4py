@@ -1,3 +1,11 @@
 Return Code: 1
-Stdout: b'<Thread(Thread-1 (multithreaded_function), stopped 137204477199936)>\n<Thread(Thread-2 (multithreaded_function), stopped 137204466714176)>\n<Thread(Thread-3 (multithreaded_function), stopped 137204456228416)>\n<Thread(Thread-4 (multithreaded_function), stopped 137204445742656)>\n<Thread(Thread-5 (multithreaded_function), stopped 137204435256896)>\nMyClass(a=101, b=0.33010494851460404)\nOS times: posix.times_result(user=1.1, system=0.02, children_user=0.0, children_system=0.0, elapsed=4561304.19)\nError: badcert.pem not found.  Please create a dummy certificate file.\n'
-Stderr: b''
+Stdout: <Thread(Thread-1 (multithreaded_function), stopped 133079565862464)>
+<Thread(Thread-2 (multithreaded_function), stopped 133079555376704)>
+<Thread(Thread-3 (multithreaded_function), stopped 133079544890944)>
+<Thread(Thread-4 (multithreaded_function), stopped 133079534405184)>
+<Thread(Thread-5 (multithreaded_function), stopped 133079523919424)>
+MyClass(a=359, b=0.38619096861896307)
+OS times: posix.times_result(user=1.26, system=0.02, children_user=0.0, children_system=0.0, elapsed=4604622.06)
+Error: badcert.pem not found.  Please create a dummy certificate file.
+
+Stderr: 

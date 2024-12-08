@@ -1,3 +1,14 @@
 Return Code: 1
-Stdout: b'392 )Q#.&y\x19\nElapsed time: 0.8635750479879789\nJIT function result: 380399350000000\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/750.py", line 102, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/750.py", line 92, in main\n    context.load_verify_locations(cert)\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory\n'
+Stdout: -958 N=Y~Bm@4iw)H1Fs!ńNad*{jx:Dxy8XkiSo.ܓB4yOBs.
+Elapsed time: 0.8950372090330347
+JIT function result: 191184788000000
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/750.py", line 102, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/750.py", line 92, in main
+    context.load_verify_locations(cert)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+ValueError: embedded null byte
+

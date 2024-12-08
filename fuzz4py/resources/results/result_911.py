@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b'JIT result: 50245300\nFree threading result: 10\ndbm result: True\nComplex annotation result: 327\n'
-Stderr: b''
+Stdout: JIT result: 139954815
+Free threading result: 10
+dbm result: True
+Complex annotation result: 274
+
+Stderr: 

@@ -1,3 +1,5 @@
 Return Code: 0
-Stdout: b'Elapsed time: 0.00985718599986285\nSSL connection attempted\n'
-Stderr: b''
+Stdout: Elapsed time: 0.05463031097315252
+SSL connection attempted
+
+Stderr: 

@@ -1,3 +1,11 @@
 Return Code: 0
-Stdout: b'Thread 137198722614848 received: 0\nThread 137198634534464 received: 1\nThread 137198624048704 received: 2\nThread 137198613562944 received: 3\nThread 137198603077184 received: 4\nTime taken to call os.times(): 1.2513017281889915e-05\nValueError: Not a valid integer string\nProcessed data: [2, 4, 9]\n'
-Stderr: b''
+Stdout: Thread 139202303886912 received: 0
+Thread 139202293401152 received: 1
+Thread 139202282915392 received: 2
+Thread 139202272429632 received: 3
+Thread 139202261943872 received: 4
+Time taken to call os.times(): 1.2483971659094095e-05
+ValueError: Not a valid integer string
+Processed data: [2, 4, 9]
+
+Stderr: 

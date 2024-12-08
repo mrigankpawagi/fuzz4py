@@ -1,3 +1,14 @@
 Return Code: 0
-Stdout: b'posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4562012.5)\n<ssl.SSLContext object at 0x74142dc229f0>\nThread 127630007338560 processed: 0\nThread 127629896189504 processed: 4\nThread 127629917161024 processed: 2\nThread 127629906675264 processed: 3\nThread 127629996852800 processed: 1\n332833500\n6\nDocstring test\n100\n'
-Stderr: b''
+Stdout: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605392.54)
+<ssl.SSLContext object at 0x74b013e229f0>
+Thread 128299588126272 processed: 0
+Thread 128299577640512 processed: 1
+Thread 128299567154752 processed: 2
+Thread 128299556668992 processed: 3
+Thread 128299546183232 processed: 4
+332833500
+6
+Docstring test
+100
+
+Stderr: 

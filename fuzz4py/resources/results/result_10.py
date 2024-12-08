@@ -1,3 +1,5 @@
 Return Code: 0
-Stdout: b'Original data: [1, 2, 3]\nModified data: [0, 2, 3]\n'
-Stderr: b''
+Stdout: Original data: [1, 2, 3]
+Modified data: [0, 2, 3]
+
+Stderr: 

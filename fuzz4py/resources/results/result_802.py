@@ -1,3 +1,80 @@
 Return Code: 0
-Stdout: b'0\n1.2255972251296043e-05\n'
-Stderr: b'Exception in thread Thread-1 (worker):\nException in thread Thread-2 (worker):\nException in thread Thread-3 (worker):\nException in thread Thread-4 (worker):\nException in thread Thread-5 (worker):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker\n    result += my_function(data, iterations)\n              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function\n    result += data[i]\n              ~~~~^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker\n    result += my_function(data, iterations)\n              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\nIndexError: list index out of range\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function\n    result += data[i]\n              ~~~~^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nIndexError: list index out of range\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker\n    result += my_function(data, iterations)\n              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker\n    result += my_function(data, iterations)\n              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function\n    result += data[i]\n              ~~~~^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function\n    result += data[i]\n              ~~~~^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nIndexError: list index out of range\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nIndexError: list index out of range\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker\n    result += my_function(data, iterations)\n              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function\n    result += data[i]\n              ~~~~^^^\nIndexError: list index out of range\n'
+Stdout: 0
+1.2428034096956253e-05
+
+Stderr: Exception in thread Thread-1 (worker):
+Exception in thread Thread-2 (worker):
+Exception in thread Thread-3 (worker):
+Exception in thread Thread-4 (worker):
+Exception in thread Thread-5 (worker):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker
+    result += my_function(data, iterations)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker
+    result += my_function(data, iterations)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker
+    result += my_function(data, iterations)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker
+    result += my_function(data, iterations)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 52, in worker
+    result += my_function(data, iterations)
+              ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function
+    result += data[i]
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function
+    result += data[i]
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function
+    result += data[i]
+              ~~~~^^^
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function
+    result += data[i]
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/802.py", line 16, in my_function
+    result += data[i]
+              ~~~~^^^
+IndexError: list index out of range
+IndexError: list index out of range
+

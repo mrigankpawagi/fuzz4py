@@ -1,3 +1,24 @@
 Return Code: 0
-Stdout: b"Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError in worker thread: unsupported operand type(s) for +=: 'int' and 'str'\nError joining thread or retrieving result: 'Thread' object has no attribute 'exitcode'\nShared Resource: None, Results: []\nResult of complex_function: 499500\nSSL context created.\n"
-Stderr: b''
+Stdout: Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error in worker thread: unsupported operand type(s) for +=: 'int' and 'str'
+Error joining thread or retrieving result: 'Thread' object has no attribute 'exitcode'
+Shared Resource: None, Results: []
+Result of complex_function: 499500
+SSL context created.
+
+Stderr: 

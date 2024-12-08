@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b"Final results: ['-58Value', '-78Value', '60Value', '71Value', '-28Value']\nDatabase operation successful for test20.db.\nSSL context creation successful\n[8, 6]\n"
-Stderr: b''
+Stdout: Final results: ['-53Value', '75Value', '74Value', '-32Value', '-13Value', '52Value', '30Value', '25Value']
+Database operation successful for test95.db.
+SSL context creation successful
+[7, 0, 3, 1, 8]
+
+Stderr: 

@@ -1,3 +1,66 @@
 Return Code: 0
-Stdout: b"Shared data: 0\nJIT Test result: 2498607104.85752, Time taken: 0.0031316280364990234s\nAn unexpected error occurred: main.<locals>.ReplaceableClass.__replace__() got an unexpected keyword argument 'value'\n"
-Stderr: b'Exception in thread Thread-1 (race_condition_example):\nException in thread Thread-2 (race_condition_example):\nException in thread Thread-3 (race_condition_example):\nException in thread Thread-4 (race_condition_example):\nException in thread Thread-5 (race_condition_example):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example\n    shared_data += data * random.randint(1, 10)  # Random multiplier\n    ^^^^^^^^^^^\nTraceback (most recent call last):\nTraceback (most recent call last):\nNameError: name \'shared_data\' is not defined\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example\n    shared_data += data * random.randint(1, 10)  # Random multiplier\n    ^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nNameError: name \'shared_data\' is not defined\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example\n    shared_data += data * random.randint(1, 10)  # Random multiplier\n    ^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example\n    shared_data += data * random.randint(1, 10)  # Random multiplier\n    ^^^^^^^^^^^\nNameError: name \'shared_data\' is not defined\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example\n    shared_data += data * random.randint(1, 10)  # Random multiplier\n    ^^^^^^^^^^^\nNameError: name \'shared_data\' is not defined\nNameError: name \'shared_data\' is not defined\n'
+Stdout: Shared data: 0
+JIT Test result: 2487557274.8311577, Time taken: 0.0033864974975585938s
+An unexpected error occurred: main.<locals>.ReplaceableClass.__replace__() got an unexpected keyword argument 'value'
+
+Stderr: Exception in thread Thread-1 (race_condition_example):
+Exception in thread Thread-2 (race_condition_example):
+Exception in thread Thread-3 (race_condition_example):
+Exception in thread Thread-4 (race_condition_example):
+Exception in thread Thread-5 (race_condition_example):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example
+    shared_data += data * random.randint(1, 10)  # Random multiplier
+    ^^^^^^^^^^^
+NameError: name 'shared_data' is not defined
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example
+    shared_data += data * random.randint(1, 10)  # Random multiplier
+    ^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example
+    shared_data += data * random.randint(1, 10)  # Random multiplier
+    ^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+NameError: name 'shared_data' is not defined
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example
+    shared_data += data * random.randint(1, 10)  # Random multiplier
+    ^^^^^^^^^^^
+NameError: name 'shared_data' is not defined
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'shared_data' is not defined
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/525.py", line 29, in race_condition_example
+    shared_data += data * random.randint(1, 10)  # Random multiplier
+    ^^^^^^^^^^^
+NameError: name 'shared_data' is not defined
+

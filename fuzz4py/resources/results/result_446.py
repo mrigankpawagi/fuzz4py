@@ -1,3 +1,13 @@
-Return Code: 1
-Stdout: b"Worker 5 raised exception: Intentional Error\nWorker 7 raised exception: Simulated exception\nWorker 0 raised exception: Intentional Error\nFinal Counter: 45\n4999950000\nOriginal: 5, Copied: 10, Copied y: changed\nError in dbm.sqlite3 test: table mytable has no column named another_data\nElapsed time: 0.8811 seconds\n['a', 'b']\n"
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/446.py", line 159, in <module>\n    processed_data = my_complex_function(data)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/446.py", line 137, in my_complex_function\n    return [x * 2 for x in data]\n            ~~^~~\nTypeError: unsupported operand type(s) for *: \'NoneType\' and \'int\'\n'
+Return Code: 0
+Stdout: Worker 5 raised exception: Simulated exception
+Worker 0 raised exception: Intentional Error
+Worker 1 raised exception: Simulated exception
+Worker 7 raised exception: Intentional TypeError
+Final Counter: 45
+2684910000
+Original: 5, Copied: 10, Copied y: changed
+Error in dbm.sqlite3 test: table mytable has no column named another_data
+Elapsed time: 1.3374 seconds
+['a', 'b']
+
+Stderr: 

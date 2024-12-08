@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b'Test completed.\nModified object: 20\nSSL default context created successfully.\nFinal data list: [1, 1, 1, 1, 1]\n'
-Stderr: b''
+Stdout: Test completed.
+Modified object: 20
+SSL default context created successfully.
+Final data list: [1, 1, 1, 1, 1]
+
+Stderr: 

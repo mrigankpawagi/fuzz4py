@@ -1,3 +1,10 @@
 Return Code: 0
-Stdout: b"Thread Error: 132367968634432, unsupported operand type(s) for +=: 'int' and 'str'\nThread Error: 132367870068288, unsupported operand type(s) for +=: 'int' and 'str'\nThread Error: 132367989605952, unsupported operand type(s) for +=: 'int' and 'str'\nThread Error: 132367958148672, unsupported operand type(s) for +=: 'int' and 'str'\nThread Error: 132367979120192, unsupported operand type(s) for +=: 'int' and 'str'\nTime elapsed: 2.000074863433838\nOS Timer Error: sleep length must be non-negative\n"
-Stderr: b''
+Stdout: Thread Error: 129931541481024, unsupported operand type(s) for +=: 'int' and 'str'
+Thread Error: 129931510023744, unsupported operand type(s) for +=: 'int' and 'str'
+Thread Error: 129931551966784, unsupported operand type(s) for +=: 'int' and 'str'
+Thread Error: 129931530995264, unsupported operand type(s) for +=: 'int' and 'str'
+Thread Error: 129931520509504, unsupported operand type(s) for +=: 'int' and 'str'
+Time elapsed: 2.0001487731933594
+OS Timer Error: sleep length must be non-negative
+
+Stderr: 

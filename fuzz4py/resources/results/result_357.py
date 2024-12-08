@@ -1,3 +1,13 @@
 Return Code: 0
-Stdout: b'Error in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\nResults: [48, -62, -84, -140, 62, 44, 50, -128, 38, -112, 94, 22, -122, -42, 88, 96, 176, -84, 180, 90, 150, 198, 92, 74, 58, 30, 198, 196, 60, -162, -154, 44, -60, 8, -18, -44, 2, 182, -48, -140, -116, -114, -100, 56]\nError in thread: Random Error Occurred\nError in thread: Random Error Occurred\n/home/mrigankp/fuzz4py\nposix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4562012.05)\n/home/mrigankp/fuzz4py/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz\n'
-Stderr: b''
+Stdout: Error in thread: Random Error Occurred
+Error in thread: Random Error Occurred
+Error in thread: Random Error Occurred
+Error in thread: Random Error Occurred
+Error in thread: Random Error Occurred
+Results: [-178, 130, -154, 152, -60, 102, 50, -140, -100, -130, 108, 174, 146, 196, -58, 116, 94, 174, 64, -94, 8, -72, 64, -168, 174, 98, -78, -12, 100, -148, 52, -84, -46, 32, -192, 100, 148, -138, -182, -6, 84, 138, -12, 48, -64]
+Error in thread: Random Error Occurred
+/home/mrigankp/fuzz4py
+posix.times_result(user=0.06, system=0.02, children_user=0.0, children_system=0.0, elapsed=4605392.08)
+/home/mrigankp/fuzz4py/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz/fuzz
+
+Stderr: 

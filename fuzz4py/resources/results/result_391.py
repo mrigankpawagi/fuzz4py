@@ -1,3 +1,4 @@
 Return Code: 0
-Stdout: b"An error occurred: unsupported operand type(s) for %: 'list' and 'int'\n"
-Stderr: b''
+Stdout: An error occurred: not all arguments converted during string formatting
+
+Stderr: 

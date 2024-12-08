@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b"Error in fuzz_replace_protocol: replace() takes 1 positional argument but 2 were given\nRetrieved value: b'value1'\nTime elapsed using os.times(): 0.000005 seconds, result: 456254546.0\nDefault SSL context created.\nError creating SSL context: b'client'\nResult: 14\n"
-Stderr: b''
+Stdout: Error in fuzz_replace_protocol: replace() takes 1 positional argument but 2 were given
+Retrieved value: b'value1'
+Time elapsed using os.times(): 0.000003 seconds, result: 460589424.0
+Default SSL context created.
+Error creating SSL context: b'client'
+Result: 14
+
+Stderr: 

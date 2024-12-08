@@ -1,3 +1,30 @@
 Return Code: 0
-Stdout: b"My object: 76, 175\nMy object: 28, 115\nMy object: 31, 164\nDatabase entry not found.\nError in SSL handling: [Errno 2] No such file or directory\nos.times() result: posix.times_result(user=0.04, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563286.51)\nError during os.times(): posix.times() takes no arguments (1 given)\n['1', '2', '3']\n['s', 't', 'r', 'i', 'n', 'g']\nError in annotate_function: 'NoneType' object is not iterable\nThread 0: Started\nThread 1: Started\nThread 2: Started\nThread 3: Started\nThread 4: Started\nThread 3: Finished\nError in dbm operation: module 'dbm' has no attribute 'close'\nThread 0: Finished\nError in dbm operation: module 'dbm' has no attribute 'close'\nThread 2: Finished\nError in dbm operation: module 'dbm' has no attribute 'close'\nThread 4: Finished\nError in dbm operation: module 'dbm' has no attribute 'close'\nThread 1: Finished\nError in dbm operation: module 'dbm' has no attribute 'close'\nSSL test failed: cafile, capath and cadata cannot be all omitted\nAll tests completed.\n"
-Stderr: b''
+Stdout: My object: 52, 149
+My object: 77, 106
+My object: 76, 135
+Database entry not found.
+Error in SSL handling: [Errno 2] No such file or directory
+os.times() result: posix.times_result(user=0.04, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606636.69)
+Error during os.times(): posix.times() takes no arguments (1 given)
+['1', '2', '3']
+['s', 't', 'r', 'i', 'n', 'g']
+Error in annotate_function: 'NoneType' object is not iterable
+Thread 0: Started
+Thread 1: Started
+Thread 2: Started
+Thread 3: Started
+Thread 4: Started
+Thread 3: Finished
+Error in dbm operation: module 'dbm' has no attribute 'close'
+Thread 2: Finished
+Error in dbm operation: module 'dbm' has no attribute 'close'
+Thread 1: Finished
+Error in dbm operation: module 'dbm' has no attribute 'close'
+Thread 4: Finished
+Error in dbm operation: module 'dbm' has no attribute 'close'
+Thread 0: Finished
+Error in dbm operation: module 'dbm' has no attribute 'close'
+SSL test failed: cafile, capath and cadata cannot be all omitted
+All tests completed.
+
+Stderr: 

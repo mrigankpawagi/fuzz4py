@@ -1,3 +1,2931 @@
 Return Code: 0
-Stdout: b"Unhandled exception in worker: float division by zero, thread: 3, i: 1\nUnhandled exception in worker: float division by zero, thread: 1, i: 1\nUnhandled exception in worker: float division by zero, thread: 0, i: 1\nUnhandled exception in worker: float division by zero, thread: 3, i: 2\nUnhandled exception in worker: float division by zero, thread: 4, i: 2\nUnhandled exception in worker: float division by zero, thread: 2, i: 2\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 3\nUnhandled exception in worker: float division by zero, thread: 0, i: 3\nUnhandled exception in worker: float division by zero, thread: 3, i: 4\nUnhandled exception in worker: float division by zero, thread: 0, i: 4\nUnhandled exception in worker: float division by zero, thread: 2, i: 5\nUnhandled exception in worker: float division by zero, thread: 0, i: 5\nUnhandled exception in worker: float division by zero, thread: 2, i: 6\nUnhandled exception in worker: float division by zero, thread: 0, i: 6\nUnhandled exception in worker: float division by zero, thread: 4, i: 7\nUnhandled exception in worker: float division by zero, thread: 0, i: 7\nUnhandled exception in worker: float division by zero, thread: 3, i: 7\nUnhandled exception in worker: float division by zero, thread: 2, i: 8\nUnhandled exception in worker: float division by zero, thread: 4, i: 8\nUnhandled exception in worker: float division by zero, thread: 3, i: 8\nUnhandled exception in worker: float division by zero, thread: 2, i: 9\nUnhandled exception in worker: float division by zero, thread: 3, i: 9\nUnhandled exception in worker: float division by zero, thread: 0, i: 9\nUnhandled exception in worker: float division by zero, thread: 1, i: 9\nUnhandled exception in worker: float division by zero, thread: 3, i: 10\nUnhandled exception in worker: float division by zero, thread: 2, i: 11\nUnhandled exception in worker: float division by zero, thread: 4, i: 11\nUnhandled exception in worker: float division by zero, thread: 3, i: 12\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 12\nUnhandled exception in worker: float division by zero, thread: 4, i: 12\nUnhandled exception in worker: float division by zero, thread: 3, i: 13\nUnhandled exception in worker: float division by zero, thread: 3, i: 14\nUnhandled exception in worker: float division by zero, thread: 4, i: 14\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 15\nUnhandled exception in worker: float division by zero, thread: 2, i: 16\nUnhandled exception in worker: float division by zero, thread: 2, i: 17\nUnhandled exception in worker: float division by zero, thread: 4, i: 16\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 20\nUnhandled exception in worker: float division by zero, thread: 3, i: 20\nUnhandled exception in worker: float division by zero, thread: 4, i: 21\nUnhandled exception in worker: float division by zero, thread: 2, i: 22\nUnhandled exception in worker: float division by zero, thread: 0, i: 21\nUnhandled exception in worker: float division by zero, thread: 1, i: 21\nUnhandled exception in worker: float division by zero, thread: 2, i: 23\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 23\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 24\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 26\nUnhandled exception in worker: float division by zero, thread: 3, i: 25\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 27\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 28\nUnhandled exception in worker: float division by zero, thread: 2, i: 29\nUnhandled exception in worker: float division by zero, thread: 4, i: 29\nUnhandled exception in worker: float division by zero, thread: 3, i: 29\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 30\nUnhandled exception in worker: float division by zero, thread: 4, i: 30\nUnhandled exception in worker: float division by zero, thread: 4, i: 31\nUnhandled exception in worker: float division by zero, thread: 0, i: 32\nUnhandled exception in worker: float division by zero, thread: 0, i: 33\nUnhandled exception in worker: float division by zero, thread: 1, i: 31\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 34\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 33\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 35\nUnhandled exception in worker: float division by zero, thread: 4, i: 35\nUnhandled exception in worker: float division by zero, thread: 2, i: 36\nUnhandled exception in worker: float division by zero, thread: 0, i: 37\nUnhandled exception in worker: float division by zero, thread: 3, i: 36\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 38\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 38\nUnhandled exception in worker: float division by zero, thread: 2, i: 39\nUnhandled exception in worker: float division by zero, thread: 0, i: 40\nUnhandled exception in worker: float division by zero, thread: 4, i: 39\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 39\nUnhandled exception in worker: float division by zero, thread: 0, i: 41\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 41\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 42\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 42\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 43\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 43\nUnhandled exception in worker: float division by zero, thread: 4, i: 44\nUnhandled exception in worker: float division by zero, thread: 2, i: 44\nUnhandled exception in worker: float division by zero, thread: 0, i: 45\nUnhandled exception in worker: float division by zero, thread: 1, i: 44\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 46\nUnhandled exception in worker: float division by zero, thread: 0, i: 47\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 46\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 47\nUnhandled exception in worker: float division by zero, thread: 4, i: 47\nUnhandled exception in worker: float division by zero, thread: 2, i: 48\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 48\nUnhandled exception in worker: float division by zero, thread: 0, i: 49\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 49\nUnhandled exception in worker: float division by zero, thread: 4, i: 49\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 50\nUnhandled exception in worker: float division by zero, thread: 0, i: 51\nUnhandled exception in worker: float division by zero, thread: 2, i: 51\nUnhandled exception in worker: float division by zero, thread: 4, i: 52\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 53\nUnhandled exception in worker: float division by zero, thread: 4, i: 54\nUnhandled exception in worker: float division by zero, thread: 0, i: 54\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 54\nUnhandled exception in worker: float division by zero, thread: 2, i: 54\nUnhandled exception in worker: float division by zero, thread: 0, i: 55\nUnhandled exception in worker: float division by zero, thread: 4, i: 55\nUnhandled exception in worker: float division by zero, thread: 1, i: 55\nUnhandled exception in worker: float division by zero, thread: 4, i: 56\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 56\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 57\nUnhandled exception in worker: float division by zero, thread: 2, i: 56\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 57\nUnhandled exception in worker: float division by zero, thread: 4, i: 58\nUnhandled exception in worker: float division by zero, thread: 0, i: 58\nUnhandled exception in worker: float division by zero, thread: 3, i: 57\nUnhandled exception in worker: float division by zero, thread: 1, i: 58\nUnhandled exception in worker: float division by zero, thread: 0, i: 59\nUnhandled exception in worker: float division by zero, thread: 4, i: 59\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 60\nUnhandled exception in worker: float division by zero, thread: 2, i: 60\nUnhandled exception in worker: float division by zero, thread: 3, i: 60\nUnhandled exception in worker: float division by zero, thread: 4, i: 61\nUnhandled exception in worker: float division by zero, thread: 2, i: 61\nUnhandled exception in worker: float division by zero, thread: 3, i: 62\nUnhandled exception in worker: float division by zero, thread: 2, i: 62\nUnhandled exception in worker: float division by zero, thread: 1, i: 62\nUnhandled exception in worker: float division by zero, thread: 3, i: 63\nUnhandled exception in worker: float division by zero, thread: 2, i: 63\nUnhandled exception in worker: float division by zero, thread: 1, i: 63\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 64\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 64\nUnhandled exception in worker: float division by zero, thread: 1, i: 64\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 66\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 66\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 66\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 68\nUnhandled exception in worker: float division by zero, thread: 3, i: 68\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 69\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 70\nUnhandled exception in worker: float division by zero, thread: 0, i: 71\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 72\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 73\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 73\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 74\nUnhandled exception in worker: float division by zero, thread: 3, i: 75\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 76\nUnhandled exception in worker: float division by zero, thread: 0, i: 76\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 77\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 78\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 79\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 80\nUnhandled exception in worker: float division by zero, thread: 0, i: 80\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 81\nUnhandled exception in worker: float division by zero, thread: 3, i: 82\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 82\nUnhandled exception in worker: float division by zero, thread: 2, i: 81\nUnhandled exception in worker: float division by zero, thread: 3, i: 83\nUnhandled exception in worker: float division by zero, thread: 4, i: 82\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 85\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 84\nUnhandled exception in worker: float division by zero, thread: 2, i: 84\nUnhandled exception in worker: float division by zero, thread: 0, i: 85\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 86\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 87\nUnhandled exception in worker: float division by zero, thread: 4, i: 87\nUnhandled exception in worker: float division by zero, thread: 0, i: 88\nUnhandled exception in worker: float division by zero, thread: 3, i: 89\nUnhandled exception in worker: float division by zero, thread: 4, i: 88\nUnhandled exception in worker: float division by zero, thread: 0, i: 89\nUnhandled exception in worker: float division by zero, thread: 3, i: 90\nUnhandled exception in worker: float division by zero, thread: 3, i: 91\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 91\nUnhandled exception in worker: float division by zero, thread: 3, i: 92\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 93\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 94\nUnhandled exception in worker: float division by zero, thread: 3, i: 95\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 94\nUnhandled exception in worker: float division by zero, thread: 3, i: 96\nUnhandled exception in worker: float division by zero, thread: 4, i: 94\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 97\nUnhandled exception in worker: float division by zero, thread: 3, i: 98\nUnhandled exception in worker: float division by zero, thread: 0, i: 98\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 100\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 101\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 101\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 102\nUnhandled exception in worker: float division by zero, thread: 2, i: 100\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 105\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 106\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 107\nUnhandled exception in worker: float division by zero, thread: 2, i: 103\nUnhandled exception in worker: float division by zero, thread: 0, i: 107\nUnhandled exception in worker: float division by zero, thread: 2, i: 104\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 109\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 109\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 110\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 111\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 112\nUnhandled exception in worker: float division by zero, thread: 0, i: 112\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 114\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 116\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 116\nUnhandled exception in worker: float division by zero, thread: 3, i: 117\nUnhandled exception in worker: float division by zero, thread: 4, i: 113\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 118\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 119\nUnhandled exception in worker: float division by zero, thread: 2, i: 115\nUnhandled exception in worker: float division by zero, thread: 3, i: 119\nUnhandled exception in worker: float division by zero, thread: 0, i: 120\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 115\nUnhandled exception in worker: float division by zero, thread: 3, i: 120\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 122\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 125\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 126\nUnhandled exception in worker: float division by zero, thread: 0, i: 127\nUnhandled exception in worker: float division by zero, thread: 1, i: 121\nUnhandled exception in worker: float division by zero, thread: 0, i: 128\nUnhandled exception in worker: float division by zero, thread: 2, i: 123\nUnhandled exception in worker: float division by zero, thread: 4, i: 123\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 129\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 132\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 133\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 134\nUnhandled exception in worker: float division by zero, thread: 0, i: 135\nUnhandled exception in worker: float division by zero, thread: 2, i: 131\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 136\nUnhandled exception in worker: float division by zero, thread: 3, i: 136\nUnhandled exception in worker: float division by zero, thread: 3, i: 137\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 139\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 140\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 141\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 142\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 138\nUnhandled exception in worker: float division by zero, thread: 0, i: 143\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 144\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 145\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 146\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 147\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 149\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 150\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 147\nUnhandled exception in worker: float division by zero, thread: 0, i: 151\nUnhandled exception in worker: float division by zero, thread: 4, i: 147\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 152\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 153\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 154\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 156\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 157\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 158\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 161\nUnhandled exception in worker: float division by zero, thread: 3, i: 160\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 162\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 164\nUnhandled exception in worker: float division by zero, thread: 4, i: 159\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 165\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 168\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 169\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 171\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 167\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 173\nUnhandled exception in worker: float division by zero, thread: 3, i: 172\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 175\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 176\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 177\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 179\nUnhandled exception in worker: float division by zero, thread: 3, i: 179\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 180\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 178\nUnhandled exception in worker: float division by zero, thread: 3, i: 181\nUnhandled exception in worker: float division by zero, thread: 0, i: 181\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 182\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 183\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 180\nUnhandled exception in worker: float division by zero, thread: 3, i: 184\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 184\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 186\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 186\nUnhandled exception in worker: float division by zero, thread: 3, i: 187\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 188\nUnhandled exception in worker: float division by zero, thread: 0, i: 188\nUnhandled exception in worker: float division by zero, thread: 3, i: 189\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 190\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 190\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 191\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 191\nUnhandled exception in worker: float division by zero, thread: 3, i: 192\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 193\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 194\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 195\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 196\nUnhandled exception in worker: float division by zero, thread: 0, i: 195\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 198\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 198\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 199\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 202\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 203\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 200\nUnhandled exception in worker: float division by zero, thread: 2, i: 201\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 205\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 205\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 206\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 204\nUnhandled exception in worker: float division by zero, thread: 0, i: 207\nUnhandled exception in worker: float division by zero, thread: 3, i: 207\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 208\nUnhandled exception in worker: float division by zero, thread: 3, i: 208\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 212\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 212\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 210\nUnhandled exception in worker: float division by zero, thread: 4, i: 210\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 211\nUnhandled exception in worker: float division by zero, thread: 0, i: 214\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 216\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 215\nUnhandled exception in worker: float division by zero, thread: 2, i: 213\nUnhandled exception in worker: float division by zero, thread: 4, i: 213\nUnhandled exception in worker: float division by zero, thread: 3, i: 217\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 219\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 220\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 221\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 222\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 223\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 224\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 221\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 221\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 226\nUnhandled exception in worker: float division by zero, thread: 0, i: 226\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 227\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 225\nUnhandled exception in worker: float division by zero, thread: 0, i: 227\nUnhandled exception in worker: float division by zero, thread: 3, i: 228\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 225\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 229\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 230\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 233\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 231\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 232\nUnhandled exception in worker: float division by zero, thread: 0, i: 235\nUnhandled exception in worker: float division by zero, thread: 0, i: 236\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 234\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 238\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 239\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 240\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 237\nUnhandled exception in worker: float division by zero, thread: 0, i: 240\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 241\nUnhandled exception in worker: float division by zero, thread: 3, i: 242\nUnhandled exception in worker: float division by zero, thread: 1, i: 237\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 243\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 241\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 245\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 245\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 247\nUnhandled exception in worker: float division by zero, thread: 3, i: 248\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 249\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 250\nUnhandled exception in worker: float division by zero, thread: 3, i: 251\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 251\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 252\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 253\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 253\nUnhandled exception in worker: float division by zero, thread: 3, i: 254\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 257\nUnhandled exception in worker: float division by zero, thread: 0, i: 256\nUnhandled exception in worker: float division by zero, thread: 3, i: 258\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 259\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 259\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 260\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 257\nUnhandled exception in worker: float division by zero, thread: 0, i: 261\nUnhandled exception in worker: float division by zero, thread: 2, i: 257\nUnhandled exception in worker: float division by zero, thread: 3, i: 262\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 264\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 266\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 267\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 268\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 270\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 265\nUnhandled exception in worker: float division by zero, thread: 0, i: 270\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 271\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 272\nUnhandled exception in worker: float division by zero, thread: 0, i: 271\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 273\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 269\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 269\nUnhandled exception in worker: float division by zero, thread: 3, i: 275\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 278\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 276\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 279\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 280\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 282\nUnhandled exception in worker: float division by zero, thread: 0, i: 281\nUnhandled exception in worker: float division by zero, thread: 2, i: 277\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 283\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 285\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 286\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 287\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 288\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 284\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 284\nUnhandled exception in worker: float division by zero, thread: 0, i: 288\nUnhandled exception in worker: float division by zero, thread: 0, i: 289\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 288\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 291\nUnhandled exception in worker: float division by zero, thread: 4, i: 290\nUnhandled exception in worker: float division by zero, thread: 3, i: 292\nUnhandled exception in worker: float division by zero, thread: 0, i: 292\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 294\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 294\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 295\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 296\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 296\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 297\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 299\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 300\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 300\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 301\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 301\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 303\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 303\nUnhandled exception in worker: float division by zero, thread: 4, i: 302\nUnhandled exception in worker: float division by zero, thread: 3, i: 304\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 304\nUnhandled exception in worker: float division by zero, thread: 3, i: 305\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 305\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 306\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 307\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 306\nUnhandled exception in worker: float division by zero, thread: 0, i: 308\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 308\nUnhandled exception in worker: float division by zero, thread: 1, i: 306\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 306\nUnhandled exception in worker: float division by zero, thread: 4, i: 309\nUnhandled exception in worker: float division by zero, thread: 0, i: 310\nUnhandled exception in worker: float division by zero, thread: 3, i: 310\nUnhandled exception in worker: float division by zero, thread: 0, i: 311\nUnhandled exception in worker: float division by zero, thread: 4, i: 310\nUnhandled exception in worker: float division by zero, thread: 3, i: 311\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 312\nUnhandled exception in worker: float division by zero, thread: 3, i: 313\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 314\nUnhandled exception in worker: float division by zero, thread: 0, i: 316\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 314\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 315\nUnhandled exception in worker: float division by zero, thread: 3, i: 317\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 315\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 315\nUnhandled exception in worker: float division by zero, thread: 3, i: 319\nUnhandled exception in worker: float division by zero, thread: 0, i: 319\nUnhandled exception in worker: float division by zero, thread: 4, i: 318\nUnhandled exception in worker: float division by zero, thread: 0, i: 320\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 320\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 321\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 321\nUnhandled exception in worker: float division by zero, thread: 3, i: 322\nUnhandled exception in worker: float division by zero, thread: 0, i: 323\nUnhandled exception in worker: float division by zero, thread: 4, i: 322\nUnhandled exception in worker: float division by zero, thread: 0, i: 324\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 324\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 325\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 326\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 327\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 328\nUnhandled exception in worker: float division by zero, thread: 0, i: 329\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 331\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 328\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 330\nUnhandled exception in worker: float division by zero, thread: 2, i: 328\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 332\nUnhandled exception in worker: float division by zero, thread: 0, i: 333\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 334\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 335\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 336\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 338\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 337\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 337\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 341\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 342\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 343\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 344\nUnhandled exception in worker: float division by zero, thread: 0, i: 345\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 347\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 348\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 349\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 351\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 352\nUnhandled exception in worker: float division by zero, thread: 3, i: 350\nUnhandled exception in worker: float division by zero, thread: 4, i: 350\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 353\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 354\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 355\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 356\nUnhandled exception in worker: float division by zero, thread: 1, i: 356\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 357\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 360\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 359\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 361\nUnhandled exception in worker: float division by zero, thread: 0, i: 364\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 365\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 368\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 366\nUnhandled exception in worker: float division by zero, thread: 3, i: 367\nUnhandled exception in worker: float division by zero, thread: 1, i: 367\nUnhandled exception in worker: float division by zero, thread: 2, i: 367\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 367\nUnhandled exception in worker: float division by zero, thread: 0, i: 371\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 375\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 373\nUnhandled exception in worker: float division by zero, thread: 4, i: 373\nUnhandled exception in worker: float division by zero, thread: 0, i: 377\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 378\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 379\nUnhandled exception in worker: float division by zero, thread: 3, i: 376\nUnhandled exception in worker: float division by zero, thread: 0, i: 380\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 381\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 383\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 385\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 382\nUnhandled exception in worker: float division by zero, thread: 2, i: 382\nUnhandled exception in worker: float division by zero, thread: 0, i: 386\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 387\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 384\nUnhandled exception in worker: float division by zero, thread: 0, i: 388\nUnhandled exception in worker: float division by zero, thread: 0, i: 389\nUnhandled exception in worker: float division by zero, thread: 1, i: 385\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 390\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 391\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 392\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 394\nUnhandled exception in worker: float division by zero, thread: 1, i: 391\nUnhandled exception in worker: float division by zero, thread: 0, i: 395\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 391\nUnhandled exception in worker: float division by zero, thread: 4, i: 393\nUnhandled exception in worker: float division by zero, thread: 0, i: 396\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 393\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 398\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 399\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 397\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 400\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 403\nUnhandled exception in worker: float division by zero, thread: 0, i: 404\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 402\nUnhandled exception in worker: float division by zero, thread: 0, i: 405\nUnhandled exception in worker: float division by zero, thread: 4, i: 402\nUnhandled exception in worker: float division by zero, thread: 0, i: 406\nUnhandled exception in worker: float division by zero, thread: 3, i: 402\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 407\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 408\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 409\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 411\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 408\nUnhandled exception in worker: float division by zero, thread: 4, i: 410\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 413\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 414\nUnhandled exception in worker: float division by zero, thread: 1, i: 412\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 415\nUnhandled exception in worker: float division by zero, thread: 1, i: 413\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 417\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 421\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 418\nUnhandled exception in worker: float division by zero, thread: 4, i: 419\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 425\nUnhandled exception in worker: float division by zero, thread: 1, i: 422\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 422\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 423\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 424\nUnhandled exception in worker: float division by zero, thread: 0, i: 427\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 429\nUnhandled exception in worker: float division by zero, thread: 1, i: 426\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 424\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 426\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 431\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 428\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 434\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 432\nUnhandled exception in worker: float division by zero, thread: 0, i: 435\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 432\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 436\nUnhandled exception in worker: float division by zero, thread: 4, i: 433\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 438\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 437\nUnhandled exception in worker: float division by zero, thread: 4, i: 437\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 440\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 439\nUnhandled exception in worker: float division by zero, thread: 0, i: 441\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 443\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 447\nUnhandled exception in worker: float division by zero, thread: 1, i: 445\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 448\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 449\nUnhandled exception in worker: float division by zero, thread: 4, i: 446\nUnhandled exception in worker: float division by zero, thread: 0, i: 450\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 451\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 447\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 453\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 452\nUnhandled exception in worker: float division by zero, thread: 4, i: 452\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 456\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 457\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 458\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 454\nUnhandled exception in worker: float division by zero, thread: 0, i: 459\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 460\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 462\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 461\nUnhandled exception in worker: float division by zero, thread: 0, i: 463\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 464\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 466\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 467\nUnhandled exception in worker: float division by zero, thread: 0, i: 468\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 465\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 470\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 471\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 469\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 472\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 474\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 475\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 478\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 476\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 477\nUnhandled exception in worker: float division by zero, thread: 0, i: 480\nUnhandled exception in worker: float division by zero, thread: 3, i: 476\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 482\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 483\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 481\nUnhandled exception in worker: float division by zero, thread: 0, i: 484\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 479\nUnhandled exception in worker: float division by zero, thread: 2, i: 481\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 487\nUnhandled exception in worker: float division by zero, thread: 3, i: 482\nUnhandled exception in worker: float division by zero, thread: 1, i: 485\nUnhandled exception in worker: float division by zero, thread: 2, i: 482\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 489\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 492\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 488\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 493\nUnhandled exception in worker: float division by zero, thread: 3, i: 488\nUnhandled exception in worker: float division by zero, thread: 1, i: 491\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 497\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 499\nUnhandled exception in worker: float division by zero, thread: 3, i: 493\nUnhandled exception in worker: float division by zero, thread: 4, i: 493\nUnhandled exception in worker: float division by zero, thread: 1, i: 496\nUnhandled exception in worker: float division by zero, thread: 0, i: 500\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 501\nUnhandled exception in worker: float division by zero, thread: 2, i: 495\nUnhandled exception in worker: float division by zero, thread: 3, i: 495\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 495\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 502\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 503\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 504\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 508\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 506\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 507\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 510\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 506\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 506\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 511\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 512\nUnhandled exception in worker: float division by zero, thread: 0, i: 513\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 515\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 516\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 514\nUnhandled exception in worker: float division by zero, thread: 0, i: 518\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 514\nUnhandled exception in worker: float division by zero, thread: 0, i: 519\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 520\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 522\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 523\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 524\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 525\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 526\nUnhandled exception in worker: float division by zero, thread: 4, i: 521\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 521\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 521\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 528\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 530\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 531\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 527\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 533\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 534\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 536\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 532\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 538\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 531\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 531\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 540\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 542\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 539\nUnhandled exception in worker: float division by zero, thread: 0, i: 545\nUnhandled exception in worker: float division by zero, thread: 3, i: 537\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 537\nUnhandled exception in worker: float division by zero, thread: 2, i: 537\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 541\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 546\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 543\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 541\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 550\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 551\nUnhandled exception in worker: float division by zero, thread: 0, i: 552\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 547\nUnhandled exception in worker: float division by zero, thread: 2, i: 544\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 553\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 548\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 546\nUnhandled exception in worker: float division by zero, thread: 1, i: 549\nUnhandled exception in worker: float division by zero, thread: 2, i: 547\nUnhandled exception in worker: float division by zero, thread: 3, i: 547\nUnhandled exception in worker: float division by zero, thread: 0, i: 555\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 557\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 554\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 562\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 559\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 566\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 560\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 568\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 563\nUnhandled exception in worker: float division by zero, thread: 0, i: 569\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 564\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 570\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 571\nUnhandled exception in worker: float division by zero, thread: 2, i: 565\nUnhandled exception in worker: float division by zero, thread: 3, i: 563\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 567\nUnhandled exception in worker: float division by zero, thread: 2, i: 567\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 574\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 571\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 577\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 578\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 579\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 580\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 581\nUnhandled exception in worker: float division by zero, thread: 1, i: 576\nUnhandled exception in worker: float division by zero, thread: 3, i: 572\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 576\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 585\nUnhandled exception in worker: float division by zero, thread: 1, i: 579\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 586\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 587\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 588\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 582\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 592\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 584\nUnhandled exception in worker: float division by zero, thread: 1, i: 589\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 584\nUnhandled exception in worker: float division by zero, thread: 0, i: 594\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 590\nUnhandled exception in worker: float division by zero, thread: 0, i: 595\nUnhandled exception in worker: float division by zero, thread: 1, i: 591\nUnhandled exception in worker: float division by zero, thread: 0, i: 596\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 597\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 593\nUnhandled exception in worker: float division by zero, thread: 0, i: 598\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 601\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 603\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 604\nUnhandled exception in worker: float division by zero, thread: 1, i: 600\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 605\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 606\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 607\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 608\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 599\nUnhandled exception in worker: float division by zero, thread: 4, i: 599\nUnhandled exception in worker: float division by zero, thread: 2, i: 602\nUnhandled exception in worker: float division by zero, thread: 0, i: 610\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 614\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 609\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 611\nUnhandled exception in worker: float division by zero, thread: 0, i: 616\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 617\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 613\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 619\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 615\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 612\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 621\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 619\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 625\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 626\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 627\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 623\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 628\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 629\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 622\nUnhandled exception in worker: float division by zero, thread: 2, i: 623\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 624\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 632\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 633\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 634\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 635\nUnhandled exception in worker: float division by zero, thread: 1, i: 631\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 636\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 638\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 639\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 641\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 642\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 643\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 640\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 637\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 649\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 643\nUnhandled exception in worker: float division by zero, thread: 1, i: 646\nUnhandled exception in worker: float division by zero, thread: 0, i: 650\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 653\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 654\nUnhandled exception in worker: float division by zero, thread: 4, i: 647\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 657\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 659\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 656\nUnhandled exception in worker: float division by zero, thread: 2, i: 652\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 658\nUnhandled exception in worker: float division by zero, thread: 0, i: 662\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 655\nUnhandled exception in worker: float division by zero, thread: 4, i: 655\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 664\nUnhandled exception in worker: float division by zero, thread: 1, i: 660\nUnhandled exception in worker: float division by zero, thread: 0, i: 665\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 667\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 668\nUnhandled exception in worker: float division by zero, thread: 2, i: 661\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 661\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 663\nUnhandled exception in worker: float division by zero, thread: 0, i: 671\nUnhandled exception in worker: float division by zero, thread: 0, i: 672\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 673\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 674\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 676\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 677\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 678\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 670\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 681\nUnhandled exception in worker: float division by zero, thread: 1, i: 674\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 675\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 682\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 685\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 688\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 682\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 683\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 683\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 687\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 694\nUnhandled exception in worker: float division by zero, thread: 2, i: 686\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 690\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 691\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 697\nUnhandled exception in worker: float division by zero, thread: 1, i: 692\nUnhandled exception in worker: float division by zero, thread: 0, i: 698\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 700\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: 695\nUnhandled exception in worker: float division by zero, thread: 1, i: 696\nUnhandled exception in worker: float division by zero, thread: 0, i: 701\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 702\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 703\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 693\nUnhandled exception in worker: float division by zero, thread: 3, i: 693\nUnhandled exception in worker: float division by zero, thread: 0, i: 704\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 705\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 706\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 707\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 709\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 703\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 710\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 711\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 712\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 713\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 719\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 720\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 716\nUnhandled exception in worker: float division by zero, thread: 0, i: 721\nUnhandled exception in worker: float division by zero, thread: 2, i: 714\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 717\nUnhandled exception in worker: float division by zero, thread: 0, i: 722\nUnhandled exception in worker: float division by zero, thread: 2, i: 715\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 724\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 725\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 728\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 729\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 730\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 723\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 732\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 733\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 734\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 727\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 735\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 736\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 739\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 740\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 735\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 742\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 743\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 737\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 744\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 738\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 741\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 751\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 745\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 746\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 747\nUnhandled exception in worker: float division by zero, thread: 1, i: 747\nUnhandled exception in worker: float division by zero, thread: 0, i: 755\nUnhandled exception in worker: float division by zero, thread: 1, i: 748\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 756\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 757\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 750\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 758\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 760\nUnhandled exception in worker: float division by zero, thread: 1, i: 752\nUnhandled exception in worker: float division by zero, thread: 2, i: 753\nUnhandled exception in worker: Error from thread 1, thread: 1, i: 753\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 762\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 754\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 763\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 764\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 767\nUnhandled exception in worker: float division by zero, thread: 1, i: 758\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 768\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 769\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 763\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 771\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 772\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 773\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 776\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 766\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 765\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 779\nUnhandled exception in worker: float division by zero, thread: 2, i: 772\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 780\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 774\nUnhandled exception in worker: float division by zero, thread: 0, i: 782\nUnhandled exception in worker: float division by zero, thread: 2, i: 775\nUnhandled exception in worker: float division by zero, thread: 4, i: 770\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 784\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 787\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 789\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 790\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 783\nUnhandled exception in worker: float division by zero, thread: 0, i: 791\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 781\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 781\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 792\nUnhandled exception in worker: float division by zero, thread: 2, i: 785\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 794\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 786\nUnhandled exception in worker: float division by zero, thread: 2, i: 788\nUnhandled exception in worker: float division by zero, thread: 0, i: 797\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 800\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 801\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 793\nUnhandled exception in worker: float division by zero, thread: 0, i: 802\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 792\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 803\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 804\nUnhandled exception in worker: float division by zero, thread: 1, i: 795\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 796\nUnhandled exception in worker: float division by zero, thread: 0, i: 805\nUnhandled exception in worker: float division by zero, thread: 3, i: 795\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 798\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 799\nUnhandled exception in worker: float division by zero, thread: 2, i: 799\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 809\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 810\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 811\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 812\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 813\nUnhandled exception in worker: float division by zero, thread: 0, i: 814\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 807\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 815\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 817\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 818\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 819\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 820\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 821\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 825\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 820\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 828\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 829\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 830\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 823\nUnhandled exception in worker: float division by zero, thread: 1, i: 822\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 832\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 833\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 826\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 835\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 839\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 840\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 831\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 841\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 844\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 845\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 846\nUnhandled exception in worker: float division by zero, thread: 2, i: 838\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 849\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 836\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 842\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 851\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 843\nUnhandled exception in worker: float division by zero, thread: 1, i: 843\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 854\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 847\nUnhandled exception in worker: float division by zero, thread: 0, i: 856\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 848\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 849\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 858\nUnhandled exception in worker: float division by zero, thread: 2, i: 850\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 859\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 860\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 861\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 862\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: 853\nUnhandled exception in worker: float division by zero, thread: 0, i: 863\nUnhandled exception in worker: float division by zero, thread: 1, i: 853\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 864\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 866\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 857\nUnhandled exception in worker: float division by zero, thread: 0, i: 867\nUnhandled exception in worker: float division by zero, thread: 1, i: 857\nUnhandled exception in worker: float division by zero, thread: 0, i: 868\nUnhandled exception in worker: float division by zero, thread: 2, i: 859\nUnhandled exception in worker: float division by zero, thread: 0, i: 869\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 872\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 873\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 865\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 865\nUnhandled exception in worker: float division by zero, thread: 0, i: 875\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 878\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 879\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 871\nUnhandled exception in worker: float division by zero, thread: 1, i: 870\nUnhandled exception in worker: float division by zero, thread: 0, i: 881\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 874\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 874\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 885\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 886\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 887\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 882\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 890\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 891\nUnhandled exception in worker: float division by zero, thread: 2, i: 884\nUnhandled exception in worker: float division by zero, thread: 3, i: 883\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 893\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 894\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 895\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 888\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: 889\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 892\nUnhandled exception in worker: float division by zero, thread: 0, i: 899\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: 889\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 896\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 903\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 904\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 905\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 906\nUnhandled exception in worker: float division by zero, thread: 2, i: 900\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 901\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 908\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 911\nUnhandled exception in worker: float division by zero, thread: 4, i: 902\nUnhandled exception in worker: float division by zero, thread: 0, i: 912\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 914\nUnhandled exception in worker: float division by zero, thread: 2, i: 909\nUnhandled exception in worker: float division by zero, thread: 0, i: 915\nUnhandled exception in worker: float division by zero, thread: 2, i: 910\nUnhandled exception in worker: float division by zero, thread: 3, i: 907\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 911\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 918\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 920\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 917\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 922\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 923\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 924\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 925\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 926\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 927\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 928\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: Error from thread 2, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 931\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 927\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 932\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 934\nUnhandled exception in worker: float division by zero, thread: 2, i: 930\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 935\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 936\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: Error from thread 2, thread: 2, i: 933\nUnhandled exception in worker: float division by zero, thread: 0, i: 938\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 934\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 941\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 933\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 943\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 940\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: 937\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 946\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 939\nUnhandled exception in worker: float division by zero, thread: 4, i: 939\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 949\nUnhandled exception in worker: float division by zero, thread: 3, i: 942\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 942\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 950\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 951\nUnhandled exception in worker: Error from thread 4, thread: 4, i: 944\nUnhandled exception in worker: float division by zero, thread: 2, i: 947\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 948\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 953\nUnhandled exception in worker: float division by zero, thread: 1, i: 944\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 954\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 955\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 956\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 953\nUnhandled exception in worker: Error from thread 4, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 958\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 959\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: Error from thread 0, thread: 0, i: 960\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 960\nUnhandled exception in worker: float division by zero, thread: 3, i: 957\nUnhandled exception in worker: float division by zero, thread: 0, i: 964\nUnhandled exception in worker: float division by zero, thread: 4, i: 957\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 961\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 966\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 963\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 965\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 967\nUnhandled exception in worker: float division by zero, thread: 0, i: 971\nUnhandled exception in worker: float division by zero, thread: 2, i: 968\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 973\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 4, i: 970\nUnhandled exception in worker: float division by zero, thread: 3, i: 970\nUnhandled exception in worker: float division by zero, thread: 1, i: 970\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 978\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 975\nUnhandled exception in worker: float division by zero, thread: 3, i: 972\nUnhandled exception in worker: float division by zero, thread: 4, i: 972\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 977\nUnhandled exception in worker: float division by zero, thread: 0, i: 981\nUnhandled exception in worker: float division by zero, thread: 0, i: 982\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 976\nUnhandled exception in worker: float division by zero, thread: 4, i: 976\nUnhandled exception in worker: float division by zero, thread: 1, i: 976\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 984\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 985\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 979\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 986\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: 983\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 989\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 990\nUnhandled exception in worker: float division by zero, thread: 0, i: 991\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 992\nUnhandled exception in worker: float division by zero, thread: 2, i: 987\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 994\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: Error from thread 3, thread: 3, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: float division by zero, thread: 0, i: 997\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 0, i: 998\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 993\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 4, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: Error from thread 1, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: 995\nUnhandled exception in worker: float division by zero, thread: 3, i: 995\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: 996\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 3, i: False\nUnhandled exception in worker: float division by zero, thread: 2, i: False\nUnhandled exception in worker: float division by zero, thread: 1, i: False\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None\nUnhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None\nAll threads finished.\nError with key type <class 'str'>: float division by zero\nError with key type <class 'bytes'>: cannot convert 'NoneType' object to bytes\nError with key type <class 'int'>: invalid literal for int() with base 10: b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x\nError with key type <class 'float'>: could not convert string to float: b'\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00\\x00'\nError with key type <class 'bool'>: float division by zero\nError with key type <class 'NoneType'>: NoneType takes no arguments\nError with key type <class 'object'>: object() takes no arguments\nError with key type <class 'list'>: 'int' object is not iterable\nError with key type <class 'dict'>: 'int' object is not iterable\nError with key type <class 'set'>: 'int' object is not iterable\nError with key type <class 'frozenset'>: 'int' object is not iterable\nError with key type <class 'tuple'>: 'int' object is not iterable\n"
-Stderr: b''
+Stdout: Unhandled exception in worker: float division by zero, thread: 3, i: 0
+Unhandled exception in worker: float division by zero, thread: 4, i: 0
+Unhandled exception in worker: float division by zero, thread: 4, i: 1
+Unhandled exception in worker: float division by zero, thread: 1, i: 1
+Unhandled exception in worker: float division by zero, thread: 0, i: 1
+Unhandled exception in worker: float division by zero, thread: 2, i: 2
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 2
+Unhandled exception in worker: float division by zero, thread: 2, i: 3
+Unhandled exception in worker: float division by zero, thread: 0, i: 3
+Unhandled exception in worker: float division by zero, thread: 4, i: 3
+Unhandled exception in worker: float division by zero, thread: 0, i: 4
+Unhandled exception in worker: float division by zero, thread: 1, i: 5
+Unhandled exception in worker: float division by zero, thread: 3, i: 5
+Unhandled exception in worker: float division by zero, thread: 4, i: 5
+Unhandled exception in worker: float division by zero, thread: 1, i: 6
+Unhandled exception in worker: float division by zero, thread: 3, i: 6
+Unhandled exception in worker: float division by zero, thread: 4, i: 7
+Unhandled exception in worker: float division by zero, thread: 1, i: 7
+Unhandled exception in worker: float division by zero, thread: 4, i: 8
+Unhandled exception in worker: float division by zero, thread: 1, i: 8
+Unhandled exception in worker: float division by zero, thread: 3, i: 9
+Unhandled exception in worker: float division by zero, thread: 4, i: 9
+Unhandled exception in worker: float division by zero, thread: 2, i: 10
+Unhandled exception in worker: float division by zero, thread: 1, i: 9
+Unhandled exception in worker: float division by zero, thread: 0, i: 10
+Unhandled exception in worker: float division by zero, thread: 2, i: 11
+Unhandled exception in worker: float division by zero, thread: 4, i: 10
+Unhandled exception in worker: float division by zero, thread: 0, i: 11
+Unhandled exception in worker: float division by zero, thread: 2, i: 12
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 12
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 13
+Unhandled exception in worker: float division by zero, thread: 0, i: 13
+Unhandled exception in worker: float division by zero, thread: 3, i: 14
+Unhandled exception in worker: float division by zero, thread: 0, i: 14
+Unhandled exception in worker: float division by zero, thread: 1, i: 14
+Unhandled exception in worker: float division by zero, thread: 1, i: 15
+Unhandled exception in worker: float division by zero, thread: 0, i: 15
+Unhandled exception in worker: float division by zero, thread: 3, i: 16
+Unhandled exception in worker: float division by zero, thread: 2, i: 16
+Unhandled exception in worker: float division by zero, thread: 1, i: 16
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 16
+Unhandled exception in worker: float division by zero, thread: 4, i: 17
+Unhandled exception in worker: float division by zero, thread: 0, i: 18
+Unhandled exception in worker: float division by zero, thread: 3, i: 19
+Unhandled exception in worker: float division by zero, thread: 4, i: 18
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 21
+Unhandled exception in worker: float division by zero, thread: 4, i: 21
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 21
+Unhandled exception in worker: float division by zero, thread: 1, i: 21
+Unhandled exception in worker: float division by zero, thread: 4, i: 22
+Unhandled exception in worker: float division by zero, thread: 2, i: 22
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 22
+Unhandled exception in worker: float division by zero, thread: 0, i: 23
+Unhandled exception in worker: float division by zero, thread: 3, i: 23
+Unhandled exception in worker: float division by zero, thread: 1, i: 23
+Unhandled exception in worker: float division by zero, thread: 4, i: 23
+Unhandled exception in worker: float division by zero, thread: 0, i: 24
+Unhandled exception in worker: float division by zero, thread: 1, i: 24
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 24
+Unhandled exception in worker: float division by zero, thread: 2, i: 24
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 25
+Unhandled exception in worker: float division by zero, thread: 3, i: 25
+Unhandled exception in worker: float division by zero, thread: 4, i: 25
+Unhandled exception in worker: float division by zero, thread: 0, i: 26
+Unhandled exception in worker: float division by zero, thread: 0, i: 27
+Unhandled exception in worker: float division by zero, thread: 2, i: 26
+Unhandled exception in worker: float division by zero, thread: 4, i: 27
+Unhandled exception in worker: float division by zero, thread: 1, i: 28
+Unhandled exception in worker: float division by zero, thread: 0, i: 28
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 29
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 29
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 30
+Unhandled exception in worker: float division by zero, thread: 3, i: 30
+Unhandled exception in worker: float division by zero, thread: 0, i: 31
+Unhandled exception in worker: float division by zero, thread: 2, i: 30
+Unhandled exception in worker: float division by zero, thread: 3, i: 32
+Unhandled exception in worker: float division by zero, thread: 1, i: 32
+Unhandled exception in worker: float division by zero, thread: 3, i: 34
+Unhandled exception in worker: float division by zero, thread: 0, i: 34
+Unhandled exception in worker: float division by zero, thread: 1, i: 34
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 37
+Unhandled exception in worker: float division by zero, thread: 1, i: 37
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 38
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 38
+Unhandled exception in worker: float division by zero, thread: 3, i: 39
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 39
+Unhandled exception in worker: float division by zero, thread: 1, i: 39
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 40
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 41
+Unhandled exception in worker: float division by zero, thread: 1, i: 41
+Unhandled exception in worker: float division by zero, thread: 3, i: 42
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 43
+Unhandled exception in worker: float division by zero, thread: 0, i: 42
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 43
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 44
+Unhandled exception in worker: float division by zero, thread: 3, i: 46
+Unhandled exception in worker: float division by zero, thread: 4, i: 44
+Unhandled exception in worker: float division by zero, thread: 0, i: 45
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 44
+Unhandled exception in worker: float division by zero, thread: 3, i: 48
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 47
+Unhandled exception in worker: float division by zero, thread: 3, i: 50
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 49
+Unhandled exception in worker: float division by zero, thread: 0, i: 49
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 49
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 52
+Unhandled exception in worker: float division by zero, thread: 3, i: 53
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 52
+Unhandled exception in worker: float division by zero, thread: 3, i: 54
+Unhandled exception in worker: float division by zero, thread: 1, i: 53
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 56
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 55
+Unhandled exception in worker: float division by zero, thread: 0, i: 55
+Unhandled exception in worker: float division by zero, thread: 3, i: 57
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 58
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 59
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 60
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 61
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 62
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 63
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 64
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 65
+Unhandled exception in worker: float division by zero, thread: 0, i: 65
+Unhandled exception in worker: float division by zero, thread: 4, i: 65
+Unhandled exception in worker: float division by zero, thread: 3, i: 68
+Unhandled exception in worker: float division by zero, thread: 0, i: 66
+Unhandled exception in worker: float division by zero, thread: 1, i: 66
+Unhandled exception in worker: float division by zero, thread: 4, i: 67
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: 67
+Unhandled exception in worker: float division by zero, thread: 1, i: 67
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 70
+Unhandled exception in worker: float division by zero, thread: 0, i: 69
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 71
+Unhandled exception in worker: float division by zero, thread: 1, i: 71
+Unhandled exception in worker: float division by zero, thread: 3, i: 74
+Unhandled exception in worker: float division by zero, thread: 0, i: 71
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 73
+Unhandled exception in worker: float division by zero, thread: 4, i: 73
+Unhandled exception in worker: float division by zero, thread: 2, i: 73
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 76
+Unhandled exception in worker: float division by zero, thread: 3, i: 77
+Unhandled exception in worker: float division by zero, thread: 4, i: 75
+Unhandled exception in worker: float division by zero, thread: 3, i: 78
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 83
+Unhandled exception in worker: float division by zero, thread: 4, i: 81
+Unhandled exception in worker: float division by zero, thread: 2, i: 80
+Unhandled exception in worker: float division by zero, thread: 1, i: 81
+Unhandled exception in worker: float division by zero, thread: 3, i: 84
+Unhandled exception in worker: float division by zero, thread: 4, i: 82
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 85
+Unhandled exception in worker: float division by zero, thread: 1, i: 85
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 87
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 88
+Unhandled exception in worker: float division by zero, thread: 2, i: 88
+Unhandled exception in worker: float division by zero, thread: 1, i: 88
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 89
+Unhandled exception in worker: float division by zero, thread: 2, i: 89
+Unhandled exception in worker: float division by zero, thread: 1, i: 89
+Unhandled exception in worker: float division by zero, thread: 4, i: 90
+Unhandled exception in worker: float division by zero, thread: 1, i: 90
+Unhandled exception in worker: float division by zero, thread: 3, i: 92
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 91
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 93
+Unhandled exception in worker: float division by zero, thread: 4, i: 93
+Unhandled exception in worker: float division by zero, thread: 1, i: 93
+Unhandled exception in worker: float division by zero, thread: 2, i: 94
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 94
+Unhandled exception in worker: float division by zero, thread: 1, i: 94
+Unhandled exception in worker: float division by zero, thread: 2, i: 95
+Unhandled exception in worker: float division by zero, thread: 4, i: 95
+Unhandled exception in worker: float division by zero, thread: 3, i: 96
+Unhandled exception in worker: float division by zero, thread: 4, i: 96
+Unhandled exception in worker: float division by zero, thread: 2, i: 96
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 97
+Unhandled exception in worker: float division by zero, thread: 3, i: 98
+Unhandled exception in worker: float division by zero, thread: 1, i: 98
+Unhandled exception in worker: float division by zero, thread: 4, i: 98
+Unhandled exception in worker: float division by zero, thread: 3, i: 99
+Unhandled exception in worker: float division by zero, thread: 1, i: 99
+Unhandled exception in worker: float division by zero, thread: 3, i: 100
+Unhandled exception in worker: float division by zero, thread: 1, i: 100
+Unhandled exception in worker: float division by zero, thread: 2, i: 100
+Unhandled exception in worker: float division by zero, thread: 3, i: 101
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 101
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 102
+Unhandled exception in worker: float division by zero, thread: 3, i: 103
+Unhandled exception in worker: float division by zero, thread: 2, i: 102
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 103
+Unhandled exception in worker: float division by zero, thread: 4, i: 102
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 104
+Unhandled exception in worker: float division by zero, thread: 3, i: 105
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 104
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 106
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 107
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 106
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 108
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 107
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 107
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 110
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 109
+Unhandled exception in worker: float division by zero, thread: 2, i: 109
+Unhandled exception in worker: float division by zero, thread: 1, i: 110
+Unhandled exception in worker: float division by zero, thread: 4, i: 109
+Unhandled exception in worker: float division by zero, thread: 1, i: 111
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 113
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 114
+Unhandled exception in worker: float division by zero, thread: 4, i: 112
+Unhandled exception in worker: float division by zero, thread: 3, i: 115
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 116
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 117
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 120
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 121
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 122
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 124
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 125
+Unhandled exception in worker: float division by zero, thread: 2, i: 123
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 126
+Unhandled exception in worker: float division by zero, thread: 1, i: 127
+Unhandled exception in worker: float division by zero, thread: 3, i: 129
+Unhandled exception in worker: float division by zero, thread: 4, i: 127
+Unhandled exception in worker: float division by zero, thread: 1, i: 128
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 131
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 132
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 131
+Unhandled exception in worker: float division by zero, thread: 2, i: 131
+Unhandled exception in worker: float division by zero, thread: 3, i: 133
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 132
+Unhandled exception in worker: float division by zero, thread: 4, i: 132
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 135
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 134
+Unhandled exception in worker: float division by zero, thread: 3, i: 136
+Unhandled exception in worker: float division by zero, thread: 4, i: 134
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 138
+Unhandled exception in worker: float division by zero, thread: 3, i: 139
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 139
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 140
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 141
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 143
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 145
+Unhandled exception in worker: float division by zero, thread: 3, i: 145
+Unhandled exception in worker: float division by zero, thread: 2, i: 146
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 145
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 147
+Unhandled exception in worker: float division by zero, thread: 2, i: 148
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 149
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 149
+Unhandled exception in worker: float division by zero, thread: 2, i: 151
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 153
+Unhandled exception in worker: float division by zero, thread: 0, i: 149
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 154
+Unhandled exception in worker: float division by zero, thread: 1, i: 152
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: 150
+Unhandled exception in worker: float division by zero, thread: 2, i: 155
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 155
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 154
+Unhandled exception in worker: float division by zero, thread: 4, i: 153
+Unhandled exception in worker: float division by zero, thread: 3, i: 156
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 157
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 158
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 160
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 160
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 161
+Unhandled exception in worker: float division by zero, thread: 2, i: 164
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 163
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 166
+Unhandled exception in worker: float division by zero, thread: 4, i: 162
+Unhandled exception in worker: float division by zero, thread: 2, i: 167
+Unhandled exception in worker: float division by zero, thread: 0, i: 162
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 168
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 169
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 171
+Unhandled exception in worker: float division by zero, thread: 1, i: 169
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 169
+Unhandled exception in worker: float division by zero, thread: 1, i: 170
+Unhandled exception in worker: float division by zero, thread: 2, i: 173
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 171
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 170
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 175
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 176
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 172
+Unhandled exception in worker: float division by zero, thread: 2, i: 177
+Unhandled exception in worker: float division by zero, thread: 3, i: 174
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 178
+Unhandled exception in worker: float division by zero, thread: 4, i: 174
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 181
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 178
+Unhandled exception in worker: float division by zero, thread: 2, i: 182
+Unhandled exception in worker: float division by zero, thread: 3, i: 179
+Unhandled exception in worker: float division by zero, thread: 4, i: 178
+Unhandled exception in worker: float division by zero, thread: 2, i: 183
+Unhandled exception in worker: float division by zero, thread: 3, i: 180
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 184
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 187
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 188
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 189
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 190
+Unhandled exception in worker: float division by zero, thread: 1, i: 186
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 187
+Unhandled exception in worker: float division by zero, thread: 2, i: 191
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 194
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 195
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 196
+Unhandled exception in worker: float division by zero, thread: 3, i: 192
+Unhandled exception in worker: float division by zero, thread: 1, i: 193
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 197
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 193
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 198
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 201
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 202
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 200
+Unhandled exception in worker: float division by zero, thread: 2, i: 205
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 200
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 203
+Unhandled exception in worker: float division by zero, thread: 2, i: 206
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 204
+Unhandled exception in worker: float division by zero, thread: 2, i: 207
+Unhandled exception in worker: float division by zero, thread: 3, i: 203
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 208
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 210
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 211
+Unhandled exception in worker: float division by zero, thread: 3, i: 209
+Unhandled exception in worker: float division by zero, thread: 2, i: 215
+Unhandled exception in worker: float division by zero, thread: 4, i: 209
+Unhandled exception in worker: float division by zero, thread: 1, i: 212
+Unhandled exception in worker: float division by zero, thread: 2, i: 216
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 217
+Unhandled exception in worker: float division by zero, thread: 1, i: 214
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 218
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 219
+Unhandled exception in worker: float division by zero, thread: 4, i: 213
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 213
+Unhandled exception in worker: float division by zero, thread: 2, i: 220
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 223
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 224
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 221
+Unhandled exception in worker: float division by zero, thread: 2, i: 226
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 222
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 222
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 229
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 230
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 227
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 227
+Unhandled exception in worker: float division by zero, thread: 2, i: 233
+Unhandled exception in worker: float division by zero, thread: 3, i: 228
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 235
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 231
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 237
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 238
+Unhandled exception in worker: float division by zero, thread: 0, i: 231
+Unhandled exception in worker: float division by zero, thread: 3, i: 234
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 239
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 240
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 242
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 238
+Unhandled exception in worker: float division by zero, thread: 3, i: 238
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 246
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 243
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 248
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 245
+Unhandled exception in worker: float division by zero, thread: 2, i: 250
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 247
+Unhandled exception in worker: float division by zero, thread: 2, i: 251
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 254
+Unhandled exception in worker: float division by zero, thread: 4, i: 249
+Unhandled exception in worker: float division by zero, thread: 3, i: 249
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 258
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 253
+Unhandled exception in worker: float division by zero, thread: 3, i: 253
+Unhandled exception in worker: float division by zero, thread: 2, i: 259
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 256
+Unhandled exception in worker: float division by zero, thread: 2, i: 260
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 257
+Unhandled exception in worker: float division by zero, thread: 2, i: 261
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 262
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 258
+Unhandled exception in worker: float division by zero, thread: 2, i: 264
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 265
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 266
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 267
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 263
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 263
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 270
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 268
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 274
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 271
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 272
+Unhandled exception in worker: float division by zero, thread: 2, i: 275
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 276
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 277
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 271
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: 271
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 278
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 279
+Unhandled exception in worker: float division by zero, thread: 2, i: 282
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 284
+Unhandled exception in worker: float division by zero, thread: 2, i: 287
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 281
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 285
+Unhandled exception in worker: float division by zero, thread: 2, i: 289
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 286
+Unhandled exception in worker: float division by zero, thread: 2, i: 290
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 288
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 294
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 295
+Unhandled exception in worker: float division by zero, thread: 3, i: 292
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 296
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 299
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 297
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 301
+Unhandled exception in worker: float division by zero, thread: 0, i: 293
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 303
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 304
+Unhandled exception in worker: float division by zero, thread: 1, i: 302
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 302
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 304
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 305
+Unhandled exception in worker: float division by zero, thread: 0, i: 300
+Unhandled exception in worker: float division by zero, thread: 2, i: 308
+Unhandled exception in worker: float division by zero, thread: 3, i: 306
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 307
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 307
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 310
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 311
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 316
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 317
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 314
+Unhandled exception in worker: float division by zero, thread: 3, i: 315
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 315
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 318
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 319
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 320
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 324
+Unhandled exception in worker: float division by zero, thread: 3, i: 321
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 322
+Unhandled exception in worker: float division by zero, thread: 2, i: 326
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 323
+Unhandled exception in worker: float division by zero, thread: 1, i: 323
+Unhandled exception in worker: float division by zero, thread: 2, i: 327
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 325
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 325
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 330
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 331
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 328
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 333
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 334
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 328
+Unhandled exception in worker: float division by zero, thread: 3, i: 332
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 335
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 336
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 338
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 339
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 340
+Unhandled exception in worker: float division by zero, thread: 3, i: 337
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 342
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 341
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 343
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 347
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 346
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 349
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 345
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 350
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 353
+Unhandled exception in worker: float division by zero, thread: 3, i: 351
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 348
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 355
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 356
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 359
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 357
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 360
+Unhandled exception in worker: float division by zero, thread: 3, i: 358
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 361
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 362
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 364
+Unhandled exception in worker: float division by zero, thread: 2, i: 365
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 363
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 368
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 366
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 369
+Unhandled exception in worker: float division by zero, thread: 3, i: 367
+Unhandled exception in worker: float division by zero, thread: 1, i: 366
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 370
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 372
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 371
+Unhandled exception in worker: float division by zero, thread: 2, i: 374
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 375
+Unhandled exception in worker: float division by zero, thread: 3, i: 373
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 373
+Unhandled exception in worker: float division by zero, thread: 2, i: 376
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 377
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 379
+Unhandled exception in worker: float division by zero, thread: 3, i: 378
+Unhandled exception in worker: float division by zero, thread: 1, i: 378
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 380
+Unhandled exception in worker: float division by zero, thread: 3, i: 379
+Unhandled exception in worker: float division by zero, thread: 1, i: 379
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 381
+Unhandled exception in worker: float division by zero, thread: 2, i: 382
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 384
+Unhandled exception in worker: float division by zero, thread: 3, i: 384
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 385
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 386
+Unhandled exception in worker: float division by zero, thread: 3, i: 386
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 387
+Unhandled exception in worker: float division by zero, thread: 1, i: 386
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 388
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 390
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 391
+Unhandled exception in worker: float division by zero, thread: 2, i: 391
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 392
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 393
+Unhandled exception in worker: float division by zero, thread: 3, i: 394
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 396
+Unhandled exception in worker: float division by zero, thread: 3, i: 397
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 398
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 399
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 400
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 401
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 403
+Unhandled exception in worker: float division by zero, thread: 0, i: 395
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 404
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 403
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 402
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 405
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 406
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 408
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 409
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 410
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 411
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 413
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 414
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 415
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 415
+Unhandled exception in worker: float division by zero, thread: 3, i: 416
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 416
+Unhandled exception in worker: float division by zero, thread: 3, i: 417
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 418
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 419
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 421
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 422
+Unhandled exception in worker: float division by zero, thread: 1, i: 420
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 423
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 424
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 425
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 426
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 427
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 429
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 428
+Unhandled exception in worker: float division by zero, thread: 2, i: 429
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 430
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 431
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 432
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 432
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 433
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 434
+Unhandled exception in worker: float division by zero, thread: 3, i: 435
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 435
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 436
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 437
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 438
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 439
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 441
+Unhandled exception in worker: float division by zero, thread: 2, i: 441
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 442
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 443
+Unhandled exception in worker: float division by zero, thread: 3, i: 443
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 444
+Unhandled exception in worker: float division by zero, thread: 3, i: 444
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 445
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 446
+Unhandled exception in worker: float division by zero, thread: 2, i: 447
+Unhandled exception in worker: float division by zero, thread: 3, i: 447
+Unhandled exception in worker: float division by zero, thread: 2, i: 448
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 448
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 450
+Unhandled exception in worker: float division by zero, thread: 3, i: 450
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 452
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 453
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 454
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 455
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 455
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 456
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 457
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 460
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 459
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 461
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 461
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 462
+Unhandled exception in worker: float division by zero, thread: 1, i: 462
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 465
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 466
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 467
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 467
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 468
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 469
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 471
+Unhandled exception in worker: float division by zero, thread: 3, i: 470
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 470
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 472
+Unhandled exception in worker: float division by zero, thread: 3, i: 472
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 473
+Unhandled exception in worker: float division by zero, thread: 3, i: 474
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 475
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 477
+Unhandled exception in worker: float division by zero, thread: 3, i: 477
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 478
+Unhandled exception in worker: float division by zero, thread: 3, i: 478
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 478
+Unhandled exception in worker: float division by zero, thread: 3, i: 479
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 480
+Unhandled exception in worker: float division by zero, thread: 1, i: 479
+Unhandled exception in worker: float division by zero, thread: 0, i: 476
+Unhandled exception in worker: float division by zero, thread: 3, i: 481
+Unhandled exception in worker: float division by zero, thread: 2, i: 481
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 483
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 484
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 485
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 485
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 487
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 486
+Unhandled exception in worker: float division by zero, thread: 4, i: 482
+Unhandled exception in worker: float division by zero, thread: 3, i: 488
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 489
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 491
+Unhandled exception in worker: float division by zero, thread: 2, i: 490
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 490
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 493
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 492
+Unhandled exception in worker: float division by zero, thread: 2, i: 494
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 495
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 497
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 498
+Unhandled exception in worker: float division by zero, thread: 3, i: 500
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 499
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 502
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 503
+Unhandled exception in worker: float division by zero, thread: 2, i: 502
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 505
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 506
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 508
+Unhandled exception in worker: float division by zero, thread: 2, i: 507
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 508
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 509
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 511
+Unhandled exception in worker: float division by zero, thread: 2, i: 510
+Unhandled exception in worker: float division by zero, thread: 3, i: 512
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 513
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 515
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 516
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 517
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 518
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 519
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 521
+Unhandled exception in worker: float division by zero, thread: 2, i: 520
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 523
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 526
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 527
+Unhandled exception in worker: float division by zero, thread: 3, i: 529
+Unhandled exception in worker: float division by zero, thread: 1, i: 525
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 524
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 530
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 532
+Unhandled exception in worker: float division by zero, thread: 1, i: 528
+Unhandled exception in worker: float division by zero, thread: 3, i: 533
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 535
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 534
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 536
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 537
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 534
+Unhandled exception in worker: float division by zero, thread: 2, i: 538
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 539
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 543
+Unhandled exception in worker: float division by zero, thread: 3, i: 543
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 544
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 544
+Unhandled exception in worker: float division by zero, thread: 2, i: 545
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 546
+Unhandled exception in worker: float division by zero, thread: 3, i: 545
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 548
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 547
+Unhandled exception in worker: float division by zero, thread: 2, i: 549
+Unhandled exception in worker: float division by zero, thread: 4, i: 542
+Unhandled exception in worker: float division by zero, thread: 0, i: 542
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 550
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 552
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 554
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 553
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 556
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 557
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 558
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 552
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 560
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 561
+Unhandled exception in worker: float division by zero, thread: 3, i: 559
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 562
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 563
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 561
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 565
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 564
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 566
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 569
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 567
+Unhandled exception in worker: float division by zero, thread: 1, i: 568
+Unhandled exception in worker: float division by zero, thread: 2, i: 572
+Unhandled exception in worker: float division by zero, thread: 3, i: 571
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 574
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 576
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 570
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 576
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 579
+Unhandled exception in worker: float division by zero, thread: 3, i: 577
+Unhandled exception in worker: float division by zero, thread: 1, i: 575
+Unhandled exception in worker: float division by zero, thread: 4, i: 573
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 584
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 581
+Unhandled exception in worker: float division by zero, thread: 3, i: 584
+Unhandled exception in worker: float division by zero, thread: 2, i: 585
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 585
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 586
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 587
+Unhandled exception in worker: float division by zero, thread: 2, i: 588
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 589
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 593
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 594
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 592
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 595
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 590
+Unhandled exception in worker: float division by zero, thread: 2, i: 596
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 597
+Unhandled exception in worker: float division by zero, thread: 2, i: 598
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 599
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 600
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 601
+Unhandled exception in worker: float division by zero, thread: 3, i: 601
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 601
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 603
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 604
+Unhandled exception in worker: float division by zero, thread: 1, i: 603
+Unhandled exception in worker: float division by zero, thread: 3, i: 604
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 605
+Unhandled exception in worker: float division by zero, thread: 3, i: 605
+Unhandled exception in worker: float division by zero, thread: 1, i: 605
+Unhandled exception in worker: float division by zero, thread: 2, i: 606
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 606
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 607
+Unhandled exception in worker: float division by zero, thread: 3, i: 607
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 608
+Unhandled exception in worker: float division by zero, thread: 2, i: 609
+Unhandled exception in worker: float division by zero, thread: 3, i: 608
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 610
+Unhandled exception in worker: float division by zero, thread: 1, i: 609
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 610
+Unhandled exception in worker: float division by zero, thread: 3, i: 610
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 611
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 612
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 612
+Unhandled exception in worker: float division by zero, thread: 2, i: 614
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 615
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 616
+Unhandled exception in worker: float division by zero, thread: 2, i: 617
+Unhandled exception in worker: float division by zero, thread: 1, i: 618
+Unhandled exception in worker: float division by zero, thread: 2, i: 618
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 619
+Unhandled exception in worker: float division by zero, thread: 1, i: 620
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 621
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 622
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 622
+Unhandled exception in worker: float division by zero, thread: 2, i: 623
+Unhandled exception in worker: float division by zero, thread: 3, i: 623
+Unhandled exception in worker: float division by zero, thread: 1, i: 624
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 624
+Unhandled exception in worker: float division by zero, thread: 3, i: 624
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 625
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 625
+Unhandled exception in worker: float division by zero, thread: 1, i: 627
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 628
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 628
+Unhandled exception in worker: float division by zero, thread: 1, i: 629
+Unhandled exception in worker: float division by zero, thread: 4, i: 626
+Unhandled exception in worker: float division by zero, thread: 1, i: 630
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 630
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 631
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 633
+Unhandled exception in worker: float division by zero, thread: 2, i: 633
+Unhandled exception in worker: float division by zero, thread: 1, i: 634
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 635
+Unhandled exception in worker: float division by zero, thread: 4, i: 632
+Unhandled exception in worker: float division by zero, thread: 1, i: 636
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 637
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 637
+Unhandled exception in worker: float division by zero, thread: 2, i: 637
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 638
+Unhandled exception in worker: float division by zero, thread: 0, i: 631
+Unhandled exception in worker: float division by zero, thread: 2, i: 638
+Unhandled exception in worker: float division by zero, thread: 1, i: 639
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 639
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 640
+Unhandled exception in worker: float division by zero, thread: 3, i: 640
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 640
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 641
+Unhandled exception in worker: float division by zero, thread: 3, i: 641
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 641
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 642
+Unhandled exception in worker: float division by zero, thread: 2, i: 642
+Unhandled exception in worker: float division by zero, thread: 3, i: 643
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 643
+Unhandled exception in worker: float division by zero, thread: 2, i: 643
+Unhandled exception in worker: float division by zero, thread: 3, i: 644
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 645
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 646
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 647
+Unhandled exception in worker: float division by zero, thread: 1, i: 647
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 647
+Unhandled exception in worker: float division by zero, thread: 3, i: 648
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 648
+Unhandled exception in worker: float division by zero, thread: 4, i: 646
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 650
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 650
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 651
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 652
+Unhandled exception in worker: float division by zero, thread: 4, i: 649
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 653
+Unhandled exception in worker: float division by zero, thread: 2, i: 652
+Unhandled exception in worker: float division by zero, thread: 3, i: 653
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 654
+Unhandled exception in worker: float division by zero, thread: 3, i: 654
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 656
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 656
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 657
+Unhandled exception in worker: float division by zero, thread: 1, i: 657
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 658
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 658
+Unhandled exception in worker: float division by zero, thread: 4, i: 655
+Unhandled exception in worker: float division by zero, thread: 1, i: 659
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 660
+Unhandled exception in worker: float division by zero, thread: 3, i: 660
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 660
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 661
+Unhandled exception in worker: float division by zero, thread: 4, i: 658
+Unhandled exception in worker: float division by zero, thread: 2, i: 662
+Unhandled exception in worker: float division by zero, thread: 3, i: 662
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 663
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 665
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 665
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 666
+Unhandled exception in worker: float division by zero, thread: 4, i: 664
+Unhandled exception in worker: float division by zero, thread: 3, i: 667
+Unhandled exception in worker: float division by zero, thread: 2, i: 668
+Unhandled exception in worker: float division by zero, thread: 1, i: 667
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 668
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 669
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 661
+Unhandled exception in worker: float division by zero, thread: 2, i: 670
+Unhandled exception in worker: float division by zero, thread: 3, i: 670
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 669
+Unhandled exception in worker: float division by zero, thread: 3, i: 671
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 672
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 673
+Unhandled exception in worker: float division by zero, thread: 1, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 669
+Unhandled exception in worker: float division by zero, thread: 2, i: 674
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 675
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 677
+Unhandled exception in worker: float division by zero, thread: 3, i: 678
+Unhandled exception in worker: float division by zero, thread: 1, i: 678
+Unhandled exception in worker: float division by zero, thread: 2, i: 679
+Unhandled exception in worker: float division by zero, thread: 3, i: 679
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 680
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 680
+Unhandled exception in worker: float division by zero, thread: 4, i: 677
+Unhandled exception in worker: float division by zero, thread: 3, i: 680
+Unhandled exception in worker: float division by zero, thread: 2, i: 681
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 681
+Unhandled exception in worker: float division by zero, thread: 0, i: 675
+Unhandled exception in worker: float division by zero, thread: 1, i: 682
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 682
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 683
+Unhandled exception in worker: float division by zero, thread: 2, i: 683
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 683
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 684
+Unhandled exception in worker: float division by zero, thread: 2, i: 685
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 686
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 687
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 686
+Unhandled exception in worker: float division by zero, thread: 2, i: 687
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 688
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 689
+Unhandled exception in worker: float division by zero, thread: 3, i: 688
+Unhandled exception in worker: float division by zero, thread: 1, i: 690
+Unhandled exception in worker: float division by zero, thread: 2, i: 690
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 691
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 691
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 693
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 696
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 697
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 697
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 698
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: 699
+Unhandled exception in worker: float division by zero, thread: 1, i: 700
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 701
+Unhandled exception in worker: float division by zero, thread: 3, i: 699
+Unhandled exception in worker: float division by zero, thread: 2, i: 700
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 702
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 704
+Unhandled exception in worker: float division by zero, thread: 2, i: 703
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 706
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 705
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 707
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 708
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 708
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 710
+Unhandled exception in worker: float division by zero, thread: 2, i: 709
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 711
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 712
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 715
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 713
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 714
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 714
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 716
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 716
+Unhandled exception in worker: float division by zero, thread: 2, i: 717
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 718
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 720
+Unhandled exception in worker: float division by zero, thread: 2, i: 719
+Unhandled exception in worker: float division by zero, thread: 4, i: 718
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 722
+Unhandled exception in worker: float division by zero, thread: 3, i: 721
+Unhandled exception in worker: float division by zero, thread: 2, i: 721
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 723
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 723
+Unhandled exception in worker: float division by zero, thread: 3, i: 724
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 724
+Unhandled exception in worker: float division by zero, thread: 4, i: 724
+Unhandled exception in worker: float division by zero, thread: 4, i: 725
+Unhandled exception in worker: float division by zero, thread: 1, i: 728
+Unhandled exception in worker: float division by zero, thread: 3, i: 726
+Unhandled exception in worker: float division by zero, thread: 4, i: 726
+Unhandled exception in worker: float division by zero, thread: 2, i: 726
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 727
+Unhandled exception in worker: float division by zero, thread: 2, i: 727
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 731
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 732
+Unhandled exception in worker: float division by zero, thread: 4, i: 730
+Unhandled exception in worker: float division by zero, thread: 3, i: 730
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 734
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 733
+Unhandled exception in worker: float division by zero, thread: 1, i: 736
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 737
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 739
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 738
+Unhandled exception in worker: float division by zero, thread: 1, i: 740
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 741
+Unhandled exception in worker: float division by zero, thread: 1, i: 742
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 742
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 744
+Unhandled exception in worker: float division by zero, thread: 1, i: 745
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 744
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 746
+Unhandled exception in worker: float division by zero, thread: 1, i: 748
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 749
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 751
+Unhandled exception in worker: float division by zero, thread: 4, i: 749
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 752
+Unhandled exception in worker: float division by zero, thread: 3, i: 749
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 754
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 755
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 757
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 756
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 756
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 758
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 758
+Unhandled exception in worker: float division by zero, thread: 4, i: 759
+Unhandled exception in worker: float division by zero, thread: 3, i: 759
+Unhandled exception in worker: float division by zero, thread: 1, i: 762
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 763
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 764
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 765
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 766
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 767
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 765
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 769
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 767
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 771
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 770
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 767
+Unhandled exception in worker: float division by zero, thread: 1, i: 775
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 776
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: 772
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 781
+Unhandled exception in worker: float division by zero, thread: 3, i: 778
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 779
+Unhandled exception in worker: float division by zero, thread: 3, i: 780
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 784
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 786
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 787
+Unhandled exception in worker: float division by zero, thread: 4, i: 785
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 786
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 791
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 789
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 790
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 793
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 796
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 794
+Unhandled exception in worker: float division by zero, thread: 1, i: 798
+Unhandled exception in worker: float division by zero, thread: 4, i: 795
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 799
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 800
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 799
+Unhandled exception in worker: float division by zero, thread: 4, i: 799
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 804
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 802
+Unhandled exception in worker: float division by zero, thread: 1, i: 806
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 803
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 808
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 809
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 811
+Unhandled exception in worker: float division by zero, thread: 2, i: 807
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 815
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 816
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 813
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 813
+Unhandled exception in worker: float division by zero, thread: 1, i: 817
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 820
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 818
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 818
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 822
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 819
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 821
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 824
+Unhandled exception in worker: float division by zero, thread: 1, i: 825
+Unhandled exception in worker: float division by zero, thread: 3, i: 823
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 826
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 828
+Unhandled exception in worker: float division by zero, thread: 3, i: 826
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 829
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 827
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 830
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 831
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 833
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 832
+Unhandled exception in worker: float division by zero, thread: 1, i: 834
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 832
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 836
+Unhandled exception in worker: float division by zero, thread: 3, i: 835
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 835
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 837
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 837
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 838
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 840
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 841
+Unhandled exception in worker: float division by zero, thread: 4, i: 841
+Unhandled exception in worker: float division by zero, thread: 1, i: 843
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 844
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 847
+Unhandled exception in worker: float division by zero, thread: 0, i: 839
+Unhandled exception in worker: float division by zero, thread: 2, i: 842
+Unhandled exception in worker: float division by zero, thread: 3, i: 845
+Unhandled exception in worker: float division by zero, thread: 1, i: 848
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 846
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 850
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 851
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 852
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 849
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 851
+Unhandled exception in worker: float division by zero, thread: 4, i: 851
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 856
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 859
+Unhandled exception in worker: float division by zero, thread: 1, i: 860
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 865
+Unhandled exception in worker: float division by zero, thread: 0, i: 855
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 862
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 867
+Unhandled exception in worker: float division by zero, thread: 3, i: 863
+Unhandled exception in worker: float division by zero, thread: 0, i: 857
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 868
+Unhandled exception in worker: float division by zero, thread: 4, i: 863
+Unhandled exception in worker: float division by zero, thread: 2, i: 861
+Unhandled exception in worker: float division by zero, thread: 3, i: 864
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 869
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 866
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 872
+Unhandled exception in worker: float division by zero, thread: 4, i: 867
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 874
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 870
+Unhandled exception in worker: float division by zero, thread: 4, i: 870
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 871
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 877
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 873
+Unhandled exception in worker: float division by zero, thread: 1, i: 878
+Unhandled exception in worker: float division by zero, thread: 3, i: 873
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 879
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 880
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 875
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 876
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 884
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 887
+Unhandled exception in worker: float division by zero, thread: 0, i: 876
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 882
+Unhandled exception in worker: float division by zero, thread: 1, i: 888
+Unhandled exception in worker: float division by zero, thread: 3, i: 883
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 889
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 891
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 886
+Unhandled exception in worker: float division by zero, thread: 4, i: 886
+Unhandled exception in worker: float division by zero, thread: 1, i: 892
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 897
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 899
+Unhandled exception in worker: float division by zero, thread: 3, i: 894
+Unhandled exception in worker: float division by zero, thread: 1, i: 900
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 894
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 896
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: 896
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 898
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 904
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 901
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 906
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 907
+Unhandled exception in worker: float division by zero, thread: 3, i: 902
+Unhandled exception in worker: float division by zero, thread: 4, i: 902
+Unhandled exception in worker: float division by zero, thread: 1, i: 908
+Unhandled exception in worker: float division by zero, thread: 3, i: 903
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 903
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 905
+Unhandled exception in worker: float division by zero, thread: 1, i: 910
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 906
+Unhandled exception in worker: float division by zero, thread: 4, i: 905
+Unhandled exception in worker: float division by zero, thread: 1, i: 911
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 912
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 909
+Unhandled exception in worker: float division by zero, thread: 1, i: 914
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 909
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 915
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 916
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 913
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 913
+Unhandled exception in worker: float division by zero, thread: 3, i: 916
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 921
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 922
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 918
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 920
+Unhandled exception in worker: float division by zero, thread: 4, i: 920
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 925
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 927
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 923
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 924
+Unhandled exception in worker: float division by zero, thread: 2, i: 923
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 924
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 930
+Unhandled exception in worker: float division by zero, thread: 4, i: 926
+Unhandled exception in worker: float division by zero, thread: 3, i: 926
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 932
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 928
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 933
+Unhandled exception in worker: float division by zero, thread: 4, i: 929
+Unhandled exception in worker: float division by zero, thread: 3, i: 929
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 929
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 931
+Unhandled exception in worker: float division by zero, thread: 1, i: 935
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 931
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 937
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 938
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 939
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 936
+Unhandled exception in worker: float division by zero, thread: 1, i: 940
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 942
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 944
+Unhandled exception in worker: float division by zero, thread: 4, i: 941
+Unhandled exception in worker: Error from thread 3, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 946
+Unhandled exception in worker: float division by zero, thread: 4, i: 943
+Unhandled exception in worker: float division by zero, thread: 2, i: 943
+Unhandled exception in worker: float division by zero, thread: 3, i: 943
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 949
+Unhandled exception in worker: float division by zero, thread: 4, i: 945
+Unhandled exception in worker: float division by zero, thread: 1, i: 950
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 945
+Unhandled exception in worker: float division by zero, thread: 1, i: 951
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 947
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 947
+Unhandled exception in worker: float division by zero, thread: 1, i: 952
+Unhandled exception in worker: float division by zero, thread: 3, i: 948
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 954
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 956
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 957
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 953
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 958
+Unhandled exception in worker: float division by zero, thread: 3, i: 953
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 959
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 955
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 960
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 955
+Unhandled exception in worker: float division by zero, thread: 1, i: 961
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 963
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 965
+Unhandled exception in worker: float division by zero, thread: 1, i: 966
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 967
+Unhandled exception in worker: float division by zero, thread: 3, i: 962
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 964
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 970
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 971
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 972
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 973
+Unhandled exception in worker: float division by zero, thread: 2, i: 968
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 969
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 969
+Unhandled exception in worker: float division by zero, thread: 1, i: 976
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 979
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 974
+Unhandled exception in worker: float division by zero, thread: 1, i: 981
+Unhandled exception in worker: float division by zero, thread: 4, i: 974
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 982
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 983
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 977
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 977
+Unhandled exception in worker: float division by zero, thread: 4, i: 977
+Unhandled exception in worker: float division by zero, thread: 2, i: 978
+Unhandled exception in worker: float division by zero, thread: 4, i: 978
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: 980
+Unhandled exception in worker: float division by zero, thread: 2, i: 980
+Unhandled exception in worker: float division by zero, thread: 1, i: 987
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 980
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 988
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 989
+Unhandled exception in worker: float division by zero, thread: 1, i: 990
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 984
+Unhandled exception in worker: float division by zero, thread: 1, i: 991
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 992
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: float division by zero, thread: 1, i: 993
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 994
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: 988
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 1, i: 998
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 994
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 995
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 997
+Unhandled exception in worker: float division by zero, thread: 4, i: 995
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: 996
+Unhandled exception in worker: float division by zero, thread: 2, i: 996
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 3, i: 999
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: Error from thread 0, thread: 0, i: False
+Unhandled exception in worker: float division by zero, thread: 4, i: False
+Unhandled exception in worker: float division by zero, thread: 2, i: False
+Unhandled exception in worker: float division by zero, thread: 0, i: False
+All threads finished.
+Error with key type <class 'str'>: float division by zero
+Error with key type <class 'bytes'>: cannot convert 'NoneType' object to bytes
+Error with key type <class 'int'>: invalid literal for int() with base 10: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x
+Error with key type <class 'float'>: could not convert string to float: b'\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00'
+Error with key type <class 'bool'>: float division by zero
+Error with key type <class 'NoneType'>: NoneType takes no arguments
+Error with key type <class 'object'>: object() takes no arguments
+Error with key type <class 'list'>: 'int' object is not iterable
+Error with key type <class 'dict'>: 'int' object is not iterable
+Error with key type <class 'set'>: 'int' object is not iterable
+Error with key type <class 'frozenset'>: 'int' object is not iterable
+Error with key type <class 'tuple'>: 'int' object is not iterable
+
+Stderr: 

@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b"JIT Result: 499500\nFree-Threading Result: 2497500\nDBM Result: b'value'\nReplace Result: <__main__.CustomObject object at 0x7c832abf9450>\nposix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563140.89)\nTime Elapsed: 6.374961230903864e-06\n"
-Stderr: b''
+Stdout: JIT Result: 499500
+Free-Threading Result: 2497500
+DBM Result: b'value'
+Replace Result: <__main__.CustomObject object at 0x73b819b41450>
+posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606492.51)
+Time Elapsed: 1.254800008609891e-05
+
+Stderr: 

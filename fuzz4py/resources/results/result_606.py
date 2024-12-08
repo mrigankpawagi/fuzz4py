@@ -1,3 +1,58 @@
 Return Code: 0
-Stdout: b'Key: b\'-1\', Value: b\'-1.0\'\nKey: b\'1\', Value: b\'1\'\nKey: b\'1.5\', Value: b\'[1, 2]\'\nKey: b\'2\', Value: b\'2.0\'\nKey: b\'3\', Value: b"b\'binary\'"\n'
-Stderr: b'Exception in thread Thread-8 (worker):\nException in thread Thread-9 (worker):\nException in thread Thread-6 (worker):\nException in thread Thread-4 (worker):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker\n    db = dbm.open(\'test.dbm\', \'c\')\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open\n    raise error[0]("db type could not be determined")\ndbm.error: db type could not be determined\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker\n    db = dbm.open(\'test.dbm\', \'c\')\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker\n    db = dbm.open(\'test.dbm\', \'c\')\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open\n    raise error[0]("db type could not be determined")\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open\n    raise error[0]("db type could not be determined")\ndbm.error: db type could not be determined\ndbm.error: db type could not be determined\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker\n    db = dbm.open(\'test.dbm\', \'c\')\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open\n    raise error[0]("db type could not be determined")\ndbm.error: db type could not be determined\n'
+Stdout: Key: b'-1', Value: b'-1.0'
+Key: b'3', Value: b'None'
+Key: b'4', Value: b'4'
+
+Stderr: Exception in thread Thread-2 (worker):
+Exception in thread Thread-9 (worker):
+Exception in thread Thread-8 (worker):
+Exception in thread Thread-6 (worker):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker
+    db = dbm.open('test.dbm', 'c')
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker
+    db = dbm.open('test.dbm', 'c')
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker
+    db = dbm.open('test.dbm', 'c')
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/606.py", line 33, in worker
+    db = dbm.open('test.dbm', 'c')
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open
+    raise error[0]("db type could not be determined")
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open
+    raise error[0]("db type could not be determined")
+dbm.error: db type could not be determined
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open
+    raise error[0]("db type could not be determined")
+dbm.error: db type could not be determined
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/__init__.py", line 89, in open
+    raise error[0]("db type could not be determined")
+dbm.error: db type could not be determined
+dbm.error: db type could not be determined
+

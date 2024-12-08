@@ -1,3 +1,17 @@
 Return Code: 0
-Stdout: b"Error in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\n20\nNone\nposix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563085.57)\nError with os.times(random): posix.times() takes no arguments (1 given)\n<ssl.SSLContext object at 0x79de9df55e20>\nError loading SSL cert: cafile should be a valid filesystem path\nCaught expected TypeError: Input must be a list of integers\nCaught expected TypeError: Input must be a list of integers\nSSL context created\n"
-Stderr: b''
+Stdout: Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+20
+None
+posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606437.95)
+Error with os.times(random): posix.times() takes no arguments (1 given)
+<ssl.SSLContext object at 0x78916f7b1e20>
+Error loading SSL cert: cafile should be a valid filesystem path
+Caught expected TypeError: Input must be a list of integers
+Caught expected TypeError: Input must be a list of integers
+SSL context created
+
+Stderr: 

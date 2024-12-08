@@ -1,3 +1,15 @@
 Return Code: 0
-Stdout: b"Thread 127617971783232 result: [2, 4, 6, 8, 10]\nError in complex_function: unsupported operand type(s) for *: 'NoneType' and 'int', data: [1, 2, 3, 4, 5, None]\nThread 127617950811712 failed.\nThread 127618068252224 result: [2, 4, 6, 8, 10]\nThread 127618057766464 result: [2, 4, 6, 8, 10]\nThread 127617961297472 result: [2, 4, 6, 8, 10]\nVery long key written\nVery long value written\nDatabase operation successful.\nSSL connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'invalid-hostname.com'. (_ssl.c:1018)\nOS Times: posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4561847.33)\nError in os.times(123): posix.times() takes no arguments (1 given)\nError in os.times(0): posix.times() takes no arguments (1 given)\n"
-Stderr: b''
+Stdout: Thread 125322244654656 result: [2, 4, 6, 8, 10]
+Thread 125322223683136 result: [2, 4, 6, 8, 10]
+Thread 125322330637888 result: [2, 4, 6, 8, 10]
+Thread 125322234168896 result: [2, 4, 6, 8, 10]
+Thread 125322213197376 result: [2, 4, 6, 8, 10]
+Very long key written
+Very long value written
+Database operation successful.
+SSL connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'invalid-hostname.com'. (_ssl.c:1018)
+OS Times: posix.times_result(user=0.07, system=0.01, children_user=0.0, children_system=0.0, elapsed=4605227.06)
+Error in os.times(123): posix.times() takes no arguments (1 given)
+Error in os.times(0): posix.times() takes no arguments (1 given)
+
+Stderr: 

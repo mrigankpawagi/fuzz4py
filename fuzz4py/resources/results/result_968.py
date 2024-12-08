@@ -1,3 +1,11 @@
 Return Code: 0
-Stdout: b'Thread 137433219860032 : 42threading\nThread 137433209374272 : 42threading\nThread 137433198888512 : 42threading\nThread 137433112905280 : 42threading\nThread 137433102419520 : 42threading\nJIT result: 999999000000\nreplace result: 2\nSSL context created\n'
-Stderr: b''
+Stdout: Thread 137881511265856 : 42threading
+Thread 137881500780096 : 42threading
+Thread 137881490294336 : 42threading
+Thread 137881479808576 : 42threading
+Thread 137881400116800 : 42threading
+JIT result: 999999000000
+replace result: 2
+SSL context created
+
+Stderr: 

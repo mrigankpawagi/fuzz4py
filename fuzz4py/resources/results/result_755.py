@@ -1,3 +1,8 @@
 Return Code: 0
-Stdout: b"Multithreaded results: []\nCustom data: {'key': [1, 2, 3]}\ndbm.sqlite3 test successful\nssl test successful\nDuration: 2.000157175993081\n"
-Stderr: b''
+Stdout: Multithreaded results: []
+Custom data: {'key': [1, 2, 3]}
+dbm.sqlite3 test successful
+ssl test successful
+Duration: 2.0000748579623178
+
+Stderr: 

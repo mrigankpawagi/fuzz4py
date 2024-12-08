@@ -1,3 +1,12 @@
 Return Code: 0
-Stdout: b"OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561361.85)\nError with os.times(): module 'os' has no attribute 'cpu_time'\nInvalid x value\nInvalid x value\nOriginal Point: Point(3, 2), Modified Point (non-numeric): None, Modified Point (float): Point(3, 2), Modified Point (None): Point(3, 2), Modified Point (multiple): None, Modified Point (no params): Point(3, 2)\nError in complex_function: unsupported operand type(s) for +: 'int' and 'str'\nThread error: unsupported operand type(s) for +: 'float' and 'str'\nThread error: unsupported operand type(s) for +: 'float' and 'NoneType'\nData after threading: [1733595109.5867193, 1733595119.5868585, 1733595104.5869174, 1733596110.0869637, 1733595009.5870056, (1733595109.5870452+0j), 1.2345678901234568e+39, 1733595109.5872176]\n"
-Stderr: b''
+Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604741.61)
+Error with os.times(): module 'os' has no attribute 'cpu_time'
+Invalid x value
+Invalid x value
+Original Point: Point(3, 2), Modified Point (non-numeric): None, Modified Point (float): Point(3, 2), Modified Point (None): Point(3, 2), Modified Point (multiple): None, Modified Point (no params): Point(3, 2)
+Error in complex_function: unsupported operand type(s) for +: 'int' and 'str'
+Thread error: unsupported operand type(s) for +: 'float' and 'str'
+Thread error: unsupported operand type(s) for +: 'float' and 'NoneType'
+Data after threading: [1733638489.3457613, 1733638499.3458965, 1733638484.3459537, 1733639489.8460026, 1733638389.346044, (1733638489.346082+0j), 1.2345678901234568e+39, 1733638489.3462393]
+
+Stderr: 

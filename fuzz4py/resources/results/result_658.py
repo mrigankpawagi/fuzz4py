@@ -1,3 +1,27 @@
 Return Code: 1
-Stdout: b"Error in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\nError in jit_test_function: can't multiply sequence by non-int of type 'float'\n"
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 62, in test_threading\n    db = dbm.sqlite3.open("test_dbm", \'c\')\n         ^^^^^^^^^^^\nAttributeError: module \'dbm\' has no attribute \'sqlite3\'\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 145, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 126, in main\n    test_threading()\n    ~~~~~~~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 65, in test_threading\n    except (dbm.error, TypeError, ValueError) as e:  # Added ValueError\n        print(f"Error with dbm: {e}")\nTypeError: catching classes that do not inherit from BaseException is not allowed\n'
+Stdout: Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+Error in jit_test_function: can't multiply sequence by non-int of type 'float'
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 62, in test_threading
+    db = dbm.sqlite3.open("test_dbm", 'c')
+         ^^^^^^^^^^^
+AttributeError: module 'dbm' has no attribute 'sqlite3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 145, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 126, in main
+    test_threading()
+    ~~~~~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/658.py", line 65, in test_threading
+    except (dbm.error, TypeError, ValueError) as e:  # Added ValueError
+        print(f"Error with dbm: {e}")
+TypeError: catching classes that do not inherit from BaseException is not allowed
+

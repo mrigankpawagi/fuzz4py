@@ -1,3 +1,20 @@
 Return Code: 1
-Stdout: b'Thread 126973716203072 : 42threading\nThread 126973705717312 : 42threading\nThread 126973695231552 : 42threading\nThread 126973684745792 : 42threading\nThread 126973674260032 : 42threading\nJIT result: 999999000000\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 78, in <module>\n    result_replace = test_replace_protocol()\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 51, in test_replace_protocol\n    obj2 = copy.replace(obj1, a=2)\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 48, in __replace__\n    return type(self)(**{k:v for k,v in self.__dict__.items() if k != \'b\'})\n           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: test_replace_protocol.<locals>.MyClass.__init__() missing 1 required positional argument: \'b\'\n'
+Stdout: Thread 132111612773952 : 42threading
+Thread 132111602288192 : 42threading
+Thread 132111514207808 : 42threading
+Thread 132111503722048 : 42threading
+Thread 132111493236288 : 42threading
+JIT result: 999999000000
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 78, in <module>
+    result_replace = test_replace_protocol()
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 51, in test_replace_protocol
+    obj2 = copy.replace(obj1, a=2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/967.py", line 48, in __replace__
+    return type(self)(**{k:v for k,v in self.__dict__.items() if k != 'b'})
+           ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_replace_protocol.<locals>.MyClass.__init__() missing 1 required positional argument: 'b'
+

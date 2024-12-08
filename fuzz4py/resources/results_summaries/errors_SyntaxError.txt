@@ -1,0 +1,116 @@
+181
+: expected 'except' or 'finally' block
+
+
+182
+: expected 'except' or 'finally' block
+
+
+183
+: expected 'except' or 'finally' block
+
+
+184
+: expected 'except' or 'finally' block
+
+
+185
+: expected 'except' or 'finally' block
+
+
+186
+: expected 'except' or 'finally' block
+
+
+187
+: expected 'except' or 'finally' block
+
+
+188
+: expected 'except' or 'finally' block
+
+
+189
+: expected 'except' or 'finally' block
+
+
+190
+: expected 'except' or 'finally' block
+
+
+191
+: expected 'except' or 'finally' block
+
+
+192
+: expected 'except' or 'finally' block
+
+
+193
+: expected 'except' or 'finally' block
+
+
+194
+: expected 'except' or 'finally' block
+
+
+196
+: expected 'except' or 'finally' block
+
+
+197
+: expected 'except' or 'finally' block
+
+
+198
+: expected 'except' or 'finally' block
+
+
+199
+: expected 'except' or 'finally' block
+
+
+200
+: expected 'except' or 'finally' block
+
+
+201
+: expected 'except' or 'finally' block
+
+
+202
+: expected 'except' or 'finally' block
+
+
+203
+: expected 'except' or 'finally' block
+
+
+204
+: expected 'except' or 'finally' block
+
+
+580
+: cannot assign to function call here. Maybe you meant '==' instead of '='?
+
+
+602
+: did you forget parentheses around the comprehension target?
+
+
+830
+: name 'shared_var' is assigned to before global declaration
+
+
+938
+: name 'shared_var' is parameter and global
+
+
+939
+: name 'shared_var' is parameter and global
+
+
+999
+: invalid syntax
+
+

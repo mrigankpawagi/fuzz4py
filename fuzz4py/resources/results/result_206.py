@@ -1,3 +1,26 @@
 Return Code: 1
-Stdout: b'Thread 133596719351360 received: 0, extra arg: 26\nThread 133596633368128 received: 1, extra arg: 52\nThread 133596622882368 received: 2, extra arg: 62\nThread 133596612396608 received: 3, extra arg: 87\nThread 133596601910848 received: 4, extra arg: 100\nTime taken to call os.times(): 1.2394040822982788e-05, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561384.55)\nError in os.times(): posix.times() takes no arguments (1 given)\nTime taken to call os.times(): 4.224013537168503e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561384.55)\nError in os.times(): posix.times() takes no arguments (1 given)\nTime taken to call os.times(): 2.320040948688984e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561384.55)\nError in os.times(): posix.times() takes no arguments (1 given)\nTime taken to call os.times(): 2.0390143617987633e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561384.55)\nError in os.times(): posix.times() takes no arguments (1 given)\nTime taken to call os.times(): 1.66997779160738e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561384.55)\nError in os.times(): posix.times() takes no arguments (1 given)\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/206.py", line 105, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/206.py", line 72, in main\n    context.load_verify_locations(bad_cert)  # Example of loading bad certificate\n    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory\n'
+Stdout: Thread 130713105991232 received: 0, extra arg: 65
+Thread 130713095505472 received: 1, extra arg: 68
+Thread 130713085019712 received: 2, extra arg: 92
+Thread 130713074533952 received: 3, extra arg: 28
+Thread 130713064048192 received: 4, extra arg: 94
+Time taken to call os.times(): 1.2073025573045015e-05, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604764.3)
+Error in os.times(): posix.times() takes no arguments (1 given)
+Time taken to call os.times(): 4.129018634557724e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604764.3)
+Error in os.times(): posix.times() takes no arguments (1 given)
+Time taken to call os.times(): 2.363987732678652e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604764.3)
+Error in os.times(): posix.times() takes no arguments (1 given)
+Time taken to call os.times(): 1.962995156645775e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604764.3)
+Error in os.times(): posix.times() takes no arguments (1 given)
+Time taken to call os.times(): 1.6560079529881477e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604764.3)
+Error in os.times(): posix.times() takes no arguments (1 given)
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/206.py", line 105, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/206.py", line 72, in main
+    context.load_verify_locations(bad_cert)  # Example of loading bad certificate
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory
+

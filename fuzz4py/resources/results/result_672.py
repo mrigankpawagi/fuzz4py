@@ -1,3 +1,65 @@
 Return Code: 0
-Stdout: b"Thread 0: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801676219968.\nThread 1: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801665734208.\nThread 2: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801586042432.\nThread 3: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801575556672.\nThread 4: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801565070912.\nDatabase operations completed.\nError during SSL connection attempt: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'example.com'. (_ssl.c:1018)\n"
-Stderr: b'Exception in thread Thread-1 (worker):\nException in thread Thread-2 (worker):\nException in thread Thread-3 (worker):\nException in thread Thread-4 (worker):\nException in thread Thread-5 (worker):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker\n    cursor = db_conn.cursor()\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker\n    cursor = db_conn.cursor()\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nsqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801586042432.\nsqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801665734208.\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker\n    cursor = db_conn.cursor()\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker\n    cursor = db_conn.cursor()\nsqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801575556672.\nsqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801565070912.\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker\n    cursor = db_conn.cursor()\nsqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139801698993984 and this is thread id 139801676219968.\n'
+Stdout: Thread 0: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271205377600.
+Thread 1: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271194891840.
+Thread 2: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271184406080.
+Thread 3: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271173920320.
+Thread 4: Error: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271163434560.
+Database operations completed.
+Error during SSL connection attempt: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'example.com'. (_ssl.c:1018)
+
+Stderr: Exception in thread Thread-1 (worker):
+Exception in thread Thread-2 (worker):
+Exception in thread Thread-3 (worker):
+Exception in thread Thread-4 (worker):
+Exception in thread Thread-5 (worker):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker
+    cursor = db_conn.cursor()
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker
+    cursor = db_conn.cursor()
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker
+    cursor = db_conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271194891840.
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271173920320.
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271184406080.
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker
+    cursor = db_conn.cursor()
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/672.py", line 16, in worker
+    cursor = db_conn.cursor()
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271163434560.
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134271228303168 and this is thread id 134271205377600.
+

@@ -1,3 +1,13 @@
 Return Code: 0
-Stdout: b"JIT result: 9999900000\nRetrieved data1: b'some data', data2: b'some_more_data'\nTime taken by sched_yield: 0.000003 seconds\nSSL context created successfully.\n6\n4\n0\nResult: 6\nTime elapsed (monotonic): 0.500150304986164\nSSL connection successful\n"
-Stderr: b''
+Stdout: JIT result: 9999900000
+Retrieved data1: b'some data', data2: b'some_more_data'
+Time taken by sched_yield: 0.000003 seconds
+SSL context created successfully.
+6
+4
+0
+Result: 6
+Time elapsed (monotonic): 0.5001454020384699
+SSL connection successful
+
+Stderr: 

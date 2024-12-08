@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b"Original object: 10, new object: 20\nRetrieved value: b'329'\nos.times() result: posix.times_result(user=0.17, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561285.01), execution time: 6.860005669295788e-06\nSSL context created successfully.\n"
-Stderr: b''
+Stdout: Original object: 10, new object: 20
+Retrieved value: b'296'
+os.times() result: posix.times_result(user=0.51, system=0.02, children_user=0.0, children_system=0.0, elapsed=4604603.54), execution time: 8.631963282823563e-06
+SSL context created successfully.
+
+Stderr: 

@@ -1,3 +1,17 @@
 Return Code: 0
-Stdout: b''
-Stderr: b'E\n======================================================================\nERROR: test_my_function (__main__.TestFuzzing.test_my_function)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/400.py", line 196, in test_my_function\n    self.assertEqual(len(results), 3)\n                     ~~~^^^^^^^^^\nTypeError: object of type \'NoneType\' has no len()\n\n----------------------------------------------------------------------\nRan 1 test in 0.101s\n\nFAILED (errors=1)\n'
+Stdout: 
+Stderr: E
+======================================================================
+ERROR: test_my_function (__main__.TestFuzzing.test_my_function)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/400.py", line 196, in test_my_function
+    self.assertEqual(len(results), 3)
+                     ~~~^^^^^^^^^
+TypeError: object of type 'NoneType' has no len()
+
+----------------------------------------------------------------------
+Ran 1 test in 0.103s
+
+FAILED (errors=1)
+

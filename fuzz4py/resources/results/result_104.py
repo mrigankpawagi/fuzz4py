@@ -1,3 +1,27 @@
 Return Code: 0
-Stdout: b'Elapsed time: 0.0\nError with dbm.sqlite3: \'27\'\nSSL context created successfully\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nShared Resource: 80, Results: []\nError in annotated_function: can only concatenate str (not "int") to str\nError in annotated_function: unsupported operand type(s) for +: \'NoneType\' and \'int\'\n'
-Stderr: b''
+Stdout: Elapsed time: 0.0
+Error with dbm.sqlite3: '22'
+SSL context created successfully
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Shared Resource: 180, Results: []
+Error in annotated_function: can only concatenate str (not "int") to str
+Error in annotated_function: unsupported operand type(s) for +: 'NoneType' and 'int'
+
+Stderr: 

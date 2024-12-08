@@ -1,3 +1,11 @@
 Return Code: 0
-Stdout: b"Thread Thread-4 (worker) result: 2234\nThread Thread-5 (worker) result: 2933\nThread Thread-3 (worker) result: 1890\nThread Thread-2 (worker) result: 1870\nThread Thread-1 (worker) result: 2072\nError in os.times: posix.times() takes no arguments (1 given)\nTime taken to get os.times(): 6.233801832422614e-05\nError in worker: unsupported operand type(s) for +=: 'int' and 'str', Data: [1, 2, 'a', 4]\n"
-Stderr: b''
+Stdout: Error in worker: unsupported operand type(s) for *: 'NoneType' and 'int', Data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, None]
+Error in worker: unsupported operand type(s) for *: 'NoneType' and 'int', Data: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, None]
+Thread Thread-1 (worker) result: 2437
+Thread Thread-2 (worker) result: 2105
+Thread Thread-3 (worker) result: 1790
+Error in os.times: posix.times() takes no arguments (1 given)
+Time taken to get os.times(): 5.9139973018318415e-05
+Error in worker: unsupported operand type(s) for +=: 'int' and 'str', Data: [1, 2, 'a', 4]
+
+Stderr: 

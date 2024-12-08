@@ -1,3 +1,19 @@
 Return Code: 0
-Stdout: b"Thread 127148679497280 processed: [1, 2, 3]\nThread 127148761286208 processed: [1, 2, 3]\nThread 127148658525760 processed: [1, 2, 3]\nThread 127148669011520 processed: [1, 2, 3]\nThread 127148648040000 processed: [1, 2, 3]\n6\n<__main__.Point object at 0x73a421537610>\nError inserting data: Error binding parameter 1: type 'list' is not supported\nError inserting data: Error binding parameter 1: type 'dict' is not supported\nError inserting data: Error binding parameter 1: type 'tuple' is not supported\nError inserting data: Error binding parameter 1: type 'dict' is not supported\nError inserting data: Error binding parameter 1: type 'dict' is not supported\nError inserting data: Error binding parameter 1: type 'list' is not supported\nError inserting data: Error binding parameter 1: type 'tuple' is not supported\nTime taken by os.times(): 4.307017661631107e-06\nSSL context created successfully.\n"
-Stderr: b''
+Stdout: Thread 131631367063104 processed: [1, 2, 3]
+Thread 131631398520384 processed: [1, 2, 3]
+Thread 131631377548864 processed: [1, 2, 3]
+Thread 131631409006144 processed: [1, 2, 3]
+Thread 131631388034624 processed: [1, 2, 3]
+12
+<__main__.Point object at 0x77b7d3f0f610>
+Error inserting data: Error binding parameter 1: type 'list' is not supported
+Error inserting data: Error binding parameter 1: type 'dict' is not supported
+Error inserting data: Error binding parameter 1: type 'tuple' is not supported
+Error inserting data: Error binding parameter 1: type 'dict' is not supported
+Error inserting data: Error binding parameter 1: type 'dict' is not supported
+Error inserting data: Error binding parameter 1: type 'list' is not supported
+Error inserting data: Error binding parameter 1: type 'tuple' is not supported
+Time taken by os.times(): 1.0112009476870298e-05
+SSL context created successfully.
+
+Stderr: 

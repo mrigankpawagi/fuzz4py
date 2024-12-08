@@ -1,3 +1,7 @@
 Return Code: 1
-Stdout: b''
-Stderr: b'  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/186.py", line 68\n    class Point:\n    ^^^^^\nSyntaxError: expected \'except\' or \'finally\' block\n'
+Stdout: 
+Stderr:   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/186.py", line 68
+    class Point:
+    ^^^^^
+SyntaxError: expected 'except' or 'finally' block
+

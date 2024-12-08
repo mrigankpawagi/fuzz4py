@@ -1,3 +1,19 @@
 Return Code: 1
-Stdout: b'966559 something\n966559 something\n966559 something\nOS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563397.51), Time taken: 2.220040187239647e-06\n160862860964946889\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/860.py", line 188, in <module>\n    sock.connect(("invalid.example.com", 443))\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/ssl.py", line 1405, in connect\n    self._real_connect(addr, False)\n    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/ssl.py", line 1392, in _real_connect\n    super().connect(addr)\n    ~~~~~~~~~~~~~~~^^^^^^\nsocket.gaierror: [Errno -2] Name or service not known\n'
+Stdout: 316493 something
+316493 something
+316493 something
+OS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606746.7), Time taken: 2.401007805019617e-06
+277794577960405
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/860.py", line 188, in <module>
+    sock.connect(("invalid.example.com", 443))
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/ssl.py", line 1405, in connect
+    self._real_connect(addr, False)
+    ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/ssl.py", line 1392, in _real_connect
+    super().connect(addr)
+    ~~~~~~~~~~~~~~~^^^^^^
+socket.gaierror: [Errno -2] Name or service not known
+

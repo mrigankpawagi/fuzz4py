@@ -1,0 +1,188 @@
+27
+: module 'dbm' has no attribute 'sqlite3'
+
+
+322
+: '_thread._local' object has no attribute 'value'
+
+
+323
+: '_thread._local' object has no attribute 'value'
+
+
+325
+: '_thread._local' object has no attribute 'value'
+
+
+326
+: '_thread._local' object has no attribute 'value'
+
+
+468
+: 'dict' object has no attribute 'replace'
+
+
+510
+: module 'copy' has no attribute 'MutableMapping'
+
+
+511
+: module 'copy' has no attribute 'MutableMapping'
+
+
+512
+: module 'copy' has no attribute 'MutableMapping'
+
+
+514
+: module 'copy' has no attribute 'MutableMapping'
+
+
+515
+: module 'copy' has no attribute 'MutableMapping'
+
+
+546
+: module 'dbm' has no attribute 'sqlite3'
+
+
+601
+: module 'ssl' has no attribute 'PROTOCOL_TLSv1_3'. Did you mean: 'PROTOCOL_TLSv1_1'?
+
+
+626
+: 'dict' object has no attribute 'replace'
+
+
+639
+: 'Thread' object has no attribute 'get_ident'
+
+
+738
+: 'list' object has no attribute 'replace'
+
+
+776
+: 'SSLContext' object has no attribute 'get_protocols'. Did you mean: 'set_npn_protocols'?
+
+
+784
+: module 'dbm' has no attribute 'close'
+
+
+785
+: module 'dbm' has no attribute 'close'
+
+
+895
+: module 'dbm' has no attribute 'sqlite3'
+
+
+896
+: module 'dbm.sqlite3' has no attribute 'DB'
+
+
+908
+: module 'copy' has no attribute 'Replacer'. Did you mean: 'replace'?
+
+
+909
+: module 'copy' has no attribute 'Replacer'. Did you mean: 'replace'?
+
+
+956
+: 'Replaceable' object has no attribute '_replace'. Did you mean: '__replace__'?
+
+
+957
+: 'Replaceable' object has no attribute '_replace'. Did you mean: '__replace__'?
+
+
+970
+: module 'dbm' has no attribute 'sqlite3'
+
+
+972
+: module 'dbm' has no attribute 'sqlite3'
+
+
+973
+: module 'dbm' has no attribute 'sqlite3'
+
+
+974
+: module 'dbm' has no attribute 'sqlite3'
+
+
+976
+: module 'dbm' has no attribute 'sqlite3'
+
+
+977
+: module 'dbm' has no attribute 'sqlite3'
+
+
+979
+: module 'dbm' has no attribute 'sqlite3'
+
+
+980
+: '_Database' object has no attribute 'set'. Did you mean: 'get'?
+
+
+981
+: module 'dbm' has no attribute 'sqlite3'
+
+
+982
+: module 'dbm' has no attribute 'sqlite3'
+
+
+983
+: module 'dbm' has no attribute 'sqlite3'
+
+
+984
+: module 'dbm' has no attribute 'sqlite3'
+
+
+985
+: module 'dbm' has no attribute 'sqlite3'
+
+
+986
+: module 'dbm' has no attribute 'sqlite3'
+
+
+987
+: module 'dbm' has no attribute 'sqlite3'
+
+
+988
+: module 'dbm' has no attribute 'sqlite3'
+
+
+989
+: module 'dbm' has no attribute 'sqlite3'
+
+
+990
+: module 'dbm' has no attribute 'sqlite3'
+
+
+991
+: module 'dbm' has no attribute 'sqlite3'
+
+
+994
+: 'int' object has no attribute 'acquire'
+
+
+995
+: 'int' object has no attribute 'acquire'
+
+
+996
+: 'int' object has no attribute 'acquire'
+
+

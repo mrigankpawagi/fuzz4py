@@ -1,3 +1,5 @@
 Return Code: 0
-Stdout: b'Original Instance: Initial Value\nModified Instance: Initial Value\n'
-Stderr: b''
+Stdout: Original Instance: Initial Value
+Modified Instance: Initial Value
+
+Stderr: 

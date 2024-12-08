@@ -1,3 +1,8 @@
 Return Code: 0
-Stdout: b'Shared Resource: 50, Results: [None, None, None, None, None]\nError in annotated_function: can only concatenate str (not "int") to str\nError in annotated_function: unsupported operand type(s) for +: \'ReplaceableClass\' and \'int\'\n[1, 2, 3, 4, 5]\nvalue = b\'value1\'\n'
-Stderr: b''
+Stdout: Shared Resource: 80, Results: [None, None, None, None, None, None, None, None]
+Error in annotated_function: can only concatenate str (not "int") to str
+Error in annotated_function: unsupported operand type(s) for +: 'ReplaceableClass' and 'int'
+[1, 2, 3, 4, 5]
+value = b'value1'
+
+Stderr: 

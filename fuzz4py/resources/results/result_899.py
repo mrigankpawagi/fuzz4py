@@ -1,3 +1,22 @@
 Return Code: 0
-Stdout: b"dbm test successful\nElapsed time: 1.6034082649857737\nSSL connection attempted (fuzzed)\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980568036928.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980557551168.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980547065408.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980536579648.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980450596416.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980440110656.\nError processing element: unsupported operand type(s) for *: 'NoneType' and 'int'\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980419139136.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980408653376.\nError processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 131980591966016 and this is thread id 131980398167616.\nError processing element: unsupported operand type(s) for *: 'dict' and 'int'\nResult of multithreaded function: 0\nResult of jit_test_function: 49995000\nError in copy.replace: replace() does not support dict objects\nThis is a test function.\n        \n"
-Stderr: b''
+Stdout: dbm test successful
+Error with os timer functions: sleep length must be non-negative
+SSL connection attempted (fuzzed)
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170740766272.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170730280512.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170719794752.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170709308992.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170698823232.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170688337472.
+Error processing element: unsupported operand type(s) for *: 'NoneType' and 'int'
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170589771328.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170579285568.
+Error processing element: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 123170763880256 and this is thread id 123170568799808.
+Error processing element: unsupported operand type(s) for *: 'dict' and 'int'
+Result of multithreaded function: 0
+Result of jit_test_function: 49995000
+Error in copy.replace: replace() does not support dict objects
+This is a test function.
+        
+
+Stderr: 

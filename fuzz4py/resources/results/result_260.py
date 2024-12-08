@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b"Free-threading result: [6, 5, 8, 8, -3, -6, -2, -7, 5, 10]\nJIT compiler result: 14471170014537415702899320335\nComplex annotations result: {Point(x=1, y=2): 'some data', Point(x=3, y=4): 'error'}\nError in docstring eval: invalid syntax (<string>, line 1)\nDocstring whitespace result: Error\nDBM sqlite3 result: b'value'\n"
-Stderr: b''
+Stdout: Free-threading result: [-10, -10, 0, 6, 1, -10, 8, 8, -1, 3]
+JIT compiler result: 751334742858662490105905292729468
+Complex annotations result: {Point(x=1, y=2): 'some data', Point(x=3, y=4): 'error'}
+Error in docstring eval: invalid syntax (<string>, line 1)
+Docstring whitespace result: Error
+DBM sqlite3 result: b'value'
+
+Stderr: 

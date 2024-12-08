@@ -1,3 +1,10 @@
 Return Code: 0
-Stdout: b"Final counter value: 10\nOriginal data: 20, Replaced data: 547\nError with dbm operation: module 'dbm' has no attribute 'sqlite3'\nElapsed time: 4.831364321988076\n938\n{'a': 10, 'd': {'a': 20}}\nEvaluated value of 'a': 10\n"
-Stderr: b''
+Stdout: Final counter value: 9
+Original data: 93, Replaced data: 249
+Error with dbm operation: module 'dbm' has no attribute 'sqlite3'
+Elapsed time: 3.966641067992896
+990
+{'a': 10, 'd': {'a': 20}}
+Evaluated value of 'a': 10
+
+Stderr: 

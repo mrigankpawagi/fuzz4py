@@ -1,3 +1,24 @@
 Return Code: 0
-Stdout: b"JIT result: 9999900000\nRetrieved data1: b'some data', data2: b'more data'\nTime taken by sched_yield: 0.000002 seconds\n6\n4\n0\nShared data after threads: 10\nException caught in main: \nTime elapsed (monotonic): 0.4214022420346737\nSSL connection successful\n"
-Stderr: b'Exception in thread Thread-4 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/832.py", line 23, in threaded_function\n    raise ValueError("Simulated error in thread")\nValueError: Simulated error in thread\n'
+Stdout: JIT result: 9999900000
+Retrieved data1: b'some data', data2: b'more data'
+Time taken by sched_yield: 0.000002 seconds
+6
+4
+0
+Shared data after threads: 3
+Exception caught in main: 
+Time elapsed (monotonic): 0.41367263096617535
+SSL connection successful
+
+Stderr: Exception in thread Thread-3 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/832.py", line 23, in threaded_function
+    raise ValueError("Simulated error in thread")
+ValueError: Simulated error in thread
+

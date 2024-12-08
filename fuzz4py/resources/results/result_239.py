@@ -1,3 +1,153 @@
 Return Code: 0
-Stdout: b"Thread Error: Result too large\nThread Error: Result too large\nThread Error: invalid literal for int() with base 10: b''\nThread Error: Result too large\nThread Error: Result too large\nThread Error: Negative result with non-zero input\nThread Error: invalid literal for int() with base 10: 'abc'\nThread Error: invalid literal for int() with base 10: b'invalidbytes'\nThread Error: invalid literal for int() with base 10: b'\\x00\\x01\\x02'\nThread Error: Result too large\nThread Error: invalid literal for int() with base 10: ''\nThread Error: invalid literal for int() with base 10: 'invalid'\nThread Error: invalid literal for int() with base 10: b'byte'\nOriginal object: 10, new object: 20\nBad obj: not_a_number\nDBM Error: NOT NULL constraint failed: Dict.value\nTime results from os.times(): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4561727.21)\nSSL context created successfully\n"
-Stderr: b'Exception in thread Thread-18 (threaded_function):\nException in thread Thread-19 (threaded_function):\nException in thread Thread-15 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'dict\'\nException in thread Thread-20 (threaded_function):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTraceback (most recent call last):\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'list\'\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'NoneType\'\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'list\'\nException in thread Thread-16 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'list\'\nException in thread Thread-29 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'dict\'\nException in thread Thread-28 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'tuple\'\nException in thread Thread-14 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'NoneType\'\nException in thread Thread-17 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'dict\'\nException in thread Thread-30 (threaded_function):\nException in thread Thread-21 (threaded_function):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'list\'\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function\n    result = int(input_data) * 2\n             ~~~^^^^^^^^^^^^\nTypeError: int() argument must be a string, a bytes-like object or a real number, not \'function\'\n'
+Stdout: Thread Error: invalid literal for int() with base 10: b''
+Thread Error: invalid literal for int() with base 10: b'\x00\x01\x02'
+Thread Error: invalid literal for int() with base 10: ''
+Thread Error: Result too large
+Thread Error: Result too large
+Thread Error: Result too large
+Thread Error: invalid literal for int() with base 10: b'invalidbytes'
+Thread Error: invalid literal for int() with base 10: 'abc'
+Thread Error: Result too large
+Thread Error: invalid literal for int() with base 10: b'byte'
+Thread Error: invalid literal for int() with base 10: 'invalid'
+Thread Error: Negative result with non-zero input
+Thread Error: Result too large
+Original object: 10, new object: 20
+Bad obj: not_a_number
+DBM Error: NOT NULL constraint failed: Dict.value
+Time results from os.times(): posix.times_result(user=0.07, system=0.01, children_user=0.0, children_system=0.0, elapsed=4605106.72)
+SSL context created successfully
+
+Stderr: Exception in thread Thread-21 (threaded_function):
+Exception in thread Thread-29 (threaded_function):
+Exception in thread Thread-16 (threaded_function):
+Exception in thread Thread-15 (threaded_function):
+Exception in thread Thread-28 (threaded_function):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Exception in thread Thread-14 (threaded_function):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+Traceback (most recent call last):
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'tuple'
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'dict'
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+Exception in thread Thread-30 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'function'
+Exception in thread Thread-20 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'list'
+Exception in thread Thread-17 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'dict'
+Exception in thread Thread-19 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'NoneType'
+Exception in thread Thread-18 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/239.py", line 27, in threaded_function
+    result = int(input_data) * 2
+             ~~~^^^^^^^^^^^^
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'dict'
+

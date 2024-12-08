@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b'result 1: [2, 3, 4, 5, 6]\nresult 2: [2, 3, 4, 5, 6]\nresult 3: [2, 3, 4, 5, 6]\nTest completed without errors.\n'
-Stderr: b''
+Stdout: result 1: [2, 3, 4, 5, 6]
+result 2: [2, 3, 4, 5, 6]
+result 3: [2, 3, 4, 5, 6]
+Test completed without errors.
+
+Stderr: 

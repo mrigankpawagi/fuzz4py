@@ -1,3 +1,92 @@
 Return Code: 0
-Stdout: b"threading with GIL\nthreading without GIL\nObject after replacement: 42\nposix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561191.91)\nTime taken for os.times(): 2.2570020519196987e-06\nSSL context created.\n{1: 1.0, 2: 2.0, 3: 3.0, 10: 10.0}\nThread 126550307505728 processed: 1, result: 5.0\nThread 126550297019968 processed: 1, result: 6.0\nError in my_function: Forced error, arg1: 1, arg2: test75\nThread 126550286534208 processed: 1, result: nan\nThread 126550202648128 processed: 1, result: 6.0\nThread 126550192162368 processed: 1, result: 6.0\nThread 126550181676608 processed: 1, result: 6.0\nThread 126550171190848 processed: 1, result: 1.0\nThread 126550160705088 processed: 1, result: 6.0\nThread 126550307505728 processed: 2, result: 12.0\nThread 126550297019968 processed: 2, result: 12.0\nThread 126550286534208 processed: 2, result: 12.0\nThread 126550202648128 processed: 2, result: 12.0\nThread 126550192162368 processed: 2, result: 0.0\nThread 126550181676608 processed: 2, result: 2.0\nThread 126550171190848 processed: 2, result: 12.0\nThread 126550160705088 processed: 2, result: 12.0\nThread 126550307505728 processed: 3, result: 18.0\nThread 126550297019968 processed: 3, result: 18.0\nThread 126550286534208 processed: 3, result: 0.0\nThread 126550202648128 processed: 3, result: 18.0\nThread 126550192162368 processed: 3, result: 18.0\nThread 126550181676608 processed: 3, result: 15.0\nThread 126550171190848 processed: 3, result: 0.0\nThread 126550160705088 processed: 3, result: 18.0\nThread 126550307505728 processed: 4, result: 24.0\nThread 126550297019968 processed: 4, result: 24.0\nThread 126550286534208 processed: 4, result: 24.0\nThread 126550202648128 processed: 4, result: 0.0\nThread 126550192162368 processed: 4, result: 24.0\nThread 126550181676608 processed: 4, result: 24.0\nThread 126550171190848 processed: 4, result: 24.0\nThread 126550160705088 processed: 4, result: 24.0\nThread 126550307505728 processed: 5, result: 30.0\nThread 126550297019968 processed: 5, result: 0.0\nThread 126550286534208 processed: 5, result: 30.0\nThread 126550202648128 processed: 5, result: 25.0\nThread 126550192162368 processed: 5, result: 5.0\nError in my_function: Forced error, arg1: 5, arg2: test53\nThread 126550181676608 processed: 5, result: nan\nError in my_function: Forced error, arg1: 5, arg2: test40\nThread 126550171190848 processed: 5, result: nan\nThread 126550160705088 processed: 5, result: 0.0\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test71\nThread 126550307505728 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test43\nThread 126550297019968 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test25\nThread 126550286534208 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test66\nThread 126550202648128 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test51\nThread 126550192162368 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: 123\nThread 126550181676608 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: 123\nThread 126550171190848 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: 123\nThread 126550160705088 processed: a, result: nan\nError in my_function: Forced error, arg1: 0, arg2: test57\nThread 126550307505728 processed: 0, result: nan\nThread 126550297019968 processed: 0, result: 0.0\nThread 126550286534208 processed: 0, result: 0.0\nThread 126550202648128 processed: 0, result: 0.0\nThread 126550192162368 processed: 0, result: 0.0\nThread 126550181676608 processed: 0, result: 0.0\nThread 126550171190848 processed: 0, result: 0.0\nThread 126550160705088 processed: 0, result: 0.0\nThread 126550307505728 processed: -1, result: -0.0\nThread 126550297019968 processed: -1, result: -6.0\nThread 126550286534208 processed: -1, result: -6.0\nThread 126550202648128 processed: -1, result: -6.0\nThread 126550192162368 processed: -1, result: -6.0\nThread 126550181676608 processed: -1, result: -6.0\nError in my_function: Forced error, arg1: -1, arg2: test75\nThread 126550171190848 processed: -1, result: nan\nThread 126550160705088 processed: -1, result: -6.0\ndocstring\nAnd a second line\n"
-Stderr: b''
+Stdout: threading with GIL
+threading without GIL
+Object after replacement: 42
+posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604506.39)
+Time taken for os.times(): 3.4090480767190456e-06
+SSL context created.
+{1: 1.0, 2: 2.0, 3: 3.0, 10: 10.0}
+Thread 123832954259008 processed: 1, result: 6.0
+Thread 123832943773248 processed: 1, result: 0.0
+Thread 123832933287488 processed: 1, result: 6.0
+Thread 123832922801728 processed: 1, result: 6.0
+Error in my_function: Forced error, arg1: 1, arg2: test17
+Thread 123832912315968 processed: 1, result: nan
+Thread 123832830527040 processed: 1, result: 6.0
+Error in my_function: Forced error, arg1: 1, arg2: test76
+Thread 123832820041280 processed: 1, result: nan
+Thread 123832809555520 processed: 1, result: 6.0
+Thread 123832954259008 processed: 2, result: 12.0
+Error in my_function: Forced error, arg1: 2, arg2: test29
+Thread 123832943773248 processed: 2, result: nan
+Thread 123832933287488 processed: 2, result: 12.0
+Thread 123832922801728 processed: 2, result: 12.0
+Thread 123832912315968 processed: 2, result: 12.0
+Thread 123832830527040 processed: 2, result: 10.0
+Thread 123832820041280 processed: 2, result: 12.0
+Thread 123832809555520 processed: 2, result: 0.0
+Thread 123832954259008 processed: 3, result: 0.0
+Thread 123832943773248 processed: 3, result: 3.0
+Thread 123832933287488 processed: 3, result: 0.0
+Thread 123832922801728 processed: 3, result: 0.0
+Thread 123832912315968 processed: 3, result: 3.0
+Thread 123832830527040 processed: 3, result: 18.0
+Error in my_function: Forced error, arg1: 3, arg2: test17
+Thread 123832820041280 processed: 3, result: nan
+Error in my_function: Forced error, arg1: 3, arg2: test21
+Thread 123832809555520 processed: 3, result: nan
+Thread 123832954259008 processed: 4, result: 24.0
+Thread 123832943773248 processed: 4, result: 20.0
+Thread 123832933287488 processed: 4, result: 24.0
+Thread 123832922801728 processed: 4, result: 20.0
+Thread 123832912315968 processed: 4, result: 24.0
+Thread 123832830527040 processed: 4, result: 24.0
+Thread 123832820041280 processed: 4, result: 24.0
+Thread 123832809555520 processed: 4, result: 24.0
+Thread 123832954259008 processed: 5, result: 0.0
+Thread 123832943773248 processed: 5, result: 0.0
+Thread 123832933287488 processed: 5, result: 25.0
+Error in my_function: Forced error, arg1: 5, arg2: test56
+Thread 123832922801728 processed: 5, result: nan
+Thread 123832912315968 processed: 5, result: 5.0
+Error in my_function: Forced error, arg1: 5, arg2: test96
+Thread 123832830527040 processed: 5, result: nan
+Thread 123832820041280 processed: 5, result: 30.0
+Thread 123832809555520 processed: 5, result: 30.0
+Error in my_function: Forced error, arg1: a, arg2: test75
+Thread 123832954259008 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test2
+Thread 123832943773248 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test50
+Thread 123832933287488 processed: a, result: nan
+Error in my_function: Forced error, arg1: a, arg2: test78
+Thread 123832922801728 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test79
+Thread 123832912315968 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test61
+Thread 123832830527040 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: 123
+Thread 123832820041280 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test26
+Thread 123832809555520 processed: a, result: nan
+Thread 123832954259008 processed: 0, result: 0.0
+Thread 123832943773248 processed: 0, result: 0.0
+Thread 123832933287488 processed: 0, result: 0.0
+Thread 123832922801728 processed: 0, result: 0.0
+Error in my_function: Forced error, arg1: 0, arg2: test49
+Thread 123832912315968 processed: 0, result: nan
+Thread 123832830527040 processed: 0, result: 0.0
+Thread 123832820041280 processed: 0, result: 0.0
+Thread 123832809555520 processed: 0, result: 0.0
+Thread 123832954259008 processed: -1, result: -6.0
+Thread 123832943773248 processed: -1, result: -6.0
+Thread 123832933287488 processed: -1, result: -6.0
+Thread 123832922801728 processed: -1, result: -0.0
+Thread 123832912315968 processed: -1, result: -6.0
+Thread 123832830527040 processed: -1, result: -7.0
+Thread 123832820041280 processed: -1, result: -6.0
+Thread 123832809555520 processed: -1, result: -6.0
+docstring
+And a second line
+
+Stderr: 

@@ -1,3 +1,226 @@
 Return Code: 0
-Stdout: b'cpython\nenv\nfuzz4py\nfuzz_results\ninvalid.pem\nmalformed\nmydatabase\nmydatabase_\nmydatabase_0\nmydatabase_0_16\nmydatabase_0_19\nmydatabase_0_24\nmydatabase_0_33\nmydatabase_0_42\nmydatabase_0_43\nmydatabase_0_46\nmydatabase_0_5\nmydatabase_0_53\nmydatabase_0_56\nmydatabase_0_60\nmydatabase_0_66\nmydatabase_0_69\nmydatabase_0_70\nmydatabase_0_87\nmydatabase_0_88\nmydatabase_0_9\nmydatabase_0_90\nmydatabase_0_98\nmydatabase_1\nmydatabase_1_13\nmydatabase_1_17\nmydatabase_1_24\nmydatabase_1_29\nmydatabase_1_31\nmydatabase_1_33\nmydatabase_1_34\nmydatabase_1_47\nmydatabase_1_53\nmydatabase_1_56\nmydatabase_1_61\nmydatabase_1_65\nmydatabase_1_68\nmydatabase_1_71\nmydatabase_1_75\nmydatabase_1_76\nmydatabase_1_86\nmydatabase_1_87\nmydatabase_1_90\nmydatabase_1_99\nmydatabase_2\nmydatabase_2_100\nmydatabase_2_20\nmydatabase_2_21\nmydatabase_2_28\nmydatabase_2_29\nmydatabase_2_37\nmydatabase_2_38\nmydatabase_2_40\nmydatabase_2_43\nmydatabase_2_44\nmydatabase_24.db-shm\nmydatabase_24.db-wal\nmydatabase_2_5\nmydatabase_2_56\nmydatabase_2_61\nmydatabase_2_64\nmydatabase_2_7\nmydatabase_2_73\nmydatabase_2_75\nmydatabase_2_83\nmydatabase_2_85\nmydatabase_3\nmydatabase_3_100\nmydatabase_3_12\nmydatabase_3_22\nmydatabase_3_27\nmydatabase_3_28\nmydatabase_3_30\nmydatabase_3_31\nmydatabase_3_38\nmydatabase_3_44\nmydatabase_3_51\nmydatabase_3_57\nmydatabase_3_62\nmydatabase_3_67\nmydatabase_3_81\nmydatabase_3_82\nmydatabase_3_85\nmydatabase_3_86\nmydatabase_3_89\nmydatabase_3_9\nmydatabase_3_96\nmydatabase_4\nmydatabase_4_11\nmydatabase_4_14\nmydatabase_4_15\nmydatabase_4_16\nmydatabase_4_18\nmydatabase_4_19\nmydatabase_4_26\nmydatabase_4_29\nmydatabase_4_36\nmydatabase_4_40\nmydatabase_4_54\nmydatabase_4_58\nmydatabase_4_61\nmydatabase_4_65\nmydatabase_4_69\nmydatabase_4_71\nmydatabase_4_75\nmydatabase_4_81\nmydatabase_4_92\nmydatabase_4_96\nmydatabase_5\nmydatabase_548.db\nmydatabase_548.db-shm\nmydatabase_548.db-wal\nmydatabase_56.db-shm\nmydatabase_56.db-wal\nmydatabase_5-shm\nmydatabase_5-wal\nmydatabase_6\nmydatabase_6-shm\nmydatabase_6-wal\nmydatabase_7\nmydatabase_78.db-shm\nmydatabase_78.db-wal\nmydatabase_79.db-shm\nmydatabase_79.db-wal\nmydatabase_7-shm\nmydatabase_7-wal\nmydatabase_876.db\nmydatabase_876.db-shm\nmydatabase_876.db-wal\nmydatabase_8.db\nmydatabase8.dbm\nmydatabase_8.db-shm\nmydatabase_8.db-wal\nmydatabase_9.db\nmydatabase_9.db-shm\nmydatabase_9.db-wal\nmydatabase.db\nmydatabase_None\nmydatabase_None-shm\nmydatabase_None-wal\nmydatabase_-shm\nmydatabase_-wal\nREADME.md\nrequirements.txt\nsetup.sh\nshared_file.txt\ntempfile_0.txt\ntempfile_1.txt\ntempfile_2.txt\ntempfile_3.txt\ntempfile_4.txt\ntest.dbm\ntest.dbm-shm\ntest.dbm-wal\ntest.db-shm\ntest.db-wal\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nResults: [2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18]\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\nError in thread: Even numbers cause error\n/home/mrigankp/fuzz4py\nposix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4562011.72)\n/home/mrigankp/fuzz4py/very/very/very/very/deep/long/path.txt\n'
-Stderr: b''
+Stdout: cpython
+env
+fuzz
+fuzz4py
+fuzz_results
+invalid.pem
+malformed
+mydatabase
+mydatabase_
+mydatabase_0
+mydatabase_0_1
+mydatabase_0_11
+mydatabase_0_13
+mydatabase_0_15
+mydatabase_0_21
+mydatabase_0_23
+mydatabase_0_26
+mydatabase_0_27
+mydatabase_0_29
+mydatabase_0_33
+mydatabase_0_35
+mydatabase_0_37
+mydatabase_0_38
+mydatabase_0_51
+mydatabase_0_6
+mydatabase_0_71
+mydatabase_0_72
+mydatabase_0_74
+mydatabase_0_90
+mydatabase_0_91
+mydatabase_0_93
+mydatabase_1
+mydatabase_1_11
+mydatabase_1_15
+mydatabase_1_22
+mydatabase_1_3
+mydatabase_1_36
+mydatabase_1_37
+mydatabase_1_47
+mydatabase_1_48
+mydatabase_1_49
+mydatabase_1_51
+mydatabase_1_52
+mydatabase_1_54
+mydatabase_1_55
+mydatabase_1_58
+mydatabase_1_62
+mydatabase_1_67
+mydatabase_1_69
+mydatabase_1_79
+mydatabase_1_83
+mydatabase_1_87
+mydatabase_1.db-shm
+mydatabase_1.db-wal
+mydatabase_2
+mydatabase_2_12
+mydatabase_2_2
+mydatabase_2_27
+mydatabase_22.db-shm
+mydatabase_22.db-wal
+mydatabase_2_33
+mydatabase_2_36
+mydatabase_2_37
+mydatabase_2_38
+mydatabase_2_39
+mydatabase_2_53
+mydatabase_2_59
+mydatabase_2_61
+mydatabase_2_63
+mydatabase_2_64
+mydatabase_2_67
+mydatabase_2_74
+mydatabase_2_77
+mydatabase_2_89
+mydatabase_2_9
+mydatabase_2_93
+mydatabase_3
+mydatabase_3_20
+mydatabase_3_26
+mydatabase_3_28
+mydatabase_3_3
+mydatabase_3_37
+mydatabase_3_45
+mydatabase_3_47
+mydatabase_3_48
+mydatabase_3_5
+mydatabase_3_54
+mydatabase_3_6
+mydatabase_3_62
+mydatabase_3_63
+mydatabase_3_7
+mydatabase_3_74
+mydatabase_3_76
+mydatabase_3_77
+mydatabase_3_79
+mydatabase_3_85
+mydatabase_3_89
+mydatabase_3_91
+mydatabase_4
+mydatabase_4_0
+mydatabase_4_13
+mydatabase_4_16
+mydatabase_4_18
+mydatabase_4_2
+mydatabase_4_20
+mydatabase_4_22
+mydatabase_4_28
+mydatabase_4_38
+mydatabase_4_42
+mydatabase_4_43
+mydatabase_4_48
+mydatabase_4_50
+mydatabase_4_61
+mydatabase_4_69
+mydatabase_4_74
+mydatabase_4_83
+mydatabase_4_94
+mydatabase_4_96
+mydatabase_4_98
+mydatabase_5
+mydatabase_5-shm
+mydatabase_5-wal
+mydatabase_688.db
+mydatabase_688.db-shm
+mydatabase_688.db-wal
+mydatabase_6.db
+mydatabase6.dbm
+mydatabase_6.db-shm
+mydatabase_6.db-wal
+mydatabase_7.db
+mydatabase_7.db-shm
+mydatabase_7.db-wal
+mydatabase_87.db-shm
+mydatabase_87.db-wal
+mydatabase_97.db-shm
+mydatabase_97.db-wal
+mydatabase_996.db
+mydatabase_996.db-shm
+mydatabase_996.db-wal
+mydatabase.db
+mydatabase_None
+mydatabase_None-shm
+mydatabase_None-wal
+mydatabase_-shm
+mydatabase_-wal
+README.md
+requirements.txt
+setup.sh
+shared_file.txt
+tempfile_0.txt
+tempfile_1.txt
+tempfile_2.txt
+tempfile_3.txt
+tempfile_4.txt
+test.dbm
+test.dbm-shm
+test.dbm-wal
+test.db-shm
+test.db-wal
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Results: [2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18, 2, 6, 10, 14, 18]
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+Error in thread: Even numbers cause error
+/home/mrigankp/fuzz4py
+posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605391.75)
+/home/mrigankp/fuzz4py/very/very/very/very/deep/long/path.txt
+
+Stderr: 

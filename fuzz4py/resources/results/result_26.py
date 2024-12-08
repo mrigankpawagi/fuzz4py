@@ -1,3 +1,8 @@
 Return Code: 0
-Stdout: b"5 10\nSSL context created.\nData after threading: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]\nDBM access successful: b'value1'\n[2, 4, 6]\n"
-Stderr: b''
+Stdout: 5 10
+SSL context created.
+Data after threading: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+DBM access successful: b'value1'
+[2, 4, 6]
+
+Stderr: 

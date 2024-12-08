@@ -1,3 +1,4 @@
-Return Code: 1
-Stdout: b'SSL connection established (or should have been)\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/538.py", line 114, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/538.py", line 87, in main\n    Point = namedtuple("Point", [("x", int), ("y", int)])\n  File "/home/mrigankp/fuzz4py/cpython/Lib/collections/__init__.py", line 403, in namedtuple\n    raise ValueError(\'Type names and field names must be valid \'\n                     f\'identifiers: {name!r}\')\nValueError: Type names and field names must be valid identifiers: "(\'x\', <class \'int\'>)"\n'
+Return Code: 0
+Stdout: SSL Error: Cannot set verify_mode to CERT_NONE when check_hostname is enabled.
+
+Stderr: 

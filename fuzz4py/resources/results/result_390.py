@@ -1,3 +1,26 @@
 Return Code: 0
-Stdout: b"Race condition result: [0, 0, 1, 2, 4, 3, 4, 16, 5, 6, 36, 7, 8, 64, 9]\nAn error occurred: module 'copy' has no attribute 'namedtuple'\n"
-Stderr: b'Exception in thread Thread-4 (process_item):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/390.py", line 67, in process_item\n    raise ValueError("Simulated error")\nValueError: Simulated error\n'
+Stdout: An error occurred: not all arguments converted during string formatting
+
+Stderr: Exception in thread Thread-4 (process_item):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/390.py", line 67, in process_item
+    raise ValueError("Simulated error")
+ValueError: Simulated error
+Exception in thread Thread-6 (process_item):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/390.py", line 67, in process_item
+    raise ValueError("Simulated error")
+ValueError: Simulated error
+

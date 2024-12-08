@@ -1,3 +1,18 @@
 Return Code: 0
-Stdout: b"Original object: 20, Replaced object: 20\n{'1': 2, 'hello': 5, '3': 6, 'world': 5}\nTime taken by os.times(): 1.054699532687664e-05\n\nThis is a docstring\nwith some whitespace.\n\n\n\nRace Condition Example: [2, 4, 6, 8, 10, -1]\nComplex Annotation Example: [2, 6, 6, 0, 10, 0, -1, -1, -1, 2]\nFuzzing replace Protocol: [1, 2, 3]\nFuzzing dbm: b'965'\nFuzzing OS timer: posix.times_result(user=0.03, system=0.01, children_user=0.0, children_system=0.0, elapsed=4563476.79)\nFuzzing SSL: Error: 'bool' object is not callable\n"
-Stderr: b''
+Stdout: Original object: 20, Replaced object: 20
+{'1': 2, 'hello': 5, '3': 6, 'world': 5}
+Time taken by os.times(): 1.0026036761701107e-05
+
+This is a docstring
+with some whitespace.
+
+
+
+Race Condition Example: [2, 4, 6, 8, 10, -1]
+Complex Annotation Example: [2, 6, 6, 0, 10, 0, -1, -1, -1, 2]
+Fuzzing replace Protocol: [1, 2, 3]
+Fuzzing dbm: b'381'
+Fuzzing OS timer: posix.times_result(user=0.03, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606826.71)
+Fuzzing SSL: Error: 'bool' object is not callable
+
+Stderr: 

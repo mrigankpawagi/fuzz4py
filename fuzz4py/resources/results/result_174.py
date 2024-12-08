@@ -1,3 +1,12 @@
 Return Code: 0
-Stdout: b"OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561361.9)\nError with os.times(): module 'os' has no attribute 'cpu_time'\nInvalid x value: invalid literal for int() with base 10: 'abc'\nInvalid x value: invalid literal for int() with base 10: 'abc'\nOriginal Point: Point(3, 2), Modified Point (non-numeric): None, Modified Point (float): Point(3, 2), Modified Point (None): Point(3, 2), Modified Point (multiple): None, Modified Point (no params): Point(3, 2)\nResult 1: 6, Result 2: hello10, Result 3: Error: Invalid list type, Result 4: 12, Result 5: 0, Result 6: Error: Invalid tuple index\nThread error: unsupported operand type(s) for +: 'float' and 'str'\nThread error: unsupported operand type(s) for +: 'float' and 'NoneType'\nData after threading: [1733595109.636082, 1733595119.6362212, 1733595104.6362762, 1733596110.1363194, 1733595009.6363635, (1733595109.6364021+0j), 1.2345678901234568e+39, 1733595109.6365626]\n"
-Stderr: b''
+Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604741.66)
+Error with os.times(): module 'os' has no attribute 'cpu_time'
+Invalid x value: invalid literal for int() with base 10: 'abc'
+Invalid x value: invalid literal for int() with base 10: 'abc'
+Original Point: Point(3, 2), Modified Point (non-numeric): None, Modified Point (float): Point(3, 2), Modified Point (None): Point(3, 2), Modified Point (multiple): None, Modified Point (no params): Point(3, 2)
+Result 1: 6, Result 2: hello10, Result 3: Error: Invalid list type, Result 4: 12, Result 5: 0, Result 6: Error: Invalid tuple index
+Thread error: unsupported operand type(s) for +: 'float' and 'str'
+Thread error: unsupported operand type(s) for +: 'float' and 'NoneType'
+Data after threading: [1733638489.3975277, 1733638499.3976016, 1733638484.3976543, 1733639489.8976974, 1733638389.3977382, (1733638489.397777+0j), 1.2345678901234568e+39, 1733638489.397942]
+
+Stderr: 

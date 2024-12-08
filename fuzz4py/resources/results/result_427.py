@@ -1,3 +1,13 @@
 Return Code: 0
-Stdout: b"Thread 135356861122112 calculated: 31.9034480612318\nThread 135356850636352 calculated: 99.5893552396464\nThread 135356764653120 calculated: 51.200398558533465\nThread 135356754167360 calculated: 56.34249188434698\nThread 135356743681600 calculated: 18.428604490124155\ncopy.replace() error: int() argument must be a string, a bytes-like object or a real number, not 'list'\nDatabase data: None\nDatabase data: 123\nTime taken: 0.0\nSleep successful.\n"
-Stderr: b''
+Stdout: Thread 129526117959232 calculated: 45.52994228110236
+Thread 129526107473472 calculated: 108.85114360921875
+Thread 129526096987712 calculated: 100.94402256570936
+Thread 129526011004480 calculated: 13.770791618359706
+Thread 129526000518720 calculated: 31.29890309568395
+copy.replace() error: int() argument must be a string, a bytes-like object or a real number, not 'list'
+Database data: None
+Database data: 123
+Error accessing os.times(): tuple index out of range
+Sleep successful.
+
+Stderr: 

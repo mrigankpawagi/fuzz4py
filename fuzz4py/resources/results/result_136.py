@@ -1,3 +1,10 @@
 Return Code: 0
-Stdout: b'Multithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False]\nMultithreaded Result: [False, False, False, False]\n'
-Stderr: b''
+Stdout: Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False]
+Multithreaded Result: [False, False, False, False]
+
+Stderr: 

@@ -1,3 +1,2505 @@
 Return Code: 1
-Stdout: b''
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 111, in <module>\n    test_replace_protocol()\n    ~~~~~~~~~~~~~~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 51, in test_replace_protocol\n    replaced = copy.replace(original, new_value=20)\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace\n    return func(obj, **changes)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__\n    return copy.replace(self, value=kwargs.get(\'new_value\', self.value))\n           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRecursionError: maximum recursion depth exceeded\n'
+Stdout: 
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 111, in <module>
+    test_replace_protocol()
+    ~~~~~~~~~~~~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 51, in test_replace_protocol
+    replaced = copy.replace(original, new_value=20)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 306, in replace
+    return func(obj, **changes)
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/861.py", line 48, in __replace__
+    return copy.replace(self, value=kwargs.get('new_value', self.value))
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RecursionError: maximum recursion depth exceeded
+

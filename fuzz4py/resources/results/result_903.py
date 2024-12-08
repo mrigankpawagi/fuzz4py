@@ -1,3 +1,23 @@
 Return Code: 0
-Stdout: b"Database error: module 'dbm' has no attribute 'sqlite3'\nLocal var in thread: 10, [1, 2, 3]\nDatabase error: module 'dbm' has no attribute 'sqlite3'\nDatabase error: module 'dbm' has no attribute 'sqlite3'\nDatabase error: module 'dbm' has no attribute 'sqlite3'\nDatabase error: module 'dbm' has no attribute 'sqlite3'\nLocal var in thread: 10, [1, 2, 3]\nLocal var in thread: 10, [1, 2, 3]\nLocal var in thread: 10, [1, 2, 3]\nLocal var in thread: 10, [1, 2, 3]\nAll threads finished.\nShared data: {0: 1, 1: 1, 2: 1, 3: 1, 4: 1}\n999999000000\nTime taken for os.times(): 0.000003\nposix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563455.87)\nTime taken for os.times(): 0.000001\nposix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563455.87)\nProcessed data: [2, 4, 3, 10]\nOriginal object: 20, New object: 20\nSSL context created successfully\n"
-Stderr: b''
+Stdout: Database error: module 'dbm' has no attribute 'sqlite3'
+Local var in thread: 10, [1, 2, 3]
+Database error: module 'dbm' has no attribute 'sqlite3'
+Database error: module 'dbm' has no attribute 'sqlite3'
+Database error: module 'dbm' has no attribute 'sqlite3'
+Database error: module 'dbm' has no attribute 'sqlite3'
+Local var in thread: 10, [1, 2, 3]
+Local var in thread: 10, [1, 2, 3]
+Local var in thread: 10, [1, 2, 3]
+Local var in thread: 10, [1, 2, 3]
+All threads finished.
+Shared data: {0: 1, 1: 1, 2: 1, 3: 1, 4: 1}
+999999000000
+Time taken for os.times(): 0.000003
+posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606806.57)
+Time taken for os.times(): 0.000001
+posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606806.57)
+Processed data: [2, 4, 3, 10]
+Original object: 20, New object: 20
+SSL context created successfully
+
+Stderr: 

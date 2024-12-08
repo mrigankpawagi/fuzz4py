@@ -1,3 +1,33 @@
 Return Code: 0
-Stdout: b"Key: 0, Value: b'426'\nKey: 1, Value: b'95'\nKey: 2, Value: b'950'\nKey: 3, Value: b'799'\nKey: 4, Value: b'551'\nKey: 5, Value: b'648'\nKey: 6, Value: b'24'\nKey: 7, Value: b'533'\nKey: 8, Value: b'784'\nKey: 9, Value: b'131'\nIndexError in my_function: list index out of range\nIndexError in my_function: list index out of range\nIndexError in my_function: list index out of range\nIndexError in my_function: list index out of range\nIndexError in my_function: list index out of range\nResult: -5\nConnection error to fuzz-hostname-0.com:30278: [Errno -2] Name or service not known\nConnection error to fuzz-hostname-1.com:36754: [Errno -2] Name or service not known\nConnection error to fuzz-hostname-2.com:7859: [Errno -2] Name or service not known\nConnection error to fuzz-hostname-3.com:1122: [Errno -2] Name or service not known\nConnection error to fuzz-hostname-4.com:46175: [Errno -2] Name or service not known\nElapsed time (perf_counter): 0.000012 seconds\nCPU times (os.times()): posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563355.1)\nElapsed time (perf_counter): 0.000012 seconds\nCPU times (os.times()): posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563356.04)\nElapsed time (perf_counter): 0.000007 seconds\nCPU times (os.times()): posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563356.34)\nElapsed time (perf_counter): 0.000004 seconds\nCPU times (os.times()): posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563356.48)\nElapsed time (perf_counter): 0.000010 seconds\nCPU times (os.times()): posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4563357.13)\n"
-Stderr: b''
+Stdout: Key: 0, Value: b'954'
+Key: 1, Value: b'965'
+Key: 2, Value: b'194'
+Key: 3, Value: b'754'
+Key: 4, Value: b'964'
+Key: 5, Value: b'163'
+Key: 6, Value: b'607'
+Key: 7, Value: b'891'
+Key: 8, Value: b'238'
+Key: 9, Value: b'531'
+IndexError in my_function: list index out of range
+IndexError in my_function: list index out of range
+IndexError in my_function: list index out of range
+IndexError in my_function: list index out of range
+Result: 60006
+Connection error to fuzz-hostname-0.com:46997: [Errno -2] Name or service not known
+Connection error to fuzz-hostname-1.com:53044: [Errno -2] Name or service not known
+Connection error to fuzz-hostname-2.com:17899: [Errno -2] Name or service not known
+Connection error to fuzz-hostname-3.com:45179: [Errno -2] Name or service not known
+Connection error to fuzz-hostname-4.com:34381: [Errno -2] Name or service not known
+Elapsed time (perf_counter): 0.000011 seconds
+CPU times (os.times()): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606705.41)
+Elapsed time (perf_counter): 0.000012 seconds
+CPU times (os.times()): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606706.12)
+Elapsed time (perf_counter): 0.000006 seconds
+CPU times (os.times()): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606706.28)
+Elapsed time (perf_counter): 0.000011 seconds
+CPU times (os.times()): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606707.22)
+Elapsed time (perf_counter): 0.000007 seconds
+CPU times (os.times()): posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606707.53)
+
+Stderr: 

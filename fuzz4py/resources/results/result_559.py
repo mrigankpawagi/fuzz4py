@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b'Thread: 128626238424640, Result: 15\nThread: 128626227938880, Result: 15\nThread: 128626148247104, Result: 15\nThread: 128626137761344, Result: 15\nThread: 128626127275584, Result: 15\nTime elapsed: 2.000065326690674\n'
-Stderr: b''
+Stdout: Thread: 129007198668352, Result: 15
+Thread: 129007188182592, Result: 15
+Thread: 129007177696832, Result: 15
+Thread: 129007167211072, Result: 15
+Thread: 129007156725312, Result: 15
+Time elapsed: 2.0001533031463623
+
+Stderr: 

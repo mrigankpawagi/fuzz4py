@@ -1,3 +1,5 @@
 Return Code: 0
-Stdout: b'Final shared data: 28\nJIT test completed successfully\n'
-Stderr: b''
+Stdout: Final shared data: -24
+JIT test completed successfully
+
+Stderr: 

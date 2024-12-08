@@ -1,3 +1,66 @@
 Return Code: 1
-Stdout: b''
-Stderr: b'Exception in thread Thread-5 (threaded_function):\nException in thread Thread-4 (threaded_function):\nException in thread Thread-3 (threaded_function):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nException in thread Thread-1 (threaded_function):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function\n    current_context = ctx.get()\nTraceback (most recent call last):\nException in thread Thread-2 (threaded_function):\nLookupError: <ContextVar name=\'execution_context\' at 0x7ea1668835b0>\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function\n    current_context = ctx.get()\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function\n    current_context = ctx.get()\nLookupError: <ContextVar name=\'execution_context\' at 0x7ea1668835b0>\nTraceback (most recent call last):\nLookupError: <ContextVar name=\'execution_context\' at 0x7ea1668835b0>\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function\n    current_context = ctx.get()\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function\n    current_context = ctx.get()\nLookupError: <ContextVar name=\'execution_context\' at 0x7ea1668835b0>\nLookupError: <ContextVar name=\'execution_context\' at 0x7ea1668835b0>\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 133, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 58, in main\n    with ctx.set("JIT_ON"):\n         ~~~~~~~^^^^^^^^^^\nTypeError: \'_contextvars.Token\' object does not support the context manager protocol\n'
+Stdout: 
+Stderr: Exception in thread Thread-3 (threaded_function):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function
+    current_context = ctx.get()
+Exception in thread Thread-5 (threaded_function):
+LookupError: <ContextVar name='execution_context' at 0x7bcf7ab875b0>
+Traceback (most recent call last):
+Exception in thread Thread-2 (threaded_function):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+Exception in thread Thread-4 (threaded_function):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Exception in thread Thread-1 (threaded_function):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function
+    current_context = ctx.get()
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function
+    current_context = ctx.get()
+LookupError: <ContextVar name='execution_context' at 0x7bcf7ab875b0>
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+LookupError: <ContextVar name='execution_context' at 0x7bcf7ab875b0>
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function
+    current_context = ctx.get()
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+LookupError: <ContextVar name='execution_context' at 0x7bcf7ab875b0>
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 37, in threaded_function
+    current_context = ctx.get()
+LookupError: <ContextVar name='execution_context' at 0x7bcf7ab875b0>
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 133, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/588.py", line 58, in main
+    with ctx.set("JIT_ON"):
+         ~~~~~~~^^^^^^^^^^
+TypeError: '_contextvars.Token' object does not support the context manager protocol
+

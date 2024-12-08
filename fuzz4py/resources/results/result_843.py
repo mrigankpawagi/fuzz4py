@@ -1,3 +1,10 @@
 Return Code: 0
-Stdout: b"SSL Error (invalid cert): not enough data: cadata does not contain a certificate (_ssl.c:4195)\nSSL Error (large cert): not enough data: cadata does not contain a certificate (_ssl.c:4195)\nReplaceableClass(a=1, b=2)\nReplaceableClass(a=3, b=4)\nRace condition result: 4886\nAnnotation result: [2, 4, 'HELLO', 8, 'WORLD', 'None', '[]', '{}', 2, '1.5', 'TEST', 'ANOTHER STRING', 2000000000, 'VERYLONGSTRING', 2469135780]\nJIT result: 4942\n"
-Stderr: b''
+Stdout: SSL Error (invalid cert): not enough data: cadata does not contain a certificate (_ssl.c:4195)
+SSL Error (large cert): not enough data: cadata does not contain a certificate (_ssl.c:4195)
+ReplaceableClass(a=1, b=2)
+ReplaceableClass(a=3, b=4)
+Race condition result: 5388
+Annotation result: [2, 4, 'HELLO', 8, 'WORLD', 'None', '[]', '{}', 2, '1.5', 'TEST', 'ANOTHER STRING', 2000000000, 'VERYLONGSTRING', 2469135780]
+JIT result: 7927
+
+Stderr: 

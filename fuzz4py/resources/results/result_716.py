@@ -1,3 +1,5 @@
 Return Code: 0
-Stdout: b'Time taken by os.times(): 3.5762786865234375e-06\nNew Object: 3, 2\n'
-Stderr: b''
+Stdout: Time taken by os.times(): 3.337860107421875e-06
+New Object: 3, 2
+
+Stderr: 

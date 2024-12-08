@@ -1,3 +1,14 @@
 Return Code: 0
-Stdout: b'Thread result is None\nThread result is None\nThread result is None\nThread result is None\nThread result is None\nMyClass(a=not an integer, b=43)\nError with dbm: NOT NULL constraint failed: Dict.key\nOS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561305.0)\nError with os.times: sleep length must be non-negative\nSSL Error loading cert [X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4329)\nSSL context created with temporary certificate\n'
-Stderr: b''
+Stdout: Thread result is None
+Thread result is None
+Thread result is None
+Thread result is None
+Thread result is None
+MyClass(a=not an integer, b=302)
+Error with dbm: NOT NULL constraint failed: Dict.key
+OS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604622.5)
+Error with os.times: sleep length must be non-negative
+SSL Error loading cert [X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4329)
+SSL context created with temporary certificate
+
+Stderr: 

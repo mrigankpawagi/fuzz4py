@@ -1,3 +1,15 @@
 Return Code: 0
-Stdout: b"Error in thread 128272450979392: 'SSLContext' object does not support the context manager protocol\nError in thread 128272440493632: 'SSLContext' object does not support the context manager protocol\nError in thread 128272430007872: 'SSLContext' object does not support the context manager protocol\nError in thread 128272350316096: 'SSLContext' object does not support the context manager protocol\nError in thread 128272339830336: 'SSLContext' object does not support the context manager protocol\nError in thread 128272329344576: 'SSLContext' object does not support the context manager protocol\nError in thread 128272318858816: 'SSLContext' object does not support the context manager protocol\nError in thread 128272308373056: 'SSLContext' object does not support the context manager protocol\nError in thread 128272297887296: 'SSLContext' object does not support the context manager protocol\nError in thread 128272287401536: 'SSLContext' object does not support the context manager protocol\nOriginal object: 20\nReplaced object: 20\n"
-Stderr: b''
+Stdout: Error in thread 130733035226688: 'SSLContext' object does not support the context manager protocol
+Error in thread 130733024740928: 'SSLContext' object does not support the context manager protocol
+Error in thread 130733014255168: 'SSLContext' object does not support the context manager protocol
+Error in thread 130733003769408: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732993283648: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732982797888: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732896814656: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732886328896: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732875843136: 'SSLContext' object does not support the context manager protocol
+Error in thread 130732865357376: 'SSLContext' object does not support the context manager protocol
+Original object: 20
+Replaced object: 20
+
+Stderr: 

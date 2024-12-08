@@ -1,3 +1,71 @@
 Return Code: 1
-Stdout: b'Value of the shared variable: 0\n'
-Stderr: b'Exception in thread Thread-1 (thread_target):\nException in thread Thread-2 (thread_target):\nException in thread Thread-3 (thread_target):\nException in thread Thread-4 (thread_target):\nException in thread Thread-5 (thread_target):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target\n    thread_local_variable += 1\n    ^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target\n    thread_local_variable += 1\n    ^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target\n    thread_local_variable += 1\n    ^^^^^^^^^^^^^^^^^^^^^\nNameError: name \'thread_local_variable\' is not defined\nNameError: name \'thread_local_variable\' is not defined\nNameError: name \'thread_local_variable\' is not defined\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target\n    thread_local_variable += 1\n    ^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nNameError: name \'thread_local_variable\' is not defined\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target\n    thread_local_variable += 1\n    ^^^^^^^^^^^^^^^^^^^^^\nNameError: name \'thread_local_variable\' is not defined\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 79, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 64, in main\n    replaced = copy.replace(MyReplaceable(10),100)\nTypeError: replace() takes 1 positional argument but 2 were given\n'
+Stdout: Value of the shared variable: 0
+
+Stderr: Exception in thread Thread-1 (thread_target):
+Exception in thread Thread-2 (thread_target):
+Exception in thread Thread-3 (thread_target):
+Exception in thread Thread-4 (thread_target):
+Exception in thread Thread-5 (thread_target):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+NameError: name 'thread_local_variable' is not defined
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'thread_local_variable' is not defined
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'thread_local_variable' is not defined
+NameError: name 'thread_local_variable' is not defined
+NameError: name 'thread_local_variable' is not defined
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 79, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 64, in main
+    replaced = copy.replace(MyReplaceable(10),100)
+TypeError: replace() takes 1 positional argument but 2 were given
+

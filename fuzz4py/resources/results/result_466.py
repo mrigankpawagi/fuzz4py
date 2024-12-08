@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b"Results: [3, 2, 6, 1, 8, 4, 5, 7]\nError during replace: ReplaceableClass.__replace__() missing 1 required positional argument: 'value'\nElapsed time: 1.0000679870136082\nSSL context created successfully.\n"
-Stderr: b''
+Stdout: Results: [2, 3, 5, 1, 4, 8, 7, 6]
+Error during replace: ReplaceableClass.__replace__() missing 1 required positional argument: 'value'
+Elapsed time: 1.0000910800299607
+SSL context created successfully.
+
+Stderr: 

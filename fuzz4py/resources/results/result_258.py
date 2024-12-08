@@ -1,3 +1,4 @@
 Return Code: 0
-Stdout: b'5\n'
-Stderr: b''
+Stdout: 5
+
+Stderr: 

@@ -1,3 +1,69 @@
 Return Code: 0
-Stdout: b'Elapsed time: 0.34\n'
-Stderr: b'Exception in thread Thread-5 (worker):\nException in thread Thread-1 (worker):\nException in thread Thread-4 (worker):\nException in thread Thread-3 (worker):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker\n    arg = copy.replace(arg, new_val=arg * 2)\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace\n    raise TypeError(f"replace() does not support {cls.__name__} objects")\nTypeError: replace() does not support int objects\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nException in thread Thread-2 (worker):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker\n    arg = copy.replace(arg, new_val=arg * 2)\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker\n    arg = copy.replace(arg, new_val=arg * 2)\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace\n    raise TypeError(f"replace() does not support {cls.__name__} objects")\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace\n    raise TypeError(f"replace() does not support {cls.__name__} objects")\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker\n    arg = copy.replace(arg, new_val=arg * 2)\nTypeError: replace() does not support int objects\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace\n    raise TypeError(f"replace() does not support {cls.__name__} objects")\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nTypeError: replace() does not support int objects\nTypeError: replace() does not support int objects\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker\n    arg = copy.replace(arg, new_val=arg * 2)\n  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace\n    raise TypeError(f"replace() does not support {cls.__name__} objects")\nTypeError: replace() does not support int objects\n'
+Stdout: Elapsed time: 0.32
+
+Stderr: Exception in thread Thread-2 (worker):
+Exception in thread Thread-4 (worker):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker
+    arg = copy.replace(arg, new_val=arg * 2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace
+    raise TypeError(f"replace() does not support {cls.__name__} objects")
+TypeError: replace() does not support int objects
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker
+    arg = copy.replace(arg, new_val=arg * 2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace
+    raise TypeError(f"replace() does not support {cls.__name__} objects")
+TypeError: replace() does not support int objects
+Exception in thread Thread-1 (worker):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker
+    arg = copy.replace(arg, new_val=arg * 2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace
+    raise TypeError(f"replace() does not support {cls.__name__} objects")
+TypeError: replace() does not support int objects
+Exception in thread Thread-5 (worker):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker
+    arg = copy.replace(arg, new_val=arg * 2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace
+    raise TypeError(f"replace() does not support {cls.__name__} objects")
+TypeError: replace() does not support int objects
+Exception in thread Thread-3 (worker):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/759.py", line 16, in worker
+    arg = copy.replace(arg, new_val=arg * 2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/copy.py", line 305, in replace
+    raise TypeError(f"replace() does not support {cls.__name__} objects")
+TypeError: replace() does not support int objects
+

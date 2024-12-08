@@ -1,3 +1,8 @@
 Return Code: 0
-Stdout: b"Results with replace: [232]\nResults without replace: [-68]\nResults with large data and replace: ['Error during replacement']\nElapsed time: 4.930714638961945\n"
-Stderr: b''
+Stdout: Results with replace: ['Error during replacement']
+Results without replace: [15]
+Results with large data and replace: ['Simulated zero division error']
+SSL Error: Simulated connection refused
+Elapsed time: 2.9654049369855784
+
+Stderr: 

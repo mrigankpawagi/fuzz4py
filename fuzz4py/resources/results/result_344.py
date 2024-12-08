@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b'Thread 139076405560896 calculated 1000000\nThread 139076416046656 calculated 1000000 (JIT)\nThread 139076374103616 calculated 1000000 (JIT)\nThread 139076395075136 calculated 1000000 (JIT)\nThread 139076384589376 calculated 1000000\nExecution time: 0.5691 seconds\n'
-Stderr: b''
+Stdout: Thread 131531104323136 calculated 1000000 (JIT)
+Thread 131531022534208 calculated 1000000
+Thread 131531012048448 calculated 1000000 (JIT)
+Thread 131531001562688 calculated 1000000
+Thread 131530991076928 calculated 1000000 (JIT)
+Execution time: 0.4841 seconds
+
+Stderr: 

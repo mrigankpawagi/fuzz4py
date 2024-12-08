@@ -1,3 +1,7 @@
 Return Code: 0
-Stdout: b"Replaced object value: 10\nRetrieved value: b'value1'\nElapsed time: 6.297021172940731e-06\nSSL context created successfully.\n"
-Stderr: b''
+Stdout: Replaced object value: 10
+Retrieved value: b'value1'
+Elapsed time: 5.726993549615145e-06
+SSL context created successfully.
+
+Stderr: 

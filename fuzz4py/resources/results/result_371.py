@@ -1,3 +1,13 @@
 Return Code: 0
-Stdout: b"Error in worker thread: Simulated type error\nError in worker thread: Simulated index error\nError in worker thread: Simulated index error\nFinal data: [45.73534254003725, 106.15295745622409, 9.683046137745034]\np1: 10, 20\np2: -97, 55\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\nError during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)\nError with dbm: module 'dbm' has no attribute 'sqlite3'\n"
-Stderr: b''
+Stdout: Error in worker thread: Simulated error
+Error in worker thread: Simulated index error
+Error in worker thread: Simulated type error
+Final data: [51.15004205920836, 47.13548273839231, 6.700600495066232]
+p1: 10, 20
+p2: 42, -10
+Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)
+Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)
+Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)
+Error with dbm: module 'dbm' has no attribute 'sqlite3'
+
+Stderr: 

@@ -1,0 +1,100 @@
+261
+: JIT error
+
+
+273
+: Exceeds the limit (4300 digits) for integer string conversion; use sys.set_int_max_str_digits() to increase the limit
+
+
+278
+: Fuzzing Exception
+
+
+286
+: Fuzzing Exception
+
+
+287
+: Fuzzing Exception
+
+
+390
+: Simulated error
+
+
+722
+: Simulated error in thread
+
+
+724
+: Simulated error in thread
+
+
+727
+: Simulated error in thread
+
+
+735
+: Simulated error in thread
+
+
+736
+: Simulated error in thread
+
+
+750
+: embedded null byte
+
+
+751
+: embedded null byte
+
+
+752
+: embedded null byte
+
+
+832
+: Simulated error in thread
+
+
+836
+: Simulated error in thread
+
+
+837
+: Simulated error in thread
+
+
+838
+: Simulated error in thread
+
+
+941
+: Error from thread 0
+
+
+943
+: Error from thread 2
+
+
+944
+: Error from thread 2
+
+
+945
+: Error from thread 1
+
+
+947
+: Error from thread 3
+
+
+948
+: Error from thread 2
+
+
+949
+: Error from thread 1
+
+

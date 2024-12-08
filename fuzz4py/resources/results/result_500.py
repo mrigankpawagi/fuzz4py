@@ -1,3 +1,9 @@
 Return Code: 0
-Stdout: b"Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139205044852544 and this is thread id 139205030184512.\nError in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139205044852544 and this is thread id 139205019698752.\nError in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139205044852544 and this is thread id 139204910646848.\nError in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139205044852544 and this is thread id 139204921132608.\nError in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 139205044852544 and this is thread id 139205009212992.\nKey: b'key1', Value: b'value1'\n"
-Stderr: b''
+Stdout: Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 130557101164352 and this is thread id 130557084173888.
+Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 130557101164352 and this is thread id 130556973024832.
+Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 130557101164352 and this is thread id 130556993996352.
+Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 130557101164352 and this is thread id 130556983510592.
+Error in thread: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 130557101164352 and this is thread id 130557004482112.
+Key: b'key1', Value: b'value1'
+
+Stderr: 

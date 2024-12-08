@@ -1,3 +1,17 @@
 Return Code: 0
-Stdout: b"Thread 131351751689792 result: 49995000\nThread 131351741204032 result: 49995000\nThread 131351730718272 result: 49995000\nThread 131351720232512 result: 49995000\nThread 131351640540736 result: 49995000\nRetrieved key: b'value1'\n"
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/256.py", line 56, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/256.py", line 46, in main\n    with context.wrap_socket(socket.socket(), server_hostname=\'localhost\') as s:\n                             ^^^^^^\nNameError: name \'socket\' is not defined. Did you forget to import \'socket\'?\n'
+Stdout: Thread 135165814769216 result: 49995000
+Thread 135165804283456 result: 49995000
+Thread 135165793797696 result: 49995000
+Thread 135165705717312 result: 49995000
+Thread 135165695231552 result: 49995000
+Retrieved key: b'value1'
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/256.py", line 56, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/256.py", line 46, in main
+    with context.wrap_socket(socket.socket(), server_hostname='localhost') as s:
+                             ^^^^^^
+NameError: name 'socket' is not defined. Did you forget to import 'socket'?
+

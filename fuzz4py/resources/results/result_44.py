@@ -1,3 +1,292 @@
 Return Code: 0
-Stdout: b"threading with GIL\nObject after replacement: 42\nposix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561235.7)\nTime taken for os.times(): 2.454034984111786e-06\nSSL context created.\nUnable to convert a string to float. Skipping.\n{1: 1.0, 2: 2.0, 3: 3.0, 10: 10.0}\nWarning: arg2 is not a string. Converting to string.\nThread 126033487464000 processed: 1, result: 8.0\nThread 126033497949760 processed: 1, result: 6.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: 1, result: 33.0\nError in my_function: Forced error, arg1: 1, arg2: b'bytes'\nThread 126033518921280 processed: 1, result: nan\nThread 126033529407040 processed: 1, result: 6.0\nThread 126033476978240 processed: 1, result: 6.0\nThread 126033397286464 processed: 1, result: 6.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 1, result: 8.0\nThread 126033376314944 processed: 1, result: 6.0\nThread 126033365829184 processed: 1, result: 6.0\nError in my_function: Forced error, arg1: 1, arg2: test31\nThread 126033355343424 processed: 1, result: nan\nThread 126033344857664 processed: 1, result: 6.0\nThread 126033195959872 processed: 1, result: 6.0\nThread 126033487464000 processed: 2, result: 12.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033497949760 processed: 2, result: 16.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: 2, result: 12.0\nError in my_function: Forced error, arg1: 2, arg2: (1, 2)\nThread 126033518921280 processed: 2, result: nan\nThread 126033529407040 processed: 2, result: 12.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: 2, result: 4.0\nThread 126033397286464 processed: 2, result: 12.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 2, result: 16.0\nError in my_function: Forced error, arg1: 2, arg2: None\nThread 126033376314944 processed: 2, result: nan\nError in my_function: Forced error, arg1: 2, arg2: {1: 'a'}\nThread 126033365829184 processed: 2, result: nan\nError in my_function: Forced error, arg1: 2, arg2: test10\nThread 126033355343424 processed: 2, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033344857664 processed: 2, result: 66.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033195959872 processed: 2, result: 16.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033487464000 processed: 3, result: 24.0\nThread 126033497949760 processed: 3, result: 18.0\nThread 126033508435520 processed: 3, result: 18.0\nThread 126033518921280 processed: 3, result: 18.0\nError in my_function: Forced error, arg1: 3, arg2: test20\nThread 126033529407040 processed: 3, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: 3, result: 27.0\nError in my_function: Forced error, arg1: 3, arg2: test87\nThread 126033397286464 processed: 3, result: nan\nThread 126033386800704 processed: 3, result: 18.0\nThread 126033376314944 processed: 3, result: 18.0\nThread 126033365829184 processed: 3, result: 0.0\nError in my_function: Forced error, arg1: 3, arg2: test9\nThread 126033355343424 processed: 3, result: nan\nThread 126033344857664 processed: 3, result: 0.0\nThread 126033195959872 processed: 3, result: 18.0\nThread 126033487464000 processed: 4, result: 0.0\nThread 126033497949760 processed: 4, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: 4, result: 32.0\nThread 126033518921280 processed: 4, result: 0.0\nError in my_function: Forced error, arg1: 4, arg2: test47\nThread 126033529407040 processed: 4, result: nan\nThread 126033476978240 processed: 4, result: 24.0\nThread 126033397286464 processed: 4, result: 24.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 4, result: 24.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033376314944 processed: 4, result: 132.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033365829184 processed: 4, result: 8.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033355343424 processed: 4, result: 36.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033344857664 processed: 4, result: 32.0\nThread 126033195959872 processed: 4, result: 24.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033487464000 processed: 5, result: 40.0\nThread 126033497949760 processed: 5, result: 30.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: 5, result: 45.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033518921280 processed: 5, result: 45.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033529407040 processed: 5, result: 30.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: 5, result: 30.0\nError in my_function: Forced error, arg1: 5, arg2: 123\nThread 126033397286464 processed: 5, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 5, result: 45.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033376314944 processed: 5, result: 30.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033365829184 processed: 5, result: 165.0\nThread 126033355343424 processed: 5, result: 30.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033344857664 processed: 5, result: 40.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033195959872 processed: 5, result: 165.0\nWarning: arg2 is not a string. Converting to string.\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: {1: 'a'}\nThread 126033487464000 processed: a, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: (1, 2)\nThread 126033497949760 processed: a, result: nan\nError in my_function: Forced error, arg1: a, arg2: test73\nThread 126033508435520 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test26\nThread 126033518921280 processed: a, result: nan\nError in my_function: Forced error, arg1: a, arg2: 123\nThread 126033529407040 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test37\nThread 126033476978240 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test29\nThread 126033397286464 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test14\nThread 126033386800704 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test36\nThread 126033376314944 processed: a, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: (1, 2)\nThread 126033365829184 processed: a, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: {1: 'a'}\nThread 126033355343424 processed: a, result: nan\nError in my_function: Forced error, arg1: a, arg2: test28\nThread 126033344857664 processed: a, result: nan\nError in my_function: could not convert string to float: 'a', arg1: a, arg2: test64\nThread 126033195959872 processed: a, result: nan\nThread 126033487464000 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033497949760 processed: 0, result: 0.0\nThread 126033508435520 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033518921280 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033529407040 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033397286464 processed: 0, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 0, result: 0.0\nThread 126033376314944 processed: 0, result: 0.0\nThread 126033365829184 processed: 0, result: 0.0\nError in my_function: Forced error, arg1: 0, arg2: test60\nThread 126033355343424 processed: 0, result: nan\nError in my_function: Forced error, arg1: 0, arg2: test33\nThread 126033344857664 processed: 0, result: nan\nThread 126033195959872 processed: 0, result: 0.0\nThread 126033487464000 processed: -1, result: -6.0\nThread 126033497949760 processed: -1, result: -6.0\nThread 126033508435520 processed: -1, result: -6.0\nThread 126033518921280 processed: -1, result: -6.0\nThread 126033529407040 processed: -1, result: -6.0\nThread 126033476978240 processed: -1, result: -6.0\nThread 126033397286464 processed: -1, result: -6.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: -1, result: -6.0\nThread 126033376314944 processed: -1, result: -1.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033365829184 processed: -1, result: -8.0\nError in my_function: Forced error, arg1: -1, arg2: None\nThread 126033355343424 processed: -1, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033344857664 processed: -1, result: -2.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033195959872 processed: -1, result: -8.0\nThread 126033487464000 processed: 1.23, result: 0.0\nThread 126033497949760 processed: 1.23, result: 7.38\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: 1.23, result: 9.84\nThread 126033518921280 processed: 1.23, result: 7.38\nThread 126033529407040 processed: 1.23, result: 7.38\nThread 126033476978240 processed: 1.23, result: 6.15\nThread 126033397286464 processed: 1.23, result: 1.23\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 1.23, result: 9.84\nWarning: arg2 is not a string. Converting to string.\nThread 126033376314944 processed: 1.23, result: 9.84\nThread 126033365829184 processed: 1.23, result: 0.0\nThread 126033355343424 processed: 1.23, result: 7.38\nThread 126033344857664 processed: 1.23, result: 7.38\nThread 126033195959872 processed: 1.23, result: 7.38\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: []\nThread 126033487464000 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: [1, 2, 3]\nThread 126033497949760 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: <object object at 0x72a078780590>\nThread 126033508435520 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: {1: 'a'}\nThread 126033518921280 processed: None, result: nan\nThread 126033529407040 processed: None, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: {1: 'a'}\nThread 126033476978240 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: <object object at 0x72a0787805d0>\nThread 126033397286464 processed: None, result: nan\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test21\nThread 126033386800704 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: <object object at 0x72a0787805f0>\nThread 126033376314944 processed: None, result: nan\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test88\nThread 126033365829184 processed: None, result: nan\nError in my_function: Forced error, arg1: None, arg2: test94\nThread 126033355343424 processed: None, result: nan\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test75\nThread 126033344857664 processed: None, result: nan\nWarning: arg2 is not a string. Converting to string.\nError in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: (1, 2)\nThread 126033195959872 processed: None, result: nan\nThread 126033487464000 processed: True, result: 6.0\nError in my_function: Forced error, arg1: True, arg2: test19\nThread 126033497949760 processed: True, result: nan\nThread 126033508435520 processed: True, result: 5.0\nThread 126033518921280 processed: True, result: 6.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033529407040 processed: True, result: 8.0\nError in my_function: Forced error, arg1: True, arg2: test99\nThread 126033476978240 processed: True, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033397286464 processed: True, result: 9.0\nThread 126033386800704 processed: True, result: 6.0\nThread 126033376314944 processed: True, result: 6.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033365829184 processed: True, result: 8.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033355343424 processed: True, result: 9.0\nThread 126033344857664 processed: True, result: 6.0\nThread 126033195959872 processed: True, result: 6.0\nThread 126033487464000 processed: 100000, result: 600000.0\nThread 126033497949760 processed: 100000, result: 100000.0\nError in my_function: Forced error, arg1: 100000, arg2: test47\nThread 126033508435520 processed: 100000, result: nan\nThread 126033518921280 processed: 100000, result: 0.0\nThread 126033529407040 processed: 100000, result: 600000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: 100000, result: 3300000.0\nThread 126033397286464 processed: 100000, result: 600000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: 100000, result: 600000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033376314944 processed: 100000, result: 900000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033365829184 processed: 100000, result: 800000.0\nThread 126033355343424 processed: 100000, result: 100000.0\nThread 126033344857664 processed: 100000, result: 600000.0\nThread 126033195959872 processed: 100000, result: 600000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033487464000 processed: -100000, result: -900000.0\nThread 126033497949760 processed: -100000, result: -600000.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033508435520 processed: -100000, result: -600000.0\nThread 126033518921280 processed: -100000, result: -600000.0\nError in my_function: Forced error, arg1: -100000, arg2: (1, 2)\nThread 126033529407040 processed: -100000, result: nan\nWarning: arg2 is not a string. Converting to string.\nThread 126033476978240 processed: -100000, result: -600000.0\nThread 126033397286464 processed: -100000, result: 0.0\nWarning: arg2 is not a string. Converting to string.\nThread 126033386800704 processed: -100000, result: -800000.0\nThread 126033376314944 processed: -100000, result: 0.0\nError in my_function: Forced error, arg1: -100000, arg2: b'bytes'\nThread 126033365829184 processed: -100000, result: nan\nError in my_function: Forced error, arg1: -100000, arg2: test80\nThread 126033355343424 processed: -100000, result: nan\nThread 126033344857664 processed: -100000, result: -600000.0\nError in my_function: Forced error, arg1: -100000, arg2: []\nThread 126033195959872 processed: -100000, result: nan\ndocstring\nAnd a second line\n"
-Stderr: b''
+Stdout: threading with GIL
+Object after replacement: 42
+posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604552.5)
+Time taken for os.times(): 1.7510028555989265e-06
+SSL context created.
+Unable to convert a string to float. Skipping.
+{1: 1.0, 2: 2.0, 3: 3.0, 10: 10.0}
+Error in my_function: Forced error, arg1: 1, arg2: test47
+Thread 138675184731712 processed: 1, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675195217472 processed: 1, result: 2.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675205703232 processed: 1, result: 9.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: 1, result: 33.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675226674752 processed: 1, result: 33.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: 1, result: 33.0
+Thread 138675086165568 processed: 1, result: 6.0
+Thread 138675075679808 processed: 1, result: 1.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675065194048 processed: 1, result: 9.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675054708288 processed: 1, result: 8.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675044222528 processed: 1, result: 2.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 1, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674884838976 processed: 1, result: 33.0
+Thread 138675184731712 processed: 2, result: 12.0
+Thread 138675195217472 processed: 2, result: 12.0
+Error in my_function: Forced error, arg1: 2, arg2: {1: 'a'}
+Thread 138675205703232 processed: 2, result: nan
+Thread 138675216188992 processed: 2, result: 12.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675226674752 processed: 2, result: 18.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: 2, result: 16.0
+Thread 138675086165568 processed: 2, result: 12.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: 2, result: 16.0
+Thread 138675065194048 processed: 2, result: 12.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675054708288 processed: 2, result: 12.0
+Thread 138675044222528 processed: 2, result: 12.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 2, result: 16.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674884838976 processed: 2, result: 4.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675184731712 processed: 3, result: 99.0
+Error in my_function: Forced error, arg1: 3, arg2: [1, 2, 3]
+Thread 138675195217472 processed: 3, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675205703232 processed: 3, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: 3, result: 24.0
+Thread 138675226674752 processed: 3, result: 18.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: 3, result: 99.0
+Thread 138675086165568 processed: 3, result: 18.0
+Thread 138675075679808 processed: 3, result: 18.0
+Thread 138675065194048 processed: 3, result: 18.0
+Thread 138675054708288 processed: 3, result: 15.0
+Thread 138675044222528 processed: 3, result: 18.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 3, result: 6.0
+Error in my_function: Forced error, arg1: 3, arg2: [1, 2, 3]
+Thread 138674884838976 processed: 3, result: nan
+Error in my_function: Forced error, arg1: 4, arg2: test26
+Thread 138675184731712 processed: 4, result: nan
+Thread 138675195217472 processed: 4, result: 24.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675205703232 processed: 4, result: 132.0
+Thread 138675216188992 processed: 4, result: 24.0
+Thread 138675226674752 processed: 4, result: 24.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: 4, result: 32.0
+Thread 138675086165568 processed: 4, result: 24.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: 4, result: 32.0
+Thread 138675065194048 processed: 4, result: 24.0
+Thread 138675054708288 processed: 4, result: 4.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675044222528 processed: 4, result: 32.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 4, result: 36.0
+Error in my_function: Forced error, arg1: 4, arg2: {1: 'a'}
+Thread 138674884838976 processed: 4, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675184731712 processed: 5, result: 45.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675195217472 processed: 5, result: 40.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675205703232 processed: 5, result: 40.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: 5, result: 40.0
+Thread 138675226674752 processed: 5, result: 30.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: 5, result: 40.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675086165568 processed: 5, result: 30.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: 5, result: 40.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675065194048 processed: 5, result: 40.0
+Thread 138675054708288 processed: 5, result: 25.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675044222528 processed: 5, result: 10.0
+Thread 138674895324736 processed: 5, result: 30.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674884838976 processed: 5, result: 40.0
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: {1: 'a'}
+Thread 138675184731712 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test50
+Thread 138675195217472 processed: a, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: (1, 2)
+Thread 138675205703232 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test97
+Thread 138675216188992 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test44
+Thread 138675226674752 processed: a, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: [1, 2, 3]
+Thread 138675096651328 processed: a, result: nan
+Error in my_function: Forced error, arg1: a, arg2: <object object at 0x7e1fd8580530>
+Thread 138675086165568 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test84
+Thread 138675075679808 processed: a, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: b'bytes'
+Thread 138675065194048 processed: a, result: nan
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: test48
+Thread 138675054708288 processed: a, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: <object object at 0x7e1fd8580570>
+Thread 138675044222528 processed: a, result: nan
+Error in my_function: Forced error, arg1: a, arg2: []
+Thread 138674895324736 processed: a, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: could not convert string to float: 'a', arg1: a, arg2: [1, 2, 3]
+Thread 138674884838976 processed: a, result: nan
+Thread 138675184731712 processed: 0, result: 0.0
+Thread 138675195217472 processed: 0, result: 0.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675205703232 processed: 0, result: 0.0
+Thread 138675216188992 processed: 0, result: 0.0
+Thread 138675226674752 processed: 0, result: 0.0
+Thread 138675096651328 processed: 0, result: 0.0
+Thread 138675086165568 processed: 0, result: 0.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: 0, result: 0.0
+Thread 138675065194048 processed: 0, result: 0.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675054708288 processed: 0, result: 0.0
+Thread 138675044222528 processed: 0, result: 0.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 0, result: 0.0
+Thread 138674884838976 processed: 0, result: 0.0
+Error in my_function: Forced error, arg1: -1, arg2: test18
+Thread 138675184731712 processed: -1, result: nan
+Thread 138675195217472 processed: -1, result: -6.0
+Thread 138675205703232 processed: -1, result: -6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: -1, result: -2.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675226674752 processed: -1, result: -8.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: -1, result: -2.0
+Thread 138675086165568 processed: -1, result: -6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: -1, result: -8.0
+Thread 138675065194048 processed: -1, result: -6.0
+Thread 138675054708288 processed: -1, result: -6.0
+Error in my_function: Forced error, arg1: -1, arg2: <object object at 0x7e1fd8580550>
+Thread 138675044222528 processed: -1, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: -1, result: -8.0
+Thread 138674884838976 processed: -1, result: 0.0
+Thread 138675184731712 processed: 1.23, result: 7.38
+Warning: arg2 is not a string. Converting to string.
+Thread 138675195217472 processed: 1.23, result: 2.46
+Error in my_function: Forced error, arg1: 1.23, arg2: [1, 2, 3]
+Thread 138675205703232 processed: 1.23, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: 1.23, result: 7.38
+Thread 138675226674752 processed: 1.23, result: 7.38
+Thread 138675096651328 processed: 1.23, result: 7.38
+Warning: arg2 is not a string. Converting to string.
+Thread 138675086165568 processed: 1.23, result: 2.46
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: 1.23, result: 2.46
+Warning: arg2 is not a string. Converting to string.
+Thread 138675065194048 processed: 1.23, result: 7.38
+Thread 138675054708288 processed: 1.23, result: 7.38
+Thread 138675044222528 processed: 1.23, result: 7.38
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: 1.23, result: 2.46
+Error in my_function: Forced error, arg1: 1.23, arg2: test11
+Thread 138674884838976 processed: 1.23, result: nan
+Error in my_function: Forced error, arg1: None, arg2: test69
+Thread 138675184731712 processed: None, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: <object object at 0x7e1fd8580580>
+Thread 138675195217472 processed: None, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: <object object at 0x7e1fd8580590>
+Thread 138675205703232 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: 123
+Thread 138675216188992 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test39
+Thread 138675226674752 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test80
+Thread 138675096651328 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test6
+Thread 138675086165568 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test2
+Thread 138675075679808 processed: None, result: nan
+Warning: arg2 is not a string. Converting to string.
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: (1, 2)
+Thread 138675065194048 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test99
+Thread 138675054708288 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test73
+Thread 138675044222528 processed: None, result: nan
+Error in my_function: Forced error, arg1: None, arg2: test14
+Thread 138674895324736 processed: None, result: nan
+Error in my_function: float() argument must be a string or a real number, not 'NoneType', arg1: None, arg2: test3
+Thread 138674884838976 processed: None, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675184731712 processed: True, result: 6.0
+Thread 138675195217472 processed: True, result: 0.0
+Thread 138675205703232 processed: True, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: True, result: 9.0
+Thread 138675226674752 processed: True, result: 0.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675096651328 processed: True, result: 8.0
+Thread 138675086165568 processed: True, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675075679808 processed: True, result: 33.0
+Thread 138675065194048 processed: True, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675054708288 processed: True, result: 9.0
+Thread 138675044222528 processed: True, result: 6.0
+Thread 138674895324736 processed: True, result: 6.0
+Thread 138674884838976 processed: True, result: 6.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675184731712 processed: 100000, result: 800000.0
+Thread 138675195217472 processed: 100000, result: 600000.0
+Thread 138675205703232 processed: 100000, result: 600000.0
+Thread 138675216188992 processed: 100000, result: 600000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675226674752 processed: 100000, result: 600000.0
+Thread 138675096651328 processed: 100000, result: 600000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675086165568 processed: 100000, result: 600000.0
+Thread 138675075679808 processed: 100000, result: 600000.0
+Thread 138675065194048 processed: 100000, result: 100000.0
+Thread 138675054708288 processed: 100000, result: 0.0
+Thread 138675044222528 processed: 100000, result: 100000.0
+Thread 138674895324736 processed: 100000, result: 600000.0
+Thread 138674884838976 processed: 100000, result: 100000.0
+Thread 138675184731712 processed: -100000, result: -600000.0
+Thread 138675195217472 processed: -100000, result: -600000.0
+Error in my_function: Forced error, arg1: -100000, arg2: (1, 2)
+Thread 138675205703232 processed: -100000, result: nan
+Warning: arg2 is not a string. Converting to string.
+Thread 138675216188992 processed: -100000, result: -800000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675226674752 processed: -100000, result: -800000.0
+Thread 138675096651328 processed: -100000, result: -500000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675086165568 processed: -100000, result: -200000.0
+Thread 138675075679808 processed: -100000, result: -600000.0
+Thread 138675065194048 processed: -100000, result: -100000.0
+Thread 138675054708288 processed: -100000, result: -500000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138675044222528 processed: -100000, result: -800000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674895324736 processed: -100000, result: -800000.0
+Warning: arg2 is not a string. Converting to string.
+Thread 138674884838976 processed: -100000, result: -900000.0
+docstring
+And a second line
+
+Stderr: 

@@ -1,3 +1,28 @@
 Return Code: 0
-Stdout: b"Error in copy.replace(): replace() takes 1 positional argument but 2 were given\nnested_comp: [-60, 40, -60, 8, 24]\nRetrieved data: b'56595'\nTime difference: 1.725920210010372 seconds.\nDefault SSL context created successfully.\nThread 129095467796032: (6, 'Hello6')\nThread 129095455213120: (6, 'Hello6')\nThread 129095373424192: (6, 'Hello6')\nThread 129095362938432: (6, 'Hello6')\nThread 129095352452672: (6, 'Hello6')\nSuccessfully stored data with empty key.\nos.times() result: posix.times_result(user=0.07, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561834.59), duration: 1.3828277587890625e-05\nSSL default context created successfully.\n"
-Stderr: b'Exception in thread Thread-1 (complex_function2):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/326.py", line 60, in complex_function2\n    print(f"Thread {threading.get_ident()} accessing data:", thread_local_data.value)\n                                                             ^^^^^^^^^^^^^^^^^^^^^^^\nAttributeError: \'_thread._local\' object has no attribute \'value\'\n'
+Stdout: Error in copy.replace(): replace() takes 1 positional argument but 2 were given
+nested_comp: [-168, 90, 36, 20, 120, 80, -148, 28, -68, -78, 120, 98, 84, 56, -58, 4, -82]
+Retrieved data: b'91874'
+Time difference: 1.20550344302319 seconds.
+Default SSL context created successfully.
+Thread 128860163147328: (6, 'Hello6')
+Thread 128860150564416: (6, 'Hello6')
+Thread 128860140078656: (6, 'Hello6')
+Thread 128860129592896: (6, 'Hello6')
+Thread 128860119107136: (6, 'Hello6')
+Successfully stored data with empty key.
+os.times() result: posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4605214.17), duration: 1.52587890625e-05
+SSL default context created successfully.
+
+Stderr: Exception in thread Thread-1 (complex_function2):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/326.py", line 60, in complex_function2
+    print(f"Thread {threading.get_ident()} accessing data:", thread_local_data.value)
+                                                             ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: '_thread._local' object has no attribute 'value'
+

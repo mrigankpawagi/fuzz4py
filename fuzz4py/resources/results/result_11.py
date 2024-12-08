@@ -1,3 +1,11 @@
 Return Code: 0
-Stdout: b'Thread result is not available or not set.\nThread result is not available or not set.\nThread result is not available or not set.\nThread result is not available or not set.\nThread result is not available or not set.\nResults: []\nError in replace: replace() does not support dict objects\nSSL context created successfully.\n'
-Stderr: b''
+Stdout: Thread result is not available or not set.
+Thread result is not available or not set.
+Thread result is not available or not set.
+Thread result is not available or not set.
+Thread result is not available or not set.
+Results: []
+Error in replace: replace() does not support dict objects
+SSL context created successfully.
+
+Stderr: 

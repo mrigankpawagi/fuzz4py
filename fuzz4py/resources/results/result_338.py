@@ -1,3 +1,11 @@
 Return Code: 0
-Stdout: b"Thread 125443262907968 result: [2, 4, 6, 8, 10]\nThread 125443174827584 result: [2, 4, 6, 8, 10]\nThread 125443164341824 result: [2, 4, 6, 8, 10]\nError in complex_function: unsupported operand type(s) for *: 'NoneType' and 'int', data: [1, 2, 3, 4, 5, None]\nThread 125443143370304 failed.\nThread 125443153856064 result: [2, 4, 6, 8, 10]\nDatabase operation successful.\nSSL connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'invalid-hostname.com'. (_ssl.c:1018)\nOS Times: posix.times_result(user=0.08, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561845.54)\n"
-Stderr: b''
+Stdout: Thread 125048954291776 result: [2, 4, 6, 8, 10]
+Thread 125048943806016 result: [2, 4, 6, 8, 10]
+Thread 125048922834496 result: [2, 4, 6, 8, 10]
+Thread 125048964777536 result: [2, 4, 6, 8, 10]
+Thread 125048933320256 result: [2, 4, 6, 8, 10]
+Database operation successful.
+SSL connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'invalid-hostname.com'. (_ssl.c:1018)
+OS Times: posix.times_result(user=0.07, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605225.28)
+
+Stderr: 

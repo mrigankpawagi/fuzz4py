@@ -1,3 +1,21 @@
 Return Code: 0
-Stdout: b'Elapsed time: 0.0\nb\'50\'\nb\'46\'\nb\'-86\'\nb\'99\'\nb\'-91\'\nSSL context created successfully\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nError joining thread: \'Thread\' object has no attribute \'result\'\nShared Resource: 190, Results: []\nError in annotated_function: can only concatenate str (not "int") to str\nError in annotated_function: unsupported operand type(s) for +: \'NoneType\' and \'int\'\nError in annotated_function: unsupported operand type(s) for +: \'ReplaceableClass\' and \'int\'\nError during copy.replace(): replace() does not support list objects\n'
-Stderr: b''
+Stdout: Elapsed time: 0.0
+b'-49'
+b'-86'
+b'8'
+b'-22'
+b'66'
+SSL context created successfully
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Error joining thread: 'Thread' object has no attribute 'result'
+Shared Resource: 60, Results: []
+Error in annotated_function: can only concatenate str (not "int") to str
+Error in annotated_function: unsupported operand type(s) for +: 'NoneType' and 'int'
+Error in annotated_function: unsupported operand type(s) for +: 'ReplaceableClass' and 'int'
+Error during copy.replace(): replace() does not support list objects
+
+Stderr: 

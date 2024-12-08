@@ -1,3 +1,34 @@
 Return Code: 1
-Stdout: b'Result of copy.copy() on list: [1, 2, 3]\nResult of copy.copy() on tuple: (1, 2, 3)\nResult of copy.copy() on string: hello\n'
-Stderr: b'Traceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 79, in _execute\n    return closing(self._cx.execute(*args, **kwargs))\n                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^\nsqlite3.IntegrityError: NOT NULL constraint failed: Dict.value\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 42, in fuzz_dbm\n    db[\'key4\'] = None\n    ~~^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 96, in __setitem__\n    self._execute(STORE_KV, (key, value))\n    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 81, in _execute\n    raise error(str(exc))\ndbm.sqlite3.error: NOT NULL constraint failed: Dict.value\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 113, in <module>\n    dbm_result = fuzz_dbm()\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 55, in fuzz_dbm\n    except (dbm.error, OSError) as e:\n        return f"Error during dbm fuzzing: {e}"\nTypeError: catching classes that do not inherit from BaseException is not allowed\n'
+Stdout: Result of copy.copy() on list: [1, 2, 3]
+Result of copy.copy() on tuple: (1, 2, 3)
+Result of copy.copy() on string: hello
+
+Stderr: Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 79, in _execute
+    return closing(self._cx.execute(*args, **kwargs))
+                   ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+sqlite3.IntegrityError: NOT NULL constraint failed: Dict.value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 42, in fuzz_dbm
+    db['key4'] = None
+    ~~^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 96, in __setitem__
+    self._execute(STORE_KV, (key, value))
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 81, in _execute
+    raise error(str(exc))
+dbm.sqlite3.error: NOT NULL constraint failed: Dict.value
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 113, in <module>
+    dbm_result = fuzz_dbm()
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/818.py", line 55, in fuzz_dbm
+    except (dbm.error, OSError) as e:
+        return f"Error during dbm fuzzing: {e}"
+TypeError: catching classes that do not inherit from BaseException is not allowed
+

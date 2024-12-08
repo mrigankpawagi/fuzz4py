@@ -1,3 +1,20 @@
 Return Code: 0
-Stdout: b'Error in MyClass.method(): tuple indices must be integers or slices, not str\nOS times results: posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4562418.51)\nSSL connection successful\n'
-Stderr: b'F.....\n======================================================================\nFAIL: test_my_class (__main__.TestFuzzing.test_my_class)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/393.py", line 148, in test_my_class\n    self.assertEqual(MyClass().method(), 1)\n    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: None != 1\n\n----------------------------------------------------------------------\nRan 6 tests in 0.739s\n\nFAILED (failures=1)\n'
+Stdout: Error in MyClass.method(): tuple indices must be integers or slices, not str
+OS times results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605766.99)
+SSL connection successful
+
+Stderr: F.....
+======================================================================
+FAIL: test_my_class (__main__.TestFuzzing.test_my_class)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/393.py", line 148, in test_my_class
+    self.assertEqual(MyClass().method(), 1)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: None != 1
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.819s
+
+FAILED (failures=1)
+

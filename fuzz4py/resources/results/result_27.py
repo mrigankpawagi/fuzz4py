@@ -1,3 +1,78 @@
 Return Code: 1
-Stdout: b'Final resource value: 0\nDocstring Test\ntest\n1\n'
-Stderr: b'Exception in thread Thread-1 (increment):\nException in thread Thread-2 (increment):\nException in thread Thread-3 (increment):\nException in thread Thread-4 (increment):\nException in thread Thread-5 (increment):\nTraceback (most recent call last):\nTraceback (most recent call last):\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment\n    resource += 1\n    ^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\nNameError: name \'resource\' is not defined. Did you forget to import \'resource\'?\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment\n    resource += 1\n    ^^^^^^^^\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner\n    self.run()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment\n    resource += 1\n    ^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment\n    resource += 1\n    ^^^^^^^^\nNameError: name \'resource\' is not defined. Did you forget to import \'resource\'?\nNameError: name \'resource\' is not defined. Did you forget to import \'resource\'?\nNameError: name \'resource\' is not defined. Did you forget to import \'resource\'?\n  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run\n    self._target(*self._args, **self._kwargs)\n    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment\n    resource += 1\n    ^^^^^^^^\nNameError: name \'resource\' is not defined. Did you forget to import \'resource\'?\nTraceback (most recent call last):\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 100, in <module>\n    main()\n    ~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 96, in main\n    dbm_test()\n    ~~~~~~~~^^\n  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 77, in dbm_test\n    db = dbm.sqlite3.open(\'test.db\', \'c\')\n         ^^^^^^^^^^^\nAttributeError: module \'dbm\' has no attribute \'sqlite3\'\n'
+Stdout: Final resource value: 0
+Docstring Test
+test
+1
+
+Stderr: Exception in thread Thread-1 (increment):
+Exception in thread Thread-2 (increment):
+Exception in thread Thread-3 (increment):
+Exception in thread Thread-4 (increment):
+Exception in thread Thread-5 (increment):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment
+    resource += 1
+    ^^^^^^^^
+NameError: name 'resource' is not defined. Did you forget to import 'resource'?
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment
+    resource += 1
+    ^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment
+    resource += 1
+    ^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment
+    resource += 1
+    ^^^^^^^^
+NameError: name 'resource' is not defined. Did you forget to import 'resource'?
+NameError: name 'resource' is not defined. Did you forget to import 'resource'?
+NameError: name 'resource' is not defined. Did you forget to import 'resource'?
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 16, in increment
+    resource += 1
+    ^^^^^^^^
+NameError: name 'resource' is not defined. Did you forget to import 'resource'?
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 100, in <module>
+    main()
+    ~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 96, in main
+    dbm_test()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/27.py", line 77, in dbm_test
+    db = dbm.sqlite3.open('test.db', 'c')
+         ^^^^^^^^^^^
+AttributeError: module 'dbm' has no attribute 'sqlite3'
+

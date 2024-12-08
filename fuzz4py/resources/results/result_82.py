@@ -1,3 +1,12 @@
 Return Code: 0
-Stdout: b'<Thread(Thread-1 (multithreaded_function), stopped 138899831653952)>\n<Thread(Thread-2 (multithreaded_function), stopped 138899821168192)>\n<Thread(Thread-3 (multithreaded_function), stopped 138899810682432)>\n<Thread(Thread-4 (multithreaded_function), stopped 138899800196672)>\n<Thread(Thread-5 (multithreaded_function), stopped 138899789710912)>\nMyClass(a=not an integer, b=782)\nError with dbm: NOT NULL constraint failed: Dict.key\nOS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4561304.86)\nError with os.times: sleep length must be non-negative\nError generating or loading temporary certificate: [X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4329)\n'
-Stderr: b''
+Stdout: <Thread(Thread-1 (multithreaded_function), stopped 138457831704128)>
+<Thread(Thread-2 (multithreaded_function), stopped 138457821218368)>
+<Thread(Thread-3 (multithreaded_function), stopped 138457810732608)>
+<Thread(Thread-4 (multithreaded_function), stopped 138457731040832)>
+<Thread(Thread-5 (multithreaded_function), stopped 138457720555072)>
+MyClass(a=-543, b=144)
+Error with dbm: NOT NULL constraint failed: Dict.key
+OS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604622.2)
+Error generating or loading temporary certificate: [X509: NO_CERTIFICATE_OR_CRL_FOUND] no certificate or crl found (_ssl.c:4329)
+
+Stderr: 

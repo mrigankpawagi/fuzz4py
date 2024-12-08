@@ -1,3 +1,10 @@
 Return Code: 0
-Stdout: b"Counter value: 45\nError with copy.replace(): replace() does not support tuple objects\nOriginal object: (5, 'hello')\nReplaced object: (5, 'hello')\nValue retrieved: b'value1'\nTime taken by os.times(): 4.801026079803705e-06\nSSL Context Created\n"
-Stderr: b''
+Stdout: Counter value: 45
+Error with copy.replace(): replace() does not support tuple objects
+Original object: (5, 'hello')
+Replaced object: (5, 'hello')
+Value retrieved: b'value1'
+Time taken by os.times(): 2.001004759222269e-06
+SSL Context Created
+
+Stderr: 

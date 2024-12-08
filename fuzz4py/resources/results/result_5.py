@@ -1,3 +1,16 @@
 Return Code: 0
-Stdout: b'Thread 126761593472576 finished with arg 0\nThread 126761582986816 finished with arg 1\nThread 126761572501056 finished with arg 2\nThread 126761562015296 finished with arg 3\nThread 126761551529536 finished with arg 4\nOriginal object: MyClass(a=10, b=hello)\nModified object: MyClass(a=20, b=hello)\na 1\nb 2\nc 3\nd 4\nThis is a docstring\nwith multiple lines.\n'
-Stderr: b''
+Stdout: Thread 124881651893824 finished with arg 0
+Thread 124881641408064 finished with arg 1
+Thread 124881630922304 finished with arg 2
+Thread 124881620436544 finished with arg 3
+Thread 124881540744768 finished with arg 4
+Original object: MyClass(a=10, b=hello)
+Modified object: MyClass(a=20, b=hello)
+a 1
+b 2
+c 3
+d 4
+This is a docstring
+with multiple lines.
+
+Stderr: 
