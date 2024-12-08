@@ -1,5 +1,5 @@
 Return Code: 1
-Stdout: Elapsed time: 4.93043355003465
+Stdout: Error with os timer functions: sleep length must be non-negative
 SSL connection attempted (fuzzed)
 
 Stderr: Traceback (most recent call last):

@@ -1,16 +1,18 @@
 Return Code: 0
-Stdout: Thread 130586169574976 : 423
-Thread 130586159089216 : 429
-Thread 130586148603456 : 427
-Thread 130586062620224 : 422
-Thread 130586052134464 : 428
+Stdout: Thread 134026924918336 : 429
+Thread 134026914432576 : 426
+Thread 134026903946816 : 422
+Thread 134026893461056 : 422
+	3	
+
+Thread 134026882975296 : 429
 Error in Thread: testing
 Error in Thread: testing
 Error in Thread: testing
 Error in Thread: testing
 Error in Thread: testing
-JIT result: 22802183450892
-replace result: 7
+JIT result: 13440226824378
+replace result: 10
 SSL context created
 
 Stderr: 

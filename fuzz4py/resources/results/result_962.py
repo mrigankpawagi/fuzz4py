@@ -7,7 +7,7 @@ Thread Thread-3 (threaded_function): 2default
 Thread Thread-4 (threaded_function): 3default
 Thread Thread-5 (threaded_function): 4default
 Time taken by os.times(): 1.430511474609375e-06
-Result of os.times(): posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606958.92)
+Result of os.times(): posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612865.82)
 SSL context created successfully
 
 Stderr: 

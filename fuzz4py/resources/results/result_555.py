@@ -1,12 +1,12 @@
 Return Code: 0
-Stdout: Thread Thread-1 (worker): Result for arg1: 0, arg2: Thread input 0
+Stdout: Thread Thread-4 (worker): Result for arg1: 3, arg2: Thread input 3
+Thread Thread-1 (worker): Result for arg1: 0, arg2: Thread input 0
 Thread Thread-3 (worker): Result for arg1: 2, arg2: Thread input 2
-Thread Thread-4 (worker): Result for arg1: 3, arg2: Thread input 3
 Thread Thread-2 (worker): Result for arg1: 1, arg2: Thread input 1
 Thread Thread-5 (worker): Result for arg1: 4, arg2: Thread input 4
 Error in test_copy_replace: a cannot be None
 Error in test_dbm: module 'dbm' has no attribute 'sqlite3'
-OS Times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606317.38), Time taken: 3.796012606471777e-06
+OS Times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612231.41), Time taken: 1.728010829538107e-06
 Error in test_os_timer: sleep length must be non-negative
 
 Stderr: 

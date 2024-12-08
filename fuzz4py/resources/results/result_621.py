@@ -1,6 +1,6 @@
 Return Code: 1
-Stdout: JIT result: -11716
-Thread result: -10
+Stdout: JIT result: 1070
+Thread result: -5
 Copy replace result: Error in replace: replace() does not support type objects
 
 Stderr: Traceback (most recent call last):

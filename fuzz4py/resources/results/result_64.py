@@ -9,6 +9,8 @@ Data 2 was not processed correctly in database mydatabase_2.
 Data 3 was not processed correctly in database mydatabase_3.
 Data 4 was not processed correctly in database mydatabase_4.
 Data 5 was not processed correctly in database mydatabase_5.
+Data 6 was not processed correctly in database mydatabase_6.
+Data 7 was not processed correctly in database mydatabase_7.
 Data None was not processed correctly in database mydatabase_None.
 
 Stderr: 

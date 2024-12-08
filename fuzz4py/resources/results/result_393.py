@@ -1,6 +1,6 @@
 Return Code: 0
 Stdout: Error in MyClass.method(): tuple indices must be integers or slices, not str
-OS times results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605766.99)
+OS times results: posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611679.17)
 SSL connection successful
 
 Stderr: F.....
@@ -14,7 +14,7 @@ Traceback (most recent call last):
 AssertionError: None != 1
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.819s
+Ran 6 tests in 0.779s
 
 FAILED (failures=1)
 

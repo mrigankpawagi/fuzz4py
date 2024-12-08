@@ -10,7 +10,7 @@ Thread Thread-4 (worker) processed 6
 Thread Thread-4 (worker) SSL error: Cannot create a client socket with a PROTOCOL_TLS_SERVER context (_ssl.c:816)
 Thread Thread-5 (worker) processed 8
 Thread Thread-5 (worker) SSL error: Cannot create a client socket with a PROTOCOL_TLS_SERVER context (_ssl.c:816)
-Elapsed time: 4.569595240987837
+Elapsed time: 4.573192680021748
 Error in my_function: replace() takes 1 positional argument but 2 were given
 my_function executed successfully
 

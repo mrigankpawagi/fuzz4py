@@ -3,8 +3,8 @@ Stdout: SSL Error (invalid cert): not enough data: cadata does not contain a cer
 SSL Error (large cert): not enough data: cadata does not contain a certificate (_ssl.c:4195)
 ReplaceableClass(a=1, b=2)
 ReplaceableClass(a=3, b=4)
-Race condition result: 5121
+Race condition result: 5118
 Annotation result: [2, 4, 'HELLO', 8, 'WORLD', 'None', '[]', '{}', 2, '1.5', 'TEST']
-JIT result: -3594
+JIT result: -2419
 
 Stderr: 

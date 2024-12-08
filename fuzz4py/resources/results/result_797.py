@@ -20,31 +20,24 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
-    thread_local_variable += 1
-    ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
-    thread_local_variable += 1
-    ^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-NameError: name 'thread_local_variable' is not defined
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,6 +45,13 @@ NameError: name 'thread_local_variable' is not defined
     thread_local_variable += 1
     ^^^^^^^^^^^^^^^^^^^^^
 NameError: name 'thread_local_variable' is not defined
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'thread_local_variable' is not defined
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
+    thread_local_variable += 1
+    ^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/797.py", line 31, in thread_target
     thread_local_variable += 1
     ^^^^^^^^^^^^^^^^^^^^^

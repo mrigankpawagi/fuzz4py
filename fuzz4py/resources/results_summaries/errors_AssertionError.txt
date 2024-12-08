@@ -2,7 +2,7 @@
 : None != 1
 
 ----------------------------------------------------------------------
-Ran 6 tests in 0.819s
+Ran 6 tests in 0.779s
 
 FAILED (failures=1)
 
@@ -11,7 +11,7 @@ FAILED (failures=1)
 : 0 != 3
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.897s
+Ran 7 tests in 0.875s
 
 FAILED (failures=2)
 
@@ -20,7 +20,7 @@ FAILED (failures=2)
 : None != 2
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.905s
+Ran 7 tests in 0.896s
 
 FAILED (failures=2)
 
@@ -29,7 +29,7 @@ FAILED (failures=2)
 : None != 2
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.869s
+Ran 7 tests in 0.887s
 
 FAILED (failures=2)
 
@@ -56,7 +56,7 @@ FAILED (failures=1)
 : 0 != 10
 
 ----------------------------------------------------------------------
-Ran 1 test in 0.009s
+Ran 1 test in 0.008s
 
 FAILED (failures=1)
 

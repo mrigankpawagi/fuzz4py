@@ -3,8 +3,8 @@ Stdout: Error in MyClass.method(): tuple indices must be integers or slices, not
 Exception in thread: 'Thread' object has no attribute 'result'
 Exception in thread: 'Thread' object has no attribute 'result'
 Exception in thread: 'Thread' object has no attribute 'result'
-Total execution time: 0.10045123100280762
-OS times results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605768.16)
+Total execution time: 0.1005868911743164
+OS times results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611680.28)
 SSL connection successful
 
 Stderr: FF.....
@@ -27,7 +27,7 @@ Traceback (most recent call last):
 AssertionError: 0 != 3
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.897s
+Ran 7 tests in 0.875s
 
 FAILED (failures=2)
 

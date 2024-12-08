@@ -3,7 +3,7 @@ Stdout: Result of copy.replace() on list: Error: replace() does not support list
 Result of copy.replace() on tuple: Error: replace() does not support tuple objects
 Result of dbm fuzzing: Error: NOT NULL constraint failed: Dict.value
 Result of SSL fuzzing: Error: [Errno 2] No such file or directory
-posix.times_result(user=0.07, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606719.97)
+posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612636.83)
 
 Stderr: Exception in thread Thread-5 (my_function):
 Traceback (most recent call last):

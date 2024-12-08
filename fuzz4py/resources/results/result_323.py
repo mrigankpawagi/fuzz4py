@@ -1,8 +1,8 @@
 Return Code: 0
 Stdout: Error in copy.replace(): replace() takes 1 positional argument but 2 were given
-nested_comp: [-24, -72, -86, 66, -86, 44, 74, -96, -80, 88, -38, -58, -16, 98, 128, -74, 80, 10, -184, -82]
-Retrieved data: b'77116'
-Time difference: 0.6732504600076936 seconds.
+nested_comp: [36, 28, -96, -32, 54, -196, 10, 66, 48, 54, -192, 38, -70, 184, 100, -28, -36, 64, -32]
+Retrieved data: b'62514'
+Time difference: 1.9280609909910709 seconds.
 Default SSL context created successfully.
 
 Stderr: Exception in thread Thread-1 (complex_function2):

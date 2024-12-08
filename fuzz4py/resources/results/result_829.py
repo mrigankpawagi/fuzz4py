@@ -7,7 +7,7 @@ SSL context created successfully.
 4
 0
 Exception caught in main: 
-Time elapsed (monotonic): 0.5001542959944345
+Time elapsed (monotonic): 0.5001609800383449
 SSL connection successful
 
 Stderr: 

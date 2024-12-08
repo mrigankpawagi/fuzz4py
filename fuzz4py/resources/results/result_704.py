@@ -1,6 +1,6 @@
 Return Code: 0
-Stdout: Original object: -88, vfwigrnipt
-Replaced object: -88, vfwigrnipt
+Stdout: Original object: 32, dwynnfqciy
+Replaced object: 32, dwynnfqciy
 Thread Thread-1 (worker) starting with arg: 0
 Thread Thread-1 (worker) result: 0
 Thread Thread-2 (worker) starting with arg: 1

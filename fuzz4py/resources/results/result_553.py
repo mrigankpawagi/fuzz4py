@@ -7,6 +7,6 @@ Thread Thread-5 (worker): Result for arg1: 4, arg2: Thread input 4
 Original: 1, 2
 Replaced: 3, 2
 Error in test_dbm: module 'dbm' has no attribute 'sqlite3'
-OS Times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606317.29), Time taken: 1.3560056686401367e-06
+OS Times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612231.33), Time taken: 3.2929820008575916e-06
 
 Stderr: 

@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: Elapsed time: 2.2410007659345865e-05
+Stdout: Elapsed time: 2.1867977920919657e-05
 User CPU time: 0.02
 Error in __replace__: x must be an integer
 Error in __replace__: x must be an integer

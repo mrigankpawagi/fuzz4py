@@ -1,9 +1,9 @@
 Return Code: 0
-Stdout: Final counter value: 10
-Original data: 51, Replaced data: 424
+Stdout: Final counter value: 2
+Original data: 93, Replaced data: 933
 Error with dbm operation: module 'dbm' has no attribute 'sqlite3'
-Elapsed time: 0.6762818159768358
-177
+Elapsed time: 0.5149146869662218
+17
 {'a': 10, 'd': {'a': 20}}
 Evaluated value of 'a': 10
 []

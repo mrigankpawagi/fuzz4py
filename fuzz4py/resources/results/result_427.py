@@ -1,9 +1,9 @@
 Return Code: 0
-Stdout: Thread 129526117959232 calculated: 45.52994228110236
-Thread 129526107473472 calculated: 108.85114360921875
-Thread 129526096987712 calculated: 100.94402256570936
-Thread 129526011004480 calculated: 13.770791618359706
-Thread 129526000518720 calculated: 31.29890309568395
+Stdout: Thread 130940605040192 calculated: 1.0214563267769594
+Thread 130940594554432 calculated: 59.12180149150327
+Thread 130940584068672 calculated: 43.48054562006757
+Thread 130940573582912 calculated: 2.5269498837261106
+Thread 130940563097152 calculated: 21.750647558261935
 copy.replace() error: int() argument must be a string, a bytes-like object or a real number, not 'list'
 Database data: None
 Database data: 123

@@ -1,16 +1,16 @@
 Return Code: 0
 Stdout: Error in copy.replace(): replace() takes 1 positional argument but 2 were given
-nested_comp: [-168, 90, 36, 20, 120, 80, -148, 28, -68, -78, 120, 98, 84, 56, -58, 4, -82]
-Retrieved data: b'91874'
-Time difference: 1.20550344302319 seconds.
+nested_comp: [-64, -70, -108, -188, 26, 140, 108]
+Retrieved data: b'93854'
+Time difference: 1.6326376810320653 seconds.
 Default SSL context created successfully.
-Thread 128860163147328: (6, 'Hello6')
-Thread 128860150564416: (6, 'Hello6')
-Thread 128860140078656: (6, 'Hello6')
-Thread 128860129592896: (6, 'Hello6')
-Thread 128860119107136: (6, 'Hello6')
+Thread 136011132700224: (6, 'Hello6')
+Thread 136011120117312: (6, 'Hello6')
+Thread 136011109631552: (6, 'Hello6')
+Thread 136011099145792: (6, 'Hello6')
+Thread 136011088660032: (6, 'Hello6')
 Successfully stored data with empty key.
-os.times() result: posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4605214.17), duration: 1.52587890625e-05
+os.times() result: posix.times_result(user=0.06, system=0.01, children_user=0.0, children_system=0.0, elapsed=4611111.19), duration: 1.3113021850585938e-05
 SSL default context created successfully.
 
 Stderr: Exception in thread Thread-1 (complex_function2):

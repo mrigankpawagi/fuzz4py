@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604741.63)
+Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610640.85)
 Error with os.times(): module 'os' has no attribute 'cpu_time'
 Invalid x value
 Invalid x value
@@ -7,6 +7,6 @@ Original Point: Point(3, 2), Modified Point (non-numeric): None, Modified Point 
 Error in complex_function: unsupported operand type(s) for +: 'int' and 'str'
 Thread error: unsupported operand type(s) for +: 'float' and 'str'
 Thread error: unsupported operand type(s) for +: 'float' and 'NoneType'
-Data after threading: [1733638489.3689077, 1733638499.3690002, 1733638484.3690643, 1733639489.8691208, 1733638389.369174, (1733638489.3692257+0j), 1.2345678901234568e+39, 1733638489.3694358]
+Data after threading: [1733644388.5836172, 1733644398.5837648, 1733644383.5838246, 1733645389.0838716, 1733644288.5839179, (1733644388.5839636+0j), 1.2345678901234568e+39, 1733644388.584145]
 
 Stderr: 

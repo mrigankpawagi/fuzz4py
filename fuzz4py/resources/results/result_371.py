@@ -1,10 +1,10 @@
 Return Code: 0
-Stdout: Error in worker thread: Simulated error
-Error in worker thread: Simulated index error
+Stdout: Error in worker thread: Simulated type error
+Error in worker thread: Simulated error
 Error in worker thread: Simulated type error
-Final data: [51.15004205920836, 47.13548273839231, 6.700600495066232]
+Final data: [81.66422798599812, 93.28502401390452, 39.619970259397505]
 p1: 10, 20
-p2: 42, -10
+p2: 90, -22
 Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)
 Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)
 Error during docstring fuzzing: expected an indented block after function definition on line 1 (<string>, line 2)

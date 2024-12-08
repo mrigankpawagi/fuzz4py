@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: OS Timer Result: posix.times_result(user=0.07, system=0.01, children_user=0.0, children_system=0.0, elapsed=4606567.46)
+Stdout: OS Timer Result: posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612486.24)
 
 Stderr: Exception in thread Thread-1 (jit_sensitive_function):
 Exception in thread Thread-2 (jit_sensitive_function):
@@ -26,10 +26,13 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,9 +48,9 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/747.py", line 16, in jit_sensitive_function
+    for i in input_data:
+             ^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/747.py", line 16, in jit_sensitive_function
     for i in input_data:
              ^^^^^^^^^^
@@ -55,9 +58,6 @@ Traceback (most recent call last):
     for i in input_data:
              ^^^^^^^^^^
 TypeError: 'int' object is not iterable
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/747.py", line 16, in jit_sensitive_function
-    for i in input_data:
-             ^^^^^^^^^^
 TypeError: 'int' object is not iterable
 TypeError: 'int' object is not iterable
 TypeError: 'int' object is not iterable

@@ -6,33 +6,20 @@ Exception in thread Thread-3 (worker):
 Exception in thread Thread-4 (worker):
 Exception in thread Thread-5 (worker):
 Exception in thread Thread-6 (worker):
-Exception in thread Thread-8 (worker):
-Exception in thread Thread-10 (worker):
 Exception in thread Thread-7 (worker):
-Exception in thread Thread-13 (worker):
+Exception in thread Thread-8 (worker):
 Exception in thread Thread-9 (worker):
-Exception in thread Thread-16 (worker):
-Exception in thread Thread-17 (worker):
-Exception in thread Thread-14 (worker):
+Exception in thread Thread-10 (worker):
 Exception in thread Thread-11 (worker):
-Exception in thread Thread-19 (worker):
-Exception in thread Thread-20 (worker):
+Exception in thread Thread-12 (worker):
+Exception in thread Thread-13 (worker):
+Exception in thread Thread-16 (worker):
+Exception in thread Thread-14 (worker):
+Exception in thread Thread-17 (worker):
 Exception in thread Thread-15 (worker):
 Exception in thread Thread-18 (worker):
-Exception in thread Thread-12 (worker):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-Traceback (most recent call last):
-Traceback (most recent call last):
+Exception in thread Thread-19 (worker):
+Exception in thread Thread-20 (worker):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
@@ -40,6 +27,8 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+Traceback (most recent call last):
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
@@ -47,9 +36,40 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
@@ -60,12 +80,49 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+IndexError: list index out of range
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -75,23 +132,92 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
     data[i] = data[i] + i  # this operation can trigger JIT compilation
               ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
     data[i] = data[i] + i  # this operation can trigger JIT compilation
               ~~~~^^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+IndexError: list index out of range
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+IndexError: list index out of range
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+IndexError: list index out of range
+IndexError: list index out of range
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
+    data[i] = data[i] + i  # this operation can trigger JIT compilation
+              ~~~~^^^
+IndexError: list index out of range
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
     data[i] = data[i] + i  # this operation can trigger JIT compilation
               ~~~~^^^
@@ -102,131 +228,5 @@ IndexError: list index out of range
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
     data[i] = data[i] + i  # this operation can trigger JIT compilation
               ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-Traceback (most recent call last):
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-IndexError: list index out of range
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-IndexError: list index out of range
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-IndexError: list index out of range
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/218.py", line 18, in worker
-    data[i] = data[i] + i  # this operation can trigger JIT compilation
-              ~~~~^^^
-IndexError: list index out of range
-IndexError: list index out of range
 IndexError: list index out of range
 

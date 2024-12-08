@@ -1,7 +1,7 @@
 Return Code: 0
 Stdout: Error in MyClass.method(): tuple indices must be integers or slices, not str
-Total execution time: 0.10044537100475281
-OS times results: posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605769.12)
+Total execution time: 0.10048690595431253
+OS times results: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611681.21)
 SSL connection successful
 
 Stderr: FF.....
@@ -24,7 +24,7 @@ Traceback (most recent call last):
 AssertionError: None != 2
 
 ----------------------------------------------------------------------
-Ran 7 tests in 0.905s
+Ran 7 tests in 0.896s
 
 FAILED (failures=2)
 

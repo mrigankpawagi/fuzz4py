@@ -1,12 +1,12 @@
 Return Code: 0
-Stdout: Thread 125300086146624 calculated: 20
-Thread 125300075660864 calculated: 20
-Thread 125300065175104 calculated: 20
-Thread 125300054689344 calculated: 20
-Thread 125300044203584 calculated: 20
+Stdout: Thread 128823515416128 calculated: 20
+Thread 128823504930368 calculated: 20
+Thread 128823494444608 calculated: 20
+Thread 128823483958848 calculated: 20
+Thread 128823473473088 calculated: 20
 copy.replace() successful
 Database data: None
 Time taken: 0.02
-Time taken (alternative method): 5.000154972076416
+Time taken (alternative method): 5.000075578689575
 
 Stderr: 

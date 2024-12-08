@@ -4,7 +4,7 @@ Multithreaded results (integers): []
 Custom data: {'key': [1, 2, 3]}
 dbm.sqlite3 test successful
 ssl test successful
-Duration: 2.000080737983808
+Duration: 2.000153656990733
 whitespace matters
 
 Stderr: 

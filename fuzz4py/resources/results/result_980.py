@@ -1,5 +1,5 @@
 Return Code: 1
-Stdout: Result for input [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: 45, time taken: 0.0148468017578125
+Stdout: Result for input [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]: 45, time taken: 0.015671253204345703
 
 Stderr: Exception in thread Thread-1 (<lambda>):
 Exception in thread Thread-2 (<lambda>):

@@ -1,15 +1,6 @@
 Return Code: 0
 Stdout: All threads finished.
 
-Stderr: Error in worker (Thread-3 (worker)): Flag must be one of 'r', 'w', 'c', or 'n', not 'a'
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
-Unexpected value type!
+Stderr: Unexpected value type!
 Unexpected value type!
 

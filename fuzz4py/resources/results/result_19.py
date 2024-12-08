@@ -9,9 +9,9 @@ Thread result not available.
 Thread result not available.
 Results: []
 Error in replace: replace() does not support dict objects
-Error in dbm.sqlite3: Error binding parameter 2: type 'set' is not supported
+Error in dbm.sqlite3: Error binding parameter 2: type 'complex' is not supported
 Opened dbm successfully
-Error in ssl: 117
+Error in ssl: 597
 SSL context created successfully (or at least one valid type).
 Running other fuzzing tests...
 

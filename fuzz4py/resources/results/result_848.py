@@ -3,7 +3,7 @@ Stdout: Error using replace: 'list' object has no attribute 'replace'
 [1, 2, 3]
 [1, 2, 3]
 7
-<Thread(Thread-8 (<lambda>), stopped 135281235723840)>
+<Thread(Thread-8 (<lambda>), stopped 133542052890176)>
 
 Stderr: Exception in thread Thread-1 (<lambda>):
 Exception in thread Thread-2 (<lambda>):
@@ -18,14 +18,6 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-Traceback (most recent call last):
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
@@ -33,13 +25,7 @@ Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
@@ -50,12 +36,17 @@ TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 
     self.run()
     ~~~~~~~~^^
 Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -70,11 +61,20 @@ Traceback (most recent call last):
     ~~~~~~~~^^
 TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
 TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
 TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
 

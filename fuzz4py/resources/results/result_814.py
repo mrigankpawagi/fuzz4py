@@ -5,6 +5,6 @@ Result of copy.replace() on string: Error: replace() does not support str object
 Result of dbm fuzzing: Error: NOT NULL constraint failed: Dict.value
 invalid_ca.crt not found, skipping SSL verification load
 Result of SSL fuzzing: True
-Result of os.times(): posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606720.11)
+Result of os.times(): posix.times_result(user=0.04, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612636.97)
 
 Stderr: 

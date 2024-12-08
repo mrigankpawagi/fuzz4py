@@ -100,10 +100,10 @@ Error in worker thread: 'int' object has no attribute 'acquire'
 Error in worker thread: 'int' object has no attribute 'acquire'
 Error in worker thread: 'int' object has no attribute 'acquire'
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-78 83
+69 2
 10 2
-p4: <__main__.main.<locals>.Point object at 0x793e52384710>
-p6: <__main__.main.<locals>.Point object at 0x793e52a1aad0>
+p4: <__main__.main.<locals>.Point object at 0x72044575c710>
+p6: <__main__.main.<locals>.Point object at 0x720445992ad0>
 p7: None
 p8: 123
 p9: string

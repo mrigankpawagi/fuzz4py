@@ -1,225 +1,110 @@
 Return Code: 0
-Stdout: Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Stdout: Unexpected error in worker: sleep length must be non-negative
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: sleep length must be non-negative
+Unexpected error in worker: sleep length must be non-negative
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: can only concatenate str (not "int") to str
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: sleep length must be non-negative
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: sleep length must be non-negative
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
-Unexpected error in worker: can only concatenate str (not "int") to str
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: sleep length must be non-negative
 Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
 Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: can only concatenate str (not "int") to str
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: can only concatenate str (not "int") to str
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
-Unexpected error in worker: sleep length must be non-negative
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: can only concatenate str (not "int") to str
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
+Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: sleep length must be non-negative
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: timestamp out of range for platform time_t
+Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Unexpected error in worker: timestamp out of range for platform time_t
 Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for /: 'str' and 'float'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: timestamp out of range for platform time_t
-Unexpected error in worker: unsupported operand type(s) for +: 'NoneType' and 'int'
-Unexpected error in worker: sleep length must be non-negative
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
-Unexpected error in worker: unsupported operand type(s) for /: 'NoneType' and 'float'
 Error: Data element 0 should be 1, but it is 0
 Error: Data element 1 should be 2, but it is 1
 Error: Data element 2 should be 3, but it is 2
@@ -286,6 +171,17 @@ Error: Data element 62 should be 63, but it is 62
 Error: Data element 63 should be 64, but it is 63
 Error: Data element 64 should be 65, but it is 64
 Error: Data element 65 should be 66, but it is 65
+Error: Data element 66 should be 67, but it is 66
+Error: Data element 67 should be 68, but it is 67
+Error: Data element 68 should be 69, but it is 68
+Error: Data element 69 should be 70, but it is 69
+Error: Data element 70 should be 71, but it is 70
+Error: Data element 71 should be 72, but it is 71
+Error: Data element 72 should be 73, but it is 72
+Error: Data element 73 should be 74, but it is 73
+Error: Data element 74 should be 75, but it is 74
+Error: Data element 75 should be 76, but it is 75
+Error: Data element 76 should be 77, but it is 76
 SSL connection failed: [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'not_a_real_host'. (_ssl.c:1018)
 Database operation successful.
 Processed 0

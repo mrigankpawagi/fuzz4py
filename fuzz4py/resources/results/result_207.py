@@ -1,19 +1,19 @@
 Return Code: 0
-Stdout: Thread 126133081212480 received: 0, extra arg: 21
-Thread 126133070726720 received: 1, extra arg: 2
-Thread 126132986840640 received: 2, extra arg: 6
-Thread 126132976354880 received: 3, extra arg: 25
-Thread 126132965869120 received: 4, extra arg: 36
+Stdout: Thread 138627084453440 received: 0, extra arg: 22
+Thread 138627073967680 received: 1, extra arg: 52
 Exception in thread: Simulated error in thread
-Time taken to call os.times(): 1.117499778047204e-05, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604774.36)
+Thread 138627063481920 received: 2, extra arg: 38
+Thread 138626979595840 received: 3, extra arg: 70
+Thread 138626969110080 received: 4, extra arg: 28
+Time taken to call os.times(): 1.352099934592843e-05, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610673.6)
 Error in os.times(): posix.times() takes no arguments (1 given)
-Time taken to call os.times(): 3.984023351222277e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604774.36)
+Time taken to call os.times(): 4.261033609509468e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610673.6)
 Error in os.times(): posix.times() takes no arguments (1 given)
-Time taken to call os.times(): 2.601009327918291e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604774.36)
+Time taken to call os.times(): 2.3289467208087444e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610673.6)
 Error in os.times(): posix.times() takes no arguments (1 given)
-Time taken to call os.times(): 2.104963641613722e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604774.36)
+Time taken to call os.times(): 1.995009370148182e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610673.6)
 Error in os.times(): posix.times() takes no arguments (1 given)
-Time taken to call os.times(): 1.869979314506054e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604774.36)
+Time taken to call os.times(): 1.802982296794653e-06, result: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610673.6)
 Error in os.times(): posix.times() takes no arguments (1 given)
 Error loading bad certificate: [Errno 2] No such file or directory
 Processed data: [2, 4, 9, -1, 2000, 3703701, -1, -1]

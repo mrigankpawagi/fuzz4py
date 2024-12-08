@@ -18,11 +18,31 @@
 : Fuzzing Exception
 
 
-390
+388
 : Simulated error
 
 
+389
+: Simulated error
+
+
+538
+: Type names and field names must be valid identifiers: "('x', <class 'int'>)"
+
+
+720
+: Simulated error in thread
+
+
+721
+: Simulated error in thread
+
+
 722
+: Simulated error in thread
+
+
+723
 : Simulated error in thread
 
 
@@ -34,11 +54,23 @@
 : Simulated error in thread
 
 
-735
+730
+: Simulated error in thread
+
+
+733
+: Simulated error in thread
+
+
+734
 : Simulated error in thread
 
 
 736
+: Simulated error in thread
+
+
+737
 : Simulated error in thread
 
 
@@ -50,11 +82,11 @@
 : embedded null byte
 
 
-752
-: embedded null byte
+833
+: Simulated error in thread
 
 
-832
+834
 : Simulated error in thread
 
 
@@ -71,30 +103,30 @@
 
 
 941
-: Error from thread 0
+: Error from thread 2
 
 
 943
-: Error from thread 2
-
-
-944
-: Error from thread 2
-
-
-945
-: Error from thread 1
-
-
-947
 : Error from thread 3
 
 
+944
+: Error from thread 0
+
+
+945
+: Error from thread 4
+
+
+947
+: Error from thread 0
+
+
 948
-: Error from thread 2
+: Error from thread 1
 
 
 949
-: Error from thread 1
+: Error from thread 0
 
 

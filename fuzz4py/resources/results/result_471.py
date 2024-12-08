@@ -1,20 +1,20 @@
 Return Code: 0
-Stdout: Results: [2, 6, 5, 7, 3, 4, 8, 1]
+Stdout: Results: [1, 4, 5, 8, 2, 7, 6, 3]
 Error during replace: ReplaceableClass.__replace__() missing 1 required positional argument: 'value'
-Elapsed time: 1.0001651670318097
+Elapsed time: 1.0001548980362713
 SSL context created successfully.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056126219840.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056136705600.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056147191360.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056228980288.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056270923328.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056260437568.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056249951808.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056239466048.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056115734080.
-Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 126056295991104 and this is thread id 126056105248320.
-CPU times: posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606243.84)
-Elapsed time: 1.9073486328125e-06
-Default SSL context created: <ssl.SSLContext object at 0x72a5c3de2a80>
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431599650368.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431681439296.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431691925056.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431702410816.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431821948480.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431733868096.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431723382336.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431712896576.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431589164608.
+Error in worker: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 128431846864704 and this is thread id 128431578678848.
+CPU times: posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612157.71)
+Elapsed time: 2.6226043701171875e-06
+Default SSL context created: <ssl.SSLContext object at 0x74ceddbd6a80>
 
 Stderr: 

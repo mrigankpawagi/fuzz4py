@@ -5,9 +5,9 @@ Time taken by sched_yield: 0.000002 seconds
 6
 4
 0
-Shared data after threads: 15
+Shared data after threads: 3
 Exception caught in main: 
-Time elapsed (monotonic): 0.33894137799507007
+Time elapsed (monotonic): 0.34117641899501905
 SSL connection successful
 
 Stderr: 

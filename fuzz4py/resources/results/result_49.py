@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: Time taken by os.times: 3035 ns
+Stdout: Time taken by os.times: 6952 ns
 Error retrieving thread result: 'Thread' object has no attribute 'result'
 Error retrieving thread result: 'Thread' object has no attribute 'result'
 Error retrieving thread result: 'Thread' object has no attribute 'result'

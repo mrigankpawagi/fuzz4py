@@ -12,13 +12,13 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -44,21 +44,21 @@ UnboundLocalError: cannot access local variable 'lock' where it is not associate
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/574.py", line 18, in worker
     with lock:
          ^^^^
+UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/574.py", line 18, in worker
+    with lock:
+         ^^^^
+UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
+UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
-UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/574.py", line 18, in worker
     with lock:
          ^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/574.py", line 18, in worker
-    with lock:
-         ^^^^
-UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
 UnboundLocalError: cannot access local variable 'lock' where it is not associated with a value
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/574.py", line 228, in <module>

@@ -7,14 +7,14 @@ Thread Thread-5 (worker) received 4
 Error in worker thread: Even numbers cause errors!
 Error in worker thread: Even numbers cause errors!
 Error in worker thread: Even numbers cause errors!
-Time spent in the process (os.times): 0.2031 seconds
-CPU times (user, system, children, elapsed): posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605105.61)
-Current Date and time: 2024-12-08 11:50:53.352991
+Time spent in the process (os.times): 0.3266 seconds
+CPU times (user, system, children, elapsed): posix.times_result(user=0.02, system=0.01, children_user=0.0, children_system=0.0, elapsed=4611004.93)
+Current Date and time: 2024-12-08 13:29:12.670846
 20
 15
 5.0
 100
-Replacing 2 with random value in my_list_with_none: [1, 660, None, 3]
-Result of problematic_function: -56769
+Replacing 2 with random value in my_list_with_none: [1, 278, None, 3]
+Result of problematic_function: -33002
 
 Stderr: 

@@ -1,9 +1,9 @@
 Return Code: 0
-Stdout: Thread 135165814769216 result: 49995000
-Thread 135165804283456 result: 49995000
-Thread 135165793797696 result: 49995000
-Thread 135165705717312 result: 49995000
-Thread 135165695231552 result: 49995000
+Stdout: Thread 134798077068864 result: 49995000
+Thread 134798066583104 result: 49995000
+Thread 134798056097344 result: 49995000
+Thread 134798045611584 result: 49995000
+Thread 134798035125824 result: 49995000
 Retrieved key: b'value1'
 
 Stderr: Traceback (most recent call last):

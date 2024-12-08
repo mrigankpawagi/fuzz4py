@@ -1,6 +1,6 @@
 Return Code: 0
-Stdout: Original object: 69, rjrlcfyiyi
-Replaced object: 69, rjrlcfyiyi
+Stdout: Original object: 76, atpblotdzb
+Replaced object: 76, atpblotdzb
 Thread Thread-1 (worker) starting with arg: 0
 Thread Thread-1 (worker) result: 0
 Thread Thread-2 (worker) starting with arg: 1

@@ -1,7 +1,7 @@
 Return Code: 1
 Stdout: Race condition result: [0, 2, 4, 6, 8, 10, 12, 14, 16, 18]
 Copy.replace result: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-Time taken: 1.6689300537109375e-06
+Time taken: 2.384185791015625e-06
 SSL context created successfully.
 
 Stderr: Traceback (most recent call last):

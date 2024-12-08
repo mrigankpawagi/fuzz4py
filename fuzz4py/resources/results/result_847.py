@@ -11,28 +11,28 @@ Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
-TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
 Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
+TypeError: test_function.<locals>.<lambda>() takes 0 positional arguments but 3 were given
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^

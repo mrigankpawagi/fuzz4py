@@ -7,7 +7,7 @@ SSL context created successfully.
 4
 0
 Result: 6
-Time elapsed (monotonic): 0.5001454020384699
+Time elapsed (monotonic): 0.5001470079878345
 SSL connection successful
 
 Stderr: 

@@ -61,7 +61,7 @@ Error in thread: Even numbers cause error
 Error in thread: Even numbers cause error
 Error in thread: Even numbers cause error
 /home/mrigankp/fuzz4py
-posix.times_result(user=0.05, system=0.01, children_user=0.0, children_system=0.0, elapsed=4605391.86)
+posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611288.17)
 /home/mrigankp/fuzz4py/very/very/very/very/deep/long/path.txt
 
 Stderr: 

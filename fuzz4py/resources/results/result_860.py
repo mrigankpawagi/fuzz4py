@@ -1,9 +1,10 @@
 Return Code: 1
-Stdout: 316493 something
-316493 something
-316493 something
-OS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606746.7), Time taken: 2.401007805019617e-06
-277794577960405
+Stdout: Error with dbm: db file doesn't exist; use 'c' or 'n' flag to create a new db
+516856 something
+516856 something
+516856 something
+OS times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612663.37), Time taken: 1.9830185920000076e-06
+1681856222731490
 
 Stderr: Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/860.py", line 188, in <module>

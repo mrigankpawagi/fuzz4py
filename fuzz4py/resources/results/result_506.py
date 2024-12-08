@@ -5,7 +5,7 @@ Thread Thread-3 (threaded_function): Error: unsupported operand type(s) for *: '
 Thread Thread-4 (threaded_function): Error: unsupported operand type(s) for *: 'int' and '_thread.lock'
 Thread Thread-5 (threaded_function): Error: unsupported operand type(s) for *: 'int' and '_thread.lock'
 Key: b'key1', Value: b'value1'
-OS Times: posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606249.66)
+OS Times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612163.42)
 b'value1'
 2
 Error: Certificate file not found: [Errno 2] No such file or directory: 'valid_cert.pem'
@@ -23,13 +23,13 @@ Exception in thread Thread-4 (threaded_function):
 Exception in thread Thread-5 (threaded_function):
 Traceback (most recent call last):
 Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
     result = my_function(input1, input2)
-Traceback (most recent call last):
-Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
     result = my_function(input1, input2)
-Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
     result = my_function(input1, input2)
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
@@ -47,181 +47,181 @@ TypeError: unsupported operand type(s) for *: 'int' and '_thread.lock'
 
 During handling of the above exception, another exception occurred:
 
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
-    result = my_function(input1, input2)
+
+During handling of the above exception, another exception occurred:
+
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
-    result += arg1 * arg2
-              ~~~~~^~~~~~
 Traceback (most recent call last):
-
-During handling of the above exception, another exception occurred:
-
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-TypeError: unsupported operand type(s) for *: 'int' and '_thread.lock'
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
-    with lock:
-         ^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
     result = my_function(input1, input2)
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
-    self.close()
-    ~~~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
-    with lock:
-         ^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
-    self._cx.close()
-    ~~~~~~~~~~~~~~^^
-
-During handling of the above exception, another exception occurred:
-
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
-    self.close()
-    ~~~~~~~~~~^^
-sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134503577261888 and this is thread id 134503521584704.
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
     result += arg1 * arg2
               ~~~~~^~~~~~
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for *: 'int' and '_thread.lock'
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
+    with lock:
+         ^^^^
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 153, in threaded_function
+    result = my_function(input1, input2)
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
+    self._cx.close()
+    ~~~~~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
+    result += arg1 * arg2
+              ~~~~~^~~~~~
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
+    with lock:
+         ^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
     with lock:
          ^^^^
 TypeError: unsupported operand type(s) for *: 'int' and '_thread.lock'
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
-    self._cx.close()
-    ~~~~~~~~~~~~~~^^
-
-During handling of the above exception, another exception occurred:
-
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134503577261888 and this is thread id 134503553041984.
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
-    with lock:
-         ^^^^
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
-    self.close()
-    ~~~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
-    self._cx.close()
-    ~~~~~~~~~~~~~~^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127434578892608 and this is thread id 127434523412032.
+
+During handling of the above exception, another exception occurred:
+
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
+    self.close()
+    ~~~~~~~~~~^^
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134503577261888 and this is thread id 134503542556224.
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
+    self._cx.close()
+    ~~~~~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
+    self._cx.close()
+    ~~~~~~~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127434578892608 and this is thread id 127434544383552.
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
     with lock:
          ^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
     self.close()
     ~~~~~~~~~~^^
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127434578892608 and this is thread id 127434533897792.
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 157, in threaded_function
+    with lock:
+         ^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
+    self._cx.close()
+    ~~~~~~~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 123, in __exit__
     self.close()
     ~~~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
     self._cx.close()
     ~~~~~~~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/dbm/sqlite3.py", line 113, in close
-    self._cx.close()
-    ~~~~~~~~~~~~~~^^
-sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134503577261888 and this is thread id 134503511098944.
-sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 134503577261888 and this is thread id 134503532070464.
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127434578892608 and this is thread id 127434554869312.
+sqlite3.ProgrammingError: SQLite objects created in a thread can only be used in that same thread. The object was created in thread id 127434578892608 and this is thread id 127434512926272.
 Exception in thread Thread-6 (<lambda>):
 Exception in thread Thread-7 (<lambda>):
 Exception in thread Thread-8 (<lambda>):
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
-    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
-                                          ~~~~~~~~~~~^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
-    result += arg1 * arg2
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
-    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
-                                          ~~~~~~~~~~~^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
-    result += arg1 * arg2
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
-Traceback (most recent call last):
 Exception in thread Thread-9 (<lambda>):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
-    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
-                                          ~~~~~~~~~~~^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
-    result += arg1 * arg2
-TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 Traceback (most recent call last):
 Exception in thread Thread-10 (<lambda>):
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
 Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
     t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
                                           ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
+    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
+                                          ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
+    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
+                                          ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
+    t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
+                                          ~~~~~~~~~~~^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
+    result += arg1 * arg2
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
+    result += arg1 * arg2
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
+    result += arg1 * arg2
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
     result += arg1 * arg2
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 80, in <lambda>
     t = threading.Thread(target=lambda x: my_function(x,str(i)), args=(i,))
                                           ~~~~~~~~~~~^^^^^^^^^^
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
+TypeError: unsupported operand type(s) for +=: 'int' and 'str'
 TypeError: unsupported operand type(s) for +=: 'int' and 'str'
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/506.py", line 148, in my_function
     result += arg1 * arg2

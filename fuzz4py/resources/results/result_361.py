@@ -1,11 +1,11 @@
 Return Code: 0
-Stdout: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605392.71)
-<ssl.SSLContext object at 0x758ca65ae9f0>
-Thread 129246938793536 processed: 0
-Thread 129246928307776 processed: 1
-Thread 129246917822016 processed: 2
-Thread 129246838130240 processed: 3
-Thread 129246827644480 processed: 4
+Stdout: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611289.01)
+<ssl.SSLContext object at 0x7cd0b47229f0>
+Thread 137235812845120 processed: 0
+Thread 137235802359360 processed: 1
+Thread 137235791873600 processed: 2
+Thread 137235781387840 processed: 3
+Thread 137235770902080 processed: 4
 332833500
 6
 Docstring test

@@ -10,10 +10,10 @@ Error in worker thread: 'int' object has no attribute 'acquire'
 Error in worker thread: 'int' object has no attribute 'acquire'
 Error in worker thread: 'int' object has no attribute 'acquire'
 [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
-53 69
+75 4
 10 2
-p4: <__main__.main.<locals>.Point object at 0x79d1f81b56d0>
-p6: <__main__.main.<locals>.Point object at 0x79d1f8199370>
+p4: <__main__.main.<locals>.Point object at 0x73337bbb16d0>
+p6: <__main__.main.<locals>.Point object at 0x73337bb95590>
 p7: None
 p8: 246
 p9: string
@@ -36,6 +36,7 @@ Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
+Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
@@ -43,81 +44,63 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Traceback (most recent call last):
 Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
-    lock.acquire()
-    ^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
 Traceback (most recent call last):
-Traceback (most recent call last):
-AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
-    lock.acquire()
-    ^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
-    lock.acquire()
-    ^^^^^^^^^^^^
-AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
-    lock.acquire()
-    ^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
-    lock.acquire()
-    ^^^^^^^^^^^^
-AttributeError: 'int' object has no attribute 'acquire'
-AttributeError: 'int' object has no attribute 'acquire'
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
+    lock.acquire()
+    ^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
+    lock.acquire()
+    ^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
     lock.acquire()
     ^^^^^^^^^^^^
@@ -127,13 +110,30 @@ AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
+    lock.acquire()
+    ^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
+    lock.acquire()
+    ^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
+    lock.acquire()
+    ^^^^^^^^^^^^
 AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
     lock.acquire()
     ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'acquire'
+AttributeError: 'int' object has no attribute 'acquire'
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/996.py", line 136, in worker
     lock.acquire()
     ^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'acquire'
+AttributeError: 'int' object has no attribute 'acquire'
+AttributeError: 'int' object has no attribute 'acquire'
 AttributeError: 'int' object has no attribute 'acquire'
 AttributeError: 'int' object has no attribute 'acquire'
 AttributeError: 'int' object has no attribute 'acquire'

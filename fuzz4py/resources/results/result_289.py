@@ -3,29 +3,31 @@ Stdout: Error processing -3: Input must be non-negative
 []
 
 Stderr: Exception in thread Thread-1 (process_element):
-Exception in thread Thread-5 (process_element):
-Exception in thread Thread-4 (process_element):
 Exception in thread Thread-2 (process_element):
+Exception in thread Thread-4 (process_element):
+Exception in thread Thread-5 (process_element):
+Traceback (most recent call last):
+Traceback (most recent call last):
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/289.py", line 40, in process_element
     with dbm.sqlite3.open('test.db', 'c') as db:
          ^^^^^^^^^^^
-AttributeError: module 'dbm' has no attribute 'sqlite3'
-Traceback (most recent call last):
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-Traceback (most recent call last):
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,13 +37,11 @@ Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/289.py", line 40, in process_element
     with dbm.sqlite3.open('test.db', 'c') as db:
          ^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 AttributeError: module 'dbm' has no attribute 'sqlite3'
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'dbm' has no attribute 'sqlite3'
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/289.py", line 40, in process_element
     with dbm.sqlite3.open('test.db', 'c') as db:
          ^^^^^^^^^^^

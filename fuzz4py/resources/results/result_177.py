@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4604741.73)
+Stdout: OS times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4610640.95)
 Error with os.times(): module 'os' has no attribute 'cpu_time'
 Invalid x value: invalid literal for int() with base 10: 'abc'
 Error with copy.replace(): cannot convert float infinity to integer
@@ -10,6 +10,6 @@ Thread error: unsupported operand type(s) for +: 'float' and 'bytes'
 Thread error: unsupported operand type(s) for +: 'float' and 'list'
 Thread error: unsupported operand type(s) for +: 'float' and 'tuple'
 Thread error: unsupported operand type(s) for +: 'float' and 'dict'
-Data after threading: [1733638489.4685314, 1733638499.4686859, 1733638484.4687467, 1733639489.968791, 1733638389.4688344, (1733638489.4688754+0j), 1.2345678901234568e+39, 1733638490.4693625, 1733638489.4694066]
+Data after threading: [1733644388.6835334, 1733644398.6836805, 1733644383.6837385, 1733645389.1837828, 1733644288.683826, (1733644388.6838667+0j), 1.2345678901234568e+39, 1733644389.6844227, 1733644388.6844735]
 
 Stderr: 

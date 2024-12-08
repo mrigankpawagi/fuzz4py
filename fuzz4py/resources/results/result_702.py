@@ -1,6 +1,6 @@
 Return Code: 0
-Stdout: Original object: -45, cdojqkuicm
-Replaced object: -45, cdojqkuicm
+Stdout: Original object: 74, xssrgftsmr
+Replaced object: 74, xssrgftsmr
 Thread Thread-1 (worker) starting with arg: 0
 Thread Thread-1 (worker) result: 0
 Thread Thread-2 (worker) starting with arg: 1

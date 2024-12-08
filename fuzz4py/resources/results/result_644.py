@@ -6,6 +6,6 @@ Error getting thread ID (3): 'Thread' object has no attribute 'get_ident'
 Error getting thread ID (4): 'Thread' object has no attribute 'get_ident'
 Potential race condition detected!
 Caught TypeError in os.times: posix.times() takes no arguments (1 given)
-Error creating SSL context: Cannot set verify_mode to CERT_NONE when check_hostname is enabled.
+Unexpected error: [Errno 2] No such file or directory
 
 Stderr: 

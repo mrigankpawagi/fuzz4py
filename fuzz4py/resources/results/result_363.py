@@ -1,6 +1,6 @@
 Return Code: 1
-Stdout: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4605392.93)
-<ssl.SSLContext object at 0x762fbcdc67b0>
+Stdout: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4611289.23)
+<ssl.SSLContext object at 0x7b1f15fde7b0>
 
 Stderr: Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/363.py", line 103, in <module>

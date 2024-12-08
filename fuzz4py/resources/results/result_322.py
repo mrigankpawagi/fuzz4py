@@ -1,6 +1,6 @@
 Return Code: 0
 Stdout: Error in complex_function: replace() takes 1 positional argument but 2 were given
-Time difference: 2.000162212003488 seconds.
+Time difference: 2.0001938400091603 seconds.
 Default SSL context created successfully.
 
 Stderr: Exception in thread Thread-1 (complex_function2):

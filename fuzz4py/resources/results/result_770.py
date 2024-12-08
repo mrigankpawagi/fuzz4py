@@ -6,7 +6,7 @@ Thread Thread-4 (worker) finished with arg: 3
 Thread Thread-5 (worker) finished with arg: 4
 5
 b'value'
-CPU times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606633.09)
+CPU times: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612551.88)
 SSL context created successfully.
 {1: 1, 2: 2}
 

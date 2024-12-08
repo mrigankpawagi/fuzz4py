@@ -1,6 +1,6 @@
 Return Code: 1
 Stdout: Exception caught in main: 
-Time elapsed (monotonic): 0.5000746979494579
+Time elapsed (monotonic): 0.5001552400062792
 
 Stderr: Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/824.py", line 74, in <module>

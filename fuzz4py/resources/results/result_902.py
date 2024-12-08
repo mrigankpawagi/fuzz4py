@@ -13,9 +13,9 @@ All threads finished.
 Shared data: {0: 1, 1: 1, 2: 1, 3: 1, 4: 1}
 999999000000
 Time taken for os.times(): 0.000003
-posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606804.35)
+posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612712.06)
 Time taken for os.times(): 0.000001
-posix.times_result(user=0.06, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606804.35)
+posix.times_result(user=0.05, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612712.06)
 Processed data: [2, 4, 3, 10]
 Original object: 20, New object: 20
 SSL context created successfully

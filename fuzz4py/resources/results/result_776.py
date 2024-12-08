@@ -1,7 +1,7 @@
 Return Code: 1
-Stdout: 78
-78
-posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606633.46)
+Stdout: 27
+27
+posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612552.22)
 Error with os.times(): [Errno 1] Operation not permitted
 
 Stderr: Traceback (most recent call last):

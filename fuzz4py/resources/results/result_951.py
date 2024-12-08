@@ -1,3122 +1,3022 @@
 Return Code: 0
-Stdout: Unhandled exception in worker: Error from thread 0, thread: 0, i: 3
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 3
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 3
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 4
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 5
+Stdout: Unhandled exception in worker: Error from thread 3, thread: 3, i: 0
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: Error from thread 1, thread: 1, i: 6
 Unhandled exception in worker: Error from thread 0, thread: 0, i: 7
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 10
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 13
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 13
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 14
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 15
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 18
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 18
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 25
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 7
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 11
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 13
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 22
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 28
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 29
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 30
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 31
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 32
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 35
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 37
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 38
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 44
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 49
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 51
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 36
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 55
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 39
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 41
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 58
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 46
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 59
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 60
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 50
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 52
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 52
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 56
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 57
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 58
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 59
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 65
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 69
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 70
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 73
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 88
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 90
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 91
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 93
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 102
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 105
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 105
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 111
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 111
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 110
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 117
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 119
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 125
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 125
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 127
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 131
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 132
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 133
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 137
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 75
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 141
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 83
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 145
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 146
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 118
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 119
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 134
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 143
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 146
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 147
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 149
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 153
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: Error from thread 1, thread: 1, i: 154
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 164
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 167
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 168
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 157
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 176
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 161
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 179
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 179
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 179
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 162
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 188
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 165
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 187
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 166
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 196
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 198
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 198
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 200
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 201
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 203
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 203
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 207
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 168
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 168
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 201
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 205
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 214
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 219
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 178
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 222
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 185
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 188
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 189
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 191
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 193
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 194
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 195
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 196
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 199
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 204
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 208
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 209
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 250
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 257
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 263
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 264
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 210
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 213
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 285
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 281
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 289
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 218
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 218
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 220
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 224
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 224
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 302
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 234
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 236
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 238
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 240
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 241
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 318
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 245
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 319
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 245
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 317
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 252
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 253
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 253
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 254
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 330
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 258
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 337
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 331
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 340
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 341
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 342
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 345
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 266
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 345
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 347
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 351
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 354
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 278
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 357
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 358
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 285
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 286
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 369
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 370
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 290
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 292
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 306
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 311
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 386
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 397
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 394
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 391
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 330
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 400
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 400
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 404
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 407
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 350
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 408
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 357
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 352
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 418
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 357
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 377
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 387
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 441
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 446
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 407
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 448
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 409
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 404
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 450
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 406
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 446
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 453
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 459
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 421
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 427
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 460
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 465
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 473
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 440
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 446
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 447
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 451
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 478
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 479
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 455
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 490
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 485
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 493
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 469
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 491
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 471
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 464
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 476
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 468
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 474
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 502
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 498
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 518
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 499
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 500
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 502
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 500
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 509
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 528
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 508
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 514
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 534
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 520
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 524
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 537
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 533
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 539
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 552
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 552
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 552
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 556
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 562
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 557
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 556
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 557
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 557
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 561
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 570
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 565
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 577
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 578
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 580
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 574
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 582
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: Error from thread 0, thread: 0, i: 575
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 587
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 589
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 592
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 594
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 592
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 589
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 600
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 604
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 605
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 607
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 605
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 617
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 635
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 636
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 640
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 617
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 649
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 621
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 621
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 615
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 656
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 635
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 664
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 676
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 671
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 684
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 688
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 653
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 691
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 2, thread: 2, i: 675
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 692
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 657
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 658
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 658
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 692
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 705
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 706
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 662
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 698
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 702
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 705
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 707
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 709
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 709
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 710
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 680
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 683
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 686
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 688
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 693
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 752
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 692
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 754
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 698
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 757
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 702
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 703
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 704
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 763
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 718
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 771
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 787
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 789
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 790
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 787
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 793
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 732
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 737
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 743
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 744
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 751
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 752
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 755
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 756
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 819
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 825
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 831
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 834
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 771
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 778
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 779
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 1, thread: 1, i: 771
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 835
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 848
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 786
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 842
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 842
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 854
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 794
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 795
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 857
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 798
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 866
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 808
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 813
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 813
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 820
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 873
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 830
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 829
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 874
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 867
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 867
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 872
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 839
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 885
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 841
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 845
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 838
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 846
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 847
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 885
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 847
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 848
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 895
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 853
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 902
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 899
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 863
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 911
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 868
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 869
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 914
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 873
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 912
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 875
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 879
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 877
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 918
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 880
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 920
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 880
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 889
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 891
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 894
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 900
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 934
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 901
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 957
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 924
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 3, thread: 3, i: 954
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 927
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 964
-Unhandled exception in worker: Error from thread 4, thread: 4, i: 956
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 935
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 972
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 936
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 973
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 940
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 950
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 952
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 0, thread: 0, i: 979
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 988
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 960
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 963
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 991
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 966
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 992
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 3, thread: 3, i: 970
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 0, thread: 0, i: 965
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 972
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: Error from thread 1, thread: 1, i: 999
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 978
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 2, thread: 2, i: 977
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 985
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 986
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 3, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
-Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 992
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 995
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: Error from thread 4, thread: 4, i: 998
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 4, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 2, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 0, i: None
+Unhandled exception in worker: unsupported operand type(s) for *: 'NoneType' and 'int', thread: 1, i: None
 All threads finished.
-Copied data: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 201, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 273, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 408, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 553, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 675, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 833, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 880, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 953, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
+Copied data: [None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 165, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 213, None, None, None, None, None, None, None, None, None, None, None, 225, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 440, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 461, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 565, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 692, None, None, None, None, None, None, None, None, None, 702, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 754, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 857, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 883, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, 977, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None, None]
 Final shared resource: 0
 
 Stderr: Exception in thread Thread-6 (threaded_function):
@@ -3127,35 +3027,42 @@ Exception in thread Thread-10 (threaded_function):
 Traceback (most recent call last):
 Traceback (most recent call last):
 Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
+    shared_resource += data
+    ^^^^^^^^^^^^^^^
+NameError: name 'shared_resource' is not defined
 Traceback (most recent call last):
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
+    self.run()
+    ~~~~~~~~^^
+  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
+    self._target(*self._args, **self._kwargs)
+    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
     self.run()
     ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
     shared_resource += data
     ^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 1041, in _bootstrap_inner
-    self.run()
-    ~~~~~~~~^^
-  File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
-    self._target(*self._args, **self._kwargs)
-    ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
+    shared_resource += data
+    ^^^^^^^^^^^^^^^
   File "/home/mrigankp/fuzz4py/cpython/Lib/threading.py", line 992, in run
     self._target(*self._args, **self._kwargs)
     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -3166,17 +3073,10 @@ NameError: name 'shared_resource' is not defined
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
     shared_resource += data
     ^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
-    shared_resource += data
-    ^^^^^^^^^^^^^^^
-  File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
-    shared_resource += data
-    ^^^^^^^^^^^^^^^
-NameError: name 'shared_resource' is not defined
-NameError: name 'shared_resource' is not defined
 NameError: name 'shared_resource' is not defined
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/951.py", line 125, in threaded_function
     shared_resource += data
     ^^^^^^^^^^^^^^^
+NameError: name 'shared_resource' is not defined
 NameError: name 'shared_resource' is not defined
 

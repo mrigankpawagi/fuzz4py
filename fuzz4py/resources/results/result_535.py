@@ -5,6 +5,6 @@ Thread 1 starting.
 Thread 1 completed.
 Thread 2 starting.
 Thread 2 completed.
-Elapsed time: 2.000074337993283
+Elapsed time: 2.0001470699789934
 
 Stderr: 

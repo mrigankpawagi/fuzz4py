@@ -1,6 +1,6 @@
 Return Code: 1
-Stdout: Threading result: -1825
-Copy Replace result: <__main__.main.<locals>.MyClass object at 0x74ebce83f610>
+Stdout: Threading result: 95
+Copy Replace result: <__main__.main.<locals>.MyClass object at 0x76b8b893b610>
 
 Stderr: Traceback (most recent call last):
   File "/home/mrigankp/fuzz4py/fuzz4py/inputs/624.py", line 142, in <module>

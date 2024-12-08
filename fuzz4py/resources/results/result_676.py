@@ -2,7 +2,7 @@ Return Code: 1
 Stdout: annotated_function result: HELLO
 annotated_function result: 20
 annotated_function result: 6
-CPU times: posix.times_result(user=0.03, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606450.39)
+CPU times: posix.times_result(user=0.01, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612364.16)
 SSL connection established (successfully)
 
 Stderr: Exception in thread Thread-4 (worker):

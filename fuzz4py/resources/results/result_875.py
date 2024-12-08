@@ -1,6 +1,6 @@
 Return Code: 0
-Stdout: Elapsed time: 1.191999763250351e-05
-User CPU time: 0.03
+Stdout: Elapsed time: 1.1580996215343475e-05
+User CPU time: 0.01
 (a, 2)
 (1, 2)
 (3, 2)

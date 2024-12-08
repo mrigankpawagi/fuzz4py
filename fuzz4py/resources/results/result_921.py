@@ -6,8 +6,8 @@ Unexpected type: <class 'float'> for 1.23
 Unexpected type: <class 'list'> for [1, 2]
 Complex Annotation Example: [2, 6, 6, 0, 10, 0, -1, -1]
 Fuzzing replace Protocol: Error: replace() does not support list objects
-Fuzzing dbm: b'225'
-Fuzzing OS timer: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4606826.26)
+Fuzzing dbm: b'531'
+Fuzzing OS timer: posix.times_result(user=0.02, system=0.0, children_user=0.0, children_system=0.0, elapsed=4612733.29)
 Fuzzing SSL: Error: 'bool' object is not callable
 
 Stderr: 

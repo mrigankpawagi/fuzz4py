@@ -1,5 +1,5 @@
 Return Code: 0
-Stdout: Elapsed time: 2.2342021111398935e-05
+Stdout: Elapsed time: 2.0054983906447887e-05
 User CPU time: 0.01
 (a, 2)
 ([1, 2, 3], 2)
