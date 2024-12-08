@@ -13,14 +13,14 @@ generation_config = {
   "temperature": 0,
   "top_p": 0.95,
   "top_k": 40,
-  "max_output_tokens": 500,
+  "max_output_tokens": 8192,
   "response_mime_type": "text/plain",
 }
 
 model = genai.GenerativeModel(
   model_name="gemini-1.5-pro",
   generation_config=generation_config,
-  system_instruction="You are an expert python-code fuzzer. You will help find bugs in Python 3.13 by pointing out and summarizing the newly introduced features we should focus on, like language features, modules and byte-code changes. Stick to the 500 token limit. Don't instruct on what to do, just summarize the features.",
+  system_instruction="You are an expert python-code fuzzer. You will help find bugs in Python 3.13 by pointing out and summarizing techniques which can cause the python interpreter to crash. Stick to the 500 token limit.",
 )
 
 chat_session = model.start_chat(history=[])
