@@ -1,4 +1,5 @@
 import os
+import shutil
 import subprocess
 import argparse
 import signal
@@ -21,10 +22,10 @@ input_files.sort(key=lambda x: int(x.split('.')[0])) # sort the input files by t
 
 # clear the ouput files
 try:
-    os.rmdir(os.path.join(args.output, "results"))
+    shutil.rmtree(os.path.join(args.output, "results"))
 except FileNotFoundError: pass
 try:
-    os.rmdir(os.path.join(args.output, "results_summaries"))
+    shutil.rmtree(os.path.join(args.output, "results_summaries"))
 except FileNotFoundError: pass
 
 os.makedirs(os.path.join(args.output, "results"), exist_ok=True)
@@ -36,7 +37,7 @@ def run_program(executable: str, input_file: str):
     stdout, stderr = process.communicate()
     return_code = process.returncode
 
-    return return_code, stdout, stderr
+    return return_code, stdout.decode(), stderr.decode()
 
 for input_file in input_files:
     input_id = input_file.split('.')[0]
@@ -52,6 +53,26 @@ for input_file in input_files:
             f.write(f"Stderr: {stderr}\n")
         with open(os.path.join(args.output, "results_summaries", f"return_{return_code}.txt"), "a") as f:
             f.write(f"{input_id}\n")
+        
+        err_name_pos = stderr.rfind("Error:")
+        err_name = "Error"
+        if err_name_pos != -1:
+            for i in range(err_name_pos-1, 0, -1):
+                if not stderr[i].isalnum():
+                    break
+                err_name = stderr[i] + err_name
+            for i in range(err_name_pos + 5, len(stderr)):
+                if not stderr[i].isalnum():
+                    break
+                err_name += stderr[i]
+            err_msg = stderr[i:]
+            with open(os.path.join(args.output, "results_summaries", f"errors_{err_name}.txt"), "a") as f:
+                f.write(f"{input_id}\n{err_msg}\n\n")
+        else:
+            if return_code != 0:
+                with open(os.path.join(args.output, "results_summaries", "errors_other.txt"), "a") as f:
+                    f.write(f"{input_id}\n")
+
     except TimeoutError as e:
         with open(output_path, "w") as f:
             f.write(f"Timeout: {args.timeout} seconds\n")
