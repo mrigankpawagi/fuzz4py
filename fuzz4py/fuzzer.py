@@ -1,6 +1,7 @@
 import os
 import random
-import time
+import argparse
+import tqdm
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
 from google.api_core.exceptions import GoogleAPICallError
@@ -113,34 +114,43 @@ class Fuzzer:
         return "Generate a new python program."
 
     def __generate_equivalent_input(self):
-        return f"Generate a semantically equivalent python program to the following.\n```python\n{self.previous_inputs[-1][1]}\n```"
+        seed = random.choice(self.previous_inputs[-10:])[1] # choose a seed from the last 10 inputs
+        return f"Generate a semantically equivalent python program to the following.\n```python\n{seed}\n```"
 
     def __mutate_input(self):
-        return f"Mutate the following python program.\n```python\n{self.previous_inputs[-1][1]}\n```"
+        seed = random.choice(self.previous_inputs[-10:])[1] # choose a seed from the last 10 inputs
+        return f"Mutate the following python program.\n```python\n{seed}\n```"
 
     def __combine_inputs(self):
         if len(self.previous_inputs) < 2:
             raise ValueError("Not enough inputs to combine.")
 
-        return f"Combine the following python programs.\n```python\n{self.previous_inputs[-2][1]}\n```\n```python\n{self.previous_inputs[-1][1]}\n```"
+        seed1, seed2 = random.choices(self.previous_inputs[-10:], k=2) # choose two seeds from the last 10 inputs
+        seed1, seed2 = seed1[1], seed2[1]
+        return f"Combine the following python programs.\n```python\n{seed1}\n```\n```python\n{seed2}\n```"
 
     def fuzz(self):
         """
         Start the fuzzer.
         """
+        pbar = tqdm.tqdm(total=self.budget)
+        pbar.update(self.count)        
         while self.count < self.budget:
             self.__step()
-            
-            # sleep for 0.5 seconds before the next step to avoid rate limiting
-            time.sleep(0.5)
+            pbar.update(1)
 
 
 if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--prompt", type=str, help="Path to the input prompt.", default=os.path.join(script_path, "resources", "prompt.txt"))
+    parser.add_argument("--budget", type=int, help="The budget for the fuzzer.", default=100)
+    args = parser.parse_args()
+
     # read the prompt from resources/prompt.txt
-    with open(os.path.join(script_path, "resources", "prompt.txt"), "r") as f:
+    with open(args.prompt) as f:
         distilled_prompt = f.read()
 
     system_prompt = "You are a fuzzer that generates Python programs. Keep in mind the following before fuzzing.\n\n" + distilled_prompt
 
-    fuzzer = Fuzzer(system_prompt, budget=1000)
+    fuzzer = Fuzzer(system_prompt, budget=args.budget)
     fuzzer.fuzz()
