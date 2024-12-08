@@ -2,6 +2,6 @@ cpython/
 **/.env
 env/
 **/__pycache__/
-fuzz4py/documenation/
+fuzz4py/documentation/
 fuzz4py/resources/
 fuzz4py/inputs/
