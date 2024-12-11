@@ -6,14 +6,14 @@ Fuzzing Python. Inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all).
 > [!WARNING]
 > This project currently supports only Linux.
 
-You must have [LLVM 18](https://github.com/python/cpython/blob/main/Tools/jit/README.md) installed on your system in order to build Python 3.13 with the `--enable-experimental-jit` flag. Download and build [CPython](https://github.com/python/cpython) by running `./setup.sh`.
+You must have [LLVM 18](https://github.com/python/cpython/blob/main/Tools/jit/README.md) installed on your system in order to build CPython 3.13 with the `--enable-experimental-jit` flag. Download and build [CPython](https://github.com/python/cpython) by running `./setup_cpython.sh`.
 
 ```bash
 python -m venv env && source env/bin/activate # Create a virtual environment
 python -m pip install -r requirements.txt # Install dependencies
 ```
 
-Copy the `fuzz4py/sample.env` file to `fuzz4py/.env` and add your API key from Google AI Studio.
+Copy the `fuzz4py/sample.env` file to `fuzz4py/.env` and add your API key(s) from Google AI Studio.
 
 #### Distillation
 
