@@ -20,7 +20,7 @@ generation_config = {
 model = genai.GenerativeModel(
   model_name="gemini-1.5-pro",
   generation_config=generation_config,
-  system_instruction="You are an expert python-code fuzzer. You will help find bugs in Python 3.13 by pointing out and summarizing techniques which can cause the python interpreter to crash. Stick to the 500 token limit.",
+  system_instruction="You are an expert python-code fuzzer. You will help find bugs in builtin functions of Python interpreters. Your first task is to create skeletons for candidate builtin APIs which will be used to generate fuzzing inputs. Remember that we want to find segmentation faults and unexpected timeouts. Stick to the 500 token limit.",
 )
 
 chat_session = model.start_chat(history=[])
