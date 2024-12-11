@@ -8,7 +8,9 @@ from google.api_core.exceptions import GoogleAPICallError
 from dotenv import load_dotenv
 
 load_dotenv()
-genai.configure(api_key=os.getenv("GENAI_API_KEY"))
+api_keys = os.getenv("GENAI_API_KEYSTORE").split(",")
+api_key_idx = 0
+genai.configure(api_key=api_keys[api_key_idx])
 
 # script path
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -30,11 +32,12 @@ class Fuzzer:
             "max_output_tokens": 8192,
             "response_mime_type": "text/plain",
         }
-        self.model = genai.GenerativeModel(
-            model_name = "gemini-1.5-flash-8b",
-            generation_config = self.generation_config,
-            system_instruction = system_prompt,
-        )
+        self.model_params = {
+            "model_name": "gemini-1.5-flash-8b",
+            "generation_config": self.generation_config,
+            "system_instruction": system_prompt,
+        }
+        self.model = genai.GenerativeModel(**self.model_params)
         self.inputs_directory = inputs_directory
         self.budget = budget
 
@@ -107,7 +110,17 @@ class Fuzzer:
 
             # increment the count
             self.count += 1
-        except GoogleAPICallError:
+        except GoogleAPICallError as e:
+            # check if the error is due to ResourceExhausted or QuotaExceeded
+            if "429 " in str(e):
+                global api_key_idx
+                print(f"API key {api_keys[api_key_idx]} has been exhausted. Switching to the next API key.")
+                api_key_idx += 1
+                if api_key_idx >= len(api_keys):
+                    raise ValueError("All API keys have been exhausted.")
+                genai.configure(api_key=api_keys[api_key_idx])
+                self.model = genai.GenerativeModel(**self.model_params)
+
             return None
 
     def __generate_new_input(self):
@@ -134,10 +147,12 @@ class Fuzzer:
         Start the fuzzer.
         """
         pbar = tqdm.tqdm(total=self.budget)
-        pbar.update(self.count)        
+        pbar.update(self.count)
         while self.count < self.budget:
+            old_count = self.count
             self.__step()
-            pbar.update(1)
+            if self.count > old_count:
+                pbar.update(1)
 
 
 if __name__ == "__main__":
@@ -150,7 +165,7 @@ if __name__ == "__main__":
     with open(args.prompt) as f:
         distilled_prompt = f.read()
 
-    system_prompt = "You are a fuzzer that generates Python programs. Keep in mind the following before fuzzing.\n\n" + distilled_prompt
+    system_prompt = "You are a fuzzer that generates Python programs that expose segmentation faults and unexpected timeouts in builtin Python functions. Keep in mind the following before fuzzing. Focus on one feature at a time and do not make obvious errors like syntax errors, undefined use of variables or use of files without first creating them.\n\n" + distilled_prompt
 
     fuzzer = Fuzzer(system_prompt, budget=args.budget)
     fuzzer.fuzz()
