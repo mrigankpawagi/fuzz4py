@@ -22,15 +22,13 @@ input_files = os.listdir(args.inputs)
 input_files.remove("log.txt") # ignore the log file
 input_files.sort(key=lambda x: int(x.split('.')[0])) # sort the input files by their id
 
-# clear the ouput files
-try:
-    shutil.rmtree(os.path.join(args.output, "results"))
-except FileNotFoundError: pass
-try:
-    shutil.rmtree(os.path.join(args.output, "results_summaries"))
-except FileNotFoundError: pass
+# see which input files have been processed already
+processed_files = map(lambda x: x.split('_', 1)[1], os.listdir(os.path.join(args.output, "results")))
+input_files = list(filter(lambda x: x not in processed_files, input_files))
 
 os.makedirs(os.path.join(args.output, "results"), exist_ok=True)
+shutil.rmtree(os.path.join(args.output, "results", "temp"), ignore_errors=True)
+os.makedirs(os.path.join(args.output, "results", "temp"), exist_ok=True)
 os.makedirs(os.path.join(args.output, "results_summaries"), exist_ok=True)
 
 def run_program(executable: str, input_file: str):
@@ -44,7 +42,14 @@ def run_program(executable: str, input_file: str):
 def process_input_file(input_file):
     input_id = input_file.split('.')[0]
     output_path = os.path.join(args.output, "results", "result_" + input_file)
+
+    # create a temporary file for the input
+    open(os.path.join(args.output, "results", "temp", input_id), "w").close()
+
     return_code, stdout, stderr = run_program(args.executable, os.path.join(args.inputs, input_file))
+    
+    # remove the temporary file
+    os.remove(os.path.join(args.output, "results", "temp", input_id))
 
     return return_code, stdout, stderr, output_path, input_id
 
