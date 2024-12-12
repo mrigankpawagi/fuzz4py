@@ -2,9 +2,9 @@ import os
 import shutil
 import subprocess
 import argparse
-import signal
 import tqdm
-from concurrent.futures import ThreadPoolExecutor, as_completed
+import random
+from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # script path
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -20,16 +20,16 @@ args = parser.parse_args()
 # get the list of all input files
 input_files = os.listdir(args.inputs)
 input_files.remove("log.txt") # ignore the log file
-input_files.sort(key=lambda x: int(x.split('.')[0])) # sort the input files by their id
-
-# see which input files have been processed already
-processed_files = map(lambda x: x.split('_', 1)[1], os.listdir(os.path.join(args.output, "results")))
-input_files = list(filter(lambda x: x not in processed_files, input_files))
+random.shuffle(input_files) # shuffle the input files
 
 os.makedirs(os.path.join(args.output, "results"), exist_ok=True)
 shutil.rmtree(os.path.join(args.output, "results", "temp"), ignore_errors=True)
 os.makedirs(os.path.join(args.output, "results", "temp"), exist_ok=True)
 os.makedirs(os.path.join(args.output, "results_summaries"), exist_ok=True)
+
+# see which input files have been processed already
+processed_files = [x.split('_', 1)[1] for x in os.listdir(os.path.join(args.output, "results")) if x.startswith("result_")]
+input_files = list(filter(lambda x: x not in processed_files, input_files))
 
 def run_program(executable: str, input_file: str):
     """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""    
@@ -53,7 +53,7 @@ def process_input_file(input_file):
 
     return return_code, stdout, stderr, output_path, input_id
 
-with ThreadPoolExecutor() as executor:
+with ProcessPoolExecutor() as executor:
     futures = [executor.submit(process_input_file, input_file) for input_file in input_files]
     for future in tqdm.tqdm(as_completed(futures), total=len(futures)):
         try:
