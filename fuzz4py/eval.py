@@ -18,8 +18,7 @@ parser.add_argument("--timeout", type=int, default=60, help="Timeout (in seconds
 args = parser.parse_args()
 
 # get the list of all input files
-input_files = os.listdir(args.inputs)
-input_files.remove("log.txt") # ignore the log file
+input_files = [x for x in os.listdir(args.inputs) if x.endswith(".py")]
 random.shuffle(input_files) # shuffle the input files
 
 os.makedirs(os.path.join(args.output, "results"), exist_ok=True)
@@ -33,7 +32,7 @@ input_files = list(filter(lambda x: x not in processed_files, input_files))
 
 def run_program(executable: str, input_file: str):
     """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""    
-    process = subprocess.Popen([executable, input_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
+    process = subprocess.Popen([*executable.split(), input_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
     stdout, stderr = process.communicate()
     return_code = process.returncode
 
