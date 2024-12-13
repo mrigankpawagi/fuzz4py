@@ -4,6 +4,7 @@ import subprocess
 import argparse
 import tqdm
 import random
+import shlex
 from concurrent.futures import ProcessPoolExecutor, as_completed
 
 # script path
@@ -31,8 +32,8 @@ processed_files = [x.split('_', 1)[1] for x in os.listdir(os.path.join(args.outp
 input_files = list(filter(lambda x: x not in processed_files, input_files))
 
 def run_program(executable: str, input_file: str):
-    """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""    
-    process = subprocess.Popen([*executable.split(), input_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
+    """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""
+    process = subprocess.Popen([*shlex.split(executable), input_file], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
     stdout, stderr = process.communicate()
     return_code = process.returncode
 
