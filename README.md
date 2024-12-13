@@ -29,10 +29,10 @@ The distilled prompt is saved in `fuzz4py/resources/prompt.txt`.
 #### Input Generation
 
 ```bash
-python fuzz4py/fuzzer.py
+python fuzz4py/fuzzer.py [--prompt] [--inputs-directory] [--budget]
 ```
 
-The generated inputs are saved in `fuzz4py/inputs/`. The `fuzz4py/inputs/log.txt` file contains the provenance of the generated inputs. As such, the `Fuzzer` class in `fuzz4py/fuzzer.py` can be used to generate inputs as follows.
+The generated inputs are saved in the directory specified by the `--inputs-directory` flag, which is by default set to `fuzz4py/inputs/`. A `log.txt` file is also generated in the same directory to keep track of the provenance of the generated inputs. The `--prompt` flag is an optional argument that specifies the path to the prompt file or the prompt string itself. It is by default set to `fuzz4py/resources/prompt.txt`. The `--budget` flag is an optional argument that specifies the number of inputs to generate and is by default set to 10. As such, the `Fuzzer` class in `fuzz4py/fuzzer.py` can be used to generate inputs as follows.
 
 ```python
 from fuzz4py.fuzzer import Fuzzer

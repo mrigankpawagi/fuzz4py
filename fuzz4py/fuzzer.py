@@ -157,15 +157,19 @@ class Fuzzer:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--prompt", type=str, help="Path to the input prompt.", default=os.path.join(script_path, "resources", "prompt.txt"))
-    parser.add_argument("--budget", type=int, help="The budget for the fuzzer.", default=100)
+    parser.add_argument("--prompt", type=str, help="Path to the input prompt or the prompt itself.", default=os.path.join(script_path, "resources", "prompt.txt"))
+    parser.add_argument("--inputs-directory", type=str, help="Path to the directory to store the generated inputs.", default=os.path.join(script_path, "inputs"))
+    parser.add_argument("--budget", type=int, help="The budget for the fuzzer.", default=10)
     args = parser.parse_args()
 
-    # read the prompt from resources/prompt.txt
-    with open(args.prompt) as f:
-        distilled_prompt = f.read()
+    # read the prompt from args.prompt if it is a valid path
+    if not os.path.exists(args.prompt):
+        distilled_prompt = args.prompt
+    else:
+        with open(args.prompt) as f:
+            distilled_prompt = f.read()
 
-    system_prompt = "You are a fuzzer that generates Python programs that expose segmentation faults and unexpected timeouts in builtin Python functions. Keep in mind the following before fuzzing. Focus on one feature at a time and do not make obvious errors like syntax errors, undefined use of variables or use of files without first creating them.\n\n" + distilled_prompt
+    system_prompt = "\n\n".join(["You are a fuzzer used to find bugs in python parsers. Please generate very short python programs which use new features in a complex way."] + ([distilled_prompt] if distilled_prompt else []))
 
-    fuzzer = Fuzzer(system_prompt, budget=args.budget)
+    fuzzer = Fuzzer(system_prompt, inputs_directory=args.inputs_directory, budget=args.budget)
     fuzzer.fuzz()
