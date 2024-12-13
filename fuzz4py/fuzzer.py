@@ -2,6 +2,7 @@ import os
 import random
 import argparse
 import tqdm
+import time
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
 from google.api_core.exceptions import GoogleAPICallError
@@ -23,12 +24,7 @@ class Fuzzer:
         "MUT", # mutate the last input
         "COM", # combine the last two inputs
         "LEX", # generate a lexically complicated input from the last input
-        "DAT", # add a new data-model construct to the last input
-        "EXE", # add a new execution-model construct to the last input
-        "IMP", # add a new import-system construct to the last input
-        "EXP", # add a new expression construct to the last input
-        "SIM", # add a new simple-statement construct to the last input
-        "CMP", # add a new compound-statement construct to the last input
+        "ADD", # add a new construct to the last input
         "SIM", # reduce or simplify the last input
     ]
 
@@ -95,8 +91,8 @@ class Fuzzer:
                             prompt = self.__combine_inputs()
                         case "LEX":
                             prompt = self.__generate_lexically_complicated_input()
-                        case "DAT" | "EXE" | "IMP" | "EXP" | "SIM" | "CMP":
-                            prompt = self.__generate_with_new_construct(operator)
+                        case "ADD":
+                            prompt = self.__generate_with_new_construct()
                         case "SIM":
                             prompt = self.__reduce_input()
                     break
@@ -126,7 +122,7 @@ class Fuzzer:
             self.count += 1
         except GoogleAPICallError as e:
             # check if the error is due to ResourceExhausted or QuotaExceeded
-            if "429 " in str(e):
+            if "429" in str(e) and "ResourceExhausted" in str(e):
                 global api_key_idx
                 print(f"API key {api_keys[api_key_idx]} has been exhausted. Switching to the next API key.")
                 api_key_idx += 1
@@ -134,6 +130,8 @@ class Fuzzer:
                     raise ValueError("All API keys have been exhausted.")
                 genai.configure(api_key=api_keys[api_key_idx])
                 self.model = genai.GenerativeModel(**self.model_params)
+            if "429" in str(e) and "QuotaExceeded" in str(e):
+                time.sleep(2) # wait for 2 seconds and try again
 
             return None
 
@@ -161,8 +159,17 @@ class Fuzzer:
         
         return f"Generate a lexically complicated python program from the following.\n```python\n{seed}\n```"
 
-    def __generate_with_new_construct(self, construct: str):
+    def __generate_with_new_construct(self):
         seed = random.choice(self.previous_inputs[-10:])[1]
+        construct = random.choice([
+            "DAT", # add a new data-model construct to the last input
+            "EXE", # add a new execution-model construct to the last input
+            "IMP", # add a new import-system construct to the last input
+            "EXP", # add a new expression construct to the last input
+            "SIM", # add a new simple-statement construct to the last input
+            "CMP", # add a new compound-statement construct to the last input
+        ])        
+
         construct_name = {
             "DAT": "data-model",
             "EXE": "execution-model",
@@ -205,7 +212,7 @@ if __name__ == "__main__":
         with open(args.prompt) as f:
             distilled_prompt = f.read()
 
-    system_prompt = "\n\n".join(["You are a fuzzer used to find bugs in python parsers. Please generate very short python programs which use new features in a complex way. Note that these programs will not be executed and so focus on structures rather than actually working code. You should use unnatural constructs and weird characters. Strongly prefer very short programs."] + ([distilled_prompt] if distilled_prompt else []))
+    system_prompt = "\n\n".join(["You are a fuzzer used to find bugs in python parsers. Please generate short python programs which use new features in a complex way. These programs will not be executed and so focus on structures rather than actually working code. You need NOT run ast or exec on your own. You should use unnatural constructs and weird characters. Strongly prefer very short programs."] + ([distilled_prompt] if distilled_prompt else []))
 
     fuzzer = Fuzzer(system_prompt, inputs_directory=args.inputs_directory, budget=args.budget)
     fuzzer.fuzz()
