@@ -163,7 +163,6 @@ class Fuzzer:
         seed = random.choice(self.previous_inputs[-10:])[1]
         construct = random.choice([
             "DAT", # add a new data-model construct to the last input
-            "EXE", # add a new execution-model construct to the last input
             "IMP", # add a new import-system construct to the last input
             "EXP", # add a new expression construct to the last input
             "SIM", # add a new simple-statement construct to the last input
