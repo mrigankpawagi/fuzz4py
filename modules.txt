@@ -1,0 +1,10 @@
+black
+pyflakes
+pylint
+mypy
+pycodestyle
+flake8
+ruff
+parso
+pytype
+bandit
