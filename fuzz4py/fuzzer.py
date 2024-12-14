@@ -3,6 +3,7 @@ import random
 import argparse
 import tqdm
 import time
+from fuzz4py.larker import random_grammar_excerpt
 import google.generativeai as genai
 from google.ai.generativelanguage_v1beta.types import content
 from google.api_core.exceptions import GoogleAPICallError
@@ -23,10 +24,8 @@ class Fuzzer:
         "EQU", # generate semantically equivalent input to the last input
         "MUT", # mutate the last input
         "COM", # combine the last two inputs
-        "LEX", # generate a lexically complicated input from the last input
-        "ADD", # add a new construct to the last input
-        "SIM", # reduce or simplify the last input
     ]
+    LOOKBEHIND = 5 # number of previous inputs to look behind
 
     def __init__(self, system_prompt: str, inputs_directory: str = os.path.join(script_path, "inputs"), budget: int = 10):
         self.generation_config = {
@@ -89,12 +88,6 @@ class Fuzzer:
                             prompt = self.__mutate_input()
                         case "COM":
                             prompt = self.__combine_inputs()
-                        case "LEX":
-                            prompt = self.__generate_lexically_complicated_input()
-                        case "ADD":
-                            prompt = self.__generate_with_new_construct()
-                        case "SIM":
-                            prompt = self.__reduce_input()
                     break
                 except ValueError:
                     continue
@@ -136,53 +129,25 @@ class Fuzzer:
             return None
 
     def __generate_new_input(self):
-        return "Generate a new python program."
+        grammar_excerpt = random_grammar_excerpt(5)
+        return "Generate a new python program. You can use the following excerpt from the python grammar.\n\n" + grammar_excerpt
 
     def __generate_equivalent_input(self):
-        seed = random.choice(self.previous_inputs[-10:])[1] # choose a seed from the last 10 inputs
-        return f"Generate a semantically equivalent python program to the following.\n```python\n{seed}\n```"
+        seed = random.choice(self.previous_inputs[-Fuzzer.LOOKBEHIND:])[1]
+        return f"Generate another python program that is semantically similar to the following.\n```python\n{seed}\n```"
 
     def __mutate_input(self):
-        seed = random.choice(self.previous_inputs[-10:])[1] # choose a seed from the last 10 inputs
+        seed = random.choice(self.previous_inputs[-Fuzzer.LOOKBEHIND:])[1]
         return f"Mutate the following python program.\n```python\n{seed}\n```"
 
     def __combine_inputs(self):
         if len(self.previous_inputs) < 2:
             raise ValueError("Not enough inputs to combine.")
 
-        seed1, seed2 = random.choices(self.previous_inputs[-10:], k=2) # choose two seeds from the last 10 inputs
-        seed1, seed2 = seed1[1], seed2[1]
+        seed1_item = random.choice(self.previous_inputs[-Fuzzer.LOOKBEHIND:])
+        seed2_item = random.choice(tuple(set(self.previous_inputs[-Fuzzer.LOOKBEHIND:]).difference({seed1_item})))
+        seed1, seed2 = seed1_item[1], seed2_item[1]
         return f"Combine the following python programs.\n```python\n{seed1}\n```\n```python\n{seed2}\n```"
-
-    def __generate_lexically_complicated_input(self):
-        seed = random.choice(self.previous_inputs[-10:])[1]
-        
-        return f"Generate a lexically complicated python program from the following.\n```python\n{seed}\n```"
-
-    def __generate_with_new_construct(self):
-        seed = random.choice(self.previous_inputs[-10:])[1]
-        construct = random.choice([
-            "DAT", # add a new data-model construct to the last input
-            "IMP", # add a new import-system construct to the last input
-            "EXP", # add a new expression construct to the last input
-            "SIM", # add a new simple-statement construct to the last input
-            "CMP", # add a new compound-statement construct to the last input
-        ])        
-
-        construct_name = {
-            "DAT": "data-model",
-            "EXE": "execution-model",
-            "IMP": "import-system",
-            "EXP": "expression",
-            "SIM": "simple-statement",
-            "CMP": "compound-statement"
-        }[construct]
-        
-        return f"Add a new {construct_name} construct to the following python program.\n```python\n{seed}\n```"
-
-    def __reduce_input(self):
-        seed = random.choice(self.previous_inputs[-10:])[1]
-        return f"Reduce or simplify the following python program while preserving its semantics.\n```python\n{seed}\n```"
 
     def fuzz(self):
         """
@@ -211,7 +176,7 @@ if __name__ == "__main__":
         with open(args.prompt) as f:
             distilled_prompt = f.read()
 
-    system_prompt = "\n\n".join(["You are a fuzzer used to find bugs in python parsers. Please generate short python programs which use new features in a complex way. These programs will not be executed and so focus on structures rather than actually working code. You need NOT run ast or exec on your own. You should use unnatural constructs and weird characters. Strongly prefer very short programs."] + ([distilled_prompt] if distilled_prompt else []))
+    system_prompt = "\n\n".join(["You are a fuzzer used to find bugs in python parsers. Please generate python programs which use language features in a complex way. These programs will not be executed and so focus on structures rather than actually working code. Do NOT run ast or exec on your own. You should use unnatural constructs and weird characters. Prefer very short programs."] + ([distilled_prompt] if distilled_prompt else []))
 
     fuzzer = Fuzzer(system_prompt, inputs_directory=args.inputs_directory, budget=args.budget)
     fuzzer.fuzz()
