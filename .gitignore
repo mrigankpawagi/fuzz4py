@@ -5,3 +5,8 @@ env/
 fuzz4py/documentation/
 fuzz4py/resources/
 fuzz4py/inputs/
+
+.hypothesis
+.mypy_cache
+.pytype
+.ruff_cache
