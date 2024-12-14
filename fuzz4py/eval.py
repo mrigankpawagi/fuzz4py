@@ -25,11 +25,13 @@ random.shuffle(input_files) # shuffle the input files
 os.makedirs(os.path.join(args.output, "results"), exist_ok=True)
 shutil.rmtree(os.path.join(args.output, "results", "temp"), ignore_errors=True)
 os.makedirs(os.path.join(args.output, "results", "temp"), exist_ok=True)
-os.makedirs(os.path.join(args.output, "results_summaries"), exist_ok=True)
 
 # see which input files have been processed already
-processed_files = [x.split('_', 1)[1] for x in os.listdir(os.path.join(args.output, "results")) if x.startswith("result_")]
-input_files = list(filter(lambda x: x not in processed_files, input_files))
+processed_files = []
+if os.path.exists(os.path.join(args.output, "results", "done.txt")):
+    with open(os.path.join(args.output, "results", "done.txt"), "r") as f:
+        processed_files = list(map(str.strip, f.readlines()))
+input_files = list(filter(lambda x: x.split(".")[0] not in processed_files, input_files))
 
 def run_program(executable: str, input_file: str):
     """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""
@@ -41,7 +43,6 @@ def run_program(executable: str, input_file: str):
 
 def process_input_file(input_file):
     input_id = input_file.split('.')[0]
-    output_path = os.path.join(args.output, "results", "result_" + input_file)
 
     # create a temporary file for the input
     open(os.path.join(args.output, "results", "temp", input_id), "w").close()
@@ -51,47 +52,30 @@ def process_input_file(input_file):
     # remove the temporary file
     os.remove(os.path.join(args.output, "results", "temp", input_id))
 
-    return return_code, stdout, stderr, output_path, input_id
+    return return_code, stdout, stderr, input_id
 
 with ProcessPoolExecutor() as executor:
     futures = [executor.submit(process_input_file, input_file) for input_file in input_files]
     for future in tqdm.tqdm(as_completed(futures), total=len(futures)):
         try:
-            return_code, stdout, stderr, output_path, input_id = future.result(timeout=args.timeout)
-            with open(output_path, "w") as f:
-                f.write(f"Return Code: {return_code}\n")
-                f.write(f"Stdout: {stdout}\n")
-                f.write(f"Stderr: {stderr}\n")
-            with open(os.path.join(args.output, "results_summaries", f"return_{return_code}.txt"), "a") as f:
-                f.write(f"{input_id}\n")
-            
-            err_name_pos = stderr.rfind("Error:")
-            err_name = "Error"
-            if err_name_pos != -1:
-                for i in range(err_name_pos-1, 0, -1):
-                    if not stderr[i].isalnum():
-                        break
-                    err_name = stderr[i] + err_name
-                for i in range(err_name_pos + 5, len(stderr)):
-                    if not stderr[i].isalnum():
-                        break
-                    err_name += stderr[i]
-                err_msg = stderr[i:]
-                with open(os.path.join(args.output, "results_summaries", f"errors_{err_name}.txt"), "a") as f:
-                    f.write(f"{input_id}\n{err_msg}\n\n")
-            else:
-                if return_code != 0:
-                    with open(os.path.join(args.output, "results_summaries", "errors_other.txt"), "a") as f:
-                        f.write(f"{input_id}\n")
-                        f.write(f"{stderr}\n\n")
+            return_code, stdout, stderr, input_id = future.result(timeout=args.timeout)
 
+            # record crashes
+            if any(msg in stderr.lower() + stdout.lower() for msg in ["segmentation fault", "core dumped"]):
+                with open(os.path.join(args.output, "results", f"crash.txt"), "a") as f:
+                    f.write(f"{input_id}\n")
+                print(f"Crash: {input_id}")
         except TimeoutError as e:
-            with open(output_path, "w") as f:
-                f.write(f"Timeout: {args.timeout} seconds\n")
-            with open(os.path.join(args.output, "results_summaries", "timeout.txt"), "a") as f:
+            # record hangs
+            with open(os.path.join(args.output, "results", "timeout.txt"), "a") as f:
                 f.write(f"{input_id}\n")
+            print(f"Timeout: {input_id}")
         except Exception as e:
-            with open(output_path, "w") as f:
-                f.write(f"Error: {e}\n")
-            with open(os.path.join(args.output, "results_summaries", "error.txt"), "a") as f:
+            # record other errors
+            with open(os.path.join(args.output, "results", "error.txt"), "a") as f:
+                f.write(f"{input_id}\n")
+            print(f"Error: {input_id}")
+        finally:
+            # mark as done
+            with open(os.path.join(args.output, "results", f"done.txt"), "a") as f:
                 f.write(f"{input_id}\n")
