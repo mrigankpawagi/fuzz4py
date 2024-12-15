@@ -61,20 +61,23 @@ with ProcessPoolExecutor() as executor:
             return_code, stdout, stderr, input_id = future.result(timeout=args.timeout)
 
             # record crashes
-            if any(msg in stderr.lower() + stdout.lower() for msg in ["segmentation fault", "core dumped", "recursion", "memoryerror", "killed"]):
+            crash_keywords = ["segmentation fault", "core dumped", "recursionerror", "memoryerror", "killed"]
+            keywords_found = [msg for msg in crash_keywords if msg in stderr.lower()]
+            if return_code != 0 and keywords_found:
+                cause = ", ".join(keywords_found)
                 with open(os.path.join(args.output, "results", f"crash.txt"), "a") as f:
-                    f.write(f"{input_id}\n")
-                print(f"Crash: {input_id}")
+                    f.write(f"{input_id}: {cause}\n")
+                tqdm.tqdm.write(f"Crash: {input_id}")
         except TimeoutError as e:
             # record hangs
             with open(os.path.join(args.output, "results", "timeout.txt"), "a") as f:
                 f.write(f"{input_id}\n")
-            print(f"Timeout: {input_id}")
+            tqdm.tqdm.write(f"Timeout: {input_id}")
         except Exception as e:
             # record other errors
             with open(os.path.join(args.output, "results", "error.txt"), "a") as f:
                 f.write(f"{input_id}\n")
-            print(f"Error: {input_id}")
+            tqdm.tqdm.write(f"Error: {input_id}")
         finally:
             # mark as done
             with open(os.path.join(args.output, "results", f"done.txt"), "a") as f:
