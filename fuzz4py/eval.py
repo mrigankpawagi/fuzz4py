@@ -61,7 +61,7 @@ with ProcessPoolExecutor() as executor:
             return_code, stdout, stderr, input_id = future.result(timeout=args.timeout)
 
             # record crashes
-            if any(msg in stderr.lower() + stdout.lower() for msg in ["segmentation fault", "core dumped"]):
+            if any(msg in stderr.lower() + stdout.lower() for msg in ["segmentation fault", "core dumped", "recursion", "memoryerror", "killed"]):
                 with open(os.path.join(args.output, "results", f"crash.txt"), "a") as f:
                     f.write(f"{input_id}\n")
                 print(f"Crash: {input_id}")
