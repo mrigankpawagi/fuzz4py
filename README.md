@@ -1,5 +1,5 @@
 # Fuzz4Py
-Fuzzing Python. Inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all).
+Fuzzing Python.
 
 ### Usage
 
