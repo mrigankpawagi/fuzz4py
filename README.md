@@ -6,7 +6,7 @@ Fuzzing Python. Inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all).
 > [!WARNING]
 > This project currently supports only Linux.
 
-You must have [LLVM 18](https://github.com/python/cpython/blob/main/Tools/jit/README.md) installed on your system in order to build CPython 3.13 with the `--enable-experimental-jit` flag. Download and build [CPython](https://github.com/python/cpython) by running `./setup_cpython.sh`. Besides, you should install GraalPy to run tests with the GraalPy interpreter.
+You must have CPython 3.11, CPython 3.13, and GraalPy installed on your system to run the tests.
 
 ```bash
 python -m venv env && source env/bin/activate # Create a virtual environment

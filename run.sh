@@ -1,10 +1,26 @@
-# cpython py_compile
-echo "Testing cpython py_compile"
-python fuzz4py/eval.py "./cpython/python -m py_compile" --timeout=30 --output="fuzz4py/resources/cpython_py_compile"
+# cpython 3.13 py_compile
+echo "Testing cpython 3.13 py_compile"
+python fuzz4py/eval.py "python3.13 -m py_compile" --timeout=30 --output="fuzz4py/resources/cpython313_py_compile"
 
-# cpython ast
-echo "Testing cpython ast"
-python fuzz4py/eval.py "./cpython/python -m ast" --timeout=30 --output="fuzz4py/resources/cpython_ast"
+# cpython 3.13 ast
+echo "Testing cpython3.13 ast"
+python fuzz4py/eval.py "python3.13 -m ast" --timeout=30 --output="fuzz4py/resources/cpython313_ast"
+
+# cpython 3.11 py_compile
+echo "Testing cpython 3.11 py_compile"
+python fuzz4py/eval.py "python3.11 -m py_compile" --timeout=30 --output="fuzz4py/resources/cpython311_py_compile"
+
+# cpython 3.11 ast
+echo "Testing cpython3.11 ast"
+python fuzz4py/eval.py "python3.11 -m ast" --timeout=30 --output="fuzz4py/resources/cpython311_ast"
+
+# cpython 3.12 py_compile
+echo "Testing cpython 3.12 py_compile"
+python fuzz4py/eval.py "python3.12 -m py_compile" --timeout=30 --output="fuzz4py/resources/cpython312_py_compile"
+
+# cpython 3.12 ast
+echo "Testing cpython3.12 ast"
+python fuzz4py/eval.py "python3.12 -m ast" --timeout=30 --output="fuzz4py/resources/cpython312_ast"
 
 # graalpy py_compile
 echo "Testing graalpy py_compile"
