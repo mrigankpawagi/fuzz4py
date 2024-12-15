@@ -14,6 +14,10 @@ load_dotenv()
 api_keys = os.getenv("GENAI_API_KEYSTORE").split(",")
 api_key_idx = 0
 genai.configure(api_key=api_keys[api_key_idx])
+MODELS = ["gemini-1.5-flash-8b", "gemini-1.5-flash", "gemini-1.5-pro", "gemini-2.0-flash-exp", "gemini-exp-1206"]
+MODEL_INDEX = 0
+RETRIES = 0
+RETRY_LIMIT = 10
 
 # script path
 script_path = os.path.dirname(os.path.realpath(__file__))
@@ -48,7 +52,7 @@ class Fuzzer:
             "response_mime_type": "application/json",
         }
         self.model_params = {
-            "model_name": "gemini-1.5-flash-8b",
+            "model_name": MODELS[MODEL_INDEX],
             "generation_config": self.generation_config,
             "system_instruction": system_prompt,
         }
@@ -135,15 +139,41 @@ class Fuzzer:
             print(e)
             # check if the error is due to ResourceExhausted or QuotaExceeded
             if "429" in str(e) and "Resource" in str(e):
-                global api_key_idx
-                print(f"API key {api_keys[api_key_idx]} has been exhausted. Switching to the next API key.")
-                api_key_idx += 1
-                if api_key_idx >= len(api_keys):
-                    raise ValueError("All API keys have been exhausted.")
-                genai.configure(api_key=api_keys[api_key_idx])
-                self.model = genai.GenerativeModel(**self.model_params)
+                global api_key_idx, MODEL_INDEX, RETRIES
+
+                if RETRIES < RETRY_LIMIT:
+                    # do nothing and try again (this may be due to rate limiting)
+                    RETRIES += 1
+                    time.sleep(2) # wait for 2 seconds and try again
+                else:
+                    RETRIES = 0
+                    
+                    print(f"API key {api_keys[api_key_idx]} has exhausted {MODELS[MODEL_INDEX]}.")
+                    
+                    # try changing the model
+                    if MODEL_INDEX < len(MODELS) - 1:
+                        MODEL_INDEX += 1
+                        print("Changing model to", MODELS[MODEL_INDEX])
+                        self.model_params["model_name"] = MODELS[MODEL_INDEX]
+                    
+                    # now try changing the API key
+                    else:
+                        if api_key_idx >= len(api_keys) - 1:
+                            raise ValueError("All API keys have been exhausted.")
+                        api_key_idx += 1
+                        print("Changing API key to", api_keys[api_key_idx])
+                        
+                        genai.configure(api_key=api_keys[api_key_idx])
+                        MODEL_INDEX = 0
+                    
+                    self.model = genai.GenerativeModel(**self.model_params)
             if "429" in str(e) and "QuotaExceeded" in str(e):
-                time.sleep(2) # wait for 2 seconds and try again
+                if RETRIES < RETRY_LIMIT:
+                    # do nothing and try again (this may be due to rate limiting)
+                    RETRIES += 1
+                    time.sleep(2) # wait for 2 seconds and try again
+                else:
+                    RETRIES = 0
 
             return None
         except Exception as e:
