@@ -4,7 +4,7 @@ Fuzzing Python.
 ### Usage
 
 > [!WARNING]
-> This project currently supports only Linux.
+> This project is recommended to be run on Linux with Python 3.12 or later.
 
 You must have CPython 3.11, CPython 3.13, and GraalPy installed on your system to run the tests.
 
