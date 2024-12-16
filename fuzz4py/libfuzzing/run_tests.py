@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 # check that the directory tests exists
 os.makedirs(os.path.join(script_path, "tests"), exist_ok=True)
-test_files = [x for x in os.listdir(os.path.join(script_path, "tests")) if x.startswith("test_")]
+test_files = [x for x in os.listdir(os.path.join(script_path, "tests")) if x.startswith("test_") and x.endswith(".py")]
 
 # make directory for storing results (include timestamp in the directory name)
 results_dir = os.path.join(script_path, "results" + str(time.time()))
