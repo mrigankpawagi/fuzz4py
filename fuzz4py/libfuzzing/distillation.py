@@ -81,5 +81,5 @@ for doc in tqdm(docs):
             with open(result_file_path, "w") as f:
                 f.write(json.dumps(json_obj, indent=4))
             break
-        except Exception as e: print(f"Error: {e}. Retrying...")
-    else: print(f"Could not distill {doc}. Skipping...")
+        except Exception as e: tqdm.write(f"Error: {e}. Retrying...")
+    else: tqdm.write(f"Could not distill {doc}. Skipping...")
