@@ -2,3 +2,4 @@ python-dotenv
 google.ai.generativelanguage
 google.generativeai
 tqdm
+hypothesis

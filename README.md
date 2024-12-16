@@ -15,7 +15,7 @@ python -m pip install -r requirements.txt # Install dependencies
 
 To install all the target python modules, run `python -m pip install -r modules.txt`.
 
-Copy the `fuzz4py/sample.env` file to `fuzz4py/.env` and add your API key(s) from Google AI Studio.
+Copy the `fuzz4py/sample.env` file to `fuzz4py/.env` and add your API key(s) from Google AI Studio. To run the library fuzzer at `libfuzzing/`, you need to clone [ghAIstwriter](https://github.com/mrigankpawagi/ghAIstwriter) into the `libfuzzing/` directory and set it up as per the instructions in that repository.
 
 #### Distillation
 
