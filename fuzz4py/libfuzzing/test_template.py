@@ -10,8 +10,11 @@ test_index = str(sys.argv[1])
 base_path = os.path.dirname(os.path.realpath(__file__))
 
 # load test inputs
-with open(os.path.join(base_path, '..', 'test_cases', NAME + '.bin'), 'rb') as f:
-    test_cases = pickle.load(f)
+try:
+    with open(os.path.join(base_path, 'test_cases', NAME + '.bin'), 'rb') as f:
+        test_cases = pickle.load(f)
+except Exception:
+    exit(0)
 
 try:
     {full_name}(*test_cases[test_index])
