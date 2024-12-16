@@ -1,0 +1,24 @@
+{
+    "apis": [
+        {
+            "description": "Test whether the filename string *name* matches the pattern string *pat*, returning \"True\" or \"False\". Both parameters are case-normalized using \"os.path.normcase()\".",
+            "name": "fnmatch.fnmatch",
+            "signature": "fnmatch(name, pat)"
+        },
+        {
+            "description": "Test whether the filename string *name* matches the pattern string *pat*, returning \"True\" or \"False\"; the comparison is case-sensitive and does not apply \"os.path.normcase()\".",
+            "name": "fnmatch.fnmatchcase",
+            "signature": "fnmatchcase(name, pat)"
+        },
+        {
+            "description": "Construct a list from those elements of the *iterable* *names* that match pattern *pat*. It is the same as \"[n for n in names if fnmatch(n, pat)]\", but implemented more efficiently.",
+            "name": "fnmatch.filter",
+            "signature": "filter(names, pat)"
+        },
+        {
+            "description": "Return the shell-style pattern *pat* converted to a regular expression for using with \"re.match()\".",
+            "name": "fnmatch.translate",
+            "signature": "translate(pat)"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+{
+    "apis": [
+        {
+            "description": "Return a list containing the tty attributes for file descriptor fd.",
+            "name": "termios.tcgetattr",
+            "signature": "tcgetattr(fd)"
+        },
+        {
+            "description": "Set the tty attributes for file descriptor fd from the attributes, which is a list like the one returned by tcgetattr().",
+            "name": "termios.tcsetattr",
+            "signature": "tcsetattr(fd, when, attributes)"
+        },
+        {
+            "description": "Send a break on file descriptor fd.",
+            "name": "termios.tcsendbreak",
+            "signature": "tcsendbreak(fd, duration)"
+        },
+        {
+            "description": "Wait until all output written to file descriptor fd has been transmitted.",
+            "name": "termios.tcdrain",
+            "signature": "tcdrain(fd)"
+        },
+        {
+            "description": "Discard queued data on file descriptor fd.",
+            "name": "termios.tcflush",
+            "signature": "tcflush(fd, queue)"
+        },
+        {
+            "description": "Suspend or resume input or output on file descriptor fd.",
+            "name": "termios.tcflow",
+            "signature": "tcflow(fd, action)"
+        },
+        {
+            "description": "Return a tuple (ws_row, ws_col) containing the tty window size for file descriptor fd. Requires termios.TIOCGWINSZ or termios.TIOCGSIZE.",
+            "name": "termios.tcgetwinsize",
+            "signature": "tcgetwinsize(fd)"
+        },
+        {
+            "description": "Set the tty window size for file descriptor fd from winsize, which is a two-item tuple (ws_row, ws_col) like the one returned by tcgetwinsize(). Requires at least one of the pairs (termios.TIOCGWINSZ, termios.TIOCSWINSZ); (termios.TIOCGSIZE, termios.TIOCSSIZE) to be defined.",
+            "name": "termios.tcsetwinsize",
+            "signature": "tcsetwinsize(fd, winsize)"
+        }
+    ]
+}

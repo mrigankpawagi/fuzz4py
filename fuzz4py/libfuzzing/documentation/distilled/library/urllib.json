@@ -1,0 +1,89 @@
+{
+    "apis": [
+        {
+            "description": "Parse a URL into six components, returning a 6-item named tuple.",
+            "name": "urllib.parse.urlparse",
+            "signature": "urlparse(urlstring, scheme='', allow_fragments=True)"
+        },
+        {
+            "description": "Parse a query string given as a string argument.",
+            "name": "urllib.parse.parse_qs",
+            "signature": "parse_qs(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')"
+        },
+        {
+            "description": "Parse a query string given as a string argument.",
+            "name": "urllib.parse.parse_qsl",
+            "signature": "parse_qsl(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')"
+        },
+        {
+            "description": "Construct a URL from a tuple as returned by \"urlparse()\".",
+            "name": "urllib.parse.urlunparse",
+            "signature": "urlunparse(parts)"
+        },
+        {
+            "description": "This is similar to \"urlparse()\", but does not split the params from the URL.",
+            "name": "urllib.parse.urlsplit",
+            "signature": "urlsplit(urlstring, scheme='', allow_fragments=True)"
+        },
+        {
+            "description": "Combine the elements of a tuple as returned by \"urlsplit()\" into a complete URL as a string.",
+            "name": "urllib.parse.urlunsplit",
+            "signature": "urlunsplit(parts)"
+        },
+        {
+            "description": "Construct a full URL by combining a \"base URL\" (*base*) with another URL (*url*).",
+            "name": "urllib.parse.urljoin",
+            "signature": "urljoin(base, url, allow_fragments=True)"
+        },
+        {
+            "description": "If *url* contains a fragment identifier, return a modified version of *url* with no fragment identifier, and the fragment identifier as a separate string.",
+            "name": "urllib.parse.urldefrag",
+            "signature": "urldefrag(url)"
+        },
+        {
+            "description": "Extract the url from a wrapped URL.",
+            "name": "urllib.parse.unwrap",
+            "signature": "unwrap(url)"
+        },
+        {
+            "description": "Return the re-combined version of the original URL as a string.",
+            "name": "urllib.parse.SplitResult.geturl",
+            "signature": "geturl()"
+        },
+        {
+            "description": "Replace special characters in *string* using the \"%xx\" escape.",
+            "name": "urllib.parse.quote",
+            "signature": "quote(string, safe='/', encoding=None, errors=None)"
+        },
+        {
+            "description": "Like \"quote()\", but also replace spaces with plus signs.",
+            "name": "urllib.parse.quote_plus",
+            "signature": "quote_plus(string, safe='', encoding=None, errors=None)"
+        },
+        {
+            "description": "Like \"quote()\", but accepts a bytes object rather than a str, and does not perform string-to-bytes encoding.",
+            "name": "urllib.parse.quote_from_bytes",
+            "signature": "quote_from_bytes(bytes, safe='/')"
+        },
+        {
+            "description": "Replace \"%xx\" escapes with their single-character equivalent.",
+            "name": "urllib.parse.unquote",
+            "signature": "unquote(string, encoding='utf-8', errors='replace')"
+        },
+        {
+            "description": "Like \"unquote()\", but also replace plus signs with spaces.",
+            "name": "urllib.parse.unquote_plus",
+            "signature": "unquote_plus(string, encoding='utf-8', errors='replace')"
+        },
+        {
+            "description": "Replace \"%xx\" escapes with their single-octet equivalent, and return a bytes object.",
+            "name": "urllib.parse.unquote_to_bytes",
+            "signature": "unquote_to_bytes(string)"
+        },
+        {
+            "description": "Convert a mapping object or a sequence of two-element tuples to a percent-encoded ASCII text string.",
+            "name": "urllib.parse.urlencode",
+            "signature": "urlencode(query, doseq=False, safe='', encoding=None, errors=None, quote_via=quote_plus)"
+        }
+    ]
+}

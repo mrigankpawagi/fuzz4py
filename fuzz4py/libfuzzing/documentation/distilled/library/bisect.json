@@ -1,0 +1,34 @@
+{
+    "apis": [
+        {
+            "description": "Locate the insertion point for x in a to maintain sorted order. The parameters lo and hi may be used to specify a subset of the list which should be considered; by default the entire list is used. If x is already present in a, the insertion point will be before (to the left of) any existing entries. The return value is suitable for use as the first parameter to list.insert() assuming that a is already sorted.",
+            "name": "bisect.bisect_left",
+            "signature": "bisect_left(a, x, lo=0, hi=len(a), *, key=None)"
+        },
+        {
+            "description": "Similar to bisect_left(), but returns an insertion point which comes after (to the right of) any existing entries of x in a.",
+            "name": "bisect.bisect_right",
+            "signature": "bisect_right(a, x, lo=0, hi=len(a), *, key=None)"
+        },
+        {
+            "description": "Similar to bisect_left(), but returns an insertion point which comes after (to the right of) any existing entries of x in a.",
+            "name": "bisect.bisect",
+            "signature": "bisect(a, x, lo=0, hi=len(a), *, key=None)"
+        },
+        {
+            "description": "Insert x in a in sorted order. This function first runs bisect_left() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
+            "name": "bisect.insort_left",
+            "signature": "insort_left(a, x, lo=0, hi=len(a), *, key=None)"
+        },
+        {
+            "description": "Similar to insort_left(), but inserting x in a after any existing entries of x. This function first runs bisect_right() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
+            "name": "bisect.insort_right",
+            "signature": "insort_right(a, x, lo=0, hi=len(a), *, key=None)"
+        },
+        {
+            "description": "Similar to insort_left(), but inserting x in a after any existing entries of x. This function first runs bisect_right() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
+            "name": "bisect.insort",
+            "signature": "insort(a, x, lo=0, hi=len(a), *, key=None)"
+        }
+    ]
+}

@@ -1,0 +1,64 @@
+{
+    "apis": [
+        {
+            "description": "Prints the formatted representation of *object*, followed by a newline.",
+            "name": "pprint.pp",
+            "signature": "pp(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=False, underscore_numbers=False)"
+        },
+        {
+            "description": "Prints the formatted representation of *object*, followed by a newline.",
+            "name": "pprint.pprint",
+            "signature": "pprint(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
+        },
+        {
+            "description": "Return the formatted representation of *object* as a string.",
+            "name": "pprint.pformat",
+            "signature": "pformat(object, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
+        },
+        {
+            "description": "Determine if the formatted representation of *object* is \"readable\", or can be used to reconstruct the value using \"eval()\".",
+            "name": "pprint.isreadable",
+            "signature": "isreadable(object)"
+        },
+        {
+            "description": "Determine if *object* requires a recursive representation.",
+            "name": "pprint.isrecursive",
+            "signature": "isrecursive(object)"
+        },
+        {
+            "description": "Return a string representation of *object*, protected against recursion in some common data structures.",
+            "name": "pprint.saferepr",
+            "signature": "saferepr(object)"
+        },
+        {
+            "description": "Construct a \"PrettyPrinter\" instance.",
+            "name": "pprint.PrettyPrinter",
+            "signature": "PrettyPrinter(indent=1, width=80, depth=None, stream=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
+        },
+        {
+            "description": "Return the formatted representation of *object*.",
+            "name": "pprint.PrettyPrinter.pformat",
+            "signature": "pformat(object)"
+        },
+        {
+            "description": "Print the formatted representation of *object* on the configured stream, followed by a newline.",
+            "name": "pprint.PrettyPrinter.pprint",
+            "signature": "pprint(object)"
+        },
+        {
+            "description": "Determine if the formatted representation of the object is \"readable\", or can be used to reconstruct the value using \"eval()\".",
+            "name": "pprint.PrettyPrinter.isreadable",
+            "signature": "isreadable(object)"
+        },
+        {
+            "description": "Determine if the object requires a recursive representation.",
+            "name": "pprint.PrettyPrinter.isrecursive",
+            "signature": "isrecursive(object)"
+        },
+        {
+            "description": "Returns three values: the formatted version of *object* as a string, a flag indicating whether the result is readable, and a flag indicating whether recursion was detected.",
+            "name": "pprint.PrettyPrinter.format",
+            "signature": "format(object, context, maxlevels, level)"
+        }
+    ]
+}

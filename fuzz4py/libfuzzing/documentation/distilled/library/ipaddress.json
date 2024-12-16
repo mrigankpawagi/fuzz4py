@@ -1,0 +1,84 @@
+{
+    "apis": [
+        {
+            "description": "Return an IPv4Address or IPv6Address object depending on the IP address passed as argument.",
+            "name": "ipaddress.ip_address",
+            "signature": "ip_address(address)"
+        },
+        {
+            "description": "Return an IPv4Network or IPv6Network object depending on the IP address passed as argument.",
+            "name": "ipaddress.ip_network",
+            "signature": "ip_network(address, strict=True)"
+        },
+        {
+            "description": "Return an IPv4Interface or IPv6Interface object depending on the IP address passed as argument.",
+            "name": "ipaddress.ip_interface",
+            "signature": "ip_interface(address)"
+        },
+        {
+            "description": "Construct an IPv4 address.",
+            "name": "ipaddress.IPv4Address",
+            "signature": "IPv4Address(address)"
+        },
+        {
+            "description": "Returns a string representation of the IP address, controlled by an explicit format string.",
+            "name": "ipaddress.IPv4Address.__format__",
+            "signature": "__format__(fmt)"
+        },
+        {
+            "description": "Construct an IPv6 address.",
+            "name": "ipaddress.IPv6Address",
+            "signature": "IPv6Address(address)"
+        },
+        {
+            "description": "Refer to the corresponding method documentation in IPv4Address.",
+            "name": "ipaddress.IPv6Address.__format__",
+            "signature": "__format__(fmt)"
+        },
+        {
+            "description": "Construct an IPv4 network definition.",
+            "name": "ipaddress.IPv4Network",
+            "signature": "IPv4Network(address, strict=True)"
+        },
+        {
+            "description": "Construct an IPv6 network definition.",
+            "name": "ipaddress.IPv6Network",
+            "signature": "IPv6Network(address, strict=True)"
+        },
+        {
+            "description": "Construct an IPv4 interface.",
+            "name": "ipaddress.IPv4Interface",
+            "signature": "IPv4Interface(address)"
+        },
+        {
+            "description": "Construct an IPv6 interface.",
+            "name": "ipaddress.IPv6Interface",
+            "signature": "IPv6Interface(address)"
+        },
+        {
+            "description": "Represent an address as 4 packed bytes in network (big-endian) order.",
+            "name": "ipaddress.v4_int_to_packed",
+            "signature": "v4_int_to_packed(address)"
+        },
+        {
+            "description": "Represent an address as 16 packed bytes in network (big-endian) order.",
+            "name": "ipaddress.v6_int_to_packed",
+            "signature": "v6_int_to_packed(address)"
+        },
+        {
+            "description": "Return an iterator of the summarized network range given the first and last IP addresses.",
+            "name": "ipaddress.summarize_address_range",
+            "signature": "summarize_address_range(first, last)"
+        },
+        {
+            "description": "Return an iterator of the collapsed IPv4Network or IPv6Network objects.",
+            "name": "ipaddress.collapse_addresses",
+            "signature": "collapse_addresses(addresses)"
+        },
+        {
+            "description": "Return a key suitable for sorting between networks and addresses.",
+            "name": "ipaddress.get_mixed_type_key",
+            "signature": "get_mixed_type_key(obj)"
+        }
+    ]
+}

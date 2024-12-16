@@ -1,0 +1,129 @@
+{
+    "apis": [
+        {
+            "description": "Create a new ArgumentParser object.",
+            "name": "argparse.ArgumentParser",
+            "signature": "ArgumentParser(prog=None, usage=None, description=None, epilog=None, parents=[], formatter_class=argparse.HelpFormatter, prefix_chars='-', fromfile_prefix_chars=None, argument_default=None, conflict_handler='error', add_help=True, allow_abbrev=True, exit_on_error=True)"
+        },
+        {
+            "description": "Define how a single command-line argument should be parsed.",
+            "name": "argparse.ArgumentParser.add_argument",
+            "signature": "add_argument(name or flags..., *[, action][, nargs][, const][, default][, type][, choices][, required][, help][, metavar][, dest][, deprecated])"
+        },
+        {
+            "description": "Convert argument strings to objects and assign them as attributes of the namespace.",
+            "name": "argparse.ArgumentParser.parse_args",
+            "signature": "parse_args(args=None, namespace=None)"
+        },
+        {
+            "description": "Adds support for boolean actions such as '--foo' and '--no-foo'.",
+            "name": "argparse.BooleanOptionalAction",
+            "signature": "BooleanOptionalAction(option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None, **kwargs)"
+        },
+        {
+            "description": "Simple class used by default by parse_args() to create an object holding attributes and return it.",
+            "name": "argparse.Namespace",
+            "signature": "Namespace"
+        },
+        {
+            "description": "Add sub-commands to the parser.",
+            "name": "argparse.ArgumentParser.add_subparsers",
+            "signature": "add_subparsers(*[, title][, description][, prog][, parser_class][, action][, dest][, required][, help][, metavar])"
+        },
+        {
+            "description": "The FileType factory creates objects that can be passed to the type argument of ArgumentParser.add_argument().",
+            "name": "argparse.FileType",
+            "signature": "FileType(mode='r', bufsize=-1, encoding=None, errors=None)"
+        },
+        {
+            "description": "By default, ArgumentParser groups command-line arguments into \"positional arguments\" and \"options\" when displaying help messages.",
+            "name": "argparse.ArgumentParser.add_argument_group",
+            "signature": "add_argument_group(title=None, description=None, *[, argument_default][, conflict_handler])"
+        },
+        {
+            "description": "Create a mutually exclusive group.",
+            "name": "argparse.ArgumentParser.add_mutually_exclusive_group",
+            "signature": "add_mutually_exclusive_group(required=False)"
+        },
+        {
+            "description": "Most of the time, the attributes of the object returned by parse_args() will be fully determined by inspecting the command-line arguments and the argument actions.",
+            "name": "argparse.ArgumentParser.set_defaults",
+            "signature": "set_defaults(**kwargs)"
+        },
+        {
+            "description": "Get the default value for a namespace attribute, as set by either add_argument() or by set_defaults().",
+            "name": "argparse.ArgumentParser.get_default",
+            "signature": "get_default(dest)"
+        },
+        {
+            "description": "Print a brief description of how the ArgumentParser should be invoked on the command line.",
+            "name": "argparse.ArgumentParser.print_usage",
+            "signature": "print_usage(file=None)"
+        },
+        {
+            "description": "Print a help message, including the program usage and information about the arguments registered with the ArgumentParser.",
+            "name": "argparse.ArgumentParser.print_help",
+            "signature": "print_help(file=None)"
+        },
+        {
+            "description": "Return a string containing a brief description of how the ArgumentParser should be invoked on the command line.",
+            "name": "argparse.ArgumentParser.format_usage",
+            "signature": "format_usage()"
+        },
+        {
+            "description": "Return a string containing a help message, including the program usage and information about the arguments registered with the ArgumentParser.",
+            "name": "argparse.ArgumentParser.format_help",
+            "signature": "format_help()"
+        },
+        {
+            "description": "Sometimes a script may only parse a few of the command-line arguments, passing the remaining arguments on to another script or program.",
+            "name": "argparse.ArgumentParser.parse_known_args",
+            "signature": "parse_known_args(args=None, namespace=None)"
+        },
+        {
+            "description": "Arguments that are read from a file (see the fromfile_prefix_chars keyword argument to the ArgumentParser constructor) are read one argument per line.",
+            "name": "argparse.ArgumentParser.convert_arg_line_to_args",
+            "signature": "convert_arg_line_to_args(arg_line)"
+        },
+        {
+            "description": "This method terminates the program, exiting with the specified status and, if given, it prints a message to sys.stderr before that.",
+            "name": "argparse.ArgumentParser.exit",
+            "signature": "exit(status=0, message=None)"
+        },
+        {
+            "description": "This method prints a usage message, including the message, to sys.stderr and terminates the program with a status code of 2.",
+            "name": "argparse.ArgumentParser.error",
+            "signature": "error(message)"
+        },
+        {
+            "description": "A number of Unix commands allow the user to intermix optional arguments with positional arguments.",
+            "name": "argparse.ArgumentParser.parse_intermixed_args",
+            "signature": "parse_intermixed_args(args=None, namespace=None)"
+        },
+        {
+            "description": "These parsers do not support all the argparse features, and will raise exceptions if unsupported features are used.",
+            "name": "argparse.ArgumentParser.parse_known_intermixed_args",
+            "signature": "parse_known_intermixed_args(args=None, namespace=None)"
+        },
+        {
+            "description": "Sometimes it's desirable to use a custom string in error messages to provide more user-friendly output.",
+            "name": "argparse.ArgumentParser.register",
+            "signature": "register(registry_name, value, object)"
+        },
+        {
+            "description": "An error from creating or using an argument (optional or positional).",
+            "name": "argparse.ArgumentError",
+            "signature": ""
+        },
+        {
+            "description": "Raised when something goes wrong converting a command line string to a type.",
+            "name": "argparse.ArgumentTypeError",
+            "signature": ""
+        },
+        {
+            "description": "Action objects are used by an ArgumentParser to represent the information needed to parse a single argument from one or more strings from the command line.",
+            "name": "argparse.Action",
+            "signature": "Action(option_strings, dest, nargs=None, const=None, default=None, type=None, choices=None, required=False, help=None, metavar=None)"
+        }
+    ]
+}

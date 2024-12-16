@@ -1,0 +1,84 @@
+{
+    "apis": [
+        {
+            "description": "Analyse the bytecode corresponding to a function, generator, asynchronous generator, coroutine, method, string of source code, or a code object.",
+            "name": "dis.Bytecode",
+            "signature": "Bytecode(x, *, first_line=None, current_offset=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "Construct a Bytecode instance from the given traceback, setting current_offset to the instruction responsible for the exception.",
+            "name": "dis.Bytecode.from_traceback",
+            "signature": "from_traceback(tb, *, show_caches=False)"
+        },
+        {
+            "description": "Return a formatted view of the bytecode operations.",
+            "name": "dis.Bytecode.dis",
+            "signature": "dis()"
+        },
+        {
+            "description": "Return a formatted multi-line string with detailed information about the code object.",
+            "name": "dis.Bytecode.info",
+            "signature": "info()"
+        },
+        {
+            "description": "Return a formatted multi-line string with detailed code object information for the supplied function, generator, asynchronous generator, coroutine, method, source code string or code object.",
+            "name": "dis.code_info",
+            "signature": "code_info(x)"
+        },
+        {
+            "description": "Print detailed code object information for the supplied function, method, source code string or code object to file.",
+            "name": "dis.show_code",
+            "signature": "show_code(x, *, file=None)"
+        },
+        {
+            "description": "Disassemble the x object. x can denote either a module, a class, a method, a function, a generator, an asynchronous generator, a coroutine, a code object, a string of source code or a byte sequence of raw bytecode.",
+            "name": "dis.dis",
+            "signature": "dis(x=None, *, file=None, depth=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "Disassemble the top-of-stack function of a traceback, using the last traceback if none was passed.",
+            "name": "dis.distb",
+            "signature": "distb(tb=None, *, file=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "Disassemble a code object, indicating the last instruction if lasti was provided.",
+            "name": "dis.disassemble",
+            "signature": "disassemble(code, lasti=-1, *, file=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "Disassemble a code object, indicating the last instruction if lasti was provided.",
+            "name": "dis.disco",
+            "signature": "disco(code, lasti=-1, *, file=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "Return an iterator over the instructions in the supplied function, method, source code string or code object.",
+            "name": "dis.get_instructions",
+            "signature": "get_instructions(x, *, first_line=None, show_caches=False, adaptive=False)"
+        },
+        {
+            "description": "This generator function uses the co_lines() method of the code object code to find the offsets which are starts of lines in the source code.",
+            "name": "dis.findlinestarts",
+            "signature": "findlinestarts(code)"
+        },
+        {
+            "description": "Detect all offsets in the raw compiled bytecode string code which are jump targets, and return a list of these offsets.",
+            "name": "dis.findlabels",
+            "signature": "findlabels(code)"
+        },
+        {
+            "description": "Compute the stack effect of opcode with argument oparg.",
+            "name": "dis.stack_effect",
+            "signature": "stack_effect(opcode, oparg=None, *, jump=None)"
+        },
+        {
+            "description": "Details for a bytecode operation",
+            "name": "dis.Instruction",
+            "signature": "Instruction(...)"
+        },
+        {
+            "description": "Positional information for a bytecode operation",
+            "name": "dis.Positions",
+            "signature": "Positions(...)"
+        }
+    ]
+}

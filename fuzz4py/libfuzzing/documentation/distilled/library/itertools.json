@@ -1,0 +1,109 @@
+{
+    "apis": [
+        {
+            "description": "Make an iterator that returns accumulated sums or accumulated results from other binary functions.",
+            "name": "itertools.accumulate",
+            "signature": "accumulate(iterable[, function, *, initial=None])"
+        },
+        {
+            "description": "Batch data from the *iterable* into tuples of length *n*. The last batch may be shorter than *n*.",
+            "name": "itertools.batched",
+            "signature": "batched(iterable, n, *, strict=False)"
+        },
+        {
+            "description": "Make an iterator that returns elements from the first iterable until it is exhausted, then proceeds to the next iterable, until all of the iterables are exhausted.",
+            "name": "itertools.chain",
+            "signature": "chain(*iterables)"
+        },
+        {
+            "description": "Alternate constructor for \"chain()\". Gets chained inputs from a single iterable argument that is evaluated lazily.",
+            "name": "itertools.chain.from_iterable",
+            "signature": "chain.from_iterable(iterable)"
+        },
+        {
+            "description": "Return *r* length subsequences of elements from the input *iterable*.",
+            "name": "itertools.combinations",
+            "signature": "combinations(iterable, r)"
+        },
+        {
+            "description": "Return *r* length subsequences of elements from the input *iterable* allowing individual elements to be repeated more than once.",
+            "name": "itertools.combinations_with_replacement",
+            "signature": "combinations_with_replacement(iterable, r)"
+        },
+        {
+            "description": "Make an iterator that returns elements from *data* where the corresponding element in *selectors* is true.",
+            "name": "itertools.compress",
+            "signature": "compress(data, selectors)"
+        },
+        {
+            "description": "Make an iterator that returns evenly spaced values beginning with *start*.",
+            "name": "itertools.count",
+            "signature": "count(start=0, step=1)"
+        },
+        {
+            "description": "Make an iterator returning elements from the iterable and saving a copy of each.",
+            "name": "itertools.cycle",
+            "signature": "cycle(iterable)"
+        },
+        {
+            "description": "Make an iterator that drops elements from the iterable while the *predicate* is true and afterwards returns every element.",
+            "name": "itertools.dropwhile",
+            "signature": "dropwhile(predicate, iterable)"
+        },
+        {
+            "description": "Make an iterator that filters elements from the iterable returning only those for which the *predicate* returns a false value.",
+            "name": "itertools.filterfalse",
+            "signature": "filterfalse(predicate, iterable)"
+        },
+        {
+            "description": "Make an iterator that returns consecutive keys and groups from the *iterable*.",
+            "name": "itertools.groupby",
+            "signature": "groupby(iterable, key=None)"
+        },
+        {
+            "description": "Make an iterator that returns selected elements from the iterable.",
+            "name": "itertools.islice",
+            "signature": "islice(iterable, stop)\nislice(iterable, start, stop[, step])"
+        },
+        {
+            "description": "Return successive overlapping pairs taken from the input *iterable*.",
+            "name": "itertools.pairwise",
+            "signature": "pairwise(iterable)"
+        },
+        {
+            "description": "Return successive *r* length permutations of elements from the *iterable*.",
+            "name": "itertools.permutations",
+            "signature": "permutations(iterable, r=None)"
+        },
+        {
+            "description": "Cartesian product of input iterables.",
+            "name": "itertools.product",
+            "signature": "product(*iterables, repeat=1)"
+        },
+        {
+            "description": "Make an iterator that returns *object* over and over again.",
+            "name": "itertools.repeat",
+            "signature": "repeat(object[, times])"
+        },
+        {
+            "description": "Make an iterator that computes the function using arguments obtained from the iterable.",
+            "name": "itertools.starmap",
+            "signature": "starmap(function, iterable)"
+        },
+        {
+            "description": "Make an iterator that returns elements from the iterable as long as the *predicate* is true.",
+            "name": "itertools.takewhile",
+            "signature": "takewhile(predicate, iterable)"
+        },
+        {
+            "description": "Return *n* independent iterators from a single iterable.",
+            "name": "itertools.tee",
+            "signature": "tee(iterable, n=2)"
+        },
+        {
+            "description": "Make an iterator that aggregates elements from each of the iterables.",
+            "name": "itertools.zip_longest",
+            "signature": "zip_longest(*iterables, fillvalue=None)"
+        }
+    ]
+}

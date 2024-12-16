@@ -1,0 +1,74 @@
+{
+    "apis": [
+        {
+            "description": "Class which provides formatting services useful in implementing functions similar to the built-in \"repr()\".",
+            "name": "reprlib.Repr",
+            "signature": "Repr(*, maxlevel=6, maxtuple=6, maxlist=6, maxarray=5, maxdict=4, maxset=6, maxfrozenset=6, maxdeque=6, maxstring=30, maxlong=40, maxother=30, fillvalue='...', indent=None)"
+        },
+        {
+            "description": "This is an instance of \"Repr\" which is used to provide the \"repr()\" function described below.",
+            "name": "reprlib.aRepr",
+            "signature": "aRepr"
+        },
+        {
+            "description": "This is the method of \"aRepr\". It returns a string similar to that returned by the built-in function of the same name, but with limits on most sizes.",
+            "name": "reprlib.repr",
+            "signature": "repr(obj)"
+        },
+        {
+            "description": "Decorator for \"__repr__()\" methods to detect recursive calls within the same thread.",
+            "name": "reprlib.recursive_repr",
+            "signature": "recursive_repr(fillvalue='...')"
+        },
+        {
+            "description": "This string is displayed for recursive references.",
+            "name": "reprlib.Repr.fillvalue",
+            "signature": "fillvalue"
+        },
+        {
+            "description": "Depth limit on the creation of recursive representations.",
+            "name": "reprlib.Repr.maxlevel",
+            "signature": "maxlevel"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxdict\nreprlib.Repr.maxlist\nreprlib.Repr.maxtuple\nreprlib.Repr.maxset\nreprlib.Repr.maxfrozenset\nreprlib.Repr.maxdeque\nreprlib.Repr.maxarray",
+            "signature": "maxdict\nmaxlist\nmaxtuple\nmaxset\nmaxfrozenset\nmaxdeque\nmaxarray"
+        },
+        {
+            "description": "Maximum number of characters in the representation for an integer.",
+            "name": "reprlib.Repr.maxlong",
+            "signature": "maxlong"
+        },
+        {
+            "description": "Limit on the number of characters in the representation of the string.",
+            "name": "reprlib.Repr.maxstring",
+            "signature": "maxstring"
+        },
+        {
+            "description": "This limit is used to control the size of object types for which no specific formatting method is available on the \"Repr\" object.",
+            "name": "reprlib.Repr.maxother",
+            "signature": "maxother"
+        },
+        {
+            "description": "If this attribute is set to \"None\" (the default), the output is formatted with no line breaks or indentation, like the standard \"repr()\".",
+            "name": "reprlib.Repr.indent",
+            "signature": "indent"
+        },
+        {
+            "description": "The equivalent of the built-in \"repr()\" that uses the formatting imposed by the instance.",
+            "name": "reprlib.Repr.repr",
+            "signature": "repr(obj)"
+        },
+        {
+            "description": "Recursive implementation used by \"repr()\".",
+            "name": "reprlib.Repr.repr1",
+            "signature": "repr1(obj, level)"
+        },
+        {
+            "description": "Formatting methods for specific types.",
+            "name": "reprlib.Repr.repr_TYPE",
+            "signature": "repr_TYPE(obj, level)"
+        }
+    ]
+}

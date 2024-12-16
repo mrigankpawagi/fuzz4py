@@ -1,0 +1,84 @@
+{
+    "apis": [
+        {
+            "description": "Create a parser instance able to parse invalid markup.",
+            "name": "html.parser.HTMLParser",
+            "signature": "HTMLParser(*, convert_charrefs=True)"
+        },
+        {
+            "description": "Feed some text to the parser.",
+            "name": "html.parser.HTMLParser.feed",
+            "signature": "feed(data)"
+        },
+        {
+            "description": "Force processing of all buffered data as if it were followed by an end-of-file mark.",
+            "name": "html.parser.HTMLParser.close",
+            "signature": "close()"
+        },
+        {
+            "description": "Reset the instance. Loses all unprocessed data.",
+            "name": "html.parser.HTMLParser.reset",
+            "signature": "reset()"
+        },
+        {
+            "description": "Return current line number and offset.",
+            "name": "html.parser.HTMLParser.getpos",
+            "signature": "getpos()"
+        },
+        {
+            "description": "Return the text of the most recently opened start tag.",
+            "name": "html.parser.HTMLParser.get_starttag_text",
+            "signature": "get_starttag_text()"
+        },
+        {
+            "description": "This method is called to handle the start tag of an element (e.g. \"<div id=\"main\">\").",
+            "name": "html.parser.HTMLParser.handle_starttag",
+            "signature": "handle_starttag(tag, attrs)"
+        },
+        {
+            "description": "This method is called to handle the end tag of an element (e.g. \"</div>\").",
+            "name": "html.parser.HTMLParser.handle_endtag",
+            "signature": "handle_endtag(tag)"
+        },
+        {
+            "description": "Similar to \"handle_starttag()\", but called when the parser encounters an XHTML-style empty tag (\"<img ... />\").",
+            "name": "html.parser.HTMLParser.handle_startendtag",
+            "signature": "handle_startendtag(tag, attrs)"
+        },
+        {
+            "description": "This method is called to process arbitrary data (e.g. text nodes and the content of \"<script>...</script>\" and \"<style>...</style>\").",
+            "name": "html.parser.HTMLParser.handle_data",
+            "signature": "handle_data(data)"
+        },
+        {
+            "description": "This method is called to process a named character reference of the form \"&name;\" (e.g. \"&gt;\"), where *name* is a general entity reference (e.g. \"'gt'\").",
+            "name": "html.parser.HTMLParser.handle_entityref",
+            "signature": "handle_entityref(name)"
+        },
+        {
+            "description": "This method is called to process decimal and hexadecimal numeric character references of the form \"&#*NNN*\" and \"&#x*NNN*;\".",
+            "name": "html.parser.HTMLParser.handle_charref",
+            "signature": "handle_charref(name)"
+        },
+        {
+            "description": "This method is called when a comment is encountered (e.g. \"<!-- comment-->\").",
+            "name": "html.parser.HTMLParser.handle_comment",
+            "signature": "handle_comment(data)"
+        },
+        {
+            "description": "This method is called to handle an HTML doctype declaration (e.g. \"<!DOCTYPE html>\").",
+            "name": "html.parser.HTMLParser.handle_decl",
+            "signature": "handle_decl(decl)"
+        },
+        {
+            "description": "Method called when a processing instruction is encountered.",
+            "name": "html.parser.HTMLParser.handle_pi",
+            "signature": "handle_pi(data)"
+        },
+        {
+            "description": "This method is called when an unrecognized declaration is read by the parser.",
+            "name": "html.parser.HTMLParser.unknown_decl",
+            "signature": "unknown_decl(data)"
+        }
+    ]
+}

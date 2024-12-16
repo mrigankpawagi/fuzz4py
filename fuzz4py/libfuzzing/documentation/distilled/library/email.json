@@ -1,0 +1,24 @@
+{
+    "apis": [
+        {
+            "description": "Map character sets to their email properties.",
+            "name": "email.charset.Charset",
+            "signature": "Charset(input_charset=DEFAULT_CHARSET)"
+        },
+        {
+            "description": "Add character properties to the global registry.",
+            "name": "email.charset.add_charset",
+            "signature": "add_charset(charset, header_enc=None, body_enc=None, output_charset=None)"
+        },
+        {
+            "description": "Add a character set alias.",
+            "name": "email.charset.add_alias",
+            "signature": "add_alias(alias, canonical)"
+        },
+        {
+            "description": "Add a codec that map characters in the given character set to and from Unicode.",
+            "name": "email.charset.add_codec",
+            "signature": "add_codec(charset, codecname)"
+        }
+    ]
+}

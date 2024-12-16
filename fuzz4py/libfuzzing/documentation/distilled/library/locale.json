@@ -1,0 +1,94 @@
+{
+    "apis": [
+        {
+            "description": "Exception raised when the locale passed to \"setlocale()\" is not recognized.",
+            "name": "locale.Error",
+            "signature": "Error"
+        },
+        {
+            "description": "If *locale* is given and not \"None\", \"setlocale()\" modifies the locale setting for the *category*. The available categories are listed in the data description below.",
+            "name": "locale.setlocale",
+            "signature": "setlocale(category, locale=None)"
+        },
+        {
+            "description": "Returns the database of the local conventions as a dictionary.",
+            "name": "locale.localeconv",
+            "signature": "localeconv()"
+        },
+        {
+            "description": "Return some locale-specific information as a string.",
+            "name": "locale.nl_langinfo",
+            "signature": "nl_langinfo(option)"
+        },
+        {
+            "description": "Tries to determine the default locale settings and returns them as a tuple of the form \"(language code, encoding)\".",
+            "name": "locale.getdefaultlocale",
+            "signature": "getdefaultlocale([envvars])"
+        },
+        {
+            "description": "Returns the current setting for the given locale category as sequence containing *language code*, *encoding*.",
+            "name": "locale.getlocale",
+            "signature": "getlocale(category=LC_CTYPE)"
+        },
+        {
+            "description": "Return the *locale encoding* used for text data, according to user preferences.",
+            "name": "locale.getpreferredencoding",
+            "signature": "getpreferredencoding(do_setlocale=True)"
+        },
+        {
+            "description": "Get the current *locale encoding*.",
+            "name": "locale.getencoding",
+            "signature": "getencoding()"
+        },
+        {
+            "description": "Returns a normalized locale code for the given locale name.",
+            "name": "locale.normalize",
+            "signature": "normalize(localename)"
+        },
+        {
+            "description": "Compares two strings according to the current \"LC_COLLATE\" setting.",
+            "name": "locale.strcoll",
+            "signature": "strcoll(string1, string2)"
+        },
+        {
+            "description": "Transforms a string to one that can be used in locale-aware comparisons.",
+            "name": "locale.strxfrm",
+            "signature": "strxfrm(string)"
+        },
+        {
+            "description": "Formats a number *val* according to the current \"LC_NUMERIC\" setting.",
+            "name": "locale.format_string",
+            "signature": "format_string(format, val, grouping=False, monetary=False)"
+        },
+        {
+            "description": "Formats a number *val* according to the current \"LC_MONETARY\" settings.",
+            "name": "locale.currency",
+            "signature": "currency(val, symbol=True, grouping=False, international=False)"
+        },
+        {
+            "description": "Formats a floating-point number using the same format as the built-in function \"str(float)\", but takes the decimal point into account.",
+            "name": "locale.str",
+            "signature": "str(float)"
+        },
+        {
+            "description": "Converts a string into a normalized number string, following the \"LC_NUMERIC\" settings.",
+            "name": "locale.delocalize",
+            "signature": "delocalize(string)"
+        },
+        {
+            "description": "Converts a normalized number string into a formatted string following the \"LC_NUMERIC\" settings.",
+            "name": "locale.localize",
+            "signature": "localize(string, grouping=False, monetary=False)"
+        },
+        {
+            "description": "Converts a string to a number, following the \"LC_NUMERIC\" settings, by calling *func* on the result of calling \"delocalize()\" on *string*",
+            "name": "locale.atof",
+            "signature": "atof(string, func=float)"
+        },
+        {
+            "description": "Converts a string to an integer, following the \"LC_NUMERIC\" conventions.",
+            "name": "locale.atoi",
+            "signature": "atoi(string)"
+        }
+    ]
+}

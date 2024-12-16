@@ -1,0 +1,34 @@
+{
+    "apis": [
+        {
+            "description": "Return a \"Document\" from the given input.",
+            "name": "xml.dom.minidom.parse",
+            "signature": "parse(filename_or_file, parser=None, bufsize=None)"
+        },
+        {
+            "description": "Return a \"Document\" that represents the *string*.",
+            "name": "xml.dom.minidom.parseString",
+            "signature": "parseString(string, parser=None)"
+        },
+        {
+            "description": "Break internal references within the DOM so that it will be garbage collected on versions of Python without cyclic GC.",
+            "name": "xml.dom.minidom.Node.unlink",
+            "signature": "unlink()"
+        },
+        {
+            "description": "Write XML to the writer object.",
+            "name": "xml.dom.minidom.Node.writexml",
+            "signature": "writexml(writer, indent='', addindent='', newl='', encoding=None, standalone=None)"
+        },
+        {
+            "description": "Return a string or byte string containing the XML represented by the DOM node.",
+            "name": "xml.dom.minidom.Node.toxml",
+            "signature": "toxml(encoding=None, standalone=None)"
+        },
+        {
+            "description": "Return a pretty-printed version of the document.",
+            "name": "xml.dom.minidom.Node.toprettyxml",
+            "signature": "toprettyxml(indent='\\t', newl='\\n', encoding=None, standalone=None)"
+        }
+    ]
+}
