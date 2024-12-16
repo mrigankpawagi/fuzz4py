@@ -1,9 +1,13 @@
 import os
 import pickle
 import sys
-{import}
 
-NAME = '{full_name}'
+try:
+    {import}
+    NAME = '{full_name}'
+except:
+    exit(0)
+
 test_index = str(sys.argv[1])
 
 # script path
