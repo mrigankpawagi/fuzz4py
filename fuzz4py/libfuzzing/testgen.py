@@ -54,6 +54,6 @@ for api in tqdm(apis):
         # write test cases to file
         with open(test_case_file_path, "wb") as f:
             pickle.dump(test_cases, f)
-            tqdm.write(f"Generated test cases for {api['name']}")
-        
+        tqdm.write(f"Generated test cases for {api['name']}")
+
     except Exception as e: tqdm.write(f"Could not generate strategy for API: {api['name']}")
