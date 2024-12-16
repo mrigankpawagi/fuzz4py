@@ -6,8 +6,6 @@ from tqdm import tqdm
 from hypothesis import settings, strategies, given
 import random
 
-RETRY_BUDGET = 5
-
 # script path
 script_path = os.path.dirname(os.path.realpath(__file__))
 
