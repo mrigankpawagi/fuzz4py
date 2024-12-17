@@ -15,7 +15,7 @@ This repository is inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all/t
 > [!WARNING]
 > This project is recommended to be run on Linux with Python 3.12 or later.
 
-You must have CPython 3.11, CPython 3.13, and GraalPy installed on your system to run the tests.
+You must have CPython 3.11, CPython 3.12, CPython 3.13, and GraalPy installed on your system to run the tests.
 
 ```bash
 python -m venv env && source env/bin/activate # Create a virtual environment
