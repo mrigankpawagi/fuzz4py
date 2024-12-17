@@ -8,7 +8,7 @@ try:
 except:
     exit(0)
 
-test_index = str(sys.argv[1])
+test_index = int(sys.argv[1])
 
 # script path
 base_path = os.path.dirname(os.path.realpath(__file__))
