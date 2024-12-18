@@ -22,7 +22,7 @@ except Exception:
     exit(0)
 
 try:
-    {full_name}(*test_case)
+    {call_name}(*test_case)
 except (RecursionError, MemoryError) as e:
     print(e.__class__.__name__, file=sys.stderr)
     print(test_case, file=sys.stderr)

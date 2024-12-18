@@ -53,13 +53,15 @@ for api in all_apis:
 
     if os.path.exists(test_case_file_path):
         full_name = api["name"]
-        
+        call_name = full_name
+
         ### EXCEPTIONS ###
         if full_name.startswith("reprlib.Repr."):
-            full_name = full_name.replace("reprlib.Repr.", "reprlib.Repr().")
+            call_name = full_name.replace("reprlib.Repr.", "reprlib.Repr().")
+        if full_name.startswith("argparse.ArgumentParser."):
+            call_name = full_name.replace("argparse.ArgumentParser.", "argparse.ArgumentParser().")
         ### END EXCEPTIONS ###
-        
-        package_name = resolve_package_name(full_name)
+        package_name = resolve_package_name(call_name)
         if not package_name:
             print("Could not resolve package name for", full_name)
             continue
@@ -70,6 +72,7 @@ for api in all_apis:
                     **{
                         "import": f"import {package_name}",
                         "full_name": full_name,
+                        "call_name": call_name,
                         "timeout": 1,
                     }
                 )
