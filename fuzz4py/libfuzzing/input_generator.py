@@ -6,6 +6,8 @@ from tqdm import tqdm
 from hypothesis import settings, strategies, given
 import random
 
+STRATEGY_BUDGET = 3
+
 # script path
 script_path = os.path.dirname(os.path.realpath(__file__))
 
@@ -44,14 +46,22 @@ for api in tqdm(apis):
     test_case_file_path = os.path.join(script_path, "tests", "test_cases", f"{api['name']}.bin")
     if os.path.exists(test_case_file_path): continue # skip if test cases already exist
     
-    try:
-        # generate strategy and then test cases
-        strategy = generate_strategy("\n".join([api["name"], api["signature"], api["description"]]))
-        test_cases = test_cases_from_strategy(strategy, n=1000)
+    tqdm.write(f"Generating strategies for {api['name']}")
+    all_test_cases = []
 
-        # write test cases to file
-        with open(test_case_file_path, "wb") as f:
-            pickle.dump(test_cases, f)
-        tqdm.write(f"Generated test cases for {api['name']}")
+    for strategy_attempt in range(STRATEGY_BUDGET):
+        tqdm.write(f"{strategy_attempt + 1}/{STRATEGY_BUDGET}", end=" ")  
+        try:
+            # generate strategy and then test cases
+            strategy = generate_strategy("\n".join([api["name"], api["signature"], api["description"]]))
+            test_cases = test_cases_from_strategy(strategy, n=15000)
 
-    except Exception as e: tqdm.write(f"Could not generate strategy for API: {api['name']}")
+            all_test_cases.extend(test_cases)
+
+            # save test cases
+            with open(test_case_file_path, "wb") as f:
+                pickle.dump(all_test_cases, f)
+
+            tqdm.write(f"Generated strategy and saved test cases.")
+
+        except Exception as e: tqdm.write(f"Could not generate strategy: {e}")
