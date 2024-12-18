@@ -1,109 +1,151 @@
 {
     "apis": [
         {
+            "apps": [
+                "# imports\nimport itertools\nimport operator\n\ndef test(iterable: typing.Iterable, func: typing.Callable = operator.add, initial: object = None):\n    accumulated = list(itertools.accumulate(iterable, func, initial=initial))\n    print(accumulated)"
+            ],
             "description": "Make an iterator that returns accumulated sums or accumulated results from other binary functions.",
-            "name": "itertools.accumulate",
-            "signature": "accumulate(iterable[, function, *, initial=None])"
+            "signature": "accumulate(iterable: typing.Iterable, func: typing.Callable = operator.add, *, initial: object = None) -> typing.Iterator"
         },
         {
-            "description": "Batch data from the *iterable* into tuples of length *n*. The last batch may be shorter than *n*.",
-            "name": "itertools.batched",
-            "signature": "batched(iterable, n, *, strict=False)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, n: int, strict: bool = False):\n    batched_iterable = list(itertools.batched(iterable, n, strict=strict))\n    print(batched_iterable)"
+            ],
+            "description": "Batch data from the iterable into tuples of length n. The last batch may be shorter than n.",
+            "signature": "batched(iterable: typing.Iterable, n: int, *, strict: bool = False) -> typing.Iterator"
         },
         {
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(*iterables: typing.Iterable):\n    chained = list(itertools.chain(*iterables))\n    print(chained)"
+            ],
             "description": "Make an iterator that returns elements from the first iterable until it is exhausted, then proceeds to the next iterable, until all of the iterables are exhausted.",
-            "name": "itertools.chain",
-            "signature": "chain(*iterables)"
+            "signature": "chain(*iterables: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Alternate constructor for \"chain()\". Gets chained inputs from a single iterable argument that is evaluated lazily.",
-            "name": "itertools.chain.from_iterable",
-            "signature": "chain.from_iterable(iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable):\n    chained = list(itertools.chain.from_iterable(iterable))\n    print(chained)"
+            ],
+            "description": "Alternate constructor for chain(). Gets chained inputs from a single iterable argument that is evaluated lazily.",
+            "signature": "chain.from_iterable(iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Return *r* length subsequences of elements from the input *iterable*.",
-            "name": "itertools.combinations",
-            "signature": "combinations(iterable, r)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, r: int):\n    combinations_list = list(itertools.combinations(iterable, r))\n    print(combinations_list)"
+            ],
+            "description": "Return r length subsequences of elements from the input iterable.",
+            "signature": "combinations(iterable: typing.Iterable, r: int) -> typing.Iterator"
         },
         {
-            "description": "Return *r* length subsequences of elements from the input *iterable* allowing individual elements to be repeated more than once.",
-            "name": "itertools.combinations_with_replacement",
-            "signature": "combinations_with_replacement(iterable, r)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, r: int):\n    combinations_list = list(itertools.combinations_with_replacement(iterable, r))\n    print(combinations_list)"
+            ],
+            "description": "Return r length subsequences of elements from the input iterable allowing individual elements to be repeated more than once.",
+            "signature": "combinations_with_replacement(iterable: typing.Iterable, r: int) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns elements from *data* where the corresponding element in *selectors* is true.",
-            "name": "itertools.compress",
-            "signature": "compress(data, selectors)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(data: typing.Iterable, selectors: typing.Iterable):\n    compressed = list(itertools.compress(data, selectors))\n    print(compressed)"
+            ],
+            "description": "Make an iterator that returns elements from data where the corresponding element in selectors is true.",
+            "signature": "compress(data: typing.Iterable, selectors: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns evenly spaced values beginning with *start*.",
-            "name": "itertools.count",
-            "signature": "count(start=0, step=1)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(start: int = 0, step: int = 1):\n    counter = itertools.count(start, step)\n    for i in range(10):\n        print(next(counter))"
+            ],
+            "description": "Make an iterator that returns evenly spaced values starting with number start.",
+            "signature": "count(start: int = 0, step: int = 1) -> typing.Iterator"
         },
         {
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable):\n    cycled = itertools.cycle(iterable)\n    for i in range(10):\n        print(next(cycled))"
+            ],
             "description": "Make an iterator returning elements from the iterable and saving a copy of each.",
-            "name": "itertools.cycle",
-            "signature": "cycle(iterable)"
+            "signature": "cycle(iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that drops elements from the iterable while the *predicate* is true and afterwards returns every element.",
-            "name": "itertools.dropwhile",
-            "signature": "dropwhile(predicate, iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(predicate: typing.Callable, iterable: typing.Iterable):\n    dropped = list(itertools.dropwhile(predicate, iterable))\n    print(dropped)"
+            ],
+            "description": "Make an iterator that drops elements from the iterable as long as the predicate is true; afterwards, returns every element.",
+            "signature": "dropwhile(predicate: typing.Callable, iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that filters elements from the iterable returning only those for which the *predicate* returns a false value.",
-            "name": "itertools.filterfalse",
-            "signature": "filterfalse(predicate, iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(predicate: typing.Callable, iterable: typing.Iterable):\n    filtered = list(itertools.filterfalse(predicate, iterable))\n    print(filtered)"
+            ],
+            "description": "Make an iterator that filters elements from iterable returning only those for which the predicate is False.",
+            "signature": "filterfalse(predicate: typing.Callable, iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns consecutive keys and groups from the *iterable*.",
-            "name": "itertools.groupby",
-            "signature": "groupby(iterable, key=None)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, key: typing.Callable = None):\n    for k, g in itertools.groupby(iterable, key):\n        print(k, list(g))"
+            ],
+            "description": "Make an iterator that returns consecutive keys and groups from the iterable. The key is a function computing a key value for each element. If not specified or is None, key defaults to an identity function and returns the element unchanged.",
+            "signature": "groupby(iterable: typing.Iterable, key: typing.Callable = None) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns selected elements from the iterable.",
-            "name": "itertools.islice",
-            "signature": "islice(iterable, stop)\nislice(iterable, start, stop[, step])"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, stop: int):\n    sliced = list(itertools.islice(iterable, stop))\n    print(sliced)\n\ndef test1(iterable: typing.Iterable, start: int, stop: int, step: int = 1):\n    sliced = list(itertools.islice(iterable, start, stop, step))\n    print(sliced)"
+            ],
+            "description": "Make an iterator that returns selected elements from the iterable. If start is non-zero, then elements from the iterable are skipped until start is reached. Afterward, elements are returned consecutively unless step is set higher than one which results in items being skipped.",
+            "signature": "islice(iterable: typing.Iterable, stop: int) -> typing.Iterator\nislice(iterable: typing.Iterable, start: int, stop: int, step: int = 1) -> typing.Iterator"
         },
         {
-            "description": "Return successive overlapping pairs taken from the input *iterable*.",
-            "name": "itertools.pairwise",
-            "signature": "pairwise(iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable):\n    pairwise_list = list(itertools.pairwise(iterable))\n    print(pairwise_list)"
+            ],
+            "description": "Return successive overlapping pairs taken from the input iterable.",
+            "signature": "pairwise(iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Return successive *r* length permutations of elements from the *iterable*.",
-            "name": "itertools.permutations",
-            "signature": "permutations(iterable, r=None)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, r: int = None):\n    permutations_list = list(itertools.permutations(iterable, r))\n    print(permutations_list)"
+            ],
+            "description": "Return successive r length permutations of elements in the iterable.",
+            "signature": "permutations(iterable: typing.Iterable, r: int = None) -> typing.Iterator"
         },
         {
-            "description": "Cartesian product of input iterables.",
-            "name": "itertools.product",
-            "signature": "product(*iterables, repeat=1)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(*iterables: typing.Iterable, repeat: int = 1):\n    products = list(itertools.product(*iterables, repeat=repeat))\n    print(products)"
+            ],
+            "description": "Cartesian product of input iterables.  Roughly equivalent to nested for-loops in a generator expression. For example, product(A, B) returns the same as ((x,y) for x in A for y in B).",
+            "signature": "product(*iterables: typing.Iterable, repeat: int = 1) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns *object* over and over again.",
-            "name": "itertools.repeat",
-            "signature": "repeat(object[, times])"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(obj: object, times: int = None):\n    repeated = list(itertools.repeat(obj, times))\n    print(repeated)"
+            ],
+            "description": "Make an iterator that returns object over and over again. Runs indefinitely unless the times argument is specified.  Used as argument to map() for invariant parameters to the called function. Also used with zip() to create an invariant part of a tuple record.",
+            "signature": "repeat(obj: object, times: int = None) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that computes the function using arguments obtained from the iterable.",
-            "name": "itertools.starmap",
-            "signature": "starmap(function, iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(func: typing.Callable, iterable: typing.Iterable):\n    result = list(itertools.starmap(func, iterable))\n    print(result)"
+            ],
+            "description": "Make an iterator that computes the function using arguments obtained from the iterable. Used instead of map() when argument parameters are already grouped in tuples from a single iterable (the data has been \"pre-zipped\").  The difference between map() and starmap() parallels the distinction between function(a,b) and function(*c).",
+            "signature": "starmap(func: typing.Callable, iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Make an iterator that returns elements from the iterable as long as the *predicate* is true.",
-            "name": "itertools.takewhile",
-            "signature": "takewhile(predicate, iterable)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(predicate: typing.Callable, iterable: typing.Iterable):\n    taken = list(itertools.takewhile(predicate, iterable))\n    print(taken)"
+            ],
+            "description": "Make an iterator that returns elements from the iterable as long as the predicate is true.",
+            "signature": "takewhile(predicate: typing.Callable, iterable: typing.Iterable) -> typing.Iterator"
         },
         {
-            "description": "Return *n* independent iterators from a single iterable.",
-            "name": "itertools.tee",
-            "signature": "tee(iterable, n=2)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(iterable: typing.Iterable, n: int = 2):\n    iterators = itertools.tee(iterable, n)\n    for iterator in iterators:\n        print(list(iterator))"
+            ],
+            "description": "Return n independent iterators from a single iterable.",
+            "signature": "tee(iterable: typing.Iterable, n: int = 2) -> tuple[typing.Iterator]"
         },
         {
-            "description": "Make an iterator that aggregates elements from each of the iterables.",
-            "name": "itertools.zip_longest",
-            "signature": "zip_longest(*iterables, fillvalue=None)"
+            "apps": [
+                "# imports\nimport itertools\n\ndef test(*iterables: typing.Iterable, fillvalue: object = None):\n    zipped = list(itertools.zip_longest(*iterables, fillvalue=fillvalue))\n    print(zipped)"
+            ],
+            "description": "Make an iterator that aggregates elements from each of the iterables. If the iterables are of uneven length, missing values are filled-in with fillvalue. Iteration continues until the longest iterable is exhausted. Roughly equivalent to:\n\ndef zip_longest(*args, fillvalue=None):\n    # zip_longest('ABCD', 'xy', fillvalue='-') --> Ax By C- D-\n    iterators = [iter(it) for it in args]\n    num_active = len(iterators)\n    if not num_active:\n        return\n    while True:\n        values = []\n        for i, it in enumerate(iterators):\n            try:\n                value = next(it)\n            except StopIteration:\n                num_active -= 1\n                if not num_active:\n                    return\n                iterators[i] = repeat(fillvalue)\n                value = fillvalue\n            values.append(value)\n        yield tuple(values)",
+            "signature": "zip_longest(*iterables: typing.Iterable, fillvalue: object = None) -> typing.Iterator"
         }
     ]
 }

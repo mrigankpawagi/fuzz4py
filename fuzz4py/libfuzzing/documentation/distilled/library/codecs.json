@@ -1,134 +1,123 @@
 {
     "apis": [
         {
-            "description": "Encodes obj using the codec registered for encoding.",
-            "name": "codecs.encode",
-            "signature": "encode(obj, encoding='utf-8', errors='strict')"
+            "apps": [
+                "# imports\n\n\ndef test(obj: str, encoding: str = 'utf-8', errors: str = 'strict'):\n    encoded_obj = codecs.encode(obj, encoding, errors)\n    print(encoded_obj)"
+            ],
+            "description": "Encodes *obj* using the codec registered for *encoding*. *Errors* may be given to set the desired error handling scheme.",
+            "signature": "encode(obj: object, encoding: str = 'utf-8', errors: str = 'strict') -> bytes"
         },
         {
-            "description": "Decodes obj using the codec registered for encoding.",
-            "name": "codecs.decode",
-            "signature": "decode(obj, encoding='utf-8', errors='strict')"
+            "apps": [
+                "# imports\n\n\ndef test(obj: bytes, encoding: str = 'utf-8', errors: str = 'strict'):\n    decoded_obj = codecs.decode(obj, encoding, errors)\n    print(decoded_obj)"
+            ],
+            "description": "Decodes *obj* using the codec registered for *encoding*. *Errors* may be given to set the desired error handling scheme.",
+            "signature": "decode(obj: object, encoding: str = 'utf-8', errors: str = 'strict') -> str"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    codec_info = codecs.lookup(encoding)\n    print(codec_info)"
+            ],
             "description": "Looks up the codec info in the Python codec registry and returns a CodecInfo object.",
-            "name": "codecs.lookup",
-            "signature": "lookup(encoding)"
+            "signature": "lookup(encoding: str) -> codecs.CodecInfo"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    encoder = codecs.getencoder(encoding)\n    print(encoder)"
+            ],
             "description": "Look up the codec for the given encoding and return its encoder function.",
-            "name": "codecs.getencoder",
-            "signature": "getencoder(encoding)"
+            "signature": "getencoder(encoding: str) -> Callable"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    decoder = codecs.getdecoder(encoding)\n    print(decoder)"
+            ],
             "description": "Look up the codec for the given encoding and return its decoder function.",
-            "name": "codecs.getdecoder",
-            "signature": "getdecoder(encoding)"
+            "signature": "getdecoder(encoding: str) -> Callable"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    incremental_encoder = codecs.getincrementalencoder(encoding)\n    print(incremental_encoder)"
+            ],
             "description": "Look up the codec for the given encoding and return its incremental encoder class or factory function.",
-            "name": "codecs.getincrementalencoder",
-            "signature": "getincrementalencoder(encoding)"
+            "signature": "getincrementalencoder(encoding: str) -> Callable"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    incremental_decoder = codecs.getincrementaldecoder(encoding)\n    print(incremental_decoder)"
+            ],
             "description": "Look up the codec for the given encoding and return its incremental decoder class or factory function.",
-            "name": "codecs.getincrementaldecoder",
-            "signature": "getincrementaldecoder(encoding)"
+            "signature": "getincrementaldecoder(encoding: str) -> Callable"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    reader = codecs.getreader(encoding)\n    print(reader)"
+            ],
             "description": "Look up the codec for the given encoding and return its StreamReader class or factory function.",
-            "name": "codecs.getreader",
-            "signature": "getreader(encoding)"
+            "signature": "getreader(encoding: str) -> Callable"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(encoding: str):\n    writer = codecs.getwriter(encoding)\n    print(writer)"
+            ],
             "description": "Look up the codec for the given encoding and return its StreamWriter class or factory function.",
-            "name": "codecs.getwriter",
-            "signature": "getwriter(encoding)"
+            "signature": "getwriter(encoding: str) -> Callable"
         },
         {
-            "description": "Register a codec search function. Search functions are expected to take one argument, being the encoding name in all lower case letters with hyphens and spaces converted to underscores, and return a CodecInfo object. In case a search function cannot find a given encoding, it should return None.",
-            "name": "codecs.register",
-            "signature": "register(search_function)"
+            "apps": [
+                "# imports\n\n\ndef search_function(encoding):\n    # <search function implementation>\n    pass\n\ndef test():\n    codecs.register(search_function)"
+            ],
+            "description": "Register a codec search function. Search functions are expected to take one argument, the encoding name, and return a CodecInfo object.",
+            "signature": "register(search_function: Callable) -> None"
         },
         {
-            "description": "Unregister a codec search function and clear the registry's cache. If the search function is not registered, do nothing.",
-            "name": "codecs.unregister",
-            "signature": "unregister(search_function)"
+            "apps": [
+                "# imports\n\n\ndef search_function(encoding):\n    # <search function implementation>\n    pass\n\ndef test():\n    codecs.unregister(search_function)"
+            ],
+            "description": "Unregister a codec search function and clear the registry's cache.",
+            "signature": "unregister(search_function: Callable) -> None"
         },
         {
-            "description": "Open an encoded file using the given mode and return an instance of StreamReaderWriter, providing transparent encoding/decoding. The default file mode is 'r', meaning to open the file in read mode.",
-            "name": "codecs.open",
-            "signature": "open(filename, mode='r', encoding=None, errors='strict', buffering=-1)"
+            "apps": [
+                "# imports\n\n\ndef test(filename: str, mode: str = 'r', encoding: str = None, errors: str = 'strict', buffering: int = -1):\n    with codecs.open(filename, mode, encoding, errors, buffering) as f:\n        # <file operations>\n        pass"
+            ],
+            "description": "Open an encoded file using the given mode and return a wrapped version.",
+            "signature": "open(filename: str, mode: str = 'r', encoding: str = None, errors: str = 'strict', buffering: int = -1) -> codecs.StreamReaderWriter"
         },
         {
-            "description": "Return a StreamRecoder instance, a wrapped version of file which provides transparent transcoding. The original file is closed when the wrapped version is closed.",
-            "name": "codecs.EncodedFile",
-            "signature": "EncodedFile(file, data_encoding, file_encoding=None, errors='strict')"
+            "apps": [
+                "# imports\n\n\ndef test(file: object, data_encoding: str, file_encoding: str = None, errors: str = 'strict'):\n    encoded_file = codecs.EncodedFile(file, data_encoding, file_encoding, errors)\n    # <file operations>\n    encoded_file.close()"
+            ],
+            "description": "Return a StreamRecoder instance, a wrapped version of file which provides transparent transcoding.",
+            "signature": "EncodedFile(file: object, data_encoding: str, file_encoding: str = None, errors: str = 'strict') -> codecs.StreamRecoder"
         },
         {
-            "description": "Uses an incremental encoder to iteratively encode the input provided by iterator. This function is a generator. The errors argument (as well as any other keyword argument) is passed through to the incremental encoder.",
-            "name": "codecs.iterencode",
-            "signature": "iterencode(iterator, encoding, errors='strict', **kwargs)"
+            "apps": [
+                "# imports\n\n\ndef test(iterator: typing.Iterator, encoding: str, errors: str = 'strict'):\n    for item in codecs.iterencode(iterator, encoding, errors):\n        print(item)"
+            ],
+            "description": "Uses an incremental encoder to iteratively encode the input provided by iterator.",
+            "signature": "iterencode(iterator: typing.Iterator, encoding: str, errors: str = 'strict') -> typing.Iterator"
         },
         {
-            "description": "Uses an incremental decoder to iteratively decode the input provided by iterator. This function is a generator. The errors argument (as well as any other keyword argument) is passed through to the incremental decoder.",
-            "name": "codecs.iterdecode",
-            "signature": "iterdecode(iterator, encoding, errors='strict', **kwargs)"
+            "apps": [
+                "# imports\n\n\ndef test(iterator: typing.Iterator, encoding: str, errors: str = 'strict'):\n    for item in codecs.iterdecode(iterator, encoding, errors):\n        print(item)"
+            ],
+            "description": "Uses an incremental decoder to iteratively decode the input provided by iterator.",
+            "signature": "iterdecode(iterator: typing.Iterator, encoding: str, errors: str = 'strict') -> typing.Iterator"
         },
         {
-            "description": "Register the error handling function error_handler under the name name. The error_handler argument will be called during encoding and decoding in case of an error, when name is specified as the errors parameter.",
-            "name": "codecs.register_error",
-            "signature": "register_error(name, error_handler)"
+            "apps": [
+                "# imports\n\n\ndef test(name: str, error_handler: Callable):\n    codecs.register_error(name, error_handler)"
+            ],
+            "description": "Register the error handling function *error_handler* under the name *name*.",
+            "signature": "register_error(name: str, error_handler: Callable) -> None"
         },
         {
-            "description": "Return the error handler previously registered under the name name.",
-            "name": "codecs.lookup_error",
-            "signature": "lookup_error(name)"
-        },
-        {
-            "description": "Implements the 'strict' error handling.",
-            "name": "codecs.strict_errors",
-            "signature": "strict_errors(exception)"
-        },
-        {
-            "description": "Implements the 'ignore' error handling.",
-            "name": "codecs.ignore_errors",
-            "signature": "ignore_errors(exception)"
-        },
-        {
-            "description": "Implements the 'replace' error handling.",
-            "name": "codecs.replace_errors",
-            "signature": "replace_errors(exception)"
-        },
-        {
-            "description": "Implements the 'backslashreplace' error handling.",
-            "name": "codecs.backslashreplace_errors",
-            "signature": "backslashreplace_errors(exception)"
-        },
-        {
-            "description": "Implements the 'xmlcharrefreplace' error handling (for encoding within text encoding only).",
-            "name": "codecs.xmlcharrefreplace_errors",
-            "signature": "xmlcharrefreplace_errors(exception)"
-        },
-        {
-            "description": "Implements the 'namereplace' error handling (for encoding within text encoding only).",
-            "name": "codecs.namereplace_errors",
-            "signature": "namereplace_errors(exception)"
-        },
-        {
-            "description": "Return the nameprepped version of label.",
-            "name": "encodings.idna.nameprep",
-            "signature": "nameprep(label)"
-        },
-        {
-            "description": "Convert a label to ASCII, as specified in RFC 3490.",
-            "name": "encodings.idna.ToASCII",
-            "signature": "ToASCII(label)"
-        },
-        {
-            "description": "Convert a label to Unicode, as specified in RFC 3490.",
-            "name": "encodings.idna.ToUnicode",
-            "signature": "ToUnicode(label)"
+            "apps": [
+                "# imports\n\n\ndef test(name: str):\n    error_handler = codecs.lookup_error(name)\n    print(error_handler)"
+            ],
+            "description": "Return the error handler previously registered under the name *name*.",
+            "signature": "lookup_error(name: str) -> Callable"
         }
     ]
 }

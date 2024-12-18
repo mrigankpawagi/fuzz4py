@@ -1,84 +1,46 @@
 {
     "apis": [
         {
-            "description": "Create a parser instance able to parse invalid markup.",
-            "name": "html.parser.HTMLParser",
-            "signature": "HTMLParser(*, convert_charrefs=True)"
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\nclass MyHTMLParser(HTMLParser):\n    def handle_starttag(self, tag, attrs):\n        print(\"Start tag:\", tag)\n        for attr in attrs:\n            print(\"     attr:\", attr)\n\n    def handle_endtag(self, tag):\n        print(\"End tag  :\", tag)\n\n    def handle_data(self, data):\n        print(\"Data     :\", data)\n\n    def handle_comment(self, data):\n        print(\"Comment  :\", data)\n\n    def handle_entityref(self, name):\n        print(\"Entityref:\", name)\n\n    def handle_charref(self, name):\n        print(\"Charref:\", name)\n\n    def handle_decl(self, data):\n        print(\"Decl     :\", data)\n\n    def handle_pi(self, data):\n        print(\"PI      :\", data)\n\n    def unknown_decl(self, data):\n        print(\"Unknown decl:\", data)\n\ndef test(data: str, convert_charrefs: bool = True):\n    parser = MyHTMLParser(convert_charrefs=convert_charrefs)\n    parser.feed(data)\n    parser.close()"
+            ],
+            "description": "Create a parser instance.",
+            "signature": "HTMLParser(*, convert_charrefs: bool = True) -> html.parser.HTMLParser"
         },
         {
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\ndef test(parser: HTMLParser, data: str):\n    parser.feed(data)"
+            ],
             "description": "Feed some text to the parser.",
-            "name": "html.parser.HTMLParser.feed",
-            "signature": "feed(data)"
+            "signature": "feed(data: str) -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\ndef test(parser: HTMLParser):\n    parser.close()"
+            ],
             "description": "Force processing of all buffered data as if it were followed by an end-of-file mark.",
-            "name": "html.parser.HTMLParser.close",
-            "signature": "close()"
+            "signature": "close() -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\ndef test(parser: HTMLParser):\n    parser.reset()"
+            ],
             "description": "Reset the instance. Loses all unprocessed data.",
-            "name": "html.parser.HTMLParser.reset",
-            "signature": "reset()"
+            "signature": "reset() -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\ndef test(parser: HTMLParser):\n    line, offset = parser.getpos()\n    print(line, offset)"
+            ],
             "description": "Return current line number and offset.",
-            "name": "html.parser.HTMLParser.getpos",
-            "signature": "getpos()"
+            "signature": "getpos() -> tuple[int, int]"
         },
         {
+            "apps": [
+                "# imports\nfrom html.parser import HTMLParser\n\ndef test(parser: HTMLParser):\n    text = parser.get_starttag_text()\n    print(text)"
+            ],
             "description": "Return the text of the most recently opened start tag.",
-            "name": "html.parser.HTMLParser.get_starttag_text",
-            "signature": "get_starttag_text()"
-        },
-        {
-            "description": "This method is called to handle the start tag of an element (e.g. \"<div id=\"main\">\").",
-            "name": "html.parser.HTMLParser.handle_starttag",
-            "signature": "handle_starttag(tag, attrs)"
-        },
-        {
-            "description": "This method is called to handle the end tag of an element (e.g. \"</div>\").",
-            "name": "html.parser.HTMLParser.handle_endtag",
-            "signature": "handle_endtag(tag)"
-        },
-        {
-            "description": "Similar to \"handle_starttag()\", but called when the parser encounters an XHTML-style empty tag (\"<img ... />\").",
-            "name": "html.parser.HTMLParser.handle_startendtag",
-            "signature": "handle_startendtag(tag, attrs)"
-        },
-        {
-            "description": "This method is called to process arbitrary data (e.g. text nodes and the content of \"<script>...</script>\" and \"<style>...</style>\").",
-            "name": "html.parser.HTMLParser.handle_data",
-            "signature": "handle_data(data)"
-        },
-        {
-            "description": "This method is called to process a named character reference of the form \"&name;\" (e.g. \"&gt;\"), where *name* is a general entity reference (e.g. \"'gt'\").",
-            "name": "html.parser.HTMLParser.handle_entityref",
-            "signature": "handle_entityref(name)"
-        },
-        {
-            "description": "This method is called to process decimal and hexadecimal numeric character references of the form \"&#*NNN*\" and \"&#x*NNN*;\".",
-            "name": "html.parser.HTMLParser.handle_charref",
-            "signature": "handle_charref(name)"
-        },
-        {
-            "description": "This method is called when a comment is encountered (e.g. \"<!-- comment-->\").",
-            "name": "html.parser.HTMLParser.handle_comment",
-            "signature": "handle_comment(data)"
-        },
-        {
-            "description": "This method is called to handle an HTML doctype declaration (e.g. \"<!DOCTYPE html>\").",
-            "name": "html.parser.HTMLParser.handle_decl",
-            "signature": "handle_decl(decl)"
-        },
-        {
-            "description": "Method called when a processing instruction is encountered.",
-            "name": "html.parser.HTMLParser.handle_pi",
-            "signature": "handle_pi(data)"
-        },
-        {
-            "description": "This method is called when an unrecognized declaration is read by the parser.",
-            "name": "html.parser.HTMLParser.unknown_decl",
-            "signature": "unknown_decl(data)"
+            "signature": "get_starttag_text() -> str | None"
         }
     ]
 }

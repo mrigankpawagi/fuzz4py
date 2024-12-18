@@ -1,89 +1,116 @@
 {
     "apis": [
         {
+            "apps": [
+                "# imports\nfrom urllib.parse import urlparse\n\ndef test(urlstring: str, scheme: str = '', allow_fragments: bool = True):\n    parsed_url = urlparse(urlstring, scheme, allow_fragments)\n    print(parsed_url)"
+            ],
             "description": "Parse a URL into six components, returning a 6-item named tuple.",
-            "name": "urllib.parse.urlparse",
-            "signature": "urlparse(urlstring, scheme='', allow_fragments=True)"
+            "signature": "urlparse(urlstring: str, scheme: str = '', allow_fragments: bool = True) -> urllib.parse.ParseResult"
         },
         {
-            "description": "Parse a query string given as a string argument.",
-            "name": "urllib.parse.parse_qs",
-            "signature": "parse_qs(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')"
+            "apps": [
+                "# imports\nfrom urllib.parse import parse_qs\n\ndef test(qs: str, keep_blank_values: bool = False, strict_parsing: bool = False, encoding: str = 'utf-8', errors: str = 'replace', max_num_fields: int = None, separator: str = '&'):\n    parsed_query = parse_qs(qs, keep_blank_values, strict_parsing, encoding, errors, max_num_fields, separator)\n    print(parsed_query)"
+            ],
+            "description": "Parse a query string given as a string argument (data of type application/x-www-form-urlencoded). Data are returned as a dictionary. The dictionary keys are the unique query variable names and the values are lists of values for each name.",
+            "signature": "parse_qs(qs: str, keep_blank_values: bool = False, strict_parsing: bool = False, encoding: str = 'utf-8', errors: str = 'replace', max_num_fields: int = None, separator: str = '&') -> dict"
         },
         {
-            "description": "Parse a query string given as a string argument.",
-            "name": "urllib.parse.parse_qsl",
-            "signature": "parse_qsl(qs, keep_blank_values=False, strict_parsing=False, encoding='utf-8', errors='replace', max_num_fields=None, separator='&')"
+            "apps": [
+                "# imports\nfrom urllib.parse import parse_qsl\n\ndef test(qs: str, keep_blank_values: bool = False, strict_parsing: bool = False, encoding: str = 'utf-8', errors: str = 'replace', max_num_fields: int = None, separator: str = '&'):\n    parsed_query = parse_qsl(qs, keep_blank_values, strict_parsing, encoding, errors, max_num_fields, separator)\n    print(parsed_query)"
+            ],
+            "description": "Parse a query string given as a string argument (data of type application/x-www-form-urlencoded). Data are returned as a list of name, value pairs.",
+            "signature": "parse_qsl(qs: str, keep_blank_values: bool = False, strict_parsing: bool = False, encoding: str = 'utf-8', errors: str = 'replace', max_num_fields: int = None, separator: str = '&') -> list"
         },
         {
-            "description": "Construct a URL from a tuple as returned by \"urlparse()\".",
-            "name": "urllib.parse.urlunparse",
-            "signature": "urlunparse(parts)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urlunparse, urlparse\n\ndef test(parts: tuple | list):\n    url = urlunparse(parts)\n    print(url)"
+            ],
+            "description": "Construct a URL from a tuple as returned by urlparse().",
+            "signature": "urlunparse(parts: tuple | list) -> str"
         },
         {
-            "description": "This is similar to \"urlparse()\", but does not split the params from the URL.",
-            "name": "urllib.parse.urlsplit",
-            "signature": "urlsplit(urlstring, scheme='', allow_fragments=True)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urlsplit\n\ndef test(urlstring: str, scheme: str = '', allow_fragments: bool = True):\n    split_url = urlsplit(urlstring, scheme, allow_fragments)\n    print(split_url)"
+            ],
+            "description": "This is similar to urlparse(), but does not split the params from the URL.",
+            "signature": "urlsplit(urlstring: str, scheme: str = '', allow_fragments: bool = True) -> urllib.parse.SplitResult"
         },
         {
-            "description": "Combine the elements of a tuple as returned by \"urlsplit()\" into a complete URL as a string.",
-            "name": "urllib.parse.urlunsplit",
-            "signature": "urlunsplit(parts)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urlunsplit, urlsplit\n\ndef test(parts: tuple | list):\n    url = urlunsplit(parts)\n    print(url)"
+            ],
+            "description": "Combine the elements of a tuple as returned by urlsplit() into a complete URL as a string.",
+            "signature": "urlunsplit(parts: tuple | list) -> str"
         },
         {
-            "description": "Construct a full URL by combining a \"base URL\" (*base*) with another URL (*url*).",
-            "name": "urllib.parse.urljoin",
-            "signature": "urljoin(base, url, allow_fragments=True)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urljoin\n\ndef test(base: str, url: str, allow_fragments: bool = True):\n    joined_url = urljoin(base, url, allow_fragments)\n    print(joined_url)"
+            ],
+            "description": "Construct a full (absolute) URL by combining a base URL (base) with another URL (url).",
+            "signature": "urljoin(base: str, url: str, allow_fragments: bool = True) -> str"
         },
         {
-            "description": "If *url* contains a fragment identifier, return a modified version of *url* with no fragment identifier, and the fragment identifier as a separate string.",
-            "name": "urllib.parse.urldefrag",
-            "signature": "urldefrag(url)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urldefrag\n\ndef test(url: str):\n    defragmented_url, fragment = urldefrag(url)\n    print(defragmented_url, fragment)"
+            ],
+            "description": "If url contains a fragment identifier, return a modified version of url with no fragment identifier, and the fragment identifier as a separate string.",
+            "signature": "urldefrag(url: str) -> urllib.parse.DefragResult"
         },
         {
+            "apps": [
+                "# imports\nfrom urllib.parse import unwrap\n\n\ndef test(url: str):\n    unwrapped_url = unwrap(url)\n    print(unwrapped_url)"
+            ],
             "description": "Extract the url from a wrapped URL.",
-            "name": "urllib.parse.unwrap",
-            "signature": "unwrap(url)"
+            "signature": "unwrap(url: str) -> str"
         },
         {
-            "description": "Return the re-combined version of the original URL as a string.",
-            "name": "urllib.parse.SplitResult.geturl",
-            "signature": "geturl()"
+            "apps": [
+                "# imports\nfrom urllib.parse import quote\n\ndef test(string: str, safe: str = '/', encoding: str = None, errors: str = None):\n    quoted_string = quote(string, safe, encoding, errors)\n    print(quoted_string)"
+            ],
+            "description": "Replace special characters in string using the %xx escape.",
+            "signature": "quote(string: str, safe: str = '/', encoding: str = None, errors: str = None) -> str"
         },
         {
-            "description": "Replace special characters in *string* using the \"%xx\" escape.",
-            "name": "urllib.parse.quote",
-            "signature": "quote(string, safe='/', encoding=None, errors=None)"
+            "apps": [
+                "# imports\nfrom urllib.parse import quote_plus\n\ndef test(string: str, safe: str = '', encoding: str = None, errors: str = None):\n    quoted_string = quote_plus(string, safe, encoding, errors)\n    print(quoted_string)"
+            ],
+            "description": "Like quote(), but also replace spaces with plus signs, as required for quoting HTML form values when building up a query string to go into a URL.",
+            "signature": "quote_plus(string: str, safe: str = '', encoding: str = None, errors: str = None) -> str"
         },
         {
-            "description": "Like \"quote()\", but also replace spaces with plus signs.",
-            "name": "urllib.parse.quote_plus",
-            "signature": "quote_plus(string, safe='', encoding=None, errors=None)"
+            "apps": [
+                "# imports\nfrom urllib.parse import quote_from_bytes\n\ndef test(bytes_obj: bytes, safe: str = '/'):\n    quoted_bytes = quote_from_bytes(bytes_obj, safe)\n    print(quoted_bytes)"
+            ],
+            "description": "Like quote(), but accepts a bytes object rather than a str, and does not perform string-to-bytes encoding.",
+            "signature": "quote_from_bytes(bytes_obj: bytes, safe: str = '/') -> str"
         },
         {
-            "description": "Like \"quote()\", but accepts a bytes object rather than a str, and does not perform string-to-bytes encoding.",
-            "name": "urllib.parse.quote_from_bytes",
-            "signature": "quote_from_bytes(bytes, safe='/')"
+            "apps": [
+                "# imports\nfrom urllib.parse import unquote\n\ndef test(string: str, encoding: str = 'utf-8', errors: str = 'replace'):\n    unquoted_string = unquote(string, encoding, errors)\n    print(unquoted_string)"
+            ],
+            "description": "Replace %xx escapes with their single-character equivalent.",
+            "signature": "unquote(string: str, encoding: str = 'utf-8', errors: str = 'replace') -> str"
         },
         {
-            "description": "Replace \"%xx\" escapes with their single-character equivalent.",
-            "name": "urllib.parse.unquote",
-            "signature": "unquote(string, encoding='utf-8', errors='replace')"
+            "apps": [
+                "# imports\nfrom urllib.parse import unquote_plus\n\ndef test(string: str, encoding: str = 'utf-8', errors: str = 'replace'):\n    unquoted_string = unquote_plus(string, encoding, errors)\n    print(unquoted_string)"
+            ],
+            "description": "Like unquote(), but also replace plus signs with spaces, as required for unquoting HTML form values.",
+            "signature": "unquote_plus(string: str, encoding: str = 'utf-8', errors: str = 'replace') -> str"
         },
         {
-            "description": "Like \"unquote()\", but also replace plus signs with spaces.",
-            "name": "urllib.parse.unquote_plus",
-            "signature": "unquote_plus(string, encoding='utf-8', errors='replace')"
+            "apps": [
+                "# imports\nfrom urllib.parse import unquote_to_bytes\n\ndef test(string: str):\n    unquoted_bytes = unquote_to_bytes(string)\n    print(unquoted_bytes)"
+            ],
+            "description": "Replace %xx escapes with their single-octet equivalent, and return a bytes object.",
+            "signature": "unquote_to_bytes(string: str) -> bytes"
         },
         {
-            "description": "Replace \"%xx\" escapes with their single-octet equivalent, and return a bytes object.",
-            "name": "urllib.parse.unquote_to_bytes",
-            "signature": "unquote_to_bytes(string)"
-        },
-        {
-            "description": "Convert a mapping object or a sequence of two-element tuples to a percent-encoded ASCII text string.",
-            "name": "urllib.parse.urlencode",
-            "signature": "urlencode(query, doseq=False, safe='', encoding=None, errors=None, quote_via=quote_plus)"
+            "apps": [
+                "# imports\nfrom urllib.parse import urlencode, quote_plus, quote\n\ndef test(query: dict | list, doseq: bool = False, safe: str = '', encoding: str = None, errors: str = None, quote_via: typing.Callable = quote_plus):\n    encoded_string = urlencode(query, doseq=doseq, safe=safe, encoding=encoding, errors=errors, quote_via=quote_via)\n    print(encoded_string)"
+            ],
+            "description": "Convert a mapping object or a sequence of two-element tuples to a \"percent-encoded\" string.",
+            "signature": "urlencode(query: dict | list, doseq: bool = False, safe: str = '', encoding: str = None, errors: str = None, quote_via: typing.Callable = quote_plus) -> str"
         }
     ]
 }

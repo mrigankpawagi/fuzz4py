@@ -29,7 +29,7 @@ generation_config = {
                 items=content.Schema(
                     type=content.Type.OBJECT,
                     enum=[],
-                    required=["description", "signature", "name"],
+                    required=["description", "signature", "apps"],
                     properties={
                         "description": content.Schema(
                             type=content.Type.STRING,
@@ -37,8 +37,11 @@ generation_config = {
                         "signature": content.Schema(
                             type=content.Type.STRING,
                         ),
-                        "name": content.Schema(
-                            type=content.Type.STRING,
+                        "apps": content.Schema(
+                            type=content.Type.ARRAY,
+                            items=content.Schema(
+                                type=content.Type.STRING,
+                            ),
                         ),
                     },
                 ),
@@ -51,7 +54,7 @@ generation_config = {
 model = genai.GenerativeModel(
     model_name="gemini-1.5-pro",
     generation_config=generation_config,
-    system_instruction="You are an expert python programmer. Look at the following excerpt from the official Python documentation and for each function (API), provide a very brief description, a signature (with argument types), and the fully qualified name.",
+    system_instruction="You are an expert python programmer. Look at the following excerpt from the official Python documentation and for each function (API), provide a very short description, a signature (with argument types), and a list of apps. Apps are complete test programs that focus on the function. Each app has the following format.\n\n```python\n# <IMPORTS>\n\ndef test(arg0: type0, arg1: type1, ...):\n    # <SHORT PROGRAM USING THE FUNCTION>\n    # using arg0, arg1, ... as inputs wherever necessary\n``` Provide as many apps as you like in order to show diverse scenarios.",
 )
 
 chat_session = model.start_chat(history=[])
@@ -71,7 +74,7 @@ for doc in tqdm(docs):
     result_file_name = doc.split(".")[0] + ".json"
     result_file_path = os.path.join(script_path, "documentation", "distilled", result_file_name)
     os.makedirs(os.path.dirname(result_file_path), exist_ok=True)
- 
+
     if os.path.exists(result_file_path): continue # skip if already exists
 
     for _ in range(RETRY_BUDGET):

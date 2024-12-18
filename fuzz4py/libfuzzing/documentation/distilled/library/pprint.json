@@ -1,64 +1,53 @@
 {
     "apis": [
         {
-            "description": "Prints the formatted representation of *object*, followed by a newline.",
-            "name": "pprint.pp",
-            "signature": "pp(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=False, underscore_numbers=False)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object, stream: typing.IO = None, indent: int = 1, width: int = 80, depth: int = None, compact: bool = False, sort_dicts: bool = False, underscore_numbers: bool = False):\n    pprint.pp(obj, stream=stream, indent=indent, width=width, depth=depth, compact=compact, sort_dicts=sort_dicts, underscore_numbers=underscore_numbers)"
+            ],
+            "description": "Prints the formatted representation of object, followed by a newline.",
+            "signature": "pp(obj: object, stream: typing.IO = None, indent: int = 1, width: int = 80, depth: int = None, *, compact: bool = False, sort_dicts: bool = False, underscore_numbers: bool = False) -> None"
         },
         {
-            "description": "Prints the formatted representation of *object*, followed by a newline.",
-            "name": "pprint.pprint",
-            "signature": "pprint(object, stream=None, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object, stream: typing.IO = None, indent: int = 1, width: int = 80, depth: int = None, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False):\n    pprint.pprint(obj, stream=stream, indent=indent, width=width, depth=depth, compact=compact, sort_dicts=sort_dicts, underscore_numbers=underscore_numbers)"
+            ],
+            "description": "Prints the formatted representation of object, followed by a newline.",
+            "signature": "pprint(obj: object, stream: typing.IO = None, indent: int = 1, width: int = 80, depth: int = None, *, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False) -> None"
         },
         {
-            "description": "Return the formatted representation of *object* as a string.",
-            "name": "pprint.pformat",
-            "signature": "pformat(object, indent=1, width=80, depth=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object, indent: int = 1, width: int = 80, depth: int = None, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False):\n    formatted_str = pprint.pformat(obj, indent=indent, width=width, depth=depth, compact=compact, sort_dicts=sort_dicts, underscore_numbers=underscore_numbers)\n    print(formatted_str)"
+            ],
+            "description": "Return the formatted representation of object as a string.",
+            "signature": "pformat(obj: object, indent: int = 1, width: int = 80, depth: int = None, *, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False) -> str"
         },
         {
-            "description": "Determine if the formatted representation of *object* is \"readable\", or can be used to reconstruct the value using \"eval()\".",
-            "name": "pprint.isreadable",
-            "signature": "isreadable(object)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object):\n    readable_bool = pprint.isreadable(obj)\n    print(readable_bool)"
+            ],
+            "description": "Determine if the formatted representation of object is readable.",
+            "signature": "isreadable(obj: object) -> bool"
         },
         {
-            "description": "Determine if *object* requires a recursive representation.",
-            "name": "pprint.isrecursive",
-            "signature": "isrecursive(object)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object):\n    recursive_bool = pprint.isrecursive(obj)\n    print(recursive_bool)"
+            ],
+            "description": "Determine if object requires a recursive representation.",
+            "signature": "isrecursive(obj: object) -> bool"
         },
         {
-            "description": "Return a string representation of *object*, protected against recursion in some common data structures.",
-            "name": "pprint.saferepr",
-            "signature": "saferepr(object)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(obj: object):\n    safe_repr = pprint.saferepr(obj)\n    print(safe_repr)"
+            ],
+            "description": "Return a string representation of object, protected against recursion in some common data structures.",
+            "signature": "saferepr(obj: object) -> str"
         },
         {
-            "description": "Construct a \"PrettyPrinter\" instance.",
-            "name": "pprint.PrettyPrinter",
-            "signature": "PrettyPrinter(indent=1, width=80, depth=None, stream=None, *, compact=False, sort_dicts=True, underscore_numbers=False)"
-        },
-        {
-            "description": "Return the formatted representation of *object*.",
-            "name": "pprint.PrettyPrinter.pformat",
-            "signature": "pformat(object)"
-        },
-        {
-            "description": "Print the formatted representation of *object* on the configured stream, followed by a newline.",
-            "name": "pprint.PrettyPrinter.pprint",
-            "signature": "pprint(object)"
-        },
-        {
-            "description": "Determine if the formatted representation of the object is \"readable\", or can be used to reconstruct the value using \"eval()\".",
-            "name": "pprint.PrettyPrinter.isreadable",
-            "signature": "isreadable(object)"
-        },
-        {
-            "description": "Determine if the object requires a recursive representation.",
-            "name": "pprint.PrettyPrinter.isrecursive",
-            "signature": "isrecursive(object)"
-        },
-        {
-            "description": "Returns three values: the formatted version of *object* as a string, a flag indicating whether the result is readable, and a flag indicating whether recursion was detected.",
-            "name": "pprint.PrettyPrinter.format",
-            "signature": "format(object, context, maxlevels, level)"
+            "apps": [
+                "# imports\nimport pprint\n\ndef test(indent: int = 1, width: int = 80, depth: int = None, stream: typing.IO = None, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False):\n    pretty_printer = pprint.PrettyPrinter(indent=indent, width=width, depth=depth, stream=stream, compact=compact, sort_dicts=sort_dicts, underscore_numbers=underscore_numbers)\n    print(pretty_printer)"
+            ],
+            "description": "Construct a PrettyPrinter instance.",
+            "signature": "PrettyPrinter(indent: int = 1, width: int = 80, depth: int = None, stream: typing.IO = None, *, compact: bool = False, sort_dicts: bool = True, underscore_numbers: bool = False) -> pprint.PrettyPrinter"
         }
     ]
 }

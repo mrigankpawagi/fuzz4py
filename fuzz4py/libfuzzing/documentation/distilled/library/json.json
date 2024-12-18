@@ -1,59 +1,67 @@
 {
     "apis": [
         {
-            "description": "Serialize *obj* as a JSON formatted stream to *fp* (a \".write()\"-supporting *file-like object*) using this conversion table.",
-            "name": "json.dump",
-            "signature": "dump(obj, fp, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)"
+            "apps": [
+                "# imports\nimport json\n\ndef test(obj: object, fp: typing.IO, skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, cls: type = None, indent: int | str = None, separators: tuple = None, default: typing.Callable = None, sort_keys: bool = False):\n    json.dump(obj, fp, skipkeys=skipkeys, ensure_ascii=ensure_ascii, check_circular=check_circular, allow_nan=allow_nan, cls=cls, indent=indent, separators=separators, default=default, sort_keys=sort_keys)"
+            ],
+            "description": "Serialize obj as a JSON formatted stream to fp (a .write()-supporting file-like object).",
+            "signature": "dump(obj: object, fp: typing.IO, *, skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, cls: type = None, indent: int | str = None, separators: tuple = None, default: typing.Callable = None, sort_keys: bool = False) -> None"
         },
         {
-            "description": "Serialize *obj* to a JSON formatted \"str\" using this conversion table.",
-            "name": "json.dumps",
-            "signature": "dumps(obj, *, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, cls=None, indent=None, separators=None, default=None, sort_keys=False, **kw)"
+            "apps": [
+                "# imports\nimport json\n\ndef test(obj: object, skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, cls: type = None, indent: int | str = None, separators: tuple = None, default: typing.Callable = None, sort_keys: bool = False):\n    json_str = json.dumps(obj, skipkeys=skipkeys, ensure_ascii=ensure_ascii, check_circular=check_circular, allow_nan=allow_nan, cls=cls, indent=indent, separators=separators, default=default, sort_keys=sort_keys)\n    print(json_str)"
+            ],
+            "description": "Serialize obj to a JSON formatted str.",
+            "signature": "dumps(obj: object, *, skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, cls: type = None, indent: int | str = None, separators: tuple = None, default: typing.Callable = None, sort_keys: bool = False) -> str"
         },
         {
-            "description": "Deserialize *fp* (a \".read()\"-supporting *text file* or *binary file* containing a JSON document) to a Python object using this conversion table.",
-            "name": "json.load",
-            "signature": "load(fp, *, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw)"
+            "apps": [
+                "# imports\nimport json\nfrom io import StringIO\n\ndef test(fp: typing.IO, cls: type = None, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, object_pairs_hook: typing.Callable = None):\n    python_obj = json.load(fp, cls=cls, object_hook=object_hook, parse_float=parse_float, parse_int=parse_int, parse_constant=parse_constant, object_pairs_hook=object_pairs_hook)\n    print(python_obj)"
+            ],
+            "description": "Deserialize fp (a .read()-supporting file-like object containing a JSON document) to a Python object.",
+            "signature": "load(fp: typing.IO, *, cls: type = None, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, object_pairs_hook: typing.Callable = None) -> object"
         },
         {
-            "description": "Deserialize *s* (a \"str\", \"bytes\" or \"bytearray\" instance containing a JSON document) to a Python object using this conversion table.",
-            "name": "json.loads",
-            "signature": "loads(s, *, cls=None, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, object_pairs_hook=None, **kw)"
+            "apps": [
+                "# imports\nimport json\n\ndef test(s: str | bytes | bytearray, cls: type = None, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, object_pairs_hook: typing.Callable = None):\n    python_obj = json.loads(s, cls=cls, object_hook=object_hook, parse_float=parse_float, parse_int=parse_int, parse_constant=parse_constant, object_pairs_hook=object_pairs_hook)\n    print(python_obj)"
+            ],
+            "description": "Deserialize s (a str, bytes or bytearray instance containing a JSON document) to a Python object.",
+            "signature": "loads(s: str | bytes | bytearray, *, cls: type = None, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, object_pairs_hook: typing.Callable = None) -> object"
         },
         {
+            "apps": [
+                "# imports\nimport json\n\ndef test(s: str, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, strict: bool = True, object_pairs_hook: typing.Callable = None):\n    decoder = json.JSONDecoder(object_hook=object_hook, parse_float=parse_float, parse_int=parse_int, parse_constant=parse_constant, strict=strict, object_pairs_hook=object_pairs_hook)\n    python_obj = decoder.decode(s)\n    print(python_obj)"
+            ],
             "description": "Simple JSON decoder.",
-            "name": "json.JSONDecoder",
-            "signature": "JSONDecoder(*, object_hook=None, parse_float=None, parse_int=None, parse_constant=None, strict=True, object_pairs_hook=None)"
+            "signature": "JSONDecoder(*, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, strict: bool = True, object_pairs_hook: typing.Callable = None) -> json.JSONDecoder"
         },
         {
-            "description": "Return the Python representation of *s* (a \"str\" instance containing a JSON document).",
-            "name": "json.JSONDecoder.decode",
-            "signature": "decode(s)"
+            "apps": [
+                "# imports\nimport json\n\ndef test(s: str, object_hook: typing.Callable = None, parse_float: typing.Callable = None, parse_int: typing.Callable = None, parse_constant: typing.Callable = None, strict: bool = True, object_pairs_hook: typing.Callable = None):\n    decoder = json.JSONDecoder(object_hook=object_hook, parse_float=parse_float, parse_int=parse_int, parse_constant=parse_constant, strict=strict, object_pairs_hook=object_pairs_hook)\n    python_obj, index = decoder.raw_decode(s)\n    print(python_obj, index)"
+            ],
+            "description": "Decode a JSON document from *s* (a str beginning with a JSON document) and return a 2-tuple of the Python representation and the index in *s* where the document ended.",
+            "signature": "raw_decode(s: str) -> tuple[object, int]"
         },
         {
-            "description": "Decode a JSON document from *s* (a \"str\" beginning with a JSON document) and return a 2-tuple of the Python representation and the index in *s* where the document ended.",
-            "name": "json.JSONDecoder.raw_decode",
-            "signature": "raw_decode(s)"
-        },
-        {
+            "apps": [
+                "# imports\nimport json\n\ndef test(skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, sort_keys: bool = False, indent: int | str = None, separators: tuple = None, default: typing.Callable = None):\n    encoder = json.JSONEncoder(skipkeys=skipkeys, ensure_ascii=ensure_ascii, check_circular=check_circular, allow_nan=allow_nan, sort_keys=sort_keys, indent=indent, separators=separators, default=default)\n    print(encoder)"
+            ],
             "description": "Extensible JSON encoder for Python data structures.",
-            "name": "json.JSONEncoder",
-            "signature": "JSONEncoder(*, skipkeys=False, ensure_ascii=True, check_circular=True, allow_nan=True, sort_keys=False, indent=None, separators=None, default=None)"
+            "signature": "JSONEncoder(*, skipkeys: bool = False, ensure_ascii: bool = True, check_circular: bool = True, allow_nan: bool = True, sort_keys: bool = False, indent: int | str = None, separators: tuple = None, default: typing.Callable = None) -> json.JSONEncoder"
         },
         {
-            "description": "Implement this method in a subclass such that it returns a serializable object for *o*, or calls the base implementation (to raise a \"TypeError\").",
-            "name": "json.JSONEncoder.default",
-            "signature": "default(o)"
+            "apps": [
+                "# imports\nimport json\n\nclass MyEncoder(json.JSONEncoder):\n    def default(self, o):\n        # custom encoding for unserializable objects\n        pass\n\ndef test(encoder: json.JSONEncoder, o: object):\n    encoded_obj = encoder.encode(o)\n    print(encoded_obj)"
+            ],
+            "description": "Return a JSON string representation of a Python data structure.",
+            "signature": "encode(o: object) -> str"
         },
         {
-            "description": "Return a JSON string representation of a Python data structure, *o*.",
-            "name": "json.JSONEncoder.encode",
-            "signature": "encode(o)"
-        },
-        {
-            "description": "Encode the given object, *o*, and yield each string representation as available.",
-            "name": "json.JSONEncoder.iterencode",
-            "signature": "iterencode(o)"
+            "apps": [
+                "# imports\nimport json\n\nclass MyEncoder(json.JSONEncoder):\n    def default(self, o):\n        # custom encoding for unserializable objects\n        pass\n\ndef test(encoder: json.JSONEncoder, o: object):\n    for chunk in encoder.iterencode(o):\n        print(chunk)"
+            ],
+            "description": "Encode the given object and yield each string representation as available.",
+            "signature": "iterencode(o: object) -> typing.Iterator[str]"
         }
     ]
 }

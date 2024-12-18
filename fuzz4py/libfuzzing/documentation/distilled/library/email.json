@@ -1,24 +1,67 @@
 {
     "apis": [
         {
-            "description": "Map character sets to their email properties.",
-            "name": "email.charset.Charset",
-            "signature": "Charset(input_charset=DEFAULT_CHARSET)"
+            "apps": [
+                "# imports\n\n\ndef test(input_charset: str = 'us-ascii'):\n    charset = email.charset.Charset(input_charset)\n    print(charset.input_charset)\n    print(charset.header_encoding)\n    print(charset.body_encoding)\n    print(charset.output_charset)\n    print(charset.input_codec)\n    print(charset.output_codec)"
+            ],
+            "description": "Map character sets to their email properties. This class provides information about the requirements imposed on email for a specific character set.",
+            "signature": "Charset(input_charset: str = DEFAULT_CHARSET) -> email.charset.Charset"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(charset: email.charset.Charset):\n    encoding = charset.get_body_encoding()\n    print(encoding)"
+            ],
+            "description": "Return the content transfer encoding used for body encoding.",
+            "signature": "get_body_encoding() -> str | Callable"
+        },
+        {
+            "apps": [
+                "# imports\n\n\ndef test(charset: email.charset.Charset):\n    output_charset_str = charset.get_output_charset()\n    print(output_charset_str)"
+            ],
+            "description": "Return the output character set.",
+            "signature": "get_output_charset() -> str"
+        },
+        {
+            "apps": [
+                "# imports\n\n\ndef test(charset: email.charset.Charset, string: str):\n    encoded_string = charset.header_encode(string)\n    print(encoded_string)"
+            ],
+            "description": "Header-encode the string *string*. The type of encoding (base64 or quoted-printable) will be based on the *header_encoding* attribute.",
+            "signature": "header_encode(string: str) -> str"
+        },
+        {
+            "apps": [
+                "# imports\n\n\ndef test(charset: email.charset.Charset, string: str, maxlengths: typing.Iterator[int]):\n    encoded_lines = charset.header_encode_lines(string, maxlengths)\n    print(encoded_lines)"
+            ],
+            "description": "Header-encode a string by converting it first to bytes. This is similar to header_encode() except that the string is fit into maximum line lengths as given by the argument maxlengths, which must be an iterator.",
+            "signature": "header_encode_lines(string: str, maxlengths: typing.Iterator[int]) -> str"
+        },
+        {
+            "apps": [
+                "# imports\n\n\ndef test(charset: email.charset.Charset, string: str):\n    encoded_string = charset.body_encode(string)\n    print(encoded_string)"
+            ],
+            "description": "Body-encode the string *string*. The type of encoding (base64 or quoted-printable) will be based on the *body_encoding* attribute.",
+            "signature": "body_encode(string: str) -> bytes"
+        },
+        {
+            "apps": [
+                "# imports\n\n\ndef test(charset: str, header_enc: int = None, body_enc: int = None, output_charset: str = None):\n    email.charset.add_charset(charset, header_enc, body_enc, output_charset)"
+            ],
             "description": "Add character properties to the global registry.",
-            "name": "email.charset.add_charset",
-            "signature": "add_charset(charset, header_enc=None, body_enc=None, output_charset=None)"
+            "signature": "add_charset(charset: str, header_enc: int = None, body_enc: int = None, output_charset: str = None) -> None"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(alias: str, canonical: str):\n    email.charset.add_alias(alias, canonical)"
+            ],
             "description": "Add a character set alias.",
-            "name": "email.charset.add_alias",
-            "signature": "add_alias(alias, canonical)"
+            "signature": "add_alias(alias: str, canonical: str) -> None"
         },
         {
+            "apps": [
+                "# imports\n\n\ndef test(charset: str, codecname: str):\n    email.charset.add_codec(charset, codecname)"
+            ],
             "description": "Add a codec that map characters in the given character set to and from Unicode.",
-            "name": "email.charset.add_codec",
-            "signature": "add_codec(charset, codecname)"
+            "signature": "add_codec(charset: str, codecname: str) -> None"
         }
     ]
 }

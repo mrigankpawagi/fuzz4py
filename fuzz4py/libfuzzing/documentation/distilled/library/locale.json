@@ -1,94 +1,165 @@
 {
     "apis": [
         {
-            "description": "Exception raised when the locale passed to \"setlocale()\" is not recognized.",
-            "name": "locale.Error",
-            "signature": "Error"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(category: int, locale_str: str | tuple | list = None):\n    result = locale.setlocale(category, locale_str)\n    print(result)"
+            ],
+            "description": "If locale is given and not None, setlocale() modifies the locale setting for the category. The available categories are listed in the data description below. locale may be a string, or an iterable of two strings (language code and encoding). If it's an iterable, it's converted to a locale name using the locale aliasing engine. An empty string specifies the user's default settings. If the modification of the locale fails, the exception Error is raised. If successful, the new locale setting is returned.\n\nIf locale is omitted or None, the current setting for category is returned.",
+            "signature": "setlocale(category: int, locale_str: str | tuple | list = None) -> str"
         },
         {
-            "description": "If *locale* is given and not \"None\", \"setlocale()\" modifies the locale setting for the *category*. The available categories are listed in the data description below.",
-            "name": "locale.setlocale",
-            "signature": "setlocale(category, locale=None)"
-        },
-        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test():\n    locale_data = locale.localeconv()\n    print(locale_data)"
+            ],
             "description": "Returns the database of the local conventions as a dictionary.",
-            "name": "locale.localeconv",
-            "signature": "localeconv()"
+            "signature": "localeconv() -> dict"
         },
         {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(option: int):\n    info = locale.nl_langinfo(option)\n    print(info)"
+            ],
             "description": "Return some locale-specific information as a string.",
-            "name": "locale.nl_langinfo",
-            "signature": "nl_langinfo(option)"
+            "signature": "nl_langinfo(option: int) -> str"
         },
         {
-            "description": "Tries to determine the default locale settings and returns them as a tuple of the form \"(language code, encoding)\".",
-            "name": "locale.getdefaultlocale",
-            "signature": "getdefaultlocale([envvars])"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(envvars: list = None):\n    default_locale = locale.getdefaultlocale(envvars)\n    print(default_locale)"
+            ],
+            "description": "Tries to determine the default locale settings and returns them as a tuple of the form (language code, encoding).",
+            "signature": "getdefaultlocale(envvars: list = None) -> tuple"
         },
         {
-            "description": "Returns the current setting for the given locale category as sequence containing *language code*, *encoding*.",
-            "name": "locale.getlocale",
-            "signature": "getlocale(category=LC_CTYPE)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(category: int = locale.LC_CTYPE):\n    current_locale = locale.getlocale(category)\n    print(current_locale)"
+            ],
+            "description": "Returns the current setting for the given locale category as sequence containing language code, encoding. category may be one of the LC_* values except LC_ALL. It defaults to LC_CTYPE.",
+            "signature": "getlocale(category: int = LC_CTYPE) -> tuple"
         },
         {
-            "description": "Return the *locale encoding* used for text data, according to user preferences.",
-            "name": "locale.getpreferredencoding",
-            "signature": "getpreferredencoding(do_setlocale=True)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(do_setlocale: bool = True):\n    encoding = locale.getpreferredencoding(do_setlocale)\n    print(encoding)"
+            ],
+            "description": "Return the locale encoding used for text data, according to user preferences.",
+            "signature": "getpreferredencoding(do_setlocale: bool = True) -> str"
         },
         {
-            "description": "Get the current *locale encoding*.",
-            "name": "locale.getencoding",
-            "signature": "getencoding()"
+            "apps": [
+                "# imports\nimport locale\n\ndef test():\n    encoding = locale.getencoding()\n    print(encoding)"
+            ],
+            "description": "Get the current locale encoding.",
+            "signature": "getencoding() -> str"
         },
         {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(localename: str):\n    normalized_locale = locale.normalize(localename)\n    print(normalized_locale)"
+            ],
             "description": "Returns a normalized locale code for the given locale name.",
-            "name": "locale.normalize",
-            "signature": "normalize(localename)"
+            "signature": "normalize(localename: str) -> str"
         },
         {
-            "description": "Compares two strings according to the current \"LC_COLLATE\" setting.",
-            "name": "locale.strcoll",
-            "signature": "strcoll(string1, string2)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string1: str, string2: str):\n    result = locale.strcoll(string1, string2)\n    print(result)"
+            ],
+            "description": "Compares two strings according to the current LC_COLLATE setting.",
+            "signature": "strcoll(string1: str, string2: str) -> int"
         },
         {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string: str):\n    transformed_string = locale.strxfrm(string)\n    print(transformed_string)"
+            ],
             "description": "Transforms a string to one that can be used in locale-aware comparisons.",
-            "name": "locale.strxfrm",
-            "signature": "strxfrm(string)"
+            "signature": "strxfrm(string: str) -> str"
         },
         {
-            "description": "Formats a number *val* according to the current \"LC_NUMERIC\" setting.",
-            "name": "locale.format_string",
-            "signature": "format_string(format, val, grouping=False, monetary=False)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(format: str, val: object, grouping: bool = False, monetary: bool = False):\n    formatted_string = locale.format_string(format, val, grouping, monetary)\n    print(formatted_string)"
+            ],
+            "description": "Formats a number val according to the current LC_NUMERIC setting.",
+            "signature": "format_string(format: str, val: object, grouping: bool = False, monetary: bool = False) -> str"
         },
         {
-            "description": "Formats a number *val* according to the current \"LC_MONETARY\" settings.",
-            "name": "locale.currency",
-            "signature": "currency(val, symbol=True, grouping=False, international=False)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(val: object, symbol: bool = True, grouping: bool = False, international: bool = False):\n    currency_string = locale.currency(val, symbol, grouping, international)\n    print(currency_string)"
+            ],
+            "description": "Formats a number val according to the current LC_MONETARY settings.",
+            "signature": "currency(val: object, symbol: bool = True, grouping: bool = False, international: bool = False) -> str"
         },
         {
-            "description": "Formats a floating-point number using the same format as the built-in function \"str(float)\", but takes the decimal point into account.",
-            "name": "locale.str",
-            "signature": "str(float)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(float_num: float):\n    float_string = locale.str(float_num)\n    print(float_string)"
+            ],
+            "description": "Formats a floating-point number using the same format as the built-in function str(float), but takes the decimal point into account.",
+            "signature": "str(float_num: float) -> str"
         },
         {
-            "description": "Converts a string into a normalized number string, following the \"LC_NUMERIC\" settings.",
-            "name": "locale.delocalize",
-            "signature": "delocalize(string)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string: str):\n    delocalized_string = locale.delocalize(string)\n    print(delocalized_string)"
+            ],
+            "description": "Converts a string into a normalized number string, following the LC_NUMERIC settings.",
+            "signature": "delocalize(string: str) -> str"
         },
         {
-            "description": "Converts a normalized number string into a formatted string following the \"LC_NUMERIC\" settings.",
-            "name": "locale.localize",
-            "signature": "localize(string, grouping=False, monetary=False)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string: str, grouping: bool = False, monetary: bool = False):\n    localized_string = locale.localize(string, grouping, monetary)\n    print(localized_string)"
+            ],
+            "description": "Converts a normalized number string into a formatted string following the LC_NUMERIC settings.",
+            "signature": "localize(string: str, grouping: bool = False, monetary: bool = False) -> str"
         },
         {
-            "description": "Converts a string to a number, following the \"LC_NUMERIC\" settings, by calling *func* on the result of calling \"delocalize()\" on *string*",
-            "name": "locale.atof",
-            "signature": "atof(string, func=float)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string: str, func: typing.Callable = float):\n    number = locale.atof(string, func)\n    print(number)"
+            ],
+            "description": "Converts a string to a floating-point number, following the LC_NUMERIC settings.",
+            "signature": "atof(string: str, func: typing.Callable = float) -> float"
         },
         {
-            "description": "Converts a string to an integer, following the \"LC_NUMERIC\" conventions.",
-            "name": "locale.atoi",
-            "signature": "atoi(string)"
+            "apps": [
+                "# imports\nimport locale\n\ndef test(string: str):\n    integer = locale.atoi(string)\n    print(integer)"
+            ],
+            "description": "Converts a string to an integer, following the LC_NUMERIC conventions.",
+            "signature": "atoi(string: str) -> int"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(msg: str):\n    translated_msg = locale.gettext(msg)\n    print(translated_msg)"
+            ],
+            "description": "Returns the localized translation of msg.",
+            "signature": "gettext(msg: str) -> str"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(domain: str, msg: str):\n    translated_msg = locale.dgettext(domain, msg)\n    print(translated_msg)"
+            ],
+            "description": "Returns the localized translation of msg in the given domain.",
+            "signature": "dgettext(domain: str, msg: str) -> str"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(domain: str, msg: str, category: int):\n    translated_msg = locale.dcgettext(domain, msg, category)\n    print(translated_msg)"
+            ],
+            "description": "Returns the localized translation of msg in the given domain and category.",
+            "signature": "dcgettext(domain: str, msg: str, category: int) -> str"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(domain: str):\n    locale.textdomain(domain)"
+            ],
+            "description": "Sets the current domain for the gettext() family of functions.",
+            "signature": "textdomain(domain: str) -> None"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(domain: str, dir: str):\n    locale.bindtextdomain(domain, dir)"
+            ],
+            "description": "Binds the given domain to the given directory.",
+            "signature": "bindtextdomain(domain: str, dir: str) -> None"
+        },
+        {
+            "apps": [
+                "# imports\nimport locale\n\ndef test(domain: str, codeset: str):\n    locale.bind_textdomain_codeset(domain, codeset)"
+            ],
+            "description": "Sets the character encoding used for the given domain.",
+            "signature": "bind_textdomain_codeset(domain: str, codeset: str) -> None"
         }
     ]
 }

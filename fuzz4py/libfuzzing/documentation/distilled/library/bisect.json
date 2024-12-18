@@ -1,34 +1,32 @@
 {
     "apis": [
         {
-            "description": "Locate the insertion point for x in a to maintain sorted order. The parameters lo and hi may be used to specify a subset of the list which should be considered; by default the entire list is used. If x is already present in a, the insertion point will be before (to the left of) any existing entries. The return value is suitable for use as the first parameter to list.insert() assuming that a is already sorted.",
-            "name": "bisect.bisect_left",
+            "apps": [
+                "# imports\n\nimport bisect\n\ndef test(a: list, x: int, lo: int, hi: int, key: callable):\n    insertion_point = bisect.bisect_left(a, x, lo, hi, key=key)\n    print(insertion_point)\n\ntest([1, 3, 5, 7], 4, 0, 4, None)\n"
+            ],
+            "description": "Locate the insertion point for *x* in *a* to maintain sorted order. The parameters *lo* and *hi* may be used to specify a subset of the list which should be considered; by default the entire list is used. If *x* is already present in *a*, the insertion point will be before (to the left of) any existing entries. The return value is suitable for use as the first parameter to \"list.insert()\" assuming that *a* is already sorted.",
             "signature": "bisect_left(a, x, lo=0, hi=len(a), *, key=None)"
         },
         {
-            "description": "Similar to bisect_left(), but returns an insertion point which comes after (to the right of) any existing entries of x in a.",
-            "name": "bisect.bisect_right",
+            "apps": [
+                "# imports\n\nimport bisect\n\ndef test(a: list, x: int, lo: int, hi: int, key: callable):\n    insertion_point = bisect.bisect_right(a, x, lo, hi, key=key)\n    print(insertion_point)\n\ntest([1, 3, 5, 7], 4, 0, 4, None)\n"
+            ],
+            "description": "Similar to bisect_left(), but returns an insertion point which comes after (to the right of) any existing entries of *x* in *a*.",
             "signature": "bisect_right(a, x, lo=0, hi=len(a), *, key=None)"
         },
         {
-            "description": "Similar to bisect_left(), but returns an insertion point which comes after (to the right of) any existing entries of x in a.",
-            "name": "bisect.bisect",
-            "signature": "bisect(a, x, lo=0, hi=len(a), *, key=None)"
-        },
-        {
-            "description": "Insert x in a in sorted order. This function first runs bisect_left() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
-            "name": "bisect.insort_left",
+            "apps": [
+                "# imports\n\nimport bisect\n\ndef test(a: list, x: int, lo: int, hi: int, key: callable):\n    bisect.insort_left(a, x, lo, hi, key=key)\n    print(a)\n\ntest([1, 3, 5, 7], 4, 0, 4, None)\n"
+            ],
+            "description": "Insert *x* in *a* in sorted order.",
             "signature": "insort_left(a, x, lo=0, hi=len(a), *, key=None)"
         },
         {
-            "description": "Similar to insort_left(), but inserting x in a after any existing entries of x. This function first runs bisect_right() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
-            "name": "bisect.insort_right",
+            "apps": [
+                "# imports\n\nimport bisect\n\ndef test(a: list, x: int, lo: int, hi: int, key: callable):\n    bisect.insort_right(a, x, lo, hi, key=key)\n    print(a)\n\ntest([1, 3, 5, 7], 4, 0, 4, None)\n\n"
+            ],
+            "description": "Similar to insort_left(), but inserting *x* in *a* after any existing entries of *x*.",
             "signature": "insort_right(a, x, lo=0, hi=len(a), *, key=None)"
-        },
-        {
-            "description": "Similar to insort_left(), but inserting x in a after any existing entries of x. This function first runs bisect_right() to locate an insertion point. Next, it runs the insert() method on a to insert x at the appropriate position to maintain sort order.",
-            "name": "bisect.insort",
-            "signature": "insort(a, x, lo=0, hi=len(a), *, key=None)"
         }
     ]
 }

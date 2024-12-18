@@ -1,34 +1,25 @@
 {
     "apis": [
         {
-            "description": "Return a \"Document\" from the given input.",
-            "name": "xml.dom.minidom.parse",
-            "signature": "parse(filename_or_file, parser=None, bufsize=None)"
+            "apps": [
+                "# imports\nimport xml.dom.minidom\n\ndef test(filename_or_file: str | typing.IO, parser: typing.Any = None, bufsize: int = None):\n    doc = xml.dom.minidom.parse(filename_or_file, parser, bufsize)\n    # Work with doc\n    doc.unlink()"
+            ],
+            "description": "Return a Document from the given input.",
+            "signature": "parse(filename_or_file: str | typing.IO, parser: typing.Any = None, bufsize: int = None) -> xml.dom.minidom.Document"
         },
         {
-            "description": "Return a \"Document\" that represents the *string*.",
-            "name": "xml.dom.minidom.parseString",
-            "signature": "parseString(string, parser=None)"
+            "apps": [
+                "# imports\nimport xml.dom.minidom\n\ndef test(string: str, parser: typing.Any = None):\n    doc = xml.dom.minidom.parseString(string, parser)\n    # Work with doc\n    doc.unlink()"
+            ],
+            "description": "Return a Document that represents the string.",
+            "signature": "parseString(string: str, parser: typing.Any = None) -> xml.dom.minidom.Document"
         },
         {
-            "description": "Break internal references within the DOM so that it will be garbage collected on versions of Python without cyclic GC.",
-            "name": "xml.dom.minidom.Node.unlink",
-            "signature": "unlink()"
-        },
-        {
-            "description": "Write XML to the writer object.",
-            "name": "xml.dom.minidom.Node.writexml",
-            "signature": "writexml(writer, indent='', addindent='', newl='', encoding=None, standalone=None)"
-        },
-        {
-            "description": "Return a string or byte string containing the XML represented by the DOM node.",
-            "name": "xml.dom.minidom.Node.toxml",
-            "signature": "toxml(encoding=None, standalone=None)"
-        },
-        {
-            "description": "Return a pretty-printed version of the document.",
-            "name": "xml.dom.minidom.Node.toprettyxml",
-            "signature": "toprettyxml(indent='\\t', newl='\\n', encoding=None, standalone=None)"
+            "apps": [
+                "# imports\nfrom xml.dom.minidom import getDOMImplementation\n\ndef test():\n    impl = getDOMImplementation()\n    newdoc = impl.createDocument(None, \"some_tag\", None)\n    top_element = newdoc.documentElement\n    text = newdoc.createTextNode('Some textual content.')\n    top_element.appendChild(text)\n    # Work with newdoc\n    newdoc.unlink()"
+            ],
+            "description": "Creates a DOMImplementation object.",
+            "signature": "getDOMImplementation() -> xml.dom.minidom.DOMImplementation"
         }
     ]
 }

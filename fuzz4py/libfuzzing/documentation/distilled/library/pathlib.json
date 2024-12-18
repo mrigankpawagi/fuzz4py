@@ -1,359 +1,340 @@
 {
     "apis": [
         {
-            "description": "A generic class that represents the system's path flavour.",
-            "name": "pathlib.PurePath",
-            "signature": "PurePath(*pathsegments)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(*pathsegments):\n    path = Path(*pathsegments)\n    print(path)"
+            ],
+            "description": "A generic class that represents the system's path flavor (instantiating it creates either a PurePosixPath or a PureWindowsPath).",
+            "signature": "Path(*pathsegments) -> pathlib.Path"
         },
         {
-            "description": "A subclass of \"PurePath\", this path flavour represents non-Windows filesystem paths.",
-            "name": "pathlib.PurePosixPath",
-            "signature": "PurePosixPath(*pathsegments)"
+            "apps": [
+                "# imports\nfrom pathlib import PurePath\n\ndef test(*pathsegments):\n    path = PurePath(*pathsegments)\n    print(path)"
+            ],
+            "description": "A generic class that represents the system's path flavor (instantiating it creates either a PurePosixPath or a PureWindowsPath).",
+            "signature": "PurePath(*pathsegments) -> pathlib.PurePath"
         },
         {
-            "description": "A subclass of \"PurePath\", this path flavour represents Windows filesystem paths, including UNC paths.",
-            "name": "pathlib.PureWindowsPath",
-            "signature": "PureWindowsPath(*pathsegments)"
+            "apps": [
+                "# imports\nfrom pathlib import PurePosixPath\n\ndef test(*pathsegments):\n    path = PurePosixPath(*pathsegments)\n    print(path)"
+            ],
+            "description": "A subclass of PurePath, this path flavor represents non-Windows filesystem paths.",
+            "signature": "PurePosixPath(*pathsegments) -> pathlib.PurePosixPath"
         },
         {
-            "description": "A tuple giving access to the path's various components.",
-            "name": "pathlib.PurePath.parts",
-            "signature": "parts"
+            "apps": [
+                "# imports\nfrom pathlib import PureWindowsPath\n\ndef test(*pathsegments):\n    path = PureWindowsPath(*pathsegments)\n    print(path)"
+            ],
+            "description": "A subclass of PurePath, this path flavor represents Windows filesystem paths.",
+            "signature": "PureWindowsPath(*pathsegments) -> pathlib.PureWindowsPath"
         },
         {
-            "description": "The implementation of the \"os.path\" module used for low-level path parsing and joining: either \"posixpath\" or \"ntpath\".",
-            "name": "pathlib.PurePath.parser",
-            "signature": "parser"
+            "apps": [
+                "# imports\nfrom pathlib import PosixPath\n\ndef test(*pathsegments):\n    path = PosixPath(*pathsegments)\n    print(path)"
+            ],
+            "description": "A subclass of Path and PurePosixPath, this class represents concrete non-Windows filesystem paths.",
+            "signature": "PosixPath(*pathsegments) -> pathlib.PosixPath"
         },
         {
-            "description": "A string representing the drive letter or name, if any.",
-            "name": "pathlib.PurePath.drive",
-            "signature": "drive"
+            "apps": [
+                "# imports\nfrom pathlib import WindowsPath\n\ndef test(*pathsegments):\n    path = WindowsPath(*pathsegments)\n    print(path)"
+            ],
+            "description": "A subclass of Path and PureWindowsPath, this class represents concrete Windows filesystem paths.",
+            "signature": "WindowsPath(*pathsegments) -> pathlib.WindowsPath"
         },
         {
-            "description": "A string representing the root, if any.",
-            "name": "pathlib.PurePath.root",
-            "signature": "root"
-        },
-        {
-            "description": "The concatenation of the drive and root.",
-            "name": "pathlib.PurePath.anchor",
-            "signature": "anchor"
-        },
-        {
-            "description": "An immutable sequence providing access to the logical ancestors of the path.",
-            "name": "pathlib.PurePath.parents",
-            "signature": "parents"
-        },
-        {
-            "description": "The logical parent of the path.",
-            "name": "pathlib.PurePath.parent",
-            "signature": "parent"
-        },
-        {
-            "description": "A string representing the final path component, excluding the drive and root, if any.",
-            "name": "pathlib.PurePath.name",
-            "signature": "name"
-        },
-        {
-            "description": "The file extension.",
-            "name": "pathlib.PurePath.suffix",
-            "signature": "suffix"
-        },
-        {
-            "description": "A list of the path's suffixes.",
-            "name": "pathlib.PurePath.suffixes",
-            "signature": "suffixes"
-        },
-        {
-            "description": "The final path component, without its suffix.",
-            "name": "pathlib.PurePath.stem",
-            "signature": "stem"
-        },
-        {
-            "description": "Return a string representation of the path with forward slashes (\"/\").",
-            "name": "pathlib.PurePath.as_posix",
-            "signature": "as_posix()"
-        },
-        {
-            "description": "Return whether the path is absolute or not.",
-            "name": "pathlib.PurePath.is_absolute",
-            "signature": "is_absolute()"
-        },
-        {
-            "description": "Return whether or not this path is relative to the *other* path.",
-            "name": "pathlib.PurePath.is_relative_to",
-            "signature": "is_relative_to(other)"
-        },
-        {
-            "description": "Return \"True\" if the path is considered reserved under Windows, \"False\" otherwise. With \"PurePosixPath\", \"False\" is always returned.",
-            "name": "pathlib.PurePath.is_reserved",
-            "signature": "is_reserved()"
-        },
-        {
-            "description": "Calling this method is equivalent to combining the path with each of the given *pathsegments* in turn.",
-            "name": "pathlib.PurePath.joinpath",
-            "signature": "joinpath(*pathsegments)"
-        },
-        {
-            "description": "Match this path against the provided glob-style pattern.",
-            "name": "pathlib.PurePath.full_match",
-            "signature": "full_match(pattern, *, case_sensitive=None)"
-        },
-        {
-            "description": "Match this path against the provided glob-style pattern.",
-            "name": "pathlib.PurePath.match",
-            "signature": "match(pattern, *, case_sensitive=None)"
-        },
-        {
-            "description": "Compute a version of this path relative to the path represented by *other*.",
-            "name": "pathlib.PurePath.relative_to",
-            "signature": "relative_to(other, walk_up=False)"
-        },
-        {
-            "description": "Return a new path with the file name changed.",
-            "name": "pathlib.PurePath.with_name",
-            "signature": "with_name(name)"
-        },
-        {
-            "description": "Return a new path with the \"stem\" changed.",
-            "name": "pathlib.PurePath.with_stem",
-            "signature": "with_stem(stem)"
-        },
-        {
-            "description": "Return a new path with the file extension changed.",
-            "name": "pathlib.PurePath.with_suffix",
-            "signature": "with_suffix(suffix)"
-        },
-        {
-            "description": "Create a new path object of the same type by combining the given *pathsegments*.",
-            "name": "pathlib.PurePath.with_segments",
-            "signature": "with_segments(*pathsegments)"
-        },
-        {
-            "description": "A subclass of \"PurePath\", this class represents concrete paths of the system's path flavour.",
-            "name": "pathlib.Path",
-            "signature": "Path(*pathsegments)"
-        },
-        {
-            "description": "A subclass of \"Path\" and \"PurePosixPath\", this class represents concrete non-Windows filesystem paths.",
-            "name": "pathlib.PosixPath",
-            "signature": "PosixPath(*pathsegments)"
-        },
-        {
-            "description": "A subclass of \"Path\" and \"PureWindowsPath\", this class represents concrete Windows filesystem paths.",
-            "name": "pathlib.WindowsPath",
-            "signature": "WindowsPath(*pathsegments)"
-        },
-        {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(uri: str):\n    path = Path.from_uri(uri)\n    print(path)"
+            ],
             "description": "Return a new path object from parsing a 'file' URI.",
-            "name": "pathlib.Path.from_uri",
-            "signature": "from_uri(uri)"
+            "signature": "Path.from_uri(uri: str) -> pathlib.Path"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    uri = path.as_uri()\n    print(uri)"
+            ],
             "description": "Represent the path as a 'file' URI.",
-            "name": "pathlib.Path.as_uri",
-            "signature": "as_uri()"
+            "signature": "as_uri() -> str"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test():\n    home_path = Path.home()\n    print(home_path)"
+            ],
             "description": "Return a new path object representing the user's home directory.",
-            "name": "pathlib.Path.home",
-            "signature": "home()"
+            "signature": "Path.home() -> pathlib.Path"
         },
         {
-            "description": "Return a new path with expanded \"~\" and \"~user\" constructs.",
-            "name": "pathlib.Path.expanduser",
-            "signature": "expanduser()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    expanded_path = path.expanduser()\n    print(expanded_path)"
+            ],
+            "description": "Return a new path with expanded ~ and ~user constructs.",
+            "signature": "expanduser() -> pathlib.Path"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test():\n    cwd_path = Path.cwd()\n    print(cwd_path)"
+            ],
             "description": "Return a new path object representing the current directory.",
-            "name": "pathlib.Path.cwd",
-            "signature": "cwd()"
+            "signature": "Path.cwd() -> pathlib.Path"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    absolute_path = path.absolute()\n    print(absolute_path)"
+            ],
             "description": "Make the path absolute, without normalization or resolving symlinks.",
-            "name": "pathlib.Path.absolute",
-            "signature": "absolute()"
+            "signature": "absolute() -> pathlib.Path"
         },
         {
-            "description": "Make the path absolute, resolving any symlinks.",
-            "name": "pathlib.Path.resolve",
-            "signature": "resolve(strict=False)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, strict: bool = False):\n    resolved_path = path.resolve(strict=strict)\n    print(resolved_path)"
+            ],
+            "description": "Make the path absolute, resolving all symlinks.",
+            "signature": "resolve(strict: bool = False) -> pathlib.Path"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    target_path = path.readlink()\n    print(target_path)"
+            ],
             "description": "Return the path to which the symbolic link points.",
-            "name": "pathlib.Path.readlink",
-            "signature": "readlink()"
+            "signature": "readlink() -> pathlib.Path"
         },
         {
-            "description": "Return an \"os.stat_result\" object containing information about this path.",
-            "name": "pathlib.Path.stat",
-            "signature": "stat(*, follow_symlinks=True)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    stat_result = path.stat(follow_symlinks=follow_symlinks)\n    print(stat_result)"
+            ],
+            "description": "Return an os.stat_result object containing information about this path.",
+            "signature": "stat(*, follow_symlinks: bool = True) -> os.stat_result"
         },
         {
-            "description": "Like \"Path.stat()\" but, if the path points to a symbolic link, return the symbolic link's information rather than its target's.",
-            "name": "pathlib.Path.lstat",
-            "signature": "lstat()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    stat_result = path.lstat()\n    print(stat_result)"
+            ],
+            "description": "Like stat() but, if the path points to a symbolic link, return the symbolic link's information rather than its target's.",
+            "signature": "lstat() -> os.stat_result"
         },
         {
-            "description": "Return \"True\" if the path points to an existing file or directory.",
-            "name": "pathlib.Path.exists",
-            "signature": "exists(*, follow_symlinks=True)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    exists_bool = path.exists(follow_symlinks=follow_symlinks)\n    print(exists_bool)"
+            ],
+            "description": "Whether the path points to an existing file or directory.",
+            "signature": "exists(*, follow_symlinks: bool = True) -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a regular file, \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_file",
-            "signature": "is_file(*, follow_symlinks=True)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    is_file_bool = path.is_file(follow_symlinks=follow_symlinks)\n    print(is_file_bool)"
+            ],
+            "description": "Return True if the path points to a regular file (or a symbolic link pointing to a regular file), False if it points to another kind of file.",
+            "signature": "is_file(*, follow_symlinks: bool = True) -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a directory (or a symbolic link pointing to a directory), \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_dir",
-            "signature": "is_dir(*, follow_symlinks=True)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    is_dir_bool = path.is_dir(follow_symlinks=follow_symlinks)\n    print(is_dir_bool)"
+            ],
+            "description": "Return True if the path points to a directory (or a symbolic link pointing to a directory), False if it points to another kind of file.",
+            "signature": "is_dir(*, follow_symlinks: bool = True) -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a symbolic link, \"False\" otherwise.",
-            "name": "pathlib.Path.is_symlink",
-            "signature": "is_symlink()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_symlink_bool = path.is_symlink()\n    print(is_symlink_bool)"
+            ],
+            "description": "Return True if the path points to a symbolic link, False otherwise.",
+            "signature": "is_symlink() -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a junction, and \"False\" for any other type of file.",
-            "name": "pathlib.Path.is_junction",
-            "signature": "is_junction()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    result = path.is_junction()\n    print(result)"
+            ],
+            "description": "Return True if the path points to a junction, and False for any other type of file. Currently only Windows supports junctions.",
+            "signature": "is_junction() -> bool"
         },
         {
-            "description": "Return \"True\" if the path is a *mount point*.",
-            "name": "pathlib.Path.is_mount",
-            "signature": "is_mount()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_mount_bool = path.is_mount()\n    print(is_mount_bool)"
+            ],
+            "description": "Return True if the path is a mount point: a point in a file system where a different file system has been mounted.",
+            "signature": "is_mount() -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a Unix socket, \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_socket",
-            "signature": "is_socket()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_socket_bool = path.is_socket()\n    print(is_socket_bool)"
+            ],
+            "description": "Return True if the path points to a Unix socket (or a symbolic link pointing to a Unix socket), False if it points to another kind of file.",
+            "signature": "is_socket() -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a FIFO, \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_fifo",
-            "signature": "is_fifo()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_fifo_bool = path.is_fifo()\n    print(is_fifo_bool)"
+            ],
+            "description": "Return True if the path points to a FIFO (or a symbolic link pointing to a FIFO), False if it points to another kind of file.",
+            "signature": "is_fifo() -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a block device, \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_block_device",
-            "signature": "is_block_device()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_block_device_bool = path.is_block_device()\n    print(is_block_device_bool)"
+            ],
+            "description": "Return True if the path points to a block device (or a symbolic link pointing to a block device), False if it points to another kind of file.",
+            "signature": "is_block_device() -> bool"
         },
         {
-            "description": "Return \"True\" if the path points to a character device, \"False\" if it points to another kind of file.",
-            "name": "pathlib.Path.is_char_device",
-            "signature": "is_char_device()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    is_char_device_bool = path.is_char_device()\n    print(is_char_device_bool)"
+            ],
+            "description": "Return True if the path points to a character device (or a symbolic link pointing to a character device), False if it points to another kind of file.",
+            "signature": "is_char_device() -> bool"
         },
         {
-            "description": "Return whether this path points to the same file as *other_path*.",
-            "name": "pathlib.Path.samefile",
-            "signature": "samefile(other_path)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, other_path: Path | str):\n    samefile_bool = path.samefile(other_path)\n    print(samefile_bool)"
+            ],
+            "description": "Return whether this path points to the same file as other_path, which can be either a Path object, or a string.",
+            "signature": "samefile(other_path: Path | str) -> bool"
         },
         {
-            "description": "Open the file pointed by the path.",
-            "name": "pathlib.Path.open",
-            "signature": "open(mode='r', buffering=-1, encoding=None, errors=None, newline=None)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, mode: str = 'r', buffering: int = -1, encoding: str = None, errors: str = None, newline: str = None):\n    with path.open(mode=mode, buffering=buffering, encoding=encoding, errors=errors, newline=newline) as f:\n        # Perform file operations\n        pass"
+            ],
+            "description": "Open the file pointed by this path and return a file object.",
+            "signature": "open(mode='r', buffering=-1, encoding=None, errors=None, newline=None) -> typing.IO"
         },
         {
-            "description": "Open the file in text mode, read it, and close the file.",
-            "name": "pathlib.Path.read_text",
-            "signature": "read_text(encoding=None, errors=None, newline=None)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, encoding: str = None, errors: str = None, newline: str = None):\n    text = path.read_text(encoding=encoding, errors=errors, newline=newline)\n    print(text)"
+            ],
+            "description": "Return the decoded contents of the pointed-to file as a string.",
+            "signature": "read_text(encoding=None, errors=None, newline=None) -> str"
         },
         {
-            "description": "Open the file in binary/bytes mode, read it, and close the file.",
-            "name": "pathlib.Path.read_bytes",
-            "signature": "read_bytes()"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    binary_data = path.read_bytes()\n    print(binary_data)"
+            ],
+            "description": "Return the binary contents of the pointed-to file as a bytes object.",
+            "signature": "read_bytes() -> bytes"
         },
         {
-            "description": "Open the file pointed to in text mode, write *data* to it, and close the file.",
-            "name": "pathlib.Path.write_text",
-            "signature": "write_text(data, encoding=None, errors=None, newline=None)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, data: str, encoding: str = None, errors: str = None, newline: str = None):\n    bytes_written = path.write_text(data, encoding=encoding, errors=errors, newline=newline)\n    print(bytes_written)"
+            ],
+            "description": "Open the file in text mode, write data to it, and close the file.",
+            "signature": "write_text(data: str, encoding=None, errors=None, newline=None) -> int"
         },
         {
-            "description": "Open the file pointed to in binary mode, write *data* to it, and close the file.",
-            "name": "pathlib.Path.write_bytes",
-            "signature": "write_bytes(data)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, data: bytes):\n    bytes_written = path.write_bytes(data)\n    print(bytes_written)"
+            ],
+            "description": "Open the file in bytes mode, write data to it, and close the file.",
+            "signature": "write_bytes(data: bytes) -> int"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    for child in path.iterdir():\n        print(child)"
+            ],
             "description": "When the path points to a directory, yield path objects of the directory contents.",
-            "name": "pathlib.Path.iterdir",
-            "signature": "iterdir()"
+            "signature": "iterdir() -> typing.Iterator[pathlib.Path]"
         },
         {
-            "description": "Glob the given relative *pattern* in the directory represented by this path.",
-            "name": "pathlib.Path.glob",
-            "signature": "glob(pattern, *, case_sensitive=None, recurse_symlinks=False)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, pattern: str, case_sensitive: bool = None, recurse_symlinks: bool = False):\n    for match in path.glob(pattern, case_sensitive=case_sensitive, recurse_symlinks=recurse_symlinks):\n        print(match)"
+            ],
+            "description": "Glob the given relative pattern in the directory represented by this path, yielding all matching files (of any kind).",
+            "signature": "glob(pattern: str, *, case_sensitive: bool = None, recurse_symlinks: bool = False) -> typing.Iterator[pathlib.Path]"
         },
         {
-            "description": "This is like calling \"Path.glob()\" with \"**/\" added in front of the given relative *pattern*.",
-            "name": "pathlib.Path.rglob",
-            "signature": "rglob(pattern, *, case_sensitive=None, recurse_symlinks=False)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, pattern: str, case_sensitive: bool = None, recurse_symlinks: bool = False):\n    for match in path.rglob(pattern, case_sensitive=case_sensitive, recurse_symlinks=recurse_symlinks):\n        print(match)"
+            ],
+            "description": "This is like calling Path.glob() with \"**/\" added in front of the given relative pattern.",
+            "signature": "rglob(pattern: str, *, case_sensitive: bool = None, recurse_symlinks: bool = False) -> typing.Iterator[pathlib.Path]"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, top_down: bool = True, on_error: typing.Callable = None, follow_symlinks: bool = False):\n    for dirpath, dirnames, filenames in path.walk(top_down=top_down, on_error=on_error, follow_symlinks=follow_symlinks):\n        print(dirpath, dirnames, filenames)"
+            ],
             "description": "Generate the file names in a directory tree by walking the tree either top-down or bottom-up.",
-            "name": "pathlib.Path.walk",
-            "signature": "walk(top_down=True, on_error=None, follow_symlinks=False)"
+            "signature": "walk(top_down: bool = True, on_error: typing.Callable = None, follow_symlinks: bool = False) -> typing.Iterator"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, mode: int = 0o666, exist_ok: bool = True):\n    path.touch(mode=mode, exist_ok=exist_ok)"
+            ],
             "description": "Create a file at this given path.",
-            "name": "pathlib.Path.touch",
-            "signature": "touch(mode=0o666, exist_ok=True)"
+            "signature": "touch(mode: int = 0o666, exist_ok: bool = True) -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, mode: int = 0o777, parents: bool = False, exist_ok: bool = False):\n    path.mkdir(mode=mode, parents=parents, exist_ok=exist_ok)"
+            ],
             "description": "Create a new directory at this given path.",
-            "name": "pathlib.Path.mkdir",
-            "signature": "mkdir(mode=0o777, parents=False, exist_ok=False)"
+            "signature": "mkdir(mode: int = 0o777, parents: bool = False, exist_ok: bool = False) -> None"
         },
         {
-            "description": "Make this path a symbolic link pointing to *target*.",
-            "name": "pathlib.Path.symlink_to",
-            "signature": "symlink_to(target, target_is_directory=False)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, target: Path | str, target_is_directory: bool = False):\n    path.symlink_to(target, target_is_directory=target_is_directory)"
+            ],
+            "description": "Make this path a symbolic link to target.",
+            "signature": "symlink_to(target: Path | str, target_is_directory: bool = False) -> None"
         },
         {
-            "description": "Make this path a hard link pointing to *target*.",
-            "name": "pathlib.Path.hardlink_to",
-            "signature": "hardlink_to(target)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, target: Path | str):\n    path.hardlink_to(target)"
+            ],
+            "description": "Make this path a hard link to the same file as target.",
+            "signature": "hardlink_to(target: Path | str) -> None"
         },
         {
-            "description": "Rename this file or directory to the given *target*, and return a new \"Path\" instance pointing to *target*.",
-            "name": "pathlib.Path.rename",
-            "signature": "rename(target)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, target: Path | str):\n    new_path = path.rename(target)\n    print(new_path)"
+            ],
+            "description": "Rename this file or directory to the given target, and return a new Path instance pointing to target.",
+            "signature": "rename(target: Path | str) -> pathlib.Path"
         },
         {
-            "description": "Rename this file or directory to the given *target*, and return a new \"Path\" instance pointing to *target*. If *target* points to an existing file or directory, it will be unconditionally replaced.",
-            "name": "pathlib.Path.replace",
-            "signature": "replace(target)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, target: Path | str):\n    new_path = path.replace(target)\n    print(new_path)"
+            ],
+            "description": "Rename this file or directory to the given target, and return a new Path instance pointing to target. If target points to an existing file or directory, it will be unconditionally replaced.",
+            "signature": "replace(target: Path | str) -> pathlib.Path"
         },
         {
-            "description": "Remove this file or symbolic link.",
-            "name": "pathlib.Path.unlink",
-            "signature": "unlink(missing_ok=False)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, missing_ok: bool = False):\n    path.unlink(missing_ok=missing_ok)"
+            ],
+            "description": "Remove this file or symbolic link.  If the path points to a directory, use rmdir() instead.",
+            "signature": "unlink(missing_ok: bool = False) -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path):\n    path.rmdir()"
+            ],
             "description": "Remove this directory.  The directory must be empty.",
-            "name": "pathlib.Path.rmdir",
-            "signature": "rmdir()"
+            "signature": "rmdir() -> None"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    owner = path.owner(follow_symlinks=follow_symlinks)\n    print(owner)"
+            ],
             "description": "Return the name of the user owning the file.",
-            "name": "pathlib.Path.owner",
-            "signature": "owner(*, follow_symlinks=True)"
+            "signature": "owner(*, follow_symlinks: bool = True) -> str"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, follow_symlinks: bool = True):\n    group = path.group(follow_symlinks=follow_symlinks)\n    print(group)"
+            ],
             "description": "Return the name of the group owning the file.",
-            "name": "pathlib.Path.group",
-            "signature": "group(*, follow_symlinks=True)"
+            "signature": "group(*, follow_symlinks: bool = True) -> str"
         },
         {
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, mode: int, follow_symlinks: bool = True):\n    path.chmod(mode, follow_symlinks=follow_symlinks)"
+            ],
             "description": "Change the file mode and permissions.",
-            "name": "pathlib.Path.chmod",
-            "signature": "chmod(mode, *, follow_symlinks=True)"
+            "signature": "chmod(mode: int, *, follow_symlinks: bool = True) -> None"
         },
         {
-            "description": "Like \"Path.chmod()\" but, if the path points to a symbolic link, the symbolic link's mode is changed rather than its target's.",
-            "name": "pathlib.Path.lchmod",
-            "signature": "lchmod(mode)"
+            "apps": [
+                "# imports\nfrom pathlib import Path\n\ndef test(path: Path, mode: int):\n    path.lchmod(mode)"
+            ],
+            "description": "Like chmod() but, if the path points to a symbolic link, the symbolic link's mode is changed rather than its target's.",
+            "signature": "lchmod(mode: int) -> None"
         }
     ]
 }

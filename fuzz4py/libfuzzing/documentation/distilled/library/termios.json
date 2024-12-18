@@ -1,44 +1,60 @@
 {
     "apis": [
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO):\n    attributes = termios.tcgetattr(fd)\n    print(attributes)"
+            ],
             "description": "Return a list containing the tty attributes for file descriptor fd.",
-            "name": "termios.tcgetattr",
-            "signature": "tcgetattr(fd)"
+            "signature": "tcgetattr(fd: int | typing.IO) -> list"
         },
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO, when: int, attributes: list):\n    termios.tcsetattr(fd, when, attributes)"
+            ],
             "description": "Set the tty attributes for file descriptor fd from the attributes, which is a list like the one returned by tcgetattr().",
-            "name": "termios.tcsetattr",
-            "signature": "tcsetattr(fd, when, attributes)"
+            "signature": "tcsetattr(fd: int | typing.IO, when: int, attributes: list) -> None"
         },
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO, duration: int):\n    termios.tcsendbreak(fd, duration)"
+            ],
             "description": "Send a break on file descriptor fd.",
-            "name": "termios.tcsendbreak",
-            "signature": "tcsendbreak(fd, duration)"
+            "signature": "tcsendbreak(fd: int | typing.IO, duration: int) -> None"
         },
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO):\n    termios.tcdrain(fd)"
+            ],
             "description": "Wait until all output written to file descriptor fd has been transmitted.",
-            "name": "termios.tcdrain",
-            "signature": "tcdrain(fd)"
+            "signature": "tcdrain(fd: int | typing.IO) -> None"
         },
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO, queue: int):\n    termios.tcflush(fd, queue)"
+            ],
             "description": "Discard queued data on file descriptor fd.",
-            "name": "termios.tcflush",
-            "signature": "tcflush(fd, queue)"
+            "signature": "tcflush(fd: int | typing.IO, queue: int) -> None"
         },
         {
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO, action: int):\n    termios.tcflow(fd, action)"
+            ],
             "description": "Suspend or resume input or output on file descriptor fd.",
-            "name": "termios.tcflow",
-            "signature": "tcflow(fd, action)"
+            "signature": "tcflow(fd: int | typing.IO, action: int) -> None"
         },
         {
-            "description": "Return a tuple (ws_row, ws_col) containing the tty window size for file descriptor fd. Requires termios.TIOCGWINSZ or termios.TIOCGSIZE.",
-            "name": "termios.tcgetwinsize",
-            "signature": "tcgetwinsize(fd)"
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO):\n    winsize = termios.tcgetwinsize(fd)\n    print(winsize)"
+            ],
+            "description": "Return a tuple (ws_row, ws_col) containing the tty window size for file descriptor fd.",
+            "signature": "tcgetwinsize(fd: int | typing.IO) -> tuple[int, int]"
         },
         {
-            "description": "Set the tty window size for file descriptor fd from winsize, which is a two-item tuple (ws_row, ws_col) like the one returned by tcgetwinsize(). Requires at least one of the pairs (termios.TIOCGWINSZ, termios.TIOCSWINSZ); (termios.TIOCGSIZE, termios.TIOCSSIZE) to be defined.",
-            "name": "termios.tcsetwinsize",
-            "signature": "tcsetwinsize(fd, winsize)"
+            "apps": [
+                "# imports\nimport termios\nimport sys\nimport os\n\ndef test(fd: int | typing.IO, winsize: tuple[int, int]):\n    termios.tcsetwinsize(fd, winsize)"
+            ],
+            "description": "Set the tty window size for file descriptor fd from winsize, which is a two-item tuple (ws_row, ws_col) like the one returned by tcgetwinsize().",
+            "signature": "tcsetwinsize(fd: int | typing.IO, winsize: tuple[int, int]) -> None"
         }
     ]
 }

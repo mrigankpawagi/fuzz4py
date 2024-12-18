@@ -1,84 +1,102 @@
 {
     "apis": [
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ip_addr = ipaddress.ip_address(address)\n    print(ip_addr)"
+            ],
             "description": "Return an IPv4Address or IPv6Address object depending on the IP address passed as argument.",
-            "name": "ipaddress.ip_address",
-            "signature": "ip_address(address)"
+            "signature": "ip_address(address: str) -> ipaddress.IPv4Address | ipaddress.IPv6Address"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str, strict: bool = True):\n    ip_net = ipaddress.ip_network(address, strict=strict)\n    print(ip_net)"
+            ],
             "description": "Return an IPv4Network or IPv6Network object depending on the IP address passed as argument.",
-            "name": "ipaddress.ip_network",
-            "signature": "ip_network(address, strict=True)"
+            "signature": "ip_network(address: str, strict: bool = True) -> ipaddress.IPv4Network | ipaddress.IPv6Network"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ip_int = ipaddress.ip_interface(address)\n    print(ip_int)"
+            ],
             "description": "Return an IPv4Interface or IPv6Interface object depending on the IP address passed as argument.",
-            "name": "ipaddress.ip_interface",
-            "signature": "ip_interface(address)"
+            "signature": "ip_interface(address: str) -> ipaddress.IPv4Interface | ipaddress.IPv6Interface"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ipv4_address = ipaddress.IPv4Address(address)\n    print(ipv4_address)"
+            ],
             "description": "Construct an IPv4 address.",
-            "name": "ipaddress.IPv4Address",
-            "signature": "IPv4Address(address)"
+            "signature": "IPv4Address(address: str) -> ipaddress.IPv4Address"
         },
         {
-            "description": "Returns a string representation of the IP address, controlled by an explicit format string.",
-            "name": "ipaddress.IPv4Address.__format__",
-            "signature": "__format__(fmt)"
-        },
-        {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ipv6_address = ipaddress.IPv6Address(address)\n    print(ipv6_address)"
+            ],
             "description": "Construct an IPv6 address.",
-            "name": "ipaddress.IPv6Address",
-            "signature": "IPv6Address(address)"
+            "signature": "IPv6Address(address: str) -> ipaddress.IPv6Address"
         },
         {
-            "description": "Refer to the corresponding method documentation in IPv4Address.",
-            "name": "ipaddress.IPv6Address.__format__",
-            "signature": "__format__(fmt)"
-        },
-        {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str, strict: bool = True):\n    ipv4_network = ipaddress.IPv4Network(address, strict=strict)\n    print(ipv4_network)"
+            ],
             "description": "Construct an IPv4 network definition.",
-            "name": "ipaddress.IPv4Network",
-            "signature": "IPv4Network(address, strict=True)"
+            "signature": "IPv4Network(address: str, strict: bool = True) -> ipaddress.IPv4Network"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str, strict: bool = True):\n    ipv6_network = ipaddress.IPv6Network(address, strict=strict)\n    print(ipv6_network)"
+            ],
             "description": "Construct an IPv6 network definition.",
-            "name": "ipaddress.IPv6Network",
-            "signature": "IPv6Network(address, strict=True)"
+            "signature": "IPv6Network(address: str, strict: bool = True) -> ipaddress.IPv6Network"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ipv4_interface = ipaddress.IPv4Interface(address)\n    print(ipv4_interface)"
+            ],
             "description": "Construct an IPv4 interface.",
-            "name": "ipaddress.IPv4Interface",
-            "signature": "IPv4Interface(address)"
+            "signature": "IPv4Interface(address: str) -> ipaddress.IPv4Interface"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: str):\n    ipv6_interface = ipaddress.IPv6Interface(address)\n    print(ipv6_interface)"
+            ],
             "description": "Construct an IPv6 interface.",
-            "name": "ipaddress.IPv6Interface",
-            "signature": "IPv6Interface(address)"
+            "signature": "IPv6Interface(address: str) -> ipaddress.IPv6Interface"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: int):\n    packed_address = ipaddress.v4_int_to_packed(address)\n    print(packed_address)"
+            ],
             "description": "Represent an address as 4 packed bytes in network (big-endian) order.",
-            "name": "ipaddress.v4_int_to_packed",
-            "signature": "v4_int_to_packed(address)"
+            "signature": "v4_int_to_packed(address: int) -> bytes"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(address: int):\n    packed_address = ipaddress.v6_int_to_packed(address)\n    print(packed_address)"
+            ],
             "description": "Represent an address as 16 packed bytes in network (big-endian) order.",
-            "name": "ipaddress.v6_int_to_packed",
-            "signature": "v6_int_to_packed(address)"
+            "signature": "v6_int_to_packed(address: int) -> bytes"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(first: ipaddress.IPv4Address | ipaddress.IPv6Address, last: ipaddress.IPv4Address | ipaddress.IPv6Address):\n    for ip_net in ipaddress.summarize_address_range(first, last):\n        print(ip_net)"
+            ],
             "description": "Return an iterator of the summarized network range given the first and last IP addresses.",
-            "name": "ipaddress.summarize_address_range",
-            "signature": "summarize_address_range(first, last)"
+            "signature": "summarize_address_range(first: ipaddress.IPv4Address | ipaddress.IPv6Address, last: ipaddress.IPv4Address | ipaddress.IPv6Address) -> typing.Iterator[ipaddress.IPv4Network | ipaddress.IPv6Network]"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(addresses: list[ipaddress.IPv4Network | ipaddress.IPv6Network]):\n    for ip_net in ipaddress.collapse_addresses(addresses):\n        print(ip_net)"
+            ],
             "description": "Return an iterator of the collapsed IPv4Network or IPv6Network objects.",
-            "name": "ipaddress.collapse_addresses",
-            "signature": "collapse_addresses(addresses)"
+            "signature": "collapse_addresses(addresses: list[ipaddress.IPv4Network | ipaddress.IPv6Network]) -> typing.Iterator[ipaddress.IPv4Network | ipaddress.IPv6Network]"
         },
         {
+            "apps": [
+                "# imports\nimport ipaddress\n\ndef test(obj: ipaddress.IPv4Address | ipaddress.IPv6Address | ipaddress.IPv4Network | ipaddress.IPv6Network):\n    key = ipaddress.get_mixed_type_key(obj)\n    print(key)"
+            ],
             "description": "Return a key suitable for sorting between networks and addresses.",
-            "name": "ipaddress.get_mixed_type_key",
-            "signature": "get_mixed_type_key(obj)"
+            "signature": "get_mixed_type_key(obj: ipaddress.IPv4Address | ipaddress.IPv6Address | ipaddress.IPv4Network | ipaddress.IPv6Network) -> tuple"
         }
     ]
 }
