@@ -32,8 +32,38 @@
         },
         {
             "description": "Limits on the number of entries represented for the named object type.",
-            "name": "reprlib.Repr.maxdict\nreprlib.Repr.maxlist\nreprlib.Repr.maxtuple\nreprlib.Repr.maxset\nreprlib.Repr.maxfrozenset\nreprlib.Repr.maxdeque\nreprlib.Repr.maxarray",
-            "signature": "maxdict\nmaxlist\nmaxtuple\nmaxset\nmaxfrozenset\nmaxdeque\nmaxarray"
+            "name": "reprlib.Repr.maxdict",
+            "signature": "maxdict"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxlist",
+            "signature": "maxlist"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxset",
+            "signature": "maxset"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxtuple",
+            "signature": "maxtuple"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxfrozenset",
+            "signature": "maxfrozenset"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxdeque",
+            "signature": "maxdeque"
+        },
+        {
+            "description": "Limits on the number of entries represented for the named object type.",
+            "name": "reprlib.Repr.maxarray",
+            "signature": "maxarray"
         },
         {
             "description": "Maximum number of characters in the representation for an integer.",
