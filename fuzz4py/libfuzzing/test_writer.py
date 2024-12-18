@@ -62,6 +62,7 @@ for api in all_apis:
         package_name = resolve_package_name(full_name)
         if not package_name:
             print("Could not resolve package name for", full_name)
+            continue
 
         with open(test_file_path, "w") as f:
             f.write(
