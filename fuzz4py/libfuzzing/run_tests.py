@@ -17,7 +17,7 @@ args = parser.parse_args()
 
 # check that the directory tests exists
 os.makedirs(os.path.join(script_path, "tests"), exist_ok=True)
-test_files = [x for x in os.listdir(os.path.join(script_path, "tests")) if x.startswith("test_") and x.endswith(".py")]
+test_files = [x for x in os.listdir(os.path.join(script_path, "tests")) if x.endswith(".py")]
 
 # make directory for storing results (include timestamp in the directory name)
 results_dir = os.path.join(script_path, "results", "results" + str(time.time()))
@@ -25,8 +25,8 @@ os.makedirs(results_dir, exist_ok=True)
 
 # for each test file, determine the number of test cases
 def get_test_count(test_file: str):
-    api_name = test_file.replace("test_", "").replace(".py", "")
-    test_case_file = os.path.join(script_path, "tests", "test_cases", f"{api_name}.bin")
+    app_name = test_file.replace(".py", "")
+    test_case_file = os.path.join(script_path, "tests", "test_cases", f"{app_name}.bin")
     try:
         with open(test_case_file, "rb") as f:
             return len(pickle.load(f))
@@ -34,15 +34,15 @@ def get_test_count(test_file: str):
         return 0
 
 
-def process_input_file(test_file: str, test_index: int):
+def process_input_file(test_file_name: str, test_index: int):
     """run "{args.executable} {input_file}" and capture the return code and stdout, stderr."""
-    input_file = os.path.join(script_path, "tests", test_file)
+    test_file = os.path.join(script_path, "tests", test_file_name)
     
-    process = subprocess.Popen([args.executable, input_file, str(test_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
+    process = subprocess.Popen([args.executable, test_file, str(test_index)], stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=os.getcwd())
     stdout, stderr = process.communicate()
     return_code = process.returncode
     
-    return return_code, stdout.decode(), stderr.decode(), test_file, test_index
+    return return_code, stdout.decode(), stderr.decode(), test_file_name, test_index
 
 
 with ProcessPoolExecutor() as executor:
@@ -53,7 +53,7 @@ with ProcessPoolExecutor() as executor:
 
             # record crashes
             if return_code != 0:
-                with open(os.path.join(results_dir, "crashs.txt"), "a") as f:
+                with open(os.path.join(results_dir, "crash.txt"), "a") as f:
                     f.write(f"{test_file}::{test_index}\n")
                     f.write(f"{stdout}\n{stderr}\n" + "-"*80 + "\n")
 
