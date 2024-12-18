@@ -1,14 +1,14 @@
 import os
 import pickle
 import sys
+import typing
 
-try:
-    {import}
-    NAME = '{full_name}'
-except:
-    exit(0)
+# imports for APIs
+import codecs
+import email
 
 test_index = int(sys.argv[1])
+NAME = '{app_name}'
 
 # script path
 base_path = os.path.dirname(os.path.realpath(__file__))
@@ -22,10 +22,15 @@ except Exception:
     exit(0)
 
 try:
-    {call_name}(*test_case)
+    {app}
+except Exception:
+    exit(0)
+
+try:
+    test(*test_case)
 except (RecursionError, MemoryError) as e:
     print(e.__class__.__name__, file=sys.stderr)
     print(test_case, file=sys.stderr)
     exit(1)
 except Exception:
-    pass
+    exit(0)
