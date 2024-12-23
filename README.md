@@ -1,12 +1,13 @@
 # Fuzz4Py
 Fuzz4Py is a Python-based fuzzing framework designed to test and evaluate Python interpreters and libraries. By generating a wide range of inputs, Fuzz4Py can help identify bugs and vulnerabilities in Python code.
 
-## What is Fuzzing?
+### What is Fuzzing?
 Fuzzing is a software testing technique that involves bombarding a program with a large number of inputs to trigger unexpected behavior. This can help identify bugs and vulnerabilities.
 
 This repository is inspired by [Fuzz4All](https://github.com/fuzz4all/fuzz4all/tree/main/Fuzz4All), [PyRTFuzz](https://github.com/awen-li/PyRTFuzz), and [DyFuzz](https://github.com/xiaxinmeng/DyFuzz).
 
 ## Bug Hall of Fame
+The following are some of the bugs discovered by Fuzz4Py.
 
 - [CPython Issue #127927](https://github.com/python/cpython/issues/127927) &mdash; `SyntaxError` raised from `compile` has incorrect attributes (line number, offset, or text) in multiple scenarios.
 
