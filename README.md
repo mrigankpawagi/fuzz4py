@@ -19,9 +19,7 @@ Fuzz4Py is a fuzzing framework for finding bugs in Python interpreters. It gener
 .github/
   copilot-instructions.md      # Copilot coding guidelines for this repo
   skills/
-    fuzz-interpreter.md         # Skill: run a fuzzing campaign
-    triage-findings.md          # Skill: analyze and classify findings
-    create-reproducer.md        # Skill: minimize bugs into reproducers
+    find-bugs.md                # Skill: end-to-end fuzzing campaign
 scripts/
   run.py                        # Main fuzzer entry point (~900 test cases)
   generators.py                 # Programmatic test-case generators
@@ -60,11 +58,9 @@ python scripts/run.py --python /path/to/python3.13 --timeout 15
 
 ### Using Copilot Skills
 
-This repo includes [GitHub Copilot skills](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions/adding-copilot-skills) in `.github/skills/` for interactive fuzzing workflows:
+This repo includes a [GitHub Copilot skill](https://docs.github.com/en/copilot/customizing-copilot/adding-custom-instructions/adding-copilot-skills) in `.github/skills/` for running an end-to-end fuzzing campaign:
 
-- **`fuzz-interpreter`** — Run a full fuzzing campaign, targeting specific areas
-- **`triage-findings`** — Analyze fuzzer output and classify bugs
-- **`create-reproducer`** — Minimize a finding into a clean reproducer
+- **`find-bugs`** — Detects the interpreter, runs all fuzzers, writes new targeted tests, triages findings, creates minimal reproducers, and commits results
 
 ## Approach
 
