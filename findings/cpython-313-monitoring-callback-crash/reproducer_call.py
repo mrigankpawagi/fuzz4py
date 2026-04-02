@@ -1,27 +1,30 @@
 """
-sys.monitoring CALL callback crash
+sys.monitoring CALL callback exception bypasses try/except
 
-Same root cause as the LINE variant: when a CALL monitoring callback always
-raises an exception, subsequent function calls (even in except/finally)
-re-trigger the callback, causing CPython to crash.
+Same root cause as the LINE variant: exceptions from CALL monitoring
+callbacks bypass try/except handlers.
 
 Interpreter: CPython 3.13
-Expected: The ValueError is raised and can be caught by try/except.
-Actual: CPython prints an internal object dump and exits with code 1.
+Expected: The ValueError is caught by the except clause.
+Actual: The ValueError bypasses try/except (may also produce internal dump).
 """
 
 import sys
 
-TOOL_ID = 0
+print(f"Python {sys.version}")
 
 def callback(code, offset, callable_obj, arg0):
     raise ValueError("boom")
 
-sys.monitoring.use_tool_id(TOOL_ID, "repro")
-sys.monitoring.register_callback(TOOL_ID, sys.monitoring.events.CALL, callback)
-sys.monitoring.set_events(TOOL_ID, sys.monitoring.events.CALL)
+sys.monitoring.use_tool_id(0, "repro")
+sys.monitoring.register_callback(0, sys.monitoring.events.CALL, callback)
+sys.monitoring.set_events(0, sys.monitoring.events.CALL)
 
 try:
-    len([1, 2, 3])  # triggers CALL callback, which raises ValueError
+    len([1, 2, 3])  # triggers CALL callback → ValueError bypasses this handler
 except ValueError:
-    print("This line is never reached")
+    print("BUG NOT PRESENT: ValueError was caught by try/except")
+    sys.monitoring.set_events(0, 0)
+    sys.monitoring.free_tool_id(0)
+
+print("Done")

@@ -9,7 +9,7 @@ Fuzz4Py is a fuzzing framework for finding bugs in Python interpreters. It gener
 | # | Bug | Interpreter | Link |
 |---|-----|-------------|------|
 | 1 | `SyntaxError` from `compile` has incorrect attributes | CPython 3.11–3.13 | [CPython #127927](https://github.com/python/cpython/issues/127927) |
-| 2 | `sys.monitoring` LINE/CALL/INSTRUCTION callback crash | CPython 3.13 | [findings](findings/cpython-313-monitoring-callback-crash/) |
+| 2 | `sys.monitoring` LINE/CALL/INSTRUCTION exception bypass | CPython 3.13 | [findings](findings/cpython-313-monitoring-callback-crash/) |
 | 3 | `sys.monitoring` JUMP/BRANCH exception bypass | CPython 3.13 | [findings](findings/cpython-313-monitoring-exception-bypass/) |
 | 4 | `sys.monitoring` EXCEPTION_HANDLED infinite loop | CPython 3.13 | [findings](findings/cpython-313-monitoring-infinite-loop/) |
 

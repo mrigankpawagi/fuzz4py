@@ -1,42 +1,57 @@
 """
-sys.monitoring LINE callback crash
+sys.monitoring LINE callback exception bypasses try/except
 
-When a sys.monitoring LINE callback raises an exception, CPython crashes
-with an internal _PyObject_Dump and "lost sys.stderr" instead of propagating
-the exception normally.
+When a sys.monitoring LINE callback raises an exception, the exception
+bypasses the enclosing try/except handler instead of being caught normally.
 
 Interpreter: CPython 3.13
-Expected: The ValueError is raised and can be caught by try/except.
-Actual: CPython prints an internal object dump and exits with code 1.
+Expected: The ValueError is caught by the except clause, and "CAUGHT" is printed.
+Actual: The ValueError bypasses try/except and crashes as an unhandled exception.
+        (On some machines, this may instead produce an internal _PyObject_Dump.)
 
-    object address  : 0x...
-    object refcount : 3
-    object type     : 0x...
-    object type name: ValueError
-    object repr     : ValueError('boom')
-    lost sys.stderr
+Compare with PY_START, where exceptions from callbacks ARE caught correctly.
 """
 
 import sys
 
-print(f"Python: {sys.version}")
-print(f"Executable: {sys.executable}")
+print(f"Python {sys.version}")
 
-TOOL_ID = 0
+# ---- Control: PY_START correctly propagates exceptions ----
+def py_start_cb(*args):
+    raise ValueError("from PY_START")
 
-def callback(code, line):
-    raise ValueError("boom")
+sys.monitoring.use_tool_id(0, "repro")
+sys.monitoring.register_callback(0, sys.monitoring.events.PY_START, py_start_cb)
+sys.monitoring.set_events(0, sys.monitoring.events.PY_START)
 
-sys.monitoring.use_tool_id(TOOL_ID, "repro")
-sys.monitoring.register_callback(TOOL_ID, sys.monitoring.events.LINE, callback)
-sys.monitoring.set_events(TOOL_ID, sys.monitoring.events.LINE)
-
-# If the bug is present, the next line triggers the crash and nothing
-# below is printed. If the bug is NOT present, the ValueError propagates
-# normally and is caught.
 try:
-    x = 1  # triggers LINE callback, which raises ValueError
+    def f(): pass
+    f()  # triggers PY_START → ValueError
 except ValueError:
-    print("BUG NOT TRIGGERED: ValueError was caught normally")
-    sys.monitoring.set_events(TOOL_ID, 0)
-    sys.monitoring.free_tool_id(TOOL_ID)
+    print("CONTROL OK: PY_START exception was caught by try/except (correct)")
+
+sys.monitoring.set_events(0, 0)
+sys.monitoring.register_callback(0, sys.monitoring.events.PY_START, None)
+sys.monitoring.free_tool_id(0)
+
+# ---- Bug: LINE does NOT correctly propagate exceptions ----
+def line_cb(code, line):
+    raise ValueError("from LINE")
+
+sys.monitoring.use_tool_id(0, "repro")
+sys.monitoring.register_callback(0, sys.monitoring.events.LINE, line_cb)
+sys.monitoring.set_events(0, sys.monitoring.events.LINE)
+
+try:
+    x = 1  # triggers LINE → ValueError — but it bypasses this try/except!
+except ValueError:
+    print("BUG NOT PRESENT: LINE exception was caught by try/except")
+    sys.monitoring.set_events(0, 0)
+    sys.monitoring.free_tool_id(0)
+else:
+    print("BUG NOT PRESENT: no exception raised")
+    sys.monitoring.set_events(0, 0)
+    sys.monitoring.free_tool_id(0)
+
+# If the bug is present, we never reach this line.
+print("Done")
