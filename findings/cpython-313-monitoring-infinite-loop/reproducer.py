@@ -1,35 +1,32 @@
 """
-Bug 3: sys.monitoring EXCEPTION_HANDLED callback causes infinite loop
-=====================================================================
+sys.monitoring EXCEPTION_HANDLED callback causes infinite loop
 
-When an EXCEPTION_HANDLED monitoring callback raises an exception, the new
-exception triggers another EXCEPTION_HANDLED event (since an exception is
-being "handled"), which raises again, causing an infinite loop that hangs
-the interpreter.
+When an EXCEPTION_HANDLED callback raises, the new exception is "handled"
+by the except clause, which fires EXCEPTION_HANDLED again, looping forever.
 
-Python version: 3.13.12 (CPython)
-
-Expected behavior: The exception from the callback should be propagated
-to the caller, or the callback should not be invoked re-entrantly.
-
-Actual behavior: Infinite loop - the process hangs and must be killed.
+Interpreter: CPython 3.13
+Expected: The exception from the callback is propagated to the caller.
+Actual: Infinite loop — the process hangs and must be killed.
 
 WARNING: This script will hang indefinitely. Run with a timeout:
-    timeout 5 python bug3_monitoring_infinite_loop.py
+    timeout 5 python reproducer.py          (Linux/macOS)
+    Start-Process python reproducer.py ...  (Windows, see README)
 """
 
 import sys
 
-sys.monitoring.use_tool_id(0, "repro")
+TOOL_ID = 0
 
+def callback(code, offset):
+    raise ZeroDivisionError("boom")
+
+sys.monitoring.use_tool_id(TOOL_ID, "repro")
 sys.monitoring.register_callback(
-    0,
-    sys.monitoring.events.EXCEPTION_HANDLED,
-    lambda code, offset: (_ for _ in ()).throw(ZeroDivisionError("boom")),
+    TOOL_ID, sys.monitoring.events.EXCEPTION_HANDLED, callback
 )
-sys.monitoring.set_events(0, sys.monitoring.events.EXCEPTION_HANDLED)
+sys.monitoring.set_events(TOOL_ID, sys.monitoring.events.EXCEPTION_HANDLED)
 
 try:
     raise RuntimeError("trigger")
 except RuntimeError:
-    pass  # EXCEPTION_HANDLED fires -> callback raises -> EXCEPTION_HANDLED fires -> infinite loop
+    pass  # EXCEPTION_HANDLED fires → callback raises → repeat forever
