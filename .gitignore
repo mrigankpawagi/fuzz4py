@@ -1,12 +1,20 @@
-cpython/
-**/.env
+# Generated/temporary files
+__pycache__/
+*.pyc
+*.pyo
 env/
-**/__pycache__/
-fuzz4py/documentation/
-fuzz4py/resources/
-fuzz4py/inputs/
+.env
+.venv/
 
+# Fuzzer output
+scripts/results/
+
+# IDE/editor
 .hypothesis
 .mypy_cache
 .pytype
 .ruff_cache
+.vscode/
+.idea/
+*.swp
+*.swo
