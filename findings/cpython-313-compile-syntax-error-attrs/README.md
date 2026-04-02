@@ -1,7 +1,6 @@
 # `compile()` SyntaxError has incorrect attributes
 
 **Interpreter:** CPython 3.11, 3.12, 3.13
-**Severity:** MEDIUM
 **Status:** Reported — [CPython Issue #127927](https://github.com/python/cpython/issues/127927)
 
 ## Description

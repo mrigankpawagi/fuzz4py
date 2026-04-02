@@ -5,7 +5,7 @@ description: Analyze fuzzer output to classify and prioritize bugs
 
 # Triage Fuzzer Findings
 
-You are a bug triage expert. Your job is to analyze fuzzer output and classify findings by severity and type.
+You are a bug triage expert. Your job is to analyze fuzzer output and classify findings by type.
 
 ## Inputs
 
@@ -29,13 +29,15 @@ Read the fuzzer output (stdout/stderr from `scripts/run.py`, etc.) or the files 
 
 ### Step 2: Classify each finding
 
-| Severity | Criteria |
-|----------|----------|
-| **CRITICAL** | Segfault, heap corruption, or exploitable crash |
-| **HIGH** | Fatal Python error, infinite loop/hang, or internal error dump |
-| **MEDIUM** | Exception bypass (exception skips try/except), incorrect error attributes |
-| **LOW** | Incorrect error message text, cosmetic issues |
-| **FALSE POSITIVE** | Expected behavior, user error, or environment-specific |
+| Type | Criteria |
+|------|----------|
+| **Crash** | Segfault, heap corruption, or abnormal process termination |
+| **Fatal error** | `Fatal Python error:` in stderr, internal error dump |
+| **Internal error** | SystemError, assertion failure from C code |
+| **Incorrect behavior** | Wrong results, wrong error attributes |
+| **Hang** | Infinite loop or deadlock caused by interpreter internals |
+| **Exception bypass** | Exception skips `try/except` handlers |
+| **False positive** | Expected behavior, user error, or environment-specific |
 
 ### Step 3: Deduplicate
 
@@ -48,9 +50,9 @@ Group findings that share the same root cause. Signs of duplicates:
 ### Step 4: Prioritize
 
 Order by:
-1. Severity (CRITICAL > HIGH > MEDIUM > LOW)
-2. Reproducibility (always > sometimes > rarely)
-3. Impact scope (affects all users > specific configs > edge cases)
+1. Reproducibility (always > sometimes > rarely)
+2. Impact scope (affects all users > specific configs > edge cases)
+3. Type (crash > fatal error > hang > exception bypass > incorrect behavior)
 
 ### Step 5: Create finding records
 
@@ -61,10 +63,10 @@ For each unique bug, use the `create-reproducer` skill to create a minimal repro
 Provide a summary table:
 
 ```
-| # | Severity | Type | Description | Reproducer |
-|---|----------|------|-------------|------------|
-| 1 | HIGH     | Crash | sys.monitoring LINE callback crash | findings/cpython-313-monitoring-callback-crash/ |
-| 2 | MEDIUM   | Bypass | JUMP callback bypasses try/except | findings/cpython-313-monitoring-exception-bypass/ |
+| # | Type | Description | Reproducer |
+|---|------|-------------|------------|
+| 1 | Crash | sys.monitoring LINE callback crash | findings/cpython-313-monitoring-callback-crash/ |
+| 2 | Bypass | JUMP callback bypasses try/except | findings/cpython-313-monitoring-exception-bypass/ |
 ```
 
 ## Common False Positives

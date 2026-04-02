@@ -4,12 +4,12 @@ This directory contains bugs discovered by Fuzz4Py. Each subdirectory contains a
 
 ## Bug Hall of Fame
 
-| # | Bug | Interpreter | Severity | Status |
-|---|-----|-------------|----------|--------|
-| 1 | [`compile()` SyntaxError has incorrect attributes](https://github.com/python/cpython/issues/127927) | CPython 3.11–3.13 | MEDIUM | Reported |
-| 2 | [Monitoring callback crash (LINE/CALL/INSTRUCTION)](#) | CPython 3.13 | HIGH | New |
-| 3 | [Monitoring exception bypass (JUMP/BRANCH)](#) | CPython 3.13 | MEDIUM | New |
-| 4 | [Monitoring infinite loop (EXCEPTION_HANDLED)](#) | CPython 3.13 | HIGH | New |
+| # | Bug | Interpreter | Status |
+|---|-----|-------------|--------|
+| 1 | [`compile()` SyntaxError has incorrect attributes](https://github.com/python/cpython/issues/127927) | CPython 3.11–3.13 | Reported |
+| 2 | [Monitoring callback crash (LINE/CALL/INSTRUCTION)](#) | CPython 3.13 | New |
+| 3 | [Monitoring exception bypass (JUMP/BRANCH)](#) | CPython 3.13 | New |
+| 4 | [Monitoring infinite loop (EXCEPTION_HANDLED)](#) | CPython 3.13 | New |
 
 ## Directory Index
 

@@ -6,12 +6,12 @@ Fuzz4Py is a fuzzing framework for finding bugs in Python interpreters. It gener
 
 ## Bug Hall of Fame
 
-| # | Bug | Interpreter | Severity | Link |
-|---|-----|-------------|----------|------|
-| 1 | `SyntaxError` from `compile` has incorrect attributes | CPython 3.11–3.13 | MEDIUM | [CPython #127927](https://github.com/python/cpython/issues/127927) |
-| 2 | `sys.monitoring` LINE/CALL/INSTRUCTION callback crash | CPython 3.13 | HIGH | [findings](findings/cpython-313-monitoring-callback-crash/) |
-| 3 | `sys.monitoring` JUMP/BRANCH exception bypass | CPython 3.13 | MEDIUM | [findings](findings/cpython-313-monitoring-exception-bypass/) |
-| 4 | `sys.monitoring` EXCEPTION_HANDLED infinite loop | CPython 3.13 | HIGH | [findings](findings/cpython-313-monitoring-infinite-loop/) |
+| # | Bug | Interpreter | Link |
+|---|-----|-------------|------|
+| 1 | `SyntaxError` from `compile` has incorrect attributes | CPython 3.11–3.13 | [CPython #127927](https://github.com/python/cpython/issues/127927) |
+| 2 | `sys.monitoring` LINE/CALL/INSTRUCTION callback crash | CPython 3.13 | [findings](findings/cpython-313-monitoring-callback-crash/) |
+| 3 | `sys.monitoring` JUMP/BRANCH exception bypass | CPython 3.13 | [findings](findings/cpython-313-monitoring-exception-bypass/) |
+| 4 | `sys.monitoring` EXCEPTION_HANDLED infinite loop | CPython 3.13 | [findings](findings/cpython-313-monitoring-infinite-loop/) |
 
 ## Project Structure
 

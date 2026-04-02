@@ -1,7 +1,6 @@
 # `sys.monitoring` JUMP/BRANCH exceptions bypass `try/except`
 
 **Interpreter:** CPython 3.13.12
-**Severity:** MEDIUM
 **Status:** New
 
 ## Description

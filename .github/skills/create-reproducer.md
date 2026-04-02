@@ -89,7 +89,7 @@ findings/<interpreter>-<version>-<short-slug>/
 
 The README.md should include:
 - Bug title and description
-- Severity classification
+- Bug type classification
 - Expected vs. actual behavior
 - How to run the reproducer
 - Python versions tested

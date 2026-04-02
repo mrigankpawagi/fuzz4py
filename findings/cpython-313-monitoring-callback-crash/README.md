@@ -1,7 +1,6 @@
 # `sys.monitoring` callback crash (LINE/CALL/INSTRUCTION)
 
 **Interpreter:** CPython 3.13.12
-**Severity:** HIGH
 **Status:** New
 
 ## Description

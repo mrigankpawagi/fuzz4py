@@ -1,7 +1,6 @@
 # `sys.monitoring` EXCEPTION_HANDLED infinite loop
 
 **Interpreter:** CPython 3.13.12
-**Severity:** HIGH
 **Status:** New
 
 ## Description

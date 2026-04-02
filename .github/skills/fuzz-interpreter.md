@@ -129,7 +129,6 @@ The `README.md` should follow this template:
 # <Bug title>
 
 **Interpreter:** CPython 3.13.12
-**Severity:** HIGH / MEDIUM / LOW
 **Status:** Open
 
 ## Description
